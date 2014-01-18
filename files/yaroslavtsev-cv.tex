@@ -1,0 +1,760 @@
+\def\online{0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[11pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+
+%%\usepackage[paper=letterpaper,
+%            includefoot, % Uncomment to put page number above margin
+%            marginparwidth=1.2in,     % Length of section titles
+%           marginparsep=.05in,       % Space between titles and text
+%            margin=1in,               % 1 inch margins
+%           includemp]{geometry}
+
+% Use these lines for A4-sized paper
+\usepackage[paper=a4paper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=25mm,    % Length of section titles
+            marginparsep=0.7mm,       % Space between titles and text
+            margin=15mm,              % 25mm margins
+            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=blue,urlcolor=blue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+\usepackage{url}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\LARGE \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{verbatim}
+
+
+\hyphenpenalty=10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\sloppy
+
+\makeheading{Grigory Yaroslavtsev, \href{http://grigory.us}{http://grigory.us}}
+
+\section{Contact Information}
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{2.3in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+121 South Main Street, \#1023 & \textit{Cell phone:} +1 (814) 713-1096 \\
+Providence, RI, 02903 & \textit{E-mail:} \href{mailto:grigory@grigory.us}{grigory@grigory.us} \\
+			  %& \textit{WWW:} \\
+%\if\online0			  & \textit{Visa status for Fall'13:} F-1 OPT \fi
+\end{tabular}
+
+\begin{comment}
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+357 Information Sciences and Technology Building & \textit{Cell phone:} +1 (814) 713-1096 \\
+State College, PA, 16801  & \textit{E-mail:} \href{mailto:grigory@grigory.us}{grigory@grigory.us} \\
+			  & \textit{WWW:} \href{http://grigory.us}{http://grigory.us}\\
+\if\online=0			  & \textit{Visa status for Fall'13:} F-1 OPT \fi
+\end{tabular}
+\end{comment}
+
+\begin{comment}
+
+\section{Biographical data}
+%
+Citizenship: Russia
+
+Date of birth: May 25, 1987
+
+Place of birth: St. Petersburg, USSR
+
+\end{comment}
+
+\section{Research Interests}
+%
+Approximation and sublinear time algorithms for big data: sparsification, summarization, private data release, property testing.
+
+\section{2013-2014}
+\textbf{Brown University \href{http://icerm.brown.edu}{ICERM}}, Providence, RI.
+%\begin{outerlist}
+%\item[] 
+
+\medskip
+Postdoctoral Research Fellow in Mathematics and Computer Science.
+%\end{outerlist}
+%\section{Education}
+
+\section{2010-2013}
+\textbf{Pennsylvania State University}, State College, PA (Joined by invitation, didn't apply to any other Ph.D. programs)
+%\begin{outerlist}
+%\item[] 
+\medskip
+
+Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summarization and Testing of Large Datasets.''
+
+%    Expected graduation date: August 2013.
+%	\begin{innerlist}
+%	\item Advisor:\href{http://www.cse.psu.edu/~sofya}
+%		{ Prof. Sofya Raskhodnikova}.
+%	\end{innerlist}
+%\end{outerlist}
+
+
+\section{2008-2010} 
+\textbf{Academic University of the Russian Academy of Sciences}, St. Petersburg, Russia
+%\begin{outerlist}
+%\item[]
+ \medskip
+
+ M.S. in Applied Mathematics and Physics ($1^{st}$ student in the pilot class, joint with Steklov Institute), GPA: 4.9/5.0.
+%\end{outerlist}
+
+
+\section{2004-2008}
+\textbf{St. Petersburg State Polytechnic University}, St. Petersburg, Russia
+%\begin{outerlist}
+%\item[]
+\medskip 
+
+ B.S. in Physics and Technology. ($1^{st}$ result in the admission test for the department).
+%\end{outerlist}
+
+\section{Research internships}
+
+\textbf{Microsoft Research, Redmond},  May 2013 -- August 2013.
+
+\href{http://research.microsoft.com/en-us/groups/theory}{\textbf{Theory group}}, mentored by \href{http://www.cs.princeton.edu/~kmakaryc}{Konstantin Makarychev}.
+
+\begin{innerlist}
+\item Research in approximation algorithms for scheduling and clustering problems (with N. Devanur, K. Makarychev and D. Panigrahi).
+\end{innerlist}
+
+\blankline
+
+\textbf{Microsoft Research, SVC},  August 2012 -- October 2012.
+
+\href{http://research.microsoft.com/en-us/labs/siliconvalley/groups/algtheory.aspx}{\textbf{Theory group}}, mentored by
+\href{http://www.mit.edu/~andoni/}{Alexandr Andoni}.
+
+\begin{innerlist}
+\item Parallel algorithms for large-scale geometric problems (with A. Andoni, A. Nikolov and K. Onak, in submission to STOC'14).
+\end{innerlist}
+
+\blankline
+
+\textbf{IBM Research, Almaden},  May 2012 -- July 2012.
+
+\href{http://www.almaden.ibm.com/cs/disciplines/pm/}{\textbf{Theory group}}, mentored by
+\href{http://www.almaden.ibm.com/cs/people/dpwoodru/}{David P. Woodruff}. 
+\begin{innerlist}
+\item Optimal direct-sum theorem for one-way communication complexity, showing that parallel repetition is optimal for solving multiple instances of problems, such as augmented indexing (with M. Molinaro and D. Woodruff, SODA'13). 
+%This implies optimality for several sketching techniques ($n$-point Johnson-Lindenstrauss transform, multiple norm estimation, sketching matrix products, mergeable database sketches).
+\item A communication protocol and lower bounds for computing the intersection (join) of distributed databases (with D. Woodruff, in submission to CCC'14, U.S. patent pending).
+\end{innerlist}
+
+\blankline
+
+\textbf{AT\&T Labs --- Research},  May 2011 --- August 2011.
+
+\textbf{Database theory group}, mentored by \href{http://dimacs.rutgers.edu/~graham/}{Graham Cormode}, \href{http://www2.research.att.com/~magda/}{Cecilia M. Procopiuc}, \href{http://www2.research.att.com/~divesh/}{Divesh Srivastava} and \href{http://www.research.att.com/people/Karloff_Howard_J?fbid=MB6sOrb-khf}{Howard Karloff}.
+\begin{innerlist}
+\item Design and implementation of efficient differentially private mechanisms for linear queries
+ (with G. Cormode, M. Procopiuc and D. Srivastava, ICDE'13) %\href{http://arxiv.org/pdf/1297.6096.pdf}{ArXiv:1207.6096}.
+\item Approximation algorithms for finding overlapping clusters using qualitative informaion (with H. Karloff and A. Wirth, in submission).
+\end{innerlist}
+
+
+%Hosts: Graham Cormode, Howard Karloff, Divesh Srivastava, Magda Procopiuc.
+
+%\blankline
+%
+%\textbf{St. Petersburg Academic University of the Russian Academy of Sciences}
+%
+%Research assistant, March 2010 --- August 2010.
+%
+%\blankline
+%
+%\textbf{FBReader project} (\href{http://www.fbreader.org/fbreaderj}{www.fbreader.org/fbreaderj}).
+%
+%Java developer, October 2007 --- April 2008.
+%
+%\blankline
+
+
+\newpage
+
+\section{Achievements and awards}
+\begin{innerlist}
+\item Travel awards: ICDE'13, SODA'13, FOCS'12, STOC'12, STOC'11, ICALP'11, SAT'09.
+\item Best Graduate Research Assistant Award at Computer Science and Engineering Department (2012).
+\item \href{http://grigory.us/files/TCO10-Program.pdf}{TopCoder Open Algorithm Competition onsite finalist (Top 24 worldwide, handle ``griffon'')}, 2010.
+\item College of Engineering Fellowship by the Pennsylvania State University, Fall 2010 --- Spring 2013.
+\item University Graduate Fellowship by the Pennsylvania State University, Fall 2010 --- Spring 2011.
+\item Yandex personal research grant, 2009-2010.
+%\item Third place in St. Petersburg Olympiad in Informatics and Programming for university students, 2009.
+%\item Second diploma in International Olympiad in Informatics and Programming for university students of Russia and States of the former Soviet Union, 2009.
+%%\item Third diploma in 14th All-Russian Olympiad in Informatics and Programming for university students, 2009.
+%%\item Google CodeJam, local onsite finalist, 2008.
+%%\item TopCoder coder of the month, April 2008.
+\item Diploma for coaching the best team in St. Petersburg Olympiad in Informatics and Programming for high-school students, 2008.
+%\item Google CodeJam Europe, 99th place. 2006.
+\item $2^{nd}$ place in St. Petersburg State Polytechnic University Olympiad in Mathematics, 2005.
+\item Best result in the admissions test for the Department of Physics and Technology in St. Petersburg State Polytechnic University, 2004.
+\end{innerlist}
+
+\section{Journal Papers}
+\begin{lonelist}
+
+\item \textbf{Private Analysis of Graph Structure},
+with Vishesh Karwa, Sofya Raskhodnikova and Adam Smith.
+
+ACM Transactions on Database Systems, to appear.
+
+\item \textbf{Steiner Transitive-Closure Spanners of Low-Dimensional Posets},
+with Piotr Berman, Arnab Bhattacharyya, Elena Grigorescu, Sofya Raskhodnikova and David Woodruff.
+
+Combinatorica, to appear.
+
+\item \textbf{Approximation Algorithms for Spanner Problems and Directed Steiner Forest}, with Piotr Berman, Arnab Bhattacharyya, Konstantin Makarychev and Sofya Raskhodnikova.
+
+Information and Computation, special issue for ICALP'11. Volume 222, 2013, pp. 93-107.
+
+\item \href{http://grigory.us/files/publications/2010_upper_bounds_symmetric_ipl.pdf}{\textbf{New upper bounds on the Boolean Circuit Complexity of Symmetric Functions}}, with Eugeny Demenkov, Arist Kojevnikov and Alexander Kulikov.
+
+Information Processing Letters, 110, pp. 264-267, Elsevier, 2010.
+
+\end{lonelist}
+
+\section{Submitted}
+\begin{lonelist}
+\item \textbf{Parallel Algorithms for Geometric Graph Problems}, with Alexandr Andoni, Krzysztof Onak and Aleksandar Nikolov.
+
+In submission to STOC 2014. 
+\if\online0 
+Draft: \href{https://www.dropbox.com/s/tnckb9xe3xkxu7l/anoy.pdf}{PDF}.
+\else Available upon request.\fi
+Tech report: \href{http://arxiv.org/abs/1401.0042}{ArXiv:1401.0042}.
+
+\item \textbf{Testing with Respect to $L_p$ Distances}, with Piotr Berman and Sofya Raskhodnikova.
+
+In submission to STOC 2014. 
+\if\online0 
+Draft: \href{https://www.dropbox.com/s/q3li9u4hpob4y9z/bry.pdf}{PDF}.
+\else Available upon request.\fi
+
+\item \textbf{The Communication Complexity of Certifying Equality and Finding the Intersection}, with Joshua Brody, Amit Chakrabarti, Ranganath Kondapally and David Woodruff.
+
+In submission to CCC 2014. 
+\if\online0 
+Draft: \href{https://www.dropbox.com/s/kbu6a1202749xg4/bckwy.pdf}{PDF}.
+\else Available upon request.\fi
+
+\item \textbf{Lower Bounds for Testing Properties of Functions over Hypergrid Domains}, with Eric Blais and Sofya Raskhodnikova.
+
+In submission to CCC 2014. 
+\if\online0 
+Draft: \href{https://www.dropbox.com/s/lxbiymajfmocd66/bry2.pdf}{PDF}. 
+\else Available upon request. \fi
+ Tech report: 
+\href{http://eccc.hpi-web.de/report/2013/036/}{ECCC TR13-036}.
+
+\item \textbf{Correlation Clustering with Overlaps}, with Howard Karloff and Anthony Wirth.
+
+In submission. 
+\if\online0 
+Draft: \href{https://www.dropbox.com/s/7erlyx6zpcdrw7o/kwy.pdf}{PDF}.
+\else Available upon request.\fi
+
+\end{lonelist}
+
+\section{Conference Papers}
+\begin{lonelist}
+
+\item \footnote{This is the only paper with non-alphabetical ordering of authors}\textbf{Accurate and Efficient Private Release of Datacubes and Contingency Tables}. 
+Grigory Yaroslavtsev, Graham Cormode, Cecilia M. Procopiuc and Divesh Srivastava.
+
+29th IEEE International Conference on Data Engineering (ICDE 2013). Available as \href{http://arxiv.org/pdf/1207.6096.pdf}{ArXiv:1207.6096}.
+
+\item \textbf{Beating the Direct Sum Theorem in Communication Complexity with Implications for Sketching}, with Marco Molinaro and David Woodruff.
+
+24th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2013).
+
+\item \textbf{Learning Pseudo-Boolean k-DNF and Submodular Functions}, with Sofya Raskhodnikova.
+
+24th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2013).
+
+\item \textbf{Primal-dual algorithms for Node-Weighted Network Design in Planar Graphs}, with Piotr Berman.
+
+15th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems (APPROX 2012).
+
+\item \href{http://grigory.us/files/PrivateGraphStructure-VLDB11.pdf}{
+    \textbf{Private Analysis of Graph Structure}},
+with Vishesh Karwa, Sofya Raskhodnikova and Adam Smith.
+
+37th International Conference on Very Large Data Bases (VLDB 2011), Research track.
+
+\item \href{http://grigory.us/files/publications/directed-spanners-journal-submitted.pdf}
+{\textbf{Improved Approximation for the Directed Spanner Problem}}, with Piotr Berman, Arnab Bhattacharyya, Konstantin Makarychev and Sofya Raskhodnikova.
+
+38th International Colloquium on Automata, Languages and Programming (ICALP 2011), Track A. 
+
+\textbf{Runner-up for the Best Paper Award, invited to a special issue of a journal "Information and Computation"}.
+
+\item \href{http://grigory.us/files/steiner-ICALP11.pdf}{\textbf{Steiner Transitive-Closure Spanners of Low-Dimensional Posets}},
+with Piotr Berman, Arnab Bhattacharrya, Elena Grigorescu, Sofya Raskhodnikova and David Woodruff.
+
+38th International Colloquium on Automata, Languages and Programming (ICALP 2011), Track A.
+
+\item \href{http://grigory.us/files/publications/0903_SAT2009_Efficient_Boolean_Circuits.pdf}{\textbf{Finding Efficient Circuits using SAT-solvers}}, with
+Arist Kojevnikov and Alexander Kulikov.
+
+12th International Conference on Theory and Applications of Satisfiability Testing (SAT 2009), LNCS 5584, pp. 32-44, 2009.
+
+\end{lonelist}
+
+\section{Research visits}
+\begin{innerlist}
+\item Microsoft Research, Redmond. 01/08/14--01/12/14. (Host: Konstantin Makarychev)
+\item IBM T.J. Watson Research Center, Yorktown Heights, NY. 04/19/11--04/21/11, 11/13/12--11/15/12. (Hosts: Konstantin Makarychev, Vishwanath Nagarajan)
+\item AT\&T Labs -- Research, Florham Park, NJ. 11/18/11--11/25/11. (Host: Howard Karloff)
+\item Weizmann Institute of Science, Rehovot, Israel. 12/27/12--01/04/13. (Host: Robert Krauthgamer)
+\item University of Melbourne, Australia. 04/12/13--04/20/13. (Host: Anthony Wirth)
+\item Aarhus University, Denmark. 05/17/13--05/25/13. (Host: Joshua Brody)
+\end{innerlist}
+
+\section{Long talks + posters}
+
+
+\begin{innerlist}
+\item Testing Properties Under $L_p$ Distances
+\begin{innerlist}
+\item Microsoft Research, Redmond. Theory Lunch. January 2014.
+\item Harvard University, Boston, MA. Theory Seminar. November 2013.
+\item Brown University, Providence RI. Theory Seminar. November 2013.
+\item IBM Almaden Research Center, San Jose, CA. October 2013.
+\end{innerlist}
+
+\item Property Testing and Communication Complexity
+\begin{innerlist}
+\item MIT, Boston, MA. Algorithms and Complexity seminar. September 2013.
+\end{innerlist}
+
+\item Accurate and Efficient Private Release of Data Cubes and Contingency Tables
+\begin{innerlist}
+\item Cornell University, CDI project meeting. May 2013.
+\end{innerlist}
+
+\item Beating the Direct Sum in Communication Complexity with Implications for Sketching.
+\begin{innerlist}
+\item Aarhus University, Denmark. Theory seminar. May 2013.
+\item MIT, Boston, MA. Algorithms and Complexity seminar. December 2012.
+\item Princeton University, Princeton, NJ. Theory lunch. November 2012.
+\item FOCS 2012, Rutgers University, NJ. Poster session. October 2012.
+\end{innerlist}
+
+\item Overlapping Clustering with Qualitative Information
+\begin{innerlist}
+\item FOCS 2012, Rutgers University, NJ. Poster session. October 2012.
+\end{innerlist}
+
+\item Parallel Algorithms for Geometric Problems
+\begin{innerlist}
+\item Microsoft Research SVC, Mountain View, CA. Group meeting. October 2012.
+\item FOCS 2012, Rutgers University, NJ. Poster session. October 2012.
+\end{innerlist}
+
+\item Learning and Testing Submodular Functions.
+\begin{innerlist}
+  \item Microsoft Research, Redmond. Theory seminar. June 2013.
+  \item University Of Melbourne, Theory seminar, April 2013.
+  \item UCLA, Los Angeles, LA. Theory seminar. February 2013.
+  \item Weizmann Institute of Science, Rehovot, Israel. Theory seminar. December 2012.  
+  \item New York Computer Science and Economics Day (NYCE), New York, NY. Poster session. December 2012.  
+  \item Harvard University, Boston, MA. Theory seminar. December 2012.
+  \item Carnegie-Mellon University, Pittsburgh, PA. Theory lunch, December 2012.
+  \item Carnegie-Mellon University, Pittsburgh, PA. OR seminar. December 2012.
+  \item IBM T.J. Watson Research Center, Yorktown Heights, NY. IP for lunch. November 2012.
+  \item Columbia University, New York, NY. October 2012.
+  \item FOCS 2012, Rutgers University, NJ. Poster session. October 2012.
+  \item Microsoft Research SVC, Mountain View, CA. Theory seminar. October 2012.
+  \item EPFL, Lausanne, Switzerland. Algorithmic Frontiers Workshop, poster session. June 2012.
+  \item STOC 2012, New York, NY. Poster session. May 2012.
+  \item IBM Almaden Research Center, San Jose, CA. Theory seminar. May 2012.
+\end{innerlist}
+
+\item \href{http://grigory.us/files/talks/AdvancesInDirectedSpanners.pdf}{Advances in Directed Spanners}.
+\begin{innerlist}
+\item University of Sydney, Theory seminar, April 2013.
+\item Carnegie-Mellon University, Theory Lunch, November 2011.
+\item University of Maryland, Capital Area Theory Seminar, November 2011.
+\end{innerlist}
+
+\item \href{http://grigory.us/files/talks/KRSY-VLDB11.pptx}{Private Analysis of Graph Structure}
+\begin{innerlist}
+  \item EPFL, Lausanne, Switzerland. Algorithmic Frontiers Workshop, poster session. June 2012.
+  \item AT\&T Labs --- Research, Florham Park, NJ. August 2011.
+\end{innerlist}
+
+\item Introduction to Property Testing
+\begin{innerlist}
+\item St. Petersburg Department of V.A. Steklov Institute of Mathematics of the Russian Academy of Sciences. December 2012.
+\item St. Petersburg Institute of Fine Mechanics and Optics. Theory seminar. December 2012.
+\end{innerlist}
+
+\item \href{http://grigory.us/talsk/DPIntro.pptx}{Introduction to Differential Privacy} (based on slides by Adam D. Smith).
+\begin{innerlist}
+\item St. Petersburg Department of Steklov Institute of Mathematics, Computer Science club, May 2011.
+\end{innerlist}
+
+\item Property Testing and Communication Complexity
+\begin{innerlist}
+\item Moscow State University. Kolmogorov seminar. May 2011.
+\end{innerlist}
+
+
+\item \href{http://grigory.us/files/talks/20110704_Directed_Spanners_ICALP11.pptx}{Improved Approximation for the Directed Spanner Problem}
+\begin{innerlist}
+  \item AT\&T Labs --- Research, Florham Park, NJ. Mathematics Research Colloquium and Informal Seminar. June 2011.
+  \item Princeton, NJ, June 2011. Workshop on Approximation Algorithms, Open Problem Session: \href{http://grigory.us/files/directed-spanners-open-problems.pptx}{[Slides]}, \href{http://grigory.us/files/grigory.pdf}{[Notes by \href{http://www.cs.umd.edu/~rchitnis/}{Rajesh Chitnis}]}.
+  \item STOC 2011, San Jose, CA. Poster session. June 2011.
+  \item Moscow State University. Combinatorial optimization seminar. May 2011.
+  \item IBM T.J. Watson Research Center, Yorktown Heights, NY. IP for lunch. April 2011.
+  \item St. Petersburg Institute of Fine Mechanics and Optics. Theory seminar. December 2010.
+
+\end{innerlist}
+\item \href{http://grigory.us/files/talks/penn10.pdf}{Linear bounds on circuit complexity and feebly one-way permutations}
+    \begin{innerlist}
+      \item Pennsylvania State University, State College, PA. Theory seminar. April 2010.
+    \end{innerlist}
+\end{innerlist}
+\blankline
+
+%Conference talks:
+%
+%\begin{innerlist}
+%\item \href{http://grigory.us/files/talks/KRSY-VLDB11.pptx}{Private Analysis of Graph Structure}
+%    \begin{innerlist}
+%        \item Very Large Databases (VLDB 2011, Research track), August 2011.
+%    \end{innerlist}
+%\item \href{http://grigory.us/files/talks/20110704_Directed_Spanners_ICALP11.pptx}{Improved Approximation for the Directed Spanner Problem}
+%    \begin{innerlist}
+%    \item International Colloquium on Automata, Languages and Programming (ICALP 2011, Track A), July 2011.
+%    \end{innerlist}
+%\item \href{http://grigory.us/files/talks/20110708_Steiner-TC-Spanners.ppsx}{Steiner Transitive-Closure Spanners of Low-Dimensional Posets}
+%    \begin{innerlist}
+%    \item International Colloquium on Automata, Languages and Programming (ICALP 2011, Track A), July 2011.
+%    \end{innerlist}
+%\end{innerlist}
+
+%
+%\item \href{http://web.mit.edu/matulef/www/papers/PTviaCC-full.pdf}{Property Testing Lower Bounds via Communication Complexity} (based on a paper by Blais, Brody and Matulef).
+%\begin{innerlist}
+%  \item Moscow State University. Kolmogorov seminar. May 2011.
+%\end{innerlist}
+%
+%\item \href{http://grigory.us/talks/20101224_Deterministic_extraction.pdf}{Two-Party Differential Privacy and Deterministic Extraction from Santha-Vazirani Sources} (based on a paper by McGregor, Mironov, Pitassi, Reingold, Talwar and Vadhan).
+%
+%        \begin{innerlist}
+%            \item Pennsylvania State University, Theory seminar, November 2010.
+%            \item St. Petersburg Department of Steklov Institute of Mathematics, Computer Science club, December 2010.
+%            \item St. Petersburg Department of Steklov Institute of Mathematics, Seminar on discrete mathematics, December 2010.
+%        \end{innerlist}
+
+\begin{comment}
+\item \href{http://grigory.us/talks/20100601_MSc_Thesis.pdf}{Finding efficient boolean circuits using SAT-solvers}, St. Petersburg Academic University, June, 2010.
+\item \href{http://grigory.us/talks/20100405_Linear_bounds.pdf}{Linear bounds on circuit complexity and feebly one-way permutations}, PSU, April 2010.
+\item \href{http://logic.pdmi.ras.ru/aptu/?q=node/16}{Satisfiability Modulo Theories}, St. Petersburg Academic University theory seminar,  November, 2009
+\item \href{http://logic.pdmi.ras.ru/aptu/?q=node/13}{SAT-solvers: Theory and practice}, St. Petersburg Academic University theory seminar, November, 2009
+\item \href{http://grigory.us/talks/20100517_Applying_Practice_to_Theory.pdf}{Applying practice to theory}, St. Petersburg Department of Steklov Institute of Mathematics Computer Science club, May 2009
+\item \href{http://grigory.us/talks/0904JASS/Yaroslavtsev_Lower_bounds_using_cc.pdf}{Lower bounds using communication complexity}, Joint Advanced Student School'09, April 2009
+\item Circuit complexity of MOD-functions, 51-st Scientific Conference of Moscow Instituite of Physics and Technology, December 2008.
+\item \href{http://grigory.us/talks/DMSeminar.html}{Communication complexity and circuit depth of boolean functions}, St. Petersburg Department of Steklov Institute of Mathematics seminar on discrete mathematics, December 2008
+\item \href{http://grigory.us/talks/chebyshev.pdf}{Plane trees and generalised Chebyshev polynomials}, Joint Advanced Student School'08, March 2008
+\end{comment}
+
+
+
+
+\section{Patents}
+
+\begin{innerlist}
+\item ``A Communication and Message-Efficient Protocol for Computing the Intersection Between Different Sets of Data'', with David P. Woodruff. U.S. patent pending. IBM Almaden Research Center, San Jose, CA.
+\end{innerlist}
+
+
+\section{Service}
+Organized \href{http://grigory.us/theory-seminar-brown-fall13.html}{Theory Seminar} at Brown CS Department (2013 -- 2014).
+
+\blankline
+
+PC member for ``Graph Theory and Applications'' CSEDays 2012, Ekaterinburg, Russia.
+
+\blankline
+
+
+Reviewer for:
+
+\begin{innerlist}
+\item Journals: SIAM Journal on Computing (SICOMP), SIAM Journal on Discrete Mathematics (SIDMA), Information and Computation (I\&C), IEEE Transactions on Knowledge and Data Engineering (TKDE), Theory of Computing (ToC).
+\item Conferences: FOCS'13, MFCS'13, ICALP'13, SODA'13, APPROX'12, FOCS'12, COCOA'12, SWAT'12, SODA'12, VLDB'12, WADS'11, MFCS'10, SAT'10.
+\end{innerlist}
+
+
+
+%Member of:
+%\begin{innerlist}
+%  \item ACM Special Interest Group on Algorithms and Computation Theory (ACM SIGACT)
+%  \item European Association for Theoretical Computer Science (EATCS)
+%\end{innerlist}
+\blankline
+
+
+\blankline
+
+Organized a theory reading group at Penn State:
+\begin{innerlist}
+ \item Spring 2013: ``Computer Science for the Information Age'', based on an eponimous book by John Hopcroft and Ravi Kannan.
+ \item Fall 2011: Selected lectures from classes \href{http://www.cs.cmu.edu/~odonnell/boolean-analysis/}{Analysis of Boolean Functions} by Ryan O'Donnell and \href{http://www.cs.washington.edu/education/courses/cse533/05au/}{The PCP Theorem and Hardness of Approximation} by Venkatesan Guruswami and Ryan O'Donnell at CMU.
+  \item Spring 2011: \href{http://www.cs.princeton.edu/courses/archive/fall02/cs597D/}{``A Theorist's Toolkit''}, based on notes for a class taught by Sanjeev Arora at Princeton.
+\end{innerlist}
+
+\blankline
+
+Extracurricular education for high-school students:
+
+\begin{innerlist}
+\item Prepared training contests for the United States team in International Olympiad in Informatics 2011.
+
+\item Co-founder and coordinator of St. Petersburg network of extracurricular education in informatics for high-school students (\href{http://spbtc.ru}{http://spbtc.ru}) (2009-2010).
+
+\item Judge for Baltic Science and Engineering Contest (Intel ISEF semifinals), 2010.
+\
+\end{innerlist}
+
+
+\begin{comment}
+
+\section{Teaching}
+Course teacher in Olympiad Programming in Physical-Technical Lyceum, St. Petersburg (2005 - 2010).
+
+\blankline
+
+Course teacher in Summer Informatics School for winners of the All-Russian Olympiad in Informatics and Programming (2008), visiting lecturer (2009-2010).
+
+\blankline
+
+Course teacher in St. Petersburg Training Camp for winners of St. Petersburg Olympiad in Informatics for School Students (2008).
+
+\end{comment}
+
+\begin{comment}
+
+\blankline
+
+Teacher in Summer Camp for winners of the St. Petersburg Olympiad in Physics (2006, 2007).
+
+\end{comment}
+
+\section{Professional Membership}
+\blankline
+ACM SIGACT, IEEE
+
+%\section{Summer schools, workshops, conferences}
+%\begin{outerlist}
+%
+%\item Workshops:
+%\begin{innerlist}
+%  \item Princeton Workshop on Approximation Algorithms, Princeton, NJ, June 2011.
+%  Presentation at the Open Problem Session: \href{http://grigory.us/files/directed-spanners-open-problems.pptx}{[Slides]}, \href{http://grigory.us/files/grigory.pdf}{[Notes by \href{http://www.cs.umd.edu/~rchitnis/}{Rajesh Chitnis}]}.
+%\end{innerlist}
+%
+%\item Summer schools:
+%\begin{innerlist}
+%\item \href{http://logic.pdmi.ras.ru/midas}{Microsoft Research Data Structures and Algorithms School (MIDAS)}, St. Petersburg, August 2010.
+%Lecturers: Andrew Goldberg, David S. Johnson, Robert E. Tarjan, Giuseppe Italiano, Renato Werneck.
+%\item \href{http://www.mpi-inf.mpg.de/VTSA09}{Verification Technology, Systems and Applications}, INRIA, Nancy, October 2009
+%Lecturers: Daniel Le Berre, Leonardo de Moura, Stepan Schulz, Benjamin Werner, Patricia Bouyer.
+%\item \href{http://www.illc.uva.nl/LogicList/newsitem.php?id=2967}{Fall School on Logic and Complexity}, Charles University, Prague, September 2009
+%Lecturers: Samuel R. Buss, Ran Raz, Pavel Pudlak, Neil Thapen.
+%\item \href{http://logic.pdmi.ras.ru/ssct09}{NoNA Summer School on Complexity Theory}, St. Petersburg, August 2009
+%Lecturers: Lance Fortnow, Heribert Vollmer, Nicola Galesi, Uri Zwick.
+%\item Microsoft Research Summer School on High-Performance Computing, Moscow State University, July 2009
+%\item Joint Advanced Student School (Proof complexity track, Trees and their applications track), St. Petersburg, 2009-2010
+%%\item Petrozavodsk training camp for winners of collegiate competitions in programming, Petrozavodsk, 2007 - 2009.
+%\end{innerlist}
+%
+%\item Conferences: FOCS'10, SODA'11, STOC'11, ICALP'11, Random/Approx'11, ITCS'12.
+%Supported by NSF, IEEE TCMF, EATCS and ACM SIGACT travel grants.
+%\end{outerlist}
+
+\section{Technical skills}
+C/C++, STL, Java, Windows/Linux, \LaTeX, CPlex/Gurobi/AMPL.
+
+%\blankline
+%
+%\section{References}
+%\begin{lonelist}
+%  \item Sofya Raskhodnikova (advisor), Assistant Professor, Pennsylvania State University. \href{mailto:sofya@cse.psu.edu}{sofya@cse.psu.edu}
+%  \item Adam D. Smith, Associate Professor, Pennsylvania State University. \href{mailto:asmith@cse.psu.edu}{asmith@cse.psu.edu}
+%  \item Piotr Berman, Associate Professor, Pennsylvania State University. \href{mailto:berman@cse.psu.edu}{berman@cse.psu.edu}
+%\end{lonelist}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

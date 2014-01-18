@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Brown Theory Seminar</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="starter-template.css" rel="stylesheet"> 
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+<script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</button>
+<a class="navbar-brand" href="#">Brown Theory Seminar</a>
+<a class="navbar-brand" href="#organizers">Organizers</a>
+<a class="navbar-brand" href="#information">Information</a>
+<a class="navbar-brand" href="#schedule">Schedule</a>
+<a class="navbar-brand" href="#archives">Archives</a>
+<a class="navbar-brand" href="#calendar">Calendar</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="starter-template">
+<br/>
+<br/>
+<br/>
+
+<h1><img src="pics/brown.jpeg" style="width:50pt">  <font color="brown">Brown Theory Seminar</font>
+</h1>
+
+<a id="organizers"><h3>Organizers: 
+</h3></a>
+<ul>
+<li><b><a class="name" href="http://cs.brown.edu/people/tdickerson/">Thomas Dickerson</a></b> <tt>thomas_dickerson (at) brown.edu</tt>
+<li> <b><a class="name" href="http://grigory.us">Grigory Yaroslavtsev</a></b> <tt>grigory (at) grigory.us</tt>
+</ul>
+</h3>
+
+
+<a id="information"><h3> Information </h3></a>
+<ul>
+
+<li> We meet <b>Fridays 12am &ndash; 1pm at CIT 368 </b>, except for extra sessions highlighted in red below.  
+<li> If you are interested in giving a talk, please, contact the organizers.			
+<li> Talk announcements will appear on the <a href="https://lists.cs.brown.edu/sympa/info/theory">Theory List</a>. 
+<li> We have food!
+</ul>				     
+
+
+
+<a id="schedule">
+<h3> Schedule </h3>
+</a>
+<br>
+
+<ul class="list-unstyled">
+<li>
+Friday, December 13, 2013: 
+
+<b> 
+<a class="name" href="http://people.csail.mit.edu/mirrokni/Welcome.html">
+Vahab Mirrokni</a></b> (Google Research, NYC) ,
+<br>
+<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">Online Stochastic Ad Allocation: Simultaneous and Bicriteria Approximations
+</a>
+[<a href="http://grigory.us/files/theory/vahab.pdf"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+As an important component of any ad serving system, online capacity (or budget) planning is a central problem in online ad allocation. I will survey primal-based and dual-based techniques borrowed from online stochastic matching literature and report theoretical approximation guarantees and practical evaluations of these algorithms on Google display ads systems serving billions of ads. Then, inspired by practical applications, I will discuss a Simultaneous approximation results for both adversarial and stochastic models and present some recent theoretical results in this context. Finally, I will describe a multi-objective online approximation algorithm for maximizing weight and cardinality of the matching at the same time. I will conclude with several open problems.
+
+<p>
+
+Vahab Mirrokni is a Senior Staff Research Scientist and the manger of the algorithms research group at Google Research, New York. He joined Google after two years at Microsoft Research, and a year at MIT and Amazon. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University in 2001. Vahab is a co-winner of a SODA best student paper award and an ACM EC best paper award.  Vahab's research interests  include algorithmic game theory, large-scale and social network analysis, and approximation algorithms. At Google, he is mainly working on algorithmic and economic problems related to search and online advertising. Recently he is working on online ad allocation problems, distributed algorithms for large-scale graph mining, and mechanism design for advertising exchanges. 
+</div>
+</li>
+
+<li>
+Friday, December 06, 2013: 
+
+<b>
+<a class="name" href="http://www.cs.columbia.edu/~rocco/">
+Rocco Servedio</a></b> (Columbia University, CS) , 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Learning from Satisfying Assignments</a>
+[<a href="http://grigory.us/files/theory/rocco.pptx"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+We introduce and study a new type of learning problem for probability distributions over the Boolean hypercube.  As in the standard PAC learning model, a learning problem in our framework is defined by a class C of Boolean functions over the hypercube, but unlike the standard PAC model, in our model the learning algorithm is given uniform random satisfying assignments of an unknown function in C and its goal is to output a high-accuracy approximation of the uniform distribution over the space of satisfying assignments for f. This distribution learning problem may be viewed as a demanding variant of standard Boolean function learning, where the learning algorithm only receives positive examples and --- more importantly --- must output a hypothesis function which has small *multiplicative* error (i.e. small error relative to the size of f^{-1}(1).
+<p>
+As our main results, we show that the two most widely studied classes of Boolean functions in computational learning theory --- linear threshold functions and DNF formulas --- have efficient distribution learning algorithms in our model. Our algorithm for linear threshold functions runs in time poly(n,1/epsilon) and our algorithm for polynomial-size DNF runs in quasipolynomial time.  On the other hand, we also prove complementary hardness results which show that under cryptographic assumptions, learning monotone 2-CNFs, intersections of 2 halfspaces, and degree-2 PTFs are all hard. This shows that our algorithms are close to the limits of what is efficiently learnable in this model.
+<p>
+Joint work with Anindya De and Ilias Diakonikolas.
+</div>
+</li>
+
+
+
+<li>
+Friday, November 29, 2013: 
+<b>Thanksgiving, no seminar.</b> 
+</li>
+
+
+
+<li>
+Friday, November 22, 2013: 
+
+<b>
+<a class="name" href="http://people.csail.mit.edu/eblais/">
+Eric Blais</a></b> (MIT, CS), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Approximating Boolean Functions with Depth-2 Circuits</a>
+[<a href="files/theory/eric.pdf"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p> 
+A common theme in many areas of theoretical computer science is that it is sometimes much easier to compute approximations to a function than to compute the function exactly, while sometimes approximation does not make things any easier. The study of this general topic in different settings has led to many deep and far-reaching consequences, including for example much recent progress on the P vs. NP problem and the development of sublinear algorithms.
+<p>
+In this talk, we explore how approximation affects the circuit complexity of boolean functions. Specifically, we restrict our attention to depth-2 circuits (i.e., DNFs and CNFs) and we ask how large such a circuit must be to agree with a given target function on 99% of all possible inputs. As we will see during the talk, the study of this question leads to surprising results and to interesting connections to the design of randomized algorithms, to information theory, to the analysis of boolean functions, and to covering codes.
+<p>
+Joint work with Li-Yang Tan.
+</div>
+</li>
+
+<li>
+Friday, November 15, 2013: 
+
+<b>
+<a class="name" href="http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru">
+David Woodruff</a></b> (IBM Research, Almaden), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Sketching as a Tool for Numerical Linear Algebra</a>
+[<a href="http://grigory.us/files/theory/david.ppt"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+I will discuss how sketching techniques from the data stream literature can be used to speed up well-studied algorithms for problems occurring in numerical linear algebra, such as least squares regression and approximate singular value decomposition. I will also discuss how they can be used to achieve very efficient algorithms for variants of these problems, such as robust and structured regression. In many cases the algorithms obtained using sketching are the only known ways to obtain asymptotically optimal algorithms.</div>
+</li>
+
+<li>
+<font color="red"><b>Tuesday</b></font>, November 12, 2013, <font color="red"><b>11 am</b></font>: 
+
+<b>
+<a class="name" href="http://www.cse.wustl.edu/~kunal/">
+Kunal Agrawal</a></b> (Washington University, St. Louis), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">Provably Good Schedulers for Parallel Computations</a>
+<div class="abs">
+<p>
+In recent years, parallel computing has become
+ubiquitous, as modern computation platforms, from smartphones to
+network routers and personal computers to large clusters and clouds,
+each contain multiple processors.  On these parallel computers,
+scheduling decisions --- what happens when and
+where --- has a large impact on performance.  This talk will present recent research on
+scheduling algorithms that provide provable guarantees on the
+performance parallel programs that they schedule.  In particular, the talk will cover 2 main topics: 
+(1) Data structures are an important component in designing sequential algorithms.  However, using 
+data structures within parallel algorithms while guaranteeing speedup is challenging due to contention between
+concurrent operations and the resulting slowdown.  Amortized data structures, in particular, are extremely difficult
+to use from within parallel algorithms.  This talk will present BATCHER, a scheduling algorithm that allows
+parallel algorithms to use data structures while still guaranteeing speedup to the algorithm.  
+(2) Streaming computations represent an important class of parallel applications.  We consider the problem
+of scheduling streaming applications to minimize the number of cache misses incurred by the application.
+We show that for a large class of streaming applications, we can reduce this problem to a graph partitioning
+problem.  
+</div>
+</li>
+
+<li>
+Friday, November 08, 2013:
+<b><a class="name" href="http://research.microsoft.com/en-us/people/siuonc/">Siu On Chan</a></b> (Microsoft Research, New England), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Approximate Constraint Satisfaction Requires Large LP Relaxations</a>
+<div class="abs">
+<p>
+We prove super-polynomial lower bounds on the size of linear programming relaxations for approximation versions of constraint satisfaction problems. We show that for these problems, polynomial-sized linear programs are exactly as powerful as programs arising from a constant number of rounds of the Sherali-Adams hierarchy.
+<p>
+In particular, any polynomial-sized linear program for Max Cut has an integrality gap of 1/2 and any such linear program for Max 3-Sat has an integrality gap of 7/8.
+<p>
+Joint work with James Lee, Prasad Raghavendra, and David Steurer.
+</div>
+</li>
+
+<li>
+Friday, November 01, 2013: 
+
+<b>
+<a class="name" href="http://grigory.us">
+Grigory Yaroslavtsev</a></b>, (Brown University, ICERM) 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Testing Properties Under L<sub>p</sub> Distances</a>
+<div class="abs">
+<p>We present sublinear algorithms for approximately testing properties of real-valued data under L<sub>p</sub> distance measures (for p = 1,2). Our algorithms allow one to distinguish datasets which have a certain property from datasets which are far from having it with respect to L<sub>p</sub> distance. While the classical property testing framework developed under the Hamming distance has been studied extensively, testing under L<sub>p</sub> distances has received little attention. 
+<p>
+For applications involving noisy real-valued data using L<sub>p</sub> distances is natural because unlike Hamming distance it allows to suppress distortion introduced by the noise.  Moreover, we show that it also allows one to design simple and fast algorithms for classic problems, such as testing monotonicity, convexity and Lipschitz conditions (also known as “sensitivity”). Our algorithms require minimal assumptions on the choice of the sampled data (either uniform or easily samplable random points suffice). We also show connections between our L<sub>p</sub>-testing model and the standard framework of property testing under the Hamming distance. In particular, some of our results improve existing bounds for Hamming distance.
+<p>
+Joint work with Piotr Berman and Sofya Raskhodnikova.
+</div>
+<li>
+Friday, October 25, 2013: 
+
+<b>
+<a class="name" href="http://cs.brown.edu/people/pvaliant/">
+Paul Valiant
+</a></b>(Brown University, CS), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">Instance-by-Instance Optimal Identity Testing</a>
+<div class="abs">
+<p>
+
+The amount of data being routinely processed by computers is exploding, and this puts a new demand on the algorithms community: do our algorithms make efficient use of their data? Many familiar problems can be reexamined in this light to yield significant and practical improvements. A small asymptotic algorithmic improvement, from needing terabytes of data to merely gigabytes, effectively cut costs by a factor of a thousand in a data-driven world.
+<p>
+In this talk we consider a fundamental hypothesis testing problem: given data from a probability distribution, was it drawn from a known distribution P, or from a distribution far from P? Our analysis reveals several distinct features that previous algorithms failed to take advantage of, and culminates by showing that these are essentially all the possible features an algorithm could take advantage of. Namely, we introduce what we call an "instance-by-instance optimal" algorithm and show that our algorithm, when testing against an input distribution P, performs within constant factors of the best possible performance of the best possible algorithm customized for P.
+<p>
+Our analyses introduces a new way of using linear programming duality to automatically analyze a broad class of inequalities that generalizes Cauchy-Schwarz, Holder's inequality, and the monotonicity of L<sub>p</sub> norms.
+
+<p>
+Joint work with Gregory Valiant
+</li>
+
+
+<li>
+Friday, October 18, 2013: 
+ 
+<b>
+<a class="name" href="http://www.ece.umd.edu/~cpap">
+Charalampos Papamanthou</a></b> (University of Maryland, College Park), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Practical Dynamic Proofs of Retrievability
+</a>
+<div class="abs">
+<p>
+Proofs of Retrievability (PoR) enable a client to store a number of file blocks with a cloud
+server so that later the server can prove possession of all the
+data in a very efficient manner (i.e., with constant computation and bandwidth). Although many efficient PoR schemes for static data have been constructed, only two dynamic PoR
+schemes exist, which have various disadvantages such as large client storage or practical inefficiency.
+<p>
+We propose the first dynamic POR scheme that is both theoretically and practically efficient. Specifically (i) all complexity measures involved are at most logarithmic in the number of the outsourced blocks; (ii) our system implementation is very practical.
+<p>
+Joint work with Elaine Shi and Emil Stefanov, to appear at CCS 2013
+</div>
+</li>
+
+
+
+<li>
+Friday, October 11, 2013: 
+
+<b>
+<a class="name" href="http://www.cse.psu.edu/~sofya/">
+Sofya Raskhodnikova</a></b> (Penn State, Boston University), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Private Analysis of Graphs
+</a>
+[<a href="files/theory/sofya.pptx"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+We discuss algorithms for the private analysis of network data. Such algorithms work on data sets that contain sensitive relationship information (for example, romantic ties). Their goal is to compute approximations to global statistics of the graph while protecting information specific to individuals. Our algorithms satisfy a rigorous notion of privacy, called node differential privacy. Intuitively, it means that an algorithm's output distribution does not change significantly when a node and all its adjacent edges are removed from a graph. We present several techniques for designing node differentially private algorithms. We also develop methodology for analyzing the accuracy of such algorithms on realistic networks. Our techniques are based on combinatorial analysis, network flow, and linear and convex programming.
+
+Based on joint work with Shiva Kasiviswanathan, Kobbi Nissim and Adam Smith
+</div>
+</li>
+
+
+<li>
+Friday, October 04, 2013: 
+
+<b>
+<a class="name" href="http://people.seas.harvard.edu/~karthe/">
+Karthekeyan Chandrasekaran</a></b> (Harvard SEAS), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+A Polynomial-Time Cutting Plane Algorithm for Matching
+</a>
+[<a href="http://grigory.us/files/theory/karthik.pptx"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+The cutting plane approach to optimal matchings has been discussed by several authors over the past decades [Padberg-Rao, Grotschel-Holland, Lovasz-Plummer, Trick, Fischetti-Lodi], and its convergence has been an open question. We give a cutting plane algorithm for the minimum-cost perfect matching problem using Edmonds' blossom inequalities as cuts and prove polynomial convergence of this algorithm.
+<p>
+Our main insight is an LP-based method to retain/drop candidate cutting planes. Our cut-addition is based on maintaining laminarity. This leads to a sequence of intermediate linear programs with a linear number of constraints whose optima are half-integral and supported by a disjoint union of odd cycles and edges. This structural property of the optima is instrumental in finding violated blossom inequalities (cuts) in linear time. The number of cycles in the support of the half-integral optima acts as a potential function to show efficient convergence to an integral solution.
+<p>
+Joint work with Laszlo Vegh and Santosh Vempala.
+</div>
+</li>
+
+
+<li>
+Friday, September 27, 2013: 
+
+<b>
+<a class="name" href="http://people.seas.harvard.edu/~minilek">
+Jelani Nelson</a></b> (Harvard SEAS), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+OSNAP: Faster numerical linear algebra algorithms via sparser
+subspace embeddings
+</a>
+[<a href="http://grigory.us/files/theory/jelani.pdf"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+<p>
+An "oblivious subspace embedding" (OSE) is a distribution
+over matrices S such that for any low-dimensional subspace V, with
+high probability over the choice of S, ||Sx||_2 approximately equals
+||x||_2 (up to 1+eps multiplicative error) for all x in V
+simultaneously. Sarlos in 2006 pioneered the use of OSE's for speeding
+up algorithms for several numerical linear algebra problems. Problems
+that benefit from OSE's include: approximate least squares regression,
+low-rank approximation, l_p regression, approximating leverage scores,
+and constructing good preconditioners.
+<p>
+We give a class of OSE distributions we call "oblivious sparse
+norm-approximating projections" (OSNAP) that yield matrices S with few
+rows that are also extremely sparse, yielding improvements over recent
+work in this area by (Clarkson, Woodruff STOC '13). In particular, we
+show S can have O(d^2) rows and 1 non-zero entry per column, or even
+O(d^{1+gamma}) rows and poly(1/gamma) non-zero entries per column for
+any desired constant gamma>0. When applying the latter bound for
+example to the approximate least squares regression problem of finding
+x to minimize ||Ax - b||_2 up to a constant factor, where A is n x d
+for n >> d, we obtain an algorithm with running time O(nnz(A) +
+d^{omega + gamma}). Here nnz(A) is the number of non-zero entries in
+A, and omega is the exponent of square matrix multiplication.
+<p>
+Our main technical result is essentially a Bai-Yin type theorem in
+random matrix theory and is likely to be of independent interest: i.e.
+ we show that for any U in R^{n x d} with orthonormal columns and
+ random sparse S with appropriately chosen entries and sufficiently
+ many rows, all singular values of SU lie in the interval [1-eps,
+ 1+eps] with good probability.
+<p>
+ Joint work with Huy Lê Nguyễn (Princeton).
+</div>
+</li>
+
+<li>
+Friday, September 20, 2013:
+
+<b>
+<a class="name" href="http://www.cs.cmu.edu/~yangp">
+Richard Peng</a></b> (MIT Math), 
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+Iterative Row Sampling
+</a> 
+[<a href="http://grigory.us/files/theory/rpeng.pptx"><font color="green"><b>Slides</b></font></a>]
+<div class="abs">
+
+There has been significant interest and progress recently in algorithms that solve regression problems involving tall and thin matrices in input sparsity time. Given a n * d matrix where n >> d, these algorithms find an approximation with fewer rows, allowing one to solve a poly(d) sized problem instead. In practice, the best performances are often obtained by invoking these routines in an iterative fashion. We show these iterative methods can be adapted to give theoretical guarantees comparable to and better than the current state of the art.
+
+<p>
+
+ Our approaches are based on computing the importance of the rows, known as leverage scores, in an iterative manner. We show that alternating between computing a short matrix estimate and finding more accurate approximate leverage scores leads to a series of geometrically smaller instances. This gives an algorithm whose runtime is input sparsity plus an overhead comparable to the cost of solving a regression problem on the smaller approximation. Our results build upon the close connection between randomized matrix algorithms, iterative methods, and graph sparsification.
+</div>
+</li>
+
+<li> Friday, September 13, 2013: No seminar. 
+</li>
+
+
+<li>
+Friday, September 06, 2013:
+
+<b>
+<a class="name" href="http://grigory.us">
+Grigory Yaroslavtsev</a></b>
+(Brown <a href="http://icerm.brown.edu">ICERM</a>),
+<br><a href="javascript:void(0)" onclick="showAbstract(this)" class="title"> Kickoff meeting
+</a>
+<div class="abs">
+We will discuss the plan for the semester, pick time, etc.
+The meeting will be 15-20 minutes.
+</div>
+</li>
+
+</ul>
+</a>
+
+<a id="archives">
+<h3>Archives:</h3></a>
+<ul>
+<li><a href="http://cs.brown.edu/~matteo/theorylunch.html">CS Theory Lunch</a></li> 
+
+</ul>
+
+<a id="calendar"></a>
+<p></p>
+<p></p>
+
+<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=s1nrtsj2ekjdr6aakijq49stkc%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		 <br/>
+</a>
+Parts of this website were designed by <a href="http://tpl.epfl.ch/madry">Aleksander M&#261dry</a> and <a href="http://www.mit.edu/~ecprice">Eric Price</a> at MIT. Currently it is maintained by <a href="http://grigory.us">Grigory Yaroslavtsev</a>.
+
+</div>
+</div>
+
+</body></html>
+
+

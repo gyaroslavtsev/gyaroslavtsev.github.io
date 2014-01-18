@@ -1,0 +1,778 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window,b="start";function e(d){this.t={};this.tick=function(d,g,c){c=void 0!=c?c:(new Date).getTime();this.t[d]=[c,g]};this.tick(b,null,d)}var f=new e;a.jstiming={Timer:e,load:f};try{var h=null;a.chrome&&a.chrome.csi&&(h=Math.floor(a.chrome.csi().pageT));null==h&&a.gtbExternal&&(h=a.gtbExternal.pageT());null==h&&a.external&&(h=a.external.pageT);h&&(a.jstiming.pt=h)}catch(i){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/250eba/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var e=parseInt,h=window,i="length",j="",k=" ",l=' style="width:',m='" ',n='"></span>',o="', sizingMethod='scale');\"></span><span style=\"padding: ",p="6.0",q=";",r=";padding: 0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='",s="<span ",t="MSIE",u="__duration__",v='class="',w="cursor:hand;",x="display:inline-block;",y="float:",z="float:left;",A="float:right;",B="function",C='id="',D="left",E="px;",F="px; height:",G="right",H="string",I='title="';
+function J(c){return document.getElementById(c)}h.byId=J;function K(c){return c.replace(/^\s+|\s+$/g,j)}h.trim=K;
+h.ie6ImgFix=function(c){var b=h.navigator?navigator.userAgent:j;if(-1!=b.indexOf(t)&&"undefined"==typeof opera){var d=/MSIE\s+([^\);]+)(\)|;)/;d.test(b);b=RegExp.$1;if(b==p){var a=typeof c==H?J(c):c,c=a.id?C+a.id+m:j,b=a.className?v+a.className+m:j,d=a.title?I+a.title+m:I+a.alt+m,f=x+a.style.cssText;a.align==D&&(f=z+f);a.align==G&&(f=A+f);a.parentElement.href&&(f=w+f);var g=a.currentStyle,M=a.width-e(g.paddingLeft,10)-e(g.paddingRight,10),N=a.height-e(g.paddingTop,10)-e(g.paddingBottom,10),O=s+c+
+b+d+l+M+F+N+E+f+r+a.src+o+g.paddingTop+k+g.paddingRight+k+g.paddingBottom+k+g.paddingLeft+q+(g.styleFloat?y+g.styleFloat+q:j)+n;h.setTimeout(function(){a.outerHTML=O},1)}}};var L=[],P=0;h.JOT_addListener=function(c,b,d){var a=new String(P++),c={eventName:c,handler:b,compId:d,key:a};L.push(c);return a};h.JOT_removeListenerByKey=function(c){for(var b=0;b<L[i];b++)if(L[b].key==c){L.splice(b,1);break}};h.JOT_removeAllListenersForName=function(c){for(var b=0;b<L[i];b++)L[b].eventName==c&&L.splice(b,1)};
+h.JOT_postEvent=function(c,b,d){var a={eventName:c,eventSrc:b||{},payload:d||{}};if(h.JOT_fullyLoaded){b=L[i];for(d=0;d<b&&d<L[i];d++){var f=L[d];if(f&&f.eventName==c)a.listenerCompId=f.compId||j,(f=typeof f.handler==B?f.handler:h[f.handler])&&f(a)}}else h.JOT_delayedEvents.push({eventName:c,eventSrc:b,payload:d})};h.JOT_delayedEvents=[];h.JOT_fullyLoaded=!1;
+h.JOT_formatRelativeToNow=function(c,b){var d=((new Date).getTime()-c)/6E4;if(1440<=d||0>d)return null;var a=0;60<=d&&(d/=60,a=2);2<=d&&a++;return b?h.JOT_siteRelTimeStrs[a].replace(u,Math.floor(d)):h.JOT_userRelTimeStrs[a].replace(u,Math.floor(d))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":true,"serverFlags":{"embeddedEditorUrlPrefix":"/docembed","cajaBaseUrl":"//www.gstatic.com/caja"},"canPublishScriptToAnyone":true,"sharingUrlPrefix":"/_/sharing","csiReportUri":"https://gg.google.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"UA-20551125-1","baseUri":"/site/grigoryyaroslavtsev","name":"grigoryyaroslavtsev","features":{"kixEditorPageType":false,"scottyForTrogImageUpload":false,"pdfEmbedSupport":false,"sketchyEmbed":false,"docosCommenting":false,"useStandardEmbedsInSidebar":false,"pageLevelPermissions":true,"kixServerSideSave":true,"pageAttachmentsRefactor":false,"dragDropHierarchy":true,"googleDocsVideoEmbedSupport":true,"plusOneButtonOptions":true,"myMapsInOnePick":true,"plusOneButton":true,"prepopulateSharing":true,"newDialogUi":true,"customSystemFooter":true,"scottyForFileCabinet":false,"maestroEmbedAnonymous":true,"spreadsheetsEmbedLoadRedirect":true,"kennedyUserPref":false,"ieSevenUnsupportedError":false,"photoAlbumsInOnePick":true,"adSensePromo":true,"scottyForColorsAndFonts":false,"maestroIntegration":true,"kennedyUserContentAreaScrollbar":false,"autoCompleteSearch":false,"scottyForManageSiteAttachments":false,"maestroEmbed":true,"commonSharingUriChange":false,"editorKeyboardShortcuts":true,"experimental":{"displayEditorLockExceptions":false},"webspaceSoftDeletion":true,"kennedyUi":false,"plusBadge":false,"kennedyUserPrefOnByDefault":true,"gvizCharts":true,"kennedyLight":true,"scottyForPageAttachments":false,"htmlEmbed":false,"keyboardShortcuts":true,"punchEmbedSupport":true,"accessibleButtons":true,"commonSharing":true,"kennedyDeprecationWarning":true,"webfonts":true,"kixEditorRevertButton":false},"domain":"defaultdomain","adsensePublisherId":null,"siteTitle":"Grigory Yaroslavtsev","pageSharingId":"jotspot_page","termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":true,"isPublic":true,"homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"enableAutoComplete":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+
+
+
+webspace.kennedyRequestStateMap = {"1":true,"0":true};
+
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/site/grigoryyaroslavtsev/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"14733901352853893830","useNewUi":true,"renderMobile":false,"primaryEmail":"grigory.yaroslavtsev@gmail.com","sessionIndex":0,"namespaceUser":false,"displayNameOrEmail":"Grigory Yaroslavtsev","namespace":"","hasAdminAccess":true,"guest_":false,"keyboardShortcuts":true,"domain":"gmail.com","hasWriteAccess":true,"dasherUser":false,"userName":"grigory.yaroslavtsev"};
+
+webspace.page = {"canDeleteWebspace":true,"locale":"en","state":"","wuid":"wuid:gx:65fb4f9f719442b3","pageInheritsPermissions":null,"timeZone":"","properties":{},"type":"text","canChangePath":false,"parentWuid":null,"revision":64,"title":"Home","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en_GB","name":"Home","path":"/Home","isSiteRtlLocale":false,"parentPath":null};
+webspace.page.breadcrumbs = [{"title":"Home","dir":"ltr","path":"/site/grigoryyaroslavtsev/Home","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'https://ssl.gstatic.com/sites/p/250eba/system/js/trog_edit__en.js',
+    'https://ssl.gstatic.com/sites/p/250eba/system/app/css/trogedit.css',
+    '/site/grigoryyaroslavtsev/_/rsrc/1323298298000/system/app/css/editor.css',
+    'https://ssl.gstatic.com/sites/p/250eba/system/js/codemirror.js',
+    'https://ssl.gstatic.com/sites/p/250eba/system/app/css/codemirror_css.css',
+    'https://ssl.gstatic.com/sites/p/250eba/system/app/css/htmleditor.css'
+    
+        , '/site/grigoryyaroslavtsev/_/rsrc/1323298298000/system/app/css/camelot/editor-jfk.css'
+      
+  ],
+  kixpage: [
+    'https://ssl.gstatic.com/sites/p/250eba/system/js/kixembed_editor__en.js',
+    'https://ssl.gstatic.com/sites/p/250eba/system/app/css/kixeditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/250eba/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">(function(){try{var d=true,aa={B:1,D:2,V:3,w:4,Q:5,H:6,i:7,I:8,Z:9,P:10,G:11,O:12,N:13,J:14,M:15,L:16,X:17,A:18,K:19,Y:20,W:21,z:22,C:23,aa:24,ba:25,$:26,a:27,o:28,v:29,u:30,U:31,R:32,S:33,F:500,T:501};var i=window.gbar=window.gbar||{};function _tvn(a,b){var c=parseInt(a,10);return isNaN(c)?b:c}function _tvf(a,b){var c=parseFloat(a);return isNaN(c)?b:c}function _tvv(a){return!!a}function l(a,b,c){(c||i)[a]=b}i.bv={n:_tvn("2",0),r:"",f:".41.46.",m:_tvn("1",1)};var n=function(a){return function(){return i.bv.m==a}},ba=n(1),ca=n(2);l("sb",ba);l("kn",ca);var o=function(){},p=function(){},t=function(a){var b=new Image,c=q;b.onerror=b.onload=b.onabort=function(){try{delete s[c]}catch(e){}};s[c]=b;b.src=a;q=c+1},s=[],q=0;l("logger",{il:p,ml:o});var u=window.gbar.logger;var v={},da={},w=[],ga=function(a,b){w.push([a,b])},ja=function(a,b){v[a]=b},ka=function(a){return a in v},x={},y=function(a,b){x[a]||(x[a]=[]);x[a].push(b)},z=function(a){y("m",a)},A=function(a){var b=document.createElement("script");b.src=a;(document.getElementById("xjsc")||document.body).appendChild(b)},C=function(a){for(var b=0,c;c=w[b];++b)if(c[0]==a)break;if(c&&!c[1].l&&!c[1].s){c[1].s=d;B(2,a);A(c[1].url)}},D=function(a){y("gc",a)},E=null,la=function(a){E=a},B=function(a,b,c){if(E){a={t:a,
+b:b};if(c)for(var e in c)a[e]=c[e];try{E(a)}catch(g){}}};l("mdc",v);l("mdi",da);l("bnc",w);l("qGC",D);l("qm",z);l("qd",x);l("lb",C);l("mcf",ja);l("bcf",ga);l("aq",y);l("mdd","");l("has",ka);l("trh",la);l("tev",B);var F=_tvf("0.01",1.0E-4),G=0;
+function _mlToken(a,b){try{if(G<1){G++;var c,e=a,g=b||{},f=encodeURIComponent,h=["//www.google.com/gen_204?atyp=i&zx=",(new Date).getTime(),"&jexpid=",f("30315"),"&srcpg=",f("prop=38"),"&jsr=",Math.round(1/F),"&ogf=",i.bv.f,"&ogv=",f("1324001618.1325613523"),"&ogd=",f("com"),"&ogl=",f("en")];if(g._sn)g._sn="og."+g._sn;for(var m in g){h.push("&");h.push(f(m));h.push("=");h.push(f(g[m]))}h.push("&emsg=");h.push(f(e.name+
+":"+e.message));var j=h.join("");if(H(j))j=j.substr(0,2E3);c=j;var k=window.gbar.logger._aem(a,c);t(k)}}catch(r){}}var H=function(a){return a.length>=2E3},ma=function(a,b){return b};function I(a){o=a;l("_itl",H,u);l("_aem",ma,u);l("ml",o,u);a={};v.er=a}if(_tvv(""))I(function(a){throw a;});else _tvv("1")&&Math.random()<F&&I(_mlToken);var _E="left",K=function(a,b){var c=a.className;J(a,b)||(a.className+=(c!=""?" ":"")+b)},N=function(a,b){var c=a.className,e=RegExp("\\s?\\b"+b+"\\b");if(c&&c.match(e))a.className=c.replace(e,"")},J=function(a,b){var c=RegExp("\\b"+b+"\\b"),e=a.className;return!!(e&&e.match(c))};l("ca",K);l("cr",N);l("cc",J);var na=["gb_71","gb_155"],O;function oa(a){O=a}function pa(a){var b=O&&!a.href.match(/.*\/accounts\/ClearSID[?]/)&&encodeURIComponent(O());if(b)a.href=a.href.replace(/([?&]continue=)[^&]*/,"$1"+b)}function qa(a){try{var b=(document.forms[0].q||"").value;if(b)a.href=a.href.replace(/([?&])q=[^&]*|$/,function(e,g){return(g||"&")+"q="+encodeURIComponent(b)})}catch(c){o(c)}}
+var ra=function(){for(var a=[],b=0,c;c=na[b];++b)(c=document.getElementById(c))&&a.push(c);return a},sa=function(){var a=ra();return a.length>0?a[0]:null},ta=function(){return document.getElementById("gb_70")},P={},Q={},R={},S=undefined,ya=function(a,b){try{var c=document.getElementById("gb");K(c,"gbpdjs");T();ua(document.body)&&K(c,"gbrtl");if(b&&b.getAttribute){var e=b.getAttribute("aria-owns");if(e.length){var g=document.getElementById(e);if(g){var f=b.parentNode;if(S==e){S=undefined;N(f,"gbto")}else{if(S){var h=
+document.getElementById(S);if(h&&h.getAttribute){var m=h.getAttribute("aria-owner");if(m.length){var j=document.getElementById(m);j&&j.parentNode&&N(j.parentNode,"gbto")}}}va(g)&&wa(g);S=e;K(f,"gbto")}}}}z(function(){i.tg(a,b,d)});xa(a)}catch(k){o(k)}},za=function(a){z(function(){i.close(a)})},ua=function(a){var b,c="direction",e=document.defaultView;if(e&&e.getComputedStyle){if(a=e.getComputedStyle(a,""))b=a[c]}else b=a.currentStyle?a.currentStyle[c]:a.style[c];return b=="rtl"},Ba=function(a,b,c){if(a)try{var e=
+document.getElementById("gbd5");if(e){var g=e.firstChild,f=g.firstChild,h=document.createElement("li");h.className=b+" gbmtc";h.id=c;a.className="gbmt";h.appendChild(a);if(f.hasChildNodes()){c=[["gbkc"],["gbf","gbe","gbn"],["gbkp"],["gbnd"]];e=0;var m=f.childNodes.length;g=false;for(var j=-1,k=0,r;r=c[k];k++){for(var ea=0,L;L=r[ea];ea++){for(;e<m&&J(f.childNodes[e],L);)e++;if(L==b){f.insertBefore(h,f.childNodes[e]||null);g=d;break}}if(g){if(e+1<f.childNodes.length){var fa=f.childNodes[e+1];if(!J(fa.firstChild,
+"gbmh")&&!Aa(fa,r))j=e+1}else if(e-1>=0){var ha=f.childNodes[e-1];if(!J(ha.firstChild,"gbmh")&&!Aa(ha,r))j=e}break}e>0&&e+1<m&&e++}if(j>=0){var M=document.createElement("li"),ia=document.createElement("div");M.className="gbmtc";ia.className="gbmt gbmh";M.appendChild(ia);f.insertBefore(M,f.childNodes[j])}i.addHover&&i.addHover(a)}else f.appendChild(h)}}catch(Ma){o(Ma)}},Aa=function(a,b){for(var c=b.length,e=0;e<c;e++)if(J(a,b[e]))return d;return false},Ca=function(a,b,c){Ba(a,b,c)},Da=function(a,b){Ba(a,
+"gbe",b)},Ea=function(){z(function(){i.pcm&&i.pcm()})},Fa=function(a,b,c,e,g,f,h,m){z(function(){i.paa&&i.paa(a,b,c,e,g,f,h,m)})},Ga=function(a,b){P[a]||(P[a]=[]);P[a].push(b)},Ha=function(a,b){Q[a]||(Q[a]=[]);Q[a].push(b)},Ia=function(a,b){R[a]||(R[a]=[]);R[a].push(b)},xa=function(a){a.preventDefault&&a.preventDefault();a.returnValue=false;a.cancelBubble=d},U=null,wa=function(a,b){T();if(a){V(a,"Opening&hellip;");W(a,d);var c=typeof b!="undefined"?b:1E4,e=function(){Ja(a)};U=window.setTimeout(e,
+c)}},Ka=function(a){T();if(a){W(a,false);V(a,"")}},Ja=function(a){try{T();var b=a||document.getElementById(S);if(b){V(b,"This service is currently unavailable.%1$sPlease try again later.","%1$s");W(b,d)}}catch(c){o(c)}},V=function(a,b,c){if(a&&b){var e=va(a);if(e){if(c){e.innerHTML="";b=b.split(c);c=0;for(var g;g=b[c];c++){var f=document.createElement("div");f.innerHTML=g;e.appendChild(f)}}else e.innerHTML=b;W(a,d)}}},W=function(a,b){var c=b!==undefined?b:d;c?K(a,"gbmsgo"):N(a,"gbmsgo")},va=function(a){for(var b=0,c;c=a.childNodes[b];b++)if(J(c,
+"gbmsg"))return c},T=function(){U&&window.clearTimeout(U)};l("so",sa);l("sos",ra);l("si",ta);l("tg",ya);l("close",za);l("addLink",Ca);l("addExtraLink",Da);l("pcm",Ea);l("paa",Fa);l("ddld",wa);l("ddrd",Ka);l("dderr",Ja);l("rtl",ua);l("bh",P);l("abh",Ga);l("dh",Q);l("adh",Ha);l("ch",R);l("ach",Ia);l("qs",qa);l("setContinueCb",oa);l("pc",pa);var La={};v.base=La;l("wg",{rg:{}});var Na={tiw:_tvn("15000",0),tie:_tvn("30000",0)};v.wg=Na;var Oa={thi:_tvn("10000",0),thp:_tvn("180000",0),tho:_tvn("5000",0)};v.wm=Oa;var Pa=0,Ra=function(a){if(a!=Pa){Pa=a;p(Qa.i,{c:a})}},Sa=function(a){var b=document.getElementById("gbmpp");if(b)b.style.display=a?"block":"none"};w.push(["m",{url:"//ssl.gstatic.com/gb/js/smm_7632e8ab5fd40764c93621287a192624.js"}]);l("logNotificationsCountUpdate",Ra);l("depl",Sa);var Ta={};v.heavy=Ta;if(_tvv("1")){var Ua=_tvv("");w.push(["gc",{auto:Ua,url:"https://ssl.gstatic.com/gb/js/abc/gcm_e9b1c8ddbdbba9ea5c035548a0320af1.js"}]);var Va={version:"gcm_e9b1c8ddbdbba9ea5c035548a0320af1.js",index:"0",lang:"en"};v.gc=Va;var X=function(a){if(window.googleapis)a&&a();else{a&&D(a);C("gc")}};l("lGC",X);_tvv("1")&&l("lPWF",X)};window.__PVT="APfa0bp7hmxdLiYXv4w2RIFFnVjAuYkE2QtVLu-OtToPM3-v2oNiKarnL37Dsm7VnzxtlZwQ-mVATKGdRGuCaxbK_cNS_R92_w==";if(_tvv("1")&&_tvv("1")){var Y=function(a){X(function(){y("pw",a);C("pw")})};l("lPW",Y);w.push(["pw",{url:"https://ssl.gstatic.com/gb/js/abc/pwm_4e7edac1f189ab82bc4091ff7bfe6f4b.js"}]);var Wa=[],Xa=function(a){Wa[0]=a},Ya=function(a,b){var c=b||{};c._sn="pw";o(a,c)},Za={signed:Wa,elog:Ya,base:"https://plusone.google.com/u/0",loadTime:(new Date).getTime()};v.pw=Za;var $a=function(a,b){for(var c=b.split("."),e=function(){var m=arguments;a(function(){for(var j=i,k=0,r=c.length-1;k<r;++k)j=j[c[k]];j[c[k]].apply(j,m)})},g=i,f=0,h=c.length-
+1;f<h;++f)g=g[c[f]]=g[c[f]]||{};return g[c[f]]=e};$a(Y,"pw.clk");$a(Y,"pw.hvr");l("su",Xa,i.pw)};var ab=function(a){y("uf",a)};w.push(["uf",{url:"//ssl.gstatic.com/gb/js/fm_8215ed05bd3fa7f15e7b7eb600337a84.js"}]);var Z={};Z.j=function(a){i.feedback.ds=a};Z.k=function(){ab(function(){i.feedback.startFeedback()});C("uf")};l("feedback",Z);l("startFeedback",Z.k,Z);l("dsc",Z.j,Z);var bb={productId:"sandbar:38",locale:"en"};v.feedback=bb;if(_tvv("1")){var $={},cb=function(a,b){$[a]||($[a]=[]);$[a].push(b)},db=function(a){if(a.type)for(var b=$[a.type],c=0;b&&c<b.length;++c)try{b[c](a)}catch(e){o(e)}};l("bc",{subscribe:cb,dispatch:db})};var eb=_tvf("0.01",1.0E-4),Qa=aa;
+function fb(a,b){var c=encodeURIComponent,e=["//www.google.com/gen_204?atyp=i&zx=",(new Date).getTime(),"&oge=",a,"&ogex=",c("30315"),"&ogf=",i.bv.f,"&ogp=",c("38"),"&ogsr=",Math.round(1/eb),"&ogv=",c("1324001618.1325613523"),"&ogd=",c("com"),"&ogl=",c("en")];if(b){if("ogw"in b){e.push("&ogw="+b.ogw);delete b.ogw}var g;g=b;var f=[],h;for(h in g){f.length!=0&&f.push(",");f.push(h);f.push(".");f.push(g[h])}g=f.join("");
+if(g!=""){e.push("&ogad=");e.push(c(g))}}t(e.join(""))}if(_tvv("1")&&Math.random()<eb){p=fb;l("il",p,u);var gb={};v.il=gb};if(_tvv("1")||_tvv("1")){var hb;hb=_tvv("")?"/u/0/b//_/notifications/frame":"/u/0/_/notifications/frame";var ib={uo:"",s:"https",h:"plus.google.com",po:"",pa:hb,q:"",f:"pid=38",ipd:_tvn("5",5),psec:_tvn("",-1),it:_tvn("60",-1),l:"en",sto:_tvn("10",10),mnr:_tvn("0",
+0),co:_tvv("")};v.sw=ib};if(_tvv("1")){var jb=[],kb=function(a){jb.push(a)};l("nuc",jb);l("anuc",kb);var lb=function(){z(function(){i.lni()})};l("gbar.lni",lb);var mb={ht:_tvn("100",0),n:"Notifications",es:_tvn("1",0)};v.no=mb};if(_tvv("1")){var nb=[],ob=function(a){nb.push(a)};l("smc",nb);l("asmc",ob);var pb={ht:_tvn("100",0),n:"Share"};v.sb=pb};var qb=function(){i.prm&&i.prm()},rb=function(a){y("m",function(){i.spn(a)})},sb=function(a){y("m",function(){i.spp(a)})},tb=function(){y("m",function(){i.spd()})};l("spn",rb);l("spp",sb);l("spd",tb);Ga("gbd4",qb);if(_tvv("1")){var ub={g:_tvv(""),d:_tvv(""),e:"grigory.yaroslavtsev@gmail.com",m:"gmail.com",p:"//lh3.googleusercontent.com/-1pySBFakzXI/AAAAAAAAAAI/AAAAAAAAAAA/NtaAQf0BlTM/s96-c/photo.jpg",xp:_tvv("1"),mg:"%1$s (delegated)",md:"%1$s (default)"};v.prf=ub};function vb(){function a(){if(document.getElementById("gb")==null)p(Qa.a,{_m:"nogb"});else{for(var k;k=f[h++];)if(k[0]=="m"||k[1].auto)break;if(k){B(2,k[0]);A(k[1].url)}h<f.length&&setTimeout(a,0)}}function b(){g-- >0?setTimeout(b,0):a()}var c=_tvv("1"),e=_tvv(""),g=3,f=w,h=0,m=window.gbarOnReady;if(m)try{m()}catch(j){o(j)}if(e)l("ldb",a);else if(c)window.addEventListener?window.addEventListener("load",b,false):window.attachEvent("onload",
+b);else b()}l("rdl",vb);}catch(e){window.gbar&&gbar.logger&&gbar.logger.ml(e);}})();
+(function(){try{var b=window.gbar,c=function(a,d){b[a]=function(){if(window.navigator&&window.navigator.userAgent)return d(window.navigator.userAgent);return false}},e=function(a){return!/AppleWebKit\/.+(?:Version\/3\.|Chrome\/[01]\.)/.test(a)},f=function(a){return a.indexOf("iPad")==-1};c("bs_w",e);c("bs_s",f);}catch(e){window.gbar&&gbar.logger&&gbar.logger.ml(e);}})();
+(function(){try{window.gbar.rdl();}catch(e){window.gbar&&gbar.logger&&gbar.logger.ml(e);}})();
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/250eba/system/app/themes/default/standard-css-default-ltr-ltr-jfk.css" />
+<style type="text/css">
+          .goog-ws-layout-system-footer {
+            background: #EAF3FD;
+          }
+        </style>
+<link rel="stylesheet" type="text/css" href="/site/grigoryyaroslavtsev/_/rsrc/1323298298000/system/app/css/overlay.css?cb=default%25%25150goog-ws-nosidenonethemedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/site/grigoryyaroslavtsev/_/rsrc/1323298298000/system/app/css/camelot/collaborator-chrome.css" />
+<link rel="stylesheet" type="text/css" href="/site/grigoryyaroslavtsev/_/rsrc/1323298298000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/site/grigoryyaroslavtsev/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Grigory Yaroslavtsev</title>
+<style type="text/css">#gb{font:13px/27px Arial,sans-serif;height:30px}#gbz,#gbg{position:absolute;white-space:nowrap;top:0;height:30px;z-index:1000}#gbz{left:0;padding-left:4px}#gbg{right:0;padding-right:5px}#gbs{background:transparent;position:absolute;top:-999px;visibility:hidden;z-index:998}.gbto #gbs{background #fff}#gbx3,#gbx4{background-color:#2d2d2d;background-image:none;_background-image:none;background-position:0 -138px;background-repeat:repeat-x;border-bottom:1px solid #000;font-size:24px;height:29px;_height:30px;opacity:1;filter:alpha(opacity=100);position:absolute;top:0;width:100%;z-index:990}#gbx3{left:0}#gbx4{right:0}.gbtcb{position:absolute;visibility:hidden}#gbz .gbtcb{right:0}#gbg .gbtcb{left:0}.gbxx{display:none !important}.gbm{position:absolute;z-index:999;top:-999px;visibility:hidden;text-align:left;border:1px solid #bebebe;background:#fff;-moz-box-shadow:-1px 1px 1px rgba(0,0,0,.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.2)}.gbrtl .gbm{-moz-box-shadow:1px 1px 1px rgba(0,0,0,.2)}.gbto .gbm,.gbto #gbs{top:29px;visibility:visible}#gbz .gbm,#gbz #gbs{left:0}#gbg .gbm,#gbg #gbs{right:0}.gbxms{background-color:#ccc;display:block;position:absolute;z-index:1;top:-1px;left:-2px;right:-2px;bottom:-2px;opacity:.4;-moz-border-radius:3px;filter:progid:DXImageTransform.Microsoft.Blur(pixelradius=5);*opacity:1;*top:-2px;*left:-5px;*right:5px;*bottom:4px;-ms-filter:"progid:DXImageTransform.Microsoft.Blur(pixelradius=5)";opacity:1\0/;top:-4px\0/;left:-6px\0/;right:5px\0/;bottom:4px\0/}.gbma{position:relative;top:-1px;border-style:solid dashed dashed;border-color:transparent;border-top-color:#c0c0c0;display:-moz-inline-box;display:inline-block;font-size:0;height:0;line-height:0;width:0;border-width:3px 3px 0;padding-top:1px;left:4px}#gbztms1,#gbi4m1,#gbi4s,#gbi4t{zoom:1}.gbtc,.gbmc,.gbmcc{display:block;list-style:none;margin:0;padding:0}.gbmc{background:#fff;padding:10px 0;position:relative;z-index:2;zoom:1}.gbt{position:relative;display:-moz-inline-box;display:inline-block;line-height:27px;padding:0;vertical-align:top}.gbt{*display:inline}.gbto{box-shadow:0 2px 4px rgba(0,0,0,.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2)}.gbzt,.gbgt{cursor:pointer;display:block;text-decoration:none !important}.gbts{border-left:1px solid transparent;border-right:1px solid transparent;display:block;*display:inline-block;padding:0 5px;position:relative;z-index:1000}.gbts{*display:inline}.gbto .gbts{background:#fff;border-color:#bebebe;color:#36c;padding-bottom:1px;padding-top:2px}.gbz0l .gbts{color:#fff;font-weight:bold}.gbtsa{padding-right:9px}#gbz .gbzt,#gbz .gbgt,#gbg .gbgt{color:#ccc!important}.gbtb2{display:block;border-top:2px solid transparent}.gbto .gbzt .gbtb2,.gbto .gbgt .gbtb2{border-top-width:0}.gbtb .gbts{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png);background-position:-27px -22px;border:0;font-size:0;padding:29px 0 0;*padding:27px 0 0;width:1px}.gbzt-hvr,.gbzt:focus,.gbgt-hvr,.gbgt:focus{background-color:#4c4c4c;background-image:none;_background-image:none;background-position:0 -102px;background-repeat:repeat-x;outline:none;text-decoration:none !important}.gbpdjs .gbto .gbm{min-width:99%}.gbz0l .gbtb2{border-top-color:#dd4b39!important}#gbi4s,#gbi4s1{font-weight:bold}#gbg6.gbgt-hvr,#gbg6.gbgt:focus{background-color:transparent;background-image:none}.gbg4a{font-size:0;line-height:0}.gbg4a .gbts{padding:27px 5px 0;*padding:25px 5px 0}.gbto .gbg4a .gbts{padding:29px 5px 1px;*padding:27px 5px 1px}#gbi4i,#gbi4id{left:5px;border:0;height:24px;position:absolute;top:1px;width:24px}.gbto #gbi4i,.gbto #gbi4id{top:3px}.gbi4p{display:block;width:24px}#gbi4id,#gbmpid{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png)}#gbi4id{background-position:-29px -54px}#gbmpid{background-position:-58px 0px}#gbmpi,#gbmpid{border:none;display:inline-block;margin:10px 20px;height:48px;width:48px}#gbmpi,#gbmpid{*display:inline}#gbg5{font-size:0}#gbgs5{padding:5px !important}.gbto #gbgs5{padding:7px 5px 6px !important}#gbi5{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png);background-position:0 0;display:block;font-size:0;height:17px;width:16px}.gbto #gbi5{background-position:-6px -22px}#gbgf .gbmt,.gbn .gbmt,.gbn .gbmt:visited,.gbnd .gbmt,.gbnd .gbmt:visited{color:#dd8e27 !important}.gbf .gbmt,.gbf .gbmt:visited{color:#900 !important}.gbmt,.gbml1,.gbmt:visited,.gbml1:visited{color:#36c !important;text-decoration:none !important}.gbmt,.gbmt:visited{display:block}.gbml1,.gbml1:visited{display:inline-block;margin:0 10px;padding:0 10px}.gbml1{*display:inline}.gbml1-hvr,.gbml1:focus{background:#eff3fb;outline:none}#gbpm .gbml1{display:inline;margin:0;padding:0;white-space:nowrap}#gbpm .gbml1-hvr,#gbpm .gbml1:focus{background:none;text-decoration:underline !important}.gbmt{padding:0 20px}.gbmt-hvr,.gbmt:focus{background:#eff3fb;cursor:pointer;outline:0 solid black;text-decoration:none !important}.gbm0l,.gbm0l:visited{color:#000 !important;font-weight:bold}.gbmh{border-top:1px solid #e5e5e5;font-size:0;margin:10px 0}#gbd4 .gbmh{margin:0}.gbmtc{padding:0;margin:0;line-height:27px}.GBMCC:last-child:after,#GBMPAL:last-child:after{content:'\0A\0A';white-space:pre;position:absolute}#gbd4 .gbpc,#gbmpas .gbmt{line-height:17px}#gbd4 .gbpgs .gbmtc{line-height:27px}#gbmpas .gbmt{padding-bottom:10px;padding-top:10px}#gbmple .gbmt,#gbmpas .gbmt{font-size:15px}#gbd4 .gbpc{display:inline-block;margin:6px 0 10px;margin-right:50px;vertical-align:top}#gbd4 .gbpc{*display:inline}.gbpc .gbps,.gbpc .gbps2{display:block;margin:0 20px}#gbmplp.gbps{margin:0 10px}.gbpc .gbps{color:#000;font-weight:bold}.gbpc .gbps2{font-size:13px}.gbpc .gbpd{margin-bottom:5px}.gbpd .gbmt,.gbmpmtd .gbmt{color:#666 !important}.gbmpme,.gbps2{color:#666;display:block;font-size:11px}.gbp0 .gbps2,.gbmpmta .gbmpme{font-weight:bold}#gbmpp{display:none}#gbd4 .gbmcc{margin-top:5px}.gbpmc{background:#edfeea}.gbpmc .gbmt{padding:10px 20px}#gbpm{*border-collapse:collapse;border-spacing:0;margin:0;white-space:normal}#gbpm .gbmt{border-top:none;color:#666 !important;font:11px Arial,sans-serif}#gbpms{*white-space:nowrap}.gbpms2{font-weight:bold;white-space:nowrap}#gbmpal{*border-collapse:collapse;border-spacing:0;margin:0;white-space:nowrap}.gbmpala,.gbmpalb{font:13px Arial,sans-serif;line-height:27px;padding:10px 20px 0;white-space:nowrap}.gbmpala{padding-left:0;text-align:left}.gbmpalb{padding-right:0;text-align:right}.gbp0 .gbps,.gbmpmta .gbmpmn{color:#000;display:inline-block;font-weight:bold;padding-right:34px;position:relative}.gbp0 .gbps,.gbmpmta .gbmpmn{*display:inline}.gbmpmtc,.gbp0i{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png);background-position:0 -54px;position:absolute;height:21px;width:24px;right:0;top:-3px}#gbd1 .gbmc,#gbd3 .gbmc{padding:0}#gbgs1{padding-top:0;text-align:center}.gbto #gbi1{padding-top:2px}#gbi1{color:#fff;display:block;font-size:11px;font-weight:bold;position:relative;width:21px}#gbi1c{bottom:-4px;color:#fff;display:block;font-size:11px;font-weight:bold;position:absolute;width:21px;-moz-transition-property:bottom;-moz-transition-duration:0;-o-transition-property:bottom;-o-transition-duration:0;-webkit-transition-property:bottom;-webkit-transition-duration:0}#gbi1a{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png);background-position:0 -274px;overflow:hidden;position:absolute;right:5px;top:3px;height:20px;width:21px}.gbto #gbi1a{_background-position:-52px -274px}#gbi1a.gbid{background-position:-26px -274px}.gbto #gbi1a.gbid{_background-position:-78px -274px}#gbi1.gbids{color:#999}.gbto #gbi1a{top:5px}#gbg3 .gbts{line-height:20px}.gbgsc{padding-bottom:7px;position:relative;top:3px}.gbgsca,.gbgscb{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png) no-repeat;_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png) no-repeat;height:20px;position:absolute;top:0;width:3px}.gbgsca{left:0;background-position:0 -300px}.gbgscb{right:0;background-position:-153px -300px}.gbgsb{background:url(//ssl.gstatic.com/gb/images/h_bedf916a.png);_background:url(//ssl.gstatic.com/gb/images/h8_3dd87cd8.png);background-position:-3px -300px;height:20px;right:3px;left:3px;position:absolute;top:0}.gbgss{padding:0 6px;visibility:hidden}.gbgst,.gbgsta{color:#666;padding-right:5px;padding-left:3px}.gbgsta{display:none}.gbto .gbgsb,.gbto .gbgsca,.gbto .gbgscb{background:none}.gbto .gbgst{display:none}.gbgsc,.gbgst,.gbto .gbgsta{display:inline-block}.gbgsc,.gbgst,.gbto .gbgsta{*display:inline}#gbns{display:none}.gbmwc,#gbwc{right:0;margin-top:1px;position:absolute;top:-999px;width:440px;z-index:1000}#gbwc.gbmwca{top:29px}#gbmpi,#gbmpid{margin-right:0;height:96px;width:96px}.gbmsg{display:none;position:absolute;top:0}.gbmsgo .gbmsg{display:block;background:#fff;width:100%;text-align:center;z-index:3;top:30%}#gbd1,#gbd1 .gbmc{width:440px;height:190px}#gbd3,#gbd3 .gbmc{width:440px;height:8em}</style>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+	</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28247616-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- End of Google Analytics -->
+<script type="text/javascript">
+function recordOutboundLink(link, category, action) {
+  try {
+      var pageTracker=_gat._getTracker("UA-28247616-1");
+          pageTracker._trackEvent(category, action);
+	      setTimeout('document.location = "' + link.href + '"', 100)
+	        }catch(err){}
+}
+</script>
+
+<!-- End of External Click Counting Delay -->
+
+
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en_GB            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-header-divider sites-clear">
+<div class="sites-ccc-nav">
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-collaborator-bar">
+<div id="sites-collaborator-buttons">
+<div id="goog-ws-page-tools-div">
+<div id="page-btns">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0">
+<tr class="sites-header-primary-row">
+<td id="sites-header-title">
+<div class="sites-header-cell-buffer-wrapper">
+<a href="http://grigory.us">
+<img src="pics/logo.jpg" id="logo-img-id" onload="ie6ImgFix('logo-img-id');" alt="Logo" class="sites-logo" />
+</a>
+<h2>
+<a href="http://grigory.us" dir="ltr">Grigory Yaroslavtsev</a>
+</h2>
+</div>
+</td>
+<td class="sites-layout-searchbox">
+<div class="sites-header-cell-buffer-wrapper">
+<div>
+</div>
+</div>
+</td>
+</tr>
+<tr class="sites-header-secondary-row">
+<td colspan="2">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+	
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0">
+<tr>
+<td valign="top", width="45%">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+	<table xmlns="http://www.w3.org/1999/xhtml" cellpadding="10" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody>
+			<tr>
+<td><div dir="ltr"><div>
+<!-- <div><b><font size="5">Home</font></b></div>
+
+<br />
+-->			
+			
+			<span style="font-size:medium">Welcome to my research homepage! It becomes outdated too fast, but I am trying to catch up.</span></div>
+<font size="3">
+	<div></div>	
+<br />
+
+
+<div><font color="red"><b>Currently I am an intern at Microsoft Research <a href="http://research.microsoft.com/en-us/groups/theory">Theory Group</a> in Redmond.</b></font></div>
+<br/>
+
+<font color="brown"><b>After graduation I am starting as a mathematics postdoc at Brown <a href="http://icerm.brown.edu"><img src="icerm_logo.png" style="max-width:10%"/></a> at Fall 2013.</b></font>
+
+	<div></div>	
+	
+<br />
+I am a 3rd year Ph.D. candidate in the <a href="http://www.cse.psu.edu/theory" target="_blank" rel="nofollow"><b>Theory group</b></a> at Pennsylvania State University. My advisor is <a href="http://www.cse.psu.edu/%7Esofya" target="_blank" rel="nofollow"><b>Sofya Raskhodnikova</b></a>.<br />
+<p>
+<span style="font-size:13px"><font size="3">You can have a look at my 
+<a href="files/Dropbox/Docs/Research/CV/yaroslavtsev-cv.pdf" target="_blank" onclick="_gaq_push(['_trackEvent','Download','PDF',this.href]);"><b>CV</b></a>, or find me on
+<a href="http://scholar.google.com/citations?user=AbRFE3IAAAAJ&hl=en"><b>Google Scholar</b></a>, <a href="http://www.linkedin.com/pub/grigory-yaroslavtsev/14/b4b/186"><b>LinkedIn</b></a>,
+<a href="http://www.facebook.com/yaroslavtsev" rel="nofollow"><b>Facebook</b></a>, 
+<a href="http://www.twitter.com/gyaroslavtsev" style="font-weight:bold" target="_blank" rel="nofollow">Twitter</a>, 
+<b><a href="http://vkontakte.ru/id6748" rel="nofollow">Vkontakte</a> </b>or<b> 
+<a href="http://gplus.to/grigory" class="link" target="_blank" rel="nofollow"><span>Google+</span></a></b>.
+</font><br />
+</span>
+</p>
+
+</font>
+<div><font size="3"><br />
+</font></div>
+<div>
+<div>
+<div><span style="font-size:medium">I am interested in efficient combinatorial algorithms for sparsification, summarization and testing properties of large data. I am focused on understanding the role of concise representations in:</span></div><div>
+<ul><li><font size="3">Approximation algorithms</font></li>
+<li><font size="3">Learning theory and property testing</font></li>
+<li><font size="3">Communication compelxity</font></li>
+<li><font size="3">Differential privacy</font></li>
+</ul>
+<font size="3">
+<!--In general, I am interested in:<br />
+</font>
+<ul><li><font size="3">Algorithms (exact/randomized/approximation/sublinear) and Data Structures</font></li>
+<li><font size="3">Combinatorics and Combinatorial Optimization</font></li>
+<li><font size="3">Computational Complexity</font></li></ul>
+-->
+<font size="3">
+<div><font size="3"><span style="font-size:13px"><font size="3">
+<!--
+I got<b> </b>my </font><font size="3">M.Sc. from <a href="http://www.aptu.ru/" style="color:rgb(78,125,191)" rel="nofollow">St. Petersburg Academic University of the RAS</a> (Thesis advisor <a href="http://logic.pdmi.ras.ru/~hirsch" style="color:rgb(78,125,191)" rel="nofollow">Edward A. Hirsch</a>).<br />
+-->
+</font></span></font></div>
+</font>
+<font size="3">
+<div><font size="3"><br />
+</font></div>
+<div>Some <b>open problems </b>(<a href="files/directed-spanners-open-problems.pptx" target="_blank" rel="nofollow">ppt</a>, <a href="files/grigory.pdf" target="_blank" rel="nofollow">pdf</a>), based on our <a href="files/k-spanner-algo-ICALP2011.pdf" rel="nofollow">work on approximation for directed spanners</a> (presented at Open Problem Session of <a href="http://intractability.princeton.edu/blog/2010/07/workshop-approximation-algorithms-the-last-decade-and-the-next/" target="_blank" rel="nofollow">Princeton Workshop on Approximation Algorithms</a>).</div>
+<br />
+<b>
+E-mail </b></font><span style="font-size:medium">
+<!--
+(before using, please, check the disclaimer below)
+-->
+</span><font size="3">: "My first name"@</font><span style="font-size:medium">"My first name".us.</span></div>
+</div>
+</div>
+
+<br />
+<br />
+
+<!--
+<div><span style="font-size:medium">For questions about the Android application <a href="http://www.fbreader.org/FBReaderJ" target="_blank" rel="nofollow">FBReaderJ</a>, which I <a href="http://old.fbreader.org/FBReaderJ/" target="_blank" rel="nofollow">contributed to</a>, please, check this link: </span><a href="http://www.fbreader.org/content/about-us" rel="nofollow"><font size="3">http://www.fbreader.org/content/about-us</font></a>.</div>
+<div><font size="3">For questions about the <a href="http://logic.pdmi.ras.ru/~arist/circ_to_sat/" target="_blank" rel="nofollow">software for finding optimal Boolean circuits using SAT-solvers</a>, please, contact <a href="http://logic.pdmi.ras.ru/~arist/" target="_blank" rel="nofollow">Arist Kojevnikov</a> or <a href="http://logic.pdmi.ras.ru/~kulikov/" target="_blank" rel="nofollow">Alexander S. Kulikov</a>.</font></div>
+<div><br />
+</div>
+<div><span style="font-size:medium"><br />
+</span></div>
+-->
+<div><b><font size="5">Papers</font></b></div>
+<br />
+<div>
+	
+<ul><li><font size="3">
+	<font size="3"><a href="http://people.csail.mit.edu/eblais/" target="_blank" rel="nofollow">E. Blais</a>, 
+		<a href="http://www.cse.psu.edu/~sofya" target="_blank" rel="nofollow">S. Raskhodnikova</a>, 
+		G. Yaroslavtsev</font></li>
+<div><font size="3"><b>Lower Bounds for Testing Properties of Functions over Hypergrid Domains</b>
+</font>
+[<a href="files/publications/BRY13.pdf" style="background-image:url('')" target="_blank" rel="nofollow">Preliminary full version (pdf)</a>][<a href="http://eccc.hpi-web.de/report/2013/036/" style="background-image:url('')" target="_blank" rel="nofollow">ECCC</a>]	
+</div>
+</span></span></span></font>
+</ul>
+
+<ul><li><font size="3">
+	<font size="3"><a href="http://www.contrib.andrew.cmu.edu/~mmolinar/" target="_blank" rel="nofollow">M. Molinaro</a>, 
+		<a href="http://www.almaden.ibm.com/cs/people/dpwoodru/" target="_blank" rel="nofollow">D. Woodruff</a>, 
+		G. Yaroslavtsev</font></li>
+<div><font size="3"><b>Beating the Direct Sum Theorem in Communication Complexity with Applications to Sketching</b> 
+</font>
+[<a href="files/publications/MWY-SODA13.pdf" style="background-image:url('')" target="_blank" rel="nofollow">Camera-ready version (pdf)</a>]	
+</div>
+</span></span></span></font>
+<div><font size="3"><span>  SODA 2013. </span></font>
+</ul>
+</div>
+</div>
+
+<ul><li><font size="3">
+	<font size="3"><a href="http://www.cse.psu.edu/~sofya" target="_blank" rel="nofollow">S. Raskhodnikova</a>, 
+	G. Yaroslavtsev</font></li>
+<div><font size="3"><b>Learning Pseudo-Boolean k-DNF and Submodular Functions</b> 
+</font>
+[<a href="http://arxiv.org/abs/1208.2294" style="background-image:url('')" target="_blank" rel="nofollow">Preprint on arXiv (pdf)</a>]	
+</div>
+</span></span></span></font>
+<div><font size="3"><span>  SODA 2013. </span></font>
+</ul>
+</div>
+</div>
+
+<ul><li><font size="3">
+		G. Yaroslavtsev, <a href="http://dimacs.rutgers.edu/~graham/" target="_blank" rel="nofollow">G. Cormode</a>, 
+	<a href="http://www2.research.att.com/~magda/" target="_blank" rel="nofollow">Cecilia M. Procopiuc</a>, 
+	<a href="http://www2.research.att.com/~divesh/" target="_blank" rel="nofollow">Divesh Srivastava</a>
+	</font></li>
+<div><font size="3"><b>Accurate and Efficient Private Release of Datacubes and Contingency Tables</b>
+		[<a href="http://arxiv.org/pdf/1207.6096">Preprint on arXiv (pdf)</a>]</span></font></font></div>
+</span></span></span></font>
+</div>
+<div><font size="3"><span>  ICDE 2013. 
+</ul>
+</div>
+</div>
+
+<ul><li><font size="3">
+	<font size="3"><a href="http://www.cse.psu.edu/~berman" target="_blank" rel="nofollow">P. Berman</a>, 
+	G. Yaroslavtsev</font></li>
+<div><font size="3"><b>Primal-Dual Algorithms for Node-Weighted Network Design in Planar Graphs</b> 
+</font>
+[<a href="files/BermanYaroslavtsev-APPROX12.pdf" style="background-image:url('')" target="_blank" rel="nofollow">Preliminary full version (pdf)</a>]	
+</div>
+</span></span></span></font>
+<div><font size="3"><span>  APPROX 2012. </span></font>
+</ul>
+</div>
+</div>
+
+	
+	
+<ul><li><font size="3">
+	V. Karwa, 
+	<a href="http://www.cse.psu.edu/~sofya/" target="_blank" rel="nofollow">S. Raskhodnikova</a>, 
+	<a href="http://www.cse.psu.edu/~asmith/" target="_blank" rel="nofollow">A. Smith</a>, 
+	G. Yaroslavtsev</font></li>
+<div><font size="3"><b>Private Analysis of Graph Structure </b>
+[<a href="files/PrivateGraphStructure-VLDB11.pdf" style="background-image:url('')" target="_blank" rel="nofollow">Camera-ready version (pdf)</a>]	
+</font></div>
+</span></span></span></font>
+<div><font size="3"><span>  VLDB 2011, Research track. </span></font>
+</ul>
+</div>
+</div>
+
+<ul><li>
+	<font size="3"><a href="http://www.cse.psu.edu/~berman" target="_blank" rel="nofollow">P. Berman</a>, 
+	</font><font size="3"><a href="http://web.mit.edu/~abhatt/www/" target="_blank" rel="nofollow">A. Bhattacharyya</a>, 
+	<a href="http://www.cs.princeton.edu/~kmakaryc/" target="_blank" rel="nofollow">K. Makarychev</a>, 
+	</font><font size="3"><a href="http://www.cse.psu.edu/~sofya" target="_blank" rel="nofollow">S. Raskhodnikova</a>, 
+	G. Yaroslavtsev
+</font></li>
+
+<div><span style="font-family:sans-serif;line-height:20px">
+<font size="3"><b>Improved Approximation for the Directed Spanner Problem </b>
+[<a href="files/publications/directed-spanners-journal-submitted.pdf" target="_blank" rel="nofollow">Preliminary full version (pdf)</a>]</font></span></div>
+
+
+<div><font size="3"><span>ICALP 2011, Track A. </div>
+<p>
+<div><font color="green">Full version is titled <b>``Approximation Algorithms for Spanner Problems and Directed Steiner Forest''</b> and appeared in the special issue of ``Information and Computation'' for ICALP'11. </font> <a href="http://www.sciencedirect.com/science/article/pii/S0890540112001484">[Link]</a> </span></font></div><div><font size="2"><span>  
+<p>  
+This is a merged paper, based on preprints by A. Bhattacharyya and K. Makarychev [<a href="http://arxiv.org/abs/1012.4062" target="_blank" rel="nofollow">Extended abstract: (pdf)</a>] and 
+P. Berman, S. Raskhodnikova, G. Yaroslavtsev [<a href="http://www.cse.psu.edu/research/publications/tech-reports/2010/10-009.pdf" target="_blank" rel="nofollow">Extended abstract: (pdf)</a>]. 
+</span></font></div>
+</ul>
+
+<ul><li><font size="3">
+		<a href="http://www.cse.psu.edu/~berman" target="_blank" rel="nofollow">P. Berman</a>, 
+		<a href="http://web.mit.edu/~abhatt/www/" target="_blank" rel="nofollow">A. Bhattacharyya</a>, 
+		<a href="http://web.mit.edu/elena_g/www/" target="_blank" rel="nofollow">E. Grigorescu</a>, 
+		<a href="http://www.cse.psu.edu/~sofya" target="_blank" rel="nofollow">S. Raskhodnikova</a>, 
+		<a href="http://www.almaden.ibm.com/cs/people/dpwoodru/" target="_blank" rel="nofollow">D. Woodruff</a>, 
+		G. Yaroslavtsev</font></li>
+<font size="3"> <b>Steiner Transitive-Closure Spanners of d-Dimensional Posets </b>
+	[<a href="files/steiner-ICALP11.pdf" target="_blank" rel="nofollow">Camera-ready version (pdf)</a>]
+	<div>	ICALP 2011, Track A. </div>
+</font>
+</ul>
+<!--
+<div>
+<ul><li><font size="3">G.Yaroslavtsev</font></li>
+<font size="3"><b>Finding Efficient Circuits Using SAT-solvers</b>
+	[</font><font size="3"><a href="files/publications/20100601_MSc_Thesis.pdf" rel="nofollow">Full text (Russian): (pdf)</a> ] 
+	
+	<div>M.Sc. thesis.</div>
+
+</font>
+</ul>
+-->
+<ul><li><font size="3">
+		<a href="http://www.facebook.com/profile.php?id=685149662" rel="nofollow">E.Demenkov</a>, 
+		<a href="http://logic.pdmi.ras.ru/~arist/" target="_blank" rel="nofollow">A.Kojevnikov</a>, 
+		<a href="http://logic.pdmi.ras.ru/~kulikov" target="_blank" rel="nofollow">A.Kulikov</a>, 
+		G.Yaroslavtsev
+</font></li>
+<font size="3"><b>New upper bounds on the Boolean Circuit Complexity of Symmetric Functions</b></font> 
+<font size="3">[ <a href="files/publications/2010_upper_bounds_symmetric_ipl.pdf" rel="nofollow" target="_blank">Full text: (pdf)</a> ] </font>
+<div><font size="3">Information Processing Letters, 110 (2010), pp. 264-267. </font></div>
+</ul>
+
+<ul><li><font size="3">
+		<a href="http://logic.pdmi.ras.ru/~arist/" target="_blank" rel="nofollow">A. Kojevnikov</a>, 
+		<a href="http://logic.pdmi.ras.ru/~kulikov" target="_blank" rel="nofollow">A. Kulikov</a>, 
+		G. Yaroslavtsev
+</font></li>
+<font size="3"><b>Finding Efficient Circuits Using <span>SAT</span>-solvers </b>
+	[<a href="files/publications/0903_SAT2009_Efficient_Boolean_Circuits.pdf" rel="nofollow" target="_blank">Full text: (pdf)</a> ] 
+	<div>SAT 2009.</div>
+</font>
+</ul>
+</td>
+
+<td valign="top" width="45%">
+<div><b><font size="5">Long talks + Posters</font></b></div>
+<br />
+<div>
+<font size="3">
+<ul>
+<li>
+	<b>Accurate and Efficient Private Release of Datacubes and Contingency Tables</b>
+	<a href="http://grigory.us/files/talks/cornell-cdi13.pptx">[Slides: (pptx)]</a>
+	<ul>
+		<li> Cornell University, CDI project meeting. May 07, 2013.
+	</ul>
+	<li> <b>Beating the Direct Sum Theorem in Communication Compelxity</b>
+	<ul>
+	<li> 	Aarhus University, Denmark. Theory seminar. May 22, 2013.
+	<li>	MIT, Boston, MA. Algorithms and Complexity seminar. December 13, 2012.
+	<li>	Princeton University, Princeton, NJ. Theory lunch. November 16, 2012.
+	</ul>
+	<li> <b>Overlapping Clustering with Qualitative Information</b>
+<ul>
+<li>		FOCS 2012, New Brunswick, NJ. Poster session. October 22, 2012.
+</ul>		
+	<li><b>Parallel Algorithms for Geometric Problems</b></li>
+<ul>
+	<li> Microsoft Research, SVC, Mountain View, CA. Lab meeting. October 17, 2012.
+</ul>
+	<li> <b>Learning and Testing Submodular Functions</b>
+<a href="files/talks/20121026_Learning_And_Testing_Submodular_Functions.pptx"> [Slides: (pptx)]</a>
+</a> 
+<ul>
+	<li> University of Melbourne, Australia. Theory seminar. April 2013.
+	<li> UCLA, Los Angeles, CA. Theory seminar. February 04, 2013.
+	<li> Weizmann Institute of Science, Rehovot, Israel. December 30, 2012.
+	<li> Harvard University, Boston, MA. Theory of Computing seminar. December 10, 2012.
+	<li> Carnegie-Mellon University, Pittsburgh, PA. Theory Lunch. December 05, 2012.
+	<li> Carnegie-Mellon University, Pittsburgh, PA. Tepper School of Business, Operations Research Seminar. December 07, 2012.
+	<li> New York Computer Science and Economics Day 2012, Poster session. December 3, 2012.
+	<li> IBM T.J. Watson Research Cetner, Yorktown Heights, NY. IP for Lunch. November 14, 2012.
+	<li> Columbia University, NYC. Theory seminar. October 26, 2012.
+	<li> FOCS 2012. Poster session. October 22, 2012.
+	<li> Microsoft Research, Silicon Valley. Theory seminar. October 10, 2012.
+	<li> EPFL, Lausanne, Switzerland. Algorithmic Frontiers Workshop, poster session. June 2012. </a>
+	<li> IBM Almaden Research Center, San Jose, CA. Theory seminar. May 2012.
+	<li> STOC 2012. Poster session. May 2012. 
+</ul>
+	
+	<li><b>Advances in Directed Spanners</b> <a href="http://grigory.us/files/talks/AdvancesInDirectedSpanners.pdf">[Slides: (pdf)]</a>.
+<ul>
+	<li> University of Sydney, Australia. Theory seminar. April 9, 2013.
+	<li> Carnegie-Mellon University, Theory Lunch, November 2011. </li>
+	<li> University of Maryland, Capital Area Theory Seminar, November 2011.</li>
+</ul>
+</li>
+
+<li> <b>Private Analysis of Graph Structure</b> <a href="http://grigory.us/files/talks/KRSY-VLDB11.pptx">[Slides: (pptx)]</a> </li>
+
+<ul>
+	<li> EPFL, Lausanne, Switzerland. Algorithmic Frontiers Workshop, poster session. June 2012. <a href="http://grigory.us/files/talks/poster_privacy.pdf">[Poster: (pdf)]</a>
+	<li> AT&T Labs --- Research, Florham Park, NJ. August 2011.
+</ul>
+
+<li> <b>Improved Approximation for the Directed Spanner Problem</b> <a href="http://grigory.us/files/talks/20110704_Directed_Spanners_ICALP11.pptx">[Slides: (pptx)]</a>
+<ul>
+  <li> AT&T Labs --- Research, Florham Park, NJ. Mathematics Research Colloquium and Informal Seminar. June 2011.
+  <li> STOC 2011. Poster session. June 2011.<a href="files/poster.pdf" target="_blank" rel="nofollow">[Poster: (pdf)]</a>
+  <li> Moscow State University. Combinatorial optimization seminar. May 2011.
+  <li> IBM T.J. Watson Research Center, Yorktown Heights, NY. IP for lunch. April 2011.
+  <li> St. Petersburg Institute of Fine Mechanics and Optics. Theory seminar. December 2010.
+</ul>
+<li> <b>Linear Bounds on Circuit Complexity and Feebly One-Way Permutations</b> <a href="http://grigory.us/files/talks/penn10.pdf">[Slides: (pdf)]</a>
+    <ul>
+      <li> Pennsylvania State University. Theory seminar. April 2010.
+    </ul>
+</ul>
+</div>
+<div><b><font size="5">Conference talks</font></b></div>
+<br/>
+<div>
+<ul>	
+<li> <a href="http://grigory.us/files/talks/YCPS-ICDE13.pdf">Accurate and Efficient Private Release of Datacubes and Contingency Tables</a>
+    <ul>
+        <li> ICDE 2013. April 2013.
+    </ul>
+<li> <a href="http://grigory.us/files/talks/BY-APPROX12.pptx">Primal-dual Algorithms for Node-Weighted Network Design in Planar Graphs</a>
+    <ul>
+        <li> APPROX 2012. August 2012.
+    </ul>
+<li> <a href="http://grigory.us/files/talks/KRSY-VLDB11.pptx">Private Analysis of Graph Structure</a>
+    <ul>
+        <li> VLDB 2011, Research track. August 2011.
+    </ul>
+<li> <a href="http://grigory.us/files/talks/20110704_Directed_Spanners_ICALP11.pptx">Improved Approximation for the Directed Spanner Problem</a>
+    <ul>
+    <li> ICALP 2011, Track A. July 2011.
+    </ul>
+    <li> <a href="http://grigory.us/files/talks/20110708_Steiner-TC-Spanners.ppsx">Steiner Transitive-Closure Spanners of Low-Dimensional Posets</a>
+    <ul>
+    <li> ICALP 2011, Track A. July 2011.
+    </ul>
+</li>
+</font>
+</ul>
+</div>
+</td>
+</div></tr></tbody></table>
+</div> 
+</div> 
+
+<div><b><font size="5">Personal</font></b></div>
+
+<ul>
+<div>
+<font size="3">
+<p>
+<li><b>Algorithms competitions.</b> 
+<br>
+I have participated in ACM ICPC and TopCoder competitions (as <font color="red"><a href="http://www.topcoder.com/tc?module=MemberProfile&amp;cr=15152215" style="TEXT-DECORATION: NONE; color: #FF0000" rel="nofollow"><b>griffon</b></a></font>) competing and setting problems in TopCoder Open Algorithms Finals.</p>
+<p>
+<li><b>Teaching algorithms for high-school students.</b>
+<br>
+ I was teaching advanced classes in algorithms for high-school students for ~5 years, coaching teams for algorithmic competitions.  I participated in preparation of training camps and contests for Russian Olympiad in Informatics and International Olympiad in Informatics (both in Russia and in the U.S.).
+</p>
+<p>
+<li><b>Non-profit in education for high-school students.</b> 
+<br>
+I was a co-founder of a non-profit organization focused on advanced extracurricular education in algorithms for high-school students in St. Petersburg, Russia. 
+<br>
+<img src="http://grigory.us/pics/spbtc.jpeg" width="5%">: <a href="http://spbtc.ru"><b>Homepage</b></a>, <a href="http://vk.com/spbtc"><b>Group on Vkontakte</b></a>.<b> Donations are always welcome!</b>
+</p>
+<p>
+<li><b>Triathlon.</b> 
+<br>
+If I am not working then I am probably practicing for the next <a href="http://grigory.us/triathlon.html"><b>triathlon</b></a>. Let's do it together! ;)
+</p>
+<p>
+<li><b>Very nerdy!</b>
+<br>
+There are some things I can't prove but rather just believe in, e.g. <img src="pics/notequal.png" width="15%"> (designed as a proposed logo for <a href="http://cstheory.stackexchange.com"><b>CSTheory website</b></a>).</div>
+</p>
+</ul>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+
+</tr>
+
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter">
+
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="more-actions-menu" class="sites-menu goog-toolbar-menu-buttons" style="z-index:1000; display:none">
+
+<div class="goog-menuheader">
+                    Page actions
+                  </div>
+<div id="openRevisionHistory" onclick="window.location.href = '/site/grigoryyaroslavtsev/system/app/pages/admin/revisions?wuid=wuid:gx:65fb4f9f719442b3'" class="goog-menuitem">
+                  Revision History
+                  </div>
+<div id="togglePageSubscription" onclick="JOT_postEvent('togglePageSubscription')" class="goog-menuitem">
+<div class="sites-moreactions-icon sites-moreactions-icon-subscribe goog-inline-block"></div>
+<span class="toggle-page-subscription"><span>
+                          Subscribe to page changes
+                            
+                        </span></span>
+</div>
+<div id="showPageSettings" onclick="JOT_postEvent('showPageSettings')" class="goog-menuitem">
+                        Page settings
+                      </div>
+<div id="printPage" onclick="window.open(webspace.printUrl)" class="goog-menuitem">
+<div class="sites-moreactions-icon sites-moreactions-icon-print goog-inline-block"></div>
+                    Print page</div>
+<div id="showDeletePage" onclick="javascript:;" class="goog-menuitem show-delete-page-disabled">
+<div class="sites-moreactions-icon sites-moreactions-icon-delete goog-inline-block"></div>
+                        Delete page
+                      </div>
+<div id="previewAsViewer" class="goog-menuitem" onclick="window.open('/site/grigoryyaroslavtsev/Home?previewAsViewer=1')">
+                    Preview page as viewer
+                  </div>
+
+<div class="goog-menuseparator"></div>
+
+<div class="goog-menuheader">
+                    Page templates
+                  </div>
+<div id="showSaveAsPageTemplate" onclick="JOT_postEvent('showSaveAsPageTemplate')" class="goog-menuitem">Save as page template</div>
+<div id="openChangePageTemplate" class="goog-menuitem" onclick="window.location.href = '/site/grigoryyaroslavtsev/system/app/pages/changePageTemplate?wuid=wuid:gx:65fb4f9f719442b3&amp;pt=/system/app/pagetemplates/text'">
+                        Change page template
+                      </div>
+
+<div class="goog-menuseparator"></div>
+
+<div class="goog-menuheader">
+                    Site actions
+                  </div>
+<div id="toggleSiteSubscription" onclick="JOT_postEvent('toggleSiteSubscription')" class="goog-menuitem">
+<div class="sites-moreactions-icon sites-moreactions-icon-subscribe goog-inline-block"></div>
+<span class="toggle-site-subscription"><span>
+                      
+                      Subscribe to site changes
+                        
+                    </span></span>
+</div>
+<div id="openManageSite" onclick="window.location.href = webspace.manageUrl" class="goog-menuitem">
+                    Manage site
+                  </div>
+<div id="openMonetizeSite" onclick="window.location.href = webspace.monetizeUrl" class="goog-menuitem">
+<div class="sites-moreactions-icon sites-moreactions-icon-adsense goog-inline-block"></div>
+                        
+                            Sign up for AdSense
+                          
+                      </div>
+
+
+<div id="showShareClient" onclick="window.location.href = webspace.commonSharingUrl + '#' + webspace.page.path" class="goog-menuitem">
+<div class="sites-moreactions-icon sites-moreactions-icon-share goog-inline-block"></div>
+                        Sharing and Permissions
+                      </div>
+
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/250eba/system/js/jot_min__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          new sites.util.OneGoogle(false,
+              true);
+        </script>
+<script type="text/javascript">
+              var pageActionsJs = new gsites.pages.PageActions({"focusSearchBox":true,"showSaveAsPageTemplate":true,"showPageSettings":true,"openManageSite":true,"openCreatePage":true,"togglePageSubscription":true,"printPage":true,"showShareClient":true,"openChangePageTemplate":true,"editPage":true,"showDeletePage":false,"previewAsViewer":true,"toggleSiteSubscription":true,"openRevisionHistory":true});
+
+              // Only construct the share client if the user has admin access
+              // since without it they can't change sharing anyway.
+              
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+          var searchBox = new sites.Searchbox('sites-searchbox-search-button',
+              true);
+          searchBox.initListeners([{"id":"search-site","action":"/site/grigoryyaroslavtsev/system/app/pages/search","label":"Search this site"}], true, 'search-site',
+              {"label":"Configure search options...","url":"/site/grigoryyaroslavtsev/system/app/pages/admin/appearance/pageElements"});
+          searchBox.setScopesMenu(webspace.page.isSiteRtlLocale);
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        
+        
+            
+                
+                    
+                    
+                        JOT_manageEditMode();
+                      
+                  
+              
+          
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(true);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+            webspace, "en_GB");
+        maestroRunner.initListeners();
+        maestroRunner.installEditRender();
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_postEvent('decorateGvizCharts');
+      </script>
+
+<script type="text/javascript">
+                  JOT_createCanonicalUrlLink();
+                  if (gbar.lPWF) {
+                    gbar.lPWF(function() {
+                      gapi.plusone.go('sites-chrome-main');
+                    });
+                  }
+                </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>
