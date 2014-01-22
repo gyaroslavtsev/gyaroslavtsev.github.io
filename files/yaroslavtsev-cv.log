@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 JAN 2014 18:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 JAN 2014 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,8 +226,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 106.
-Package hyperref Info: Option `breaklinks' set `true' on input line 106.
+Package hyperref Info: Option `colorlinks' set `true' on input line 107.
+Package hyperref Info: Option `breaklinks' set `true' on input line 107.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
@@ -238,20 +238,20 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 (./yaroslavtsev-cv.aux)
 \openout1 = `yaroslavtsev-cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -293,7 +293,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 185.
+(lastpage)             ! on input line 186.
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
@@ -309,7 +309,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 \everyMPtoPDFconversion=\toks20
 )
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring ON on input line 185.
+Package hyperref Info: Link coloring ON on input line 186.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -318,9 +318,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 185.
-LaTeX Info: Redefining \pageref on input line 185.
-LaTeX Info: Redefining \nameref on input line 185.
+LaTeX Info: Redefining \ref on input line 186.
+LaTeX Info: Redefining \pageref on input line 186.
+LaTeX Info: Redefining \nameref on input line 186.
 
 (./yaroslavtsev-cv.out) (./yaroslavtsev-cv.out)
 \@outlinefile=\write3
@@ -328,87 +328,87 @@ LaTeX Info: Redefining \nameref on input line 185.
 
 \rcollength=\skip61
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 200.
+(Font)              <10.95> on input line 201.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 200.
+(Font)              <8> on input line 201.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 200.
+(Font)              <6> on input line 201.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 198--206
+Overfull \hbox (18.0pt too wide) in paragraph at lines 199--207
 [] [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 285.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 286.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 285.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 286.
  [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.37471pt too wide) in paragraph at lines 343--343
+Overfull \hbox (5.37471pt too wide) in paragraph at lines 344--344
 []\OT1/cmr/m/sc/10.95 Achievements 
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 345--346
+Underfull \hbox (badness 1270) in paragraph at lines 346--347
 []\OT1/cmr/m/n/10.95 Best Grad-u-ate Re-search As-sis-tant Award at Com-puter S
 ci-ence and En-gi-neer-ing
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 394--395
+Underfull \hbox (badness 2426) in paragraph at lines 395--396
 []\OT1/cmr/bx/n/10.95 Testing with Re-spect to $\OML/cmm/m/it/10.95 L[]$ \OT1/c
 mr/bx/n/10.95 Dis-tances\OT1/cmr/m/n/10.95 , with Pi-otr Berman and So-fya
  []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 429.
+(Font)              <9> on input line 430.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 429.
+(Font)              <5> on input line 430.
 
-Underfull \hbox (badness 2293) in paragraph at lines 444--445
+Underfull \hbox (badness 2293) in paragraph at lines 445--446
 []\OT1/cmr/m/n/10.95 15th In-ter-na-tional Work-shop on Ap-prox-i-ma-tion Al-go
 -rithms for Com-bi-na-to-rial
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 474--475
+Underfull \hbox (badness 1436) in paragraph at lines 475--476
 []\OT1/cmr/m/n/10.95 IBM T.J. Wat-son Re-search Cen-ter, York-town Heights, NY.
  04/19/11--04/21/11,
  []
 
 [3] [4]
-Underfull \hbox (badness 1533) in paragraph at lines 654--655
+Underfull \hbox (badness 1533) in paragraph at lines 655--656
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 655--656
+Underfull \hbox (badness 1270) in paragraph at lines 656--657
 []\OT1/cmr/m/n/10.95 Conferences: FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'
 12, FOCS'12,
  []
 
 
-Overfull \hbox (1.61829pt too wide) in paragraph at lines 715--715
+Overfull \hbox (1.61829pt too wide) in paragraph at lines 716--716
 []\OT1/cmr/m/sc/10.95 Professional 
  []
 
 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 758.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 758.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 759.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 759.
  (./yaroslavtsev-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 758.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 758.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 759.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 759.
 Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 115BD5A5421235E5496F927DACD434D2;872.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 758.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 759.
  ) 
 Here is how much of TeX's memory you used:
  5622 strings out of 493488
