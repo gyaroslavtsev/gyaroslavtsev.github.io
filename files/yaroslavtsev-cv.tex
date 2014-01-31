@@ -1,5 +1,5 @@
 \def\online{0}
-
+\def\software{1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -329,16 +329,28 @@ Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summariza
 %
 %Research assistant, March 2010 --- August 2010.
 %
-%\blankline
-%
-%\textbf{FBReader project} (\href{http://www.fbreader.org/fbreaderj}{www.fbreader.org/fbreaderj}).
-%
-%Java developer, October 2007 --- April 2008.
-%
+
 %\blankline
 
 
 \newpage
+
+\if\software1
+\section{Software Engineering}
+\begin{innerlist}
+\item \textbf{FBReader}, Java developer, October 2007 --- April 2008. 
+\begin{innerlist}
+\item Worked on FBReaderJ --- the first version of FBReader for Java and Android. 
+New page: \href{http://www.fbreader.org/fbreaderj}{www.fbreader.org/fbreaderj}. Old page: \href{http://old.fbreader.org/FBReaderJ/}{http://old.fbreader.org/FBReaderJ/}.
+\end{innerlist}
+\item \textbf{Code samples on GitHub}
+\begin{innerlist}
+\item Knots, Java, 2007 (Demonstrates object-oriented programming skills and familiarity with patterns of OOP, unit testing with JUnit, etc. Done as a practice project at the Academy of Modern Software Engineering): \href{https://github.com/grigory/knots}{https://github.com/grigory/knots} 
+\item Shortest Paths Algorithms on Maps, C++, 2010 (Demonstrates algorithmic programming skills. Done as a project for the Microsoft Research Summer School on Algorithms and Data Stuctures): \href{https://github.com/grigory/midas-landmarks}{https://github.com/grigory/midas-landmarks}
+\end{innerlist}
+\end{innerlist}
+
+\fi
 
 \section{Achievements and awards}
 \begin{innerlist}
