@@ -157,7 +157,19 @@ Beyond Locality-Sensitive Hashing
 [<a href="http://grigory.us/files/theory/vahab.pdf"><font color="green"><b>Slides</b></font></a>]
 -->
 <div class="abs">
-TBD
+<p>
+We present a new data structure for the c-approximate near neighbor problem (ANN) in the Euclidean space.
+For n points in R<sup>d</sup>, our algorithm achieves O(dn<sup>&rho;</sup>) query time and O(n<sup>1 + &rho;</sup> + nd) space, where &rho; &le; 7/(8c<sup>2</sup>) + O(1/c<sup>3</sup>) + o(1). 
+This is the first improvement over the result by Andoni and Indyk (FOCS 2006) and
+the first data structure that bypasses a locality-sensitive hashing lower bound
+proved by O'Donnell, Wu and Zhou (ICS 2011).
+By a standard reduction we obtain a data structure for the Hamming space and &#8467;<sub>1</sub> norm with
+&rho; &le; 7/(8c) + O(1/c<sup>3/2</sup>) + o(1), which is the first improvement over the result of Indyk and Motwani (STOC 1998).
+<p>
+Our data structure is able to bypass the locality-sensitive hashing barrier by using data-dependent hash functions (previous work used functions that are oblivious to the data).
+<p>
+Joint work with Alexandr Andoni, Piotr Indyk and Nguyễn Lê Huy.
+A short summary of the paper can be found at <a href=http://mittheory.wordpress.com/2013/11/22/beyond-lsh/">http://mittheory.wordpress.com/2013/11/22/beyond-lsh/</a>.
 </div>
 </li>
 
