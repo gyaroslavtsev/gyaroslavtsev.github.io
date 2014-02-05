@@ -197,12 +197,16 @@ Friday, February 14, 2014:
 <b> 
 <a class="name" href="http://people.orie.cornell.edu/shmoys/">David Shmoys</a></b> (Cornell University)
 <br>
-<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD</a>
+<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">Improving Christofides' Algorithm for the s-t Path Traveling Salesman Problem</a>
 <!--
 [<a href="http://grigory.us/files/theory/vahab.pdf"><font color="green"><b>Slides</b></font></a>]
 -->
 <div class="abs">
+<p>
+In 1976, Christofides gave an approximation algorithm for the traveling salesman problem (TSP) with metric costs that was guaranteed to find a tour that was no more than 3/2 times the length of the shortest tour visiting a given set of n cities; it remains an open problem to give a polynomial-time algorithm with a better performance guarantee. There have been a number of recent results that yield improvements for significant special cases, and for related problems. In this talk, we shall present an approximation algorithm for the s-t path TSP with metric costs, which is guaranteed to find a solution of cost within a factor of the golden ratio of optimal in polynomial time; in this variant, in addition to the pairwise distances among n points, there are two prespecified endpoints s and t, and the problem is to find a shortest Hamiltonian path between s and t. Hoogeveen showed that the natural variant of Christofides' algorithm for this problem is a 5/3-approximation algorithm, and this asymptotically tight bound has been the best approximation ratio known until now. We modify this algorithm so that it chooses the initial spanning tree based on an optimal solution to a natural linear programming relaxation, rather than a minimum spanning tree; we prove this simple but crucial modification leads to an improved approximation ratio, surpassing the 20-year-old barrier set by the natural Christofides' algorithm variant.
+<p>
+This is joint work with Hyung-Chan An and Robert Kleinberg.
+
 </div>
 </li>
 
