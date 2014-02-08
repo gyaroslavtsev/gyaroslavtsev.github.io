@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 FEB 2014 02:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  7 FEB 2014 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,70 +348,70 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.37471pt too wide) in paragraph at lines 356--356
+Overfull \hbox (5.37471pt too wide) in paragraph at lines 357--357
 []\OT1/cmr/m/sc/10.95 Achievements 
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 407--408
-[]\OT1/cmr/bx/n/10.95 Testing with Re-spect to $\OML/cmm/m/it/10.95 L[]$ \OT1/c
-mr/bx/n/10.95 Dis-tances\OT1/cmr/m/n/10.95 , with Pi-otr Berman and So-fya
  []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 442.
+(Font)              <9> on input line 448.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 442.
+(Font)              <5> on input line 448.
 
-Underfull \hbox (badness 2293) in paragraph at lines 457--458
-[]\OT1/cmr/m/n/10.95 15th In-ter-na-tional Work-shop on Ap-prox-i-ma-tion Al-go
--rithms for Com-bi-na-to-rial
+Underfull \hbox (badness 4229) in paragraph at lines 474--475
+[]\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
+a, Lan-guages and
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 487--488
+Underfull \hbox (badness 4229) in paragraph at lines 481--482
+[]\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
+a, Lan-guages and
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 493--494
 []\OT1/cmr/m/n/10.95 IBM T.J. Wat-son Re-search Cen-ter, York-town Heights, NY.
  04/19/11--04/21/11,
  []
 
 [3] [4]
-Underfull \hbox (badness 1533) in paragraph at lines 667--668
+Underfull \hbox (badness 1533) in paragraph at lines 673--674
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 668--669
+Underfull \hbox (badness 1270) in paragraph at lines 674--675
 []\OT1/cmr/m/n/10.95 Conferences: FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'
 12, FOCS'12,
  []
 
 
-Overfull \hbox (1.61829pt too wide) in paragraph at lines 728--728
+Overfull \hbox (1.61829pt too wide) in paragraph at lines 734--734
 []\OT1/cmr/m/sc/10.95 Professional 
  []
 
-
+[5] 
 AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 771.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 771.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 777.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 777.
  (./yaroslavtsev-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 771.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 771.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 777.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 777.
 Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 115BD5A5421235E5496F927DACD434D2;872.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 771.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 777.
  ) 
 Here is how much of TeX's memory you used:
- 5623 strings out of 493488
- 82995 string characters out of 3141326
+ 5624 strings out of 493488
+ 83001 string characters out of 3141326
  181844 words of memory out of 3000000
  8878 multiletter control sequences out of 15000+200000
  8852 words of font info for 31 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,8n,43p,371b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,43p,371b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -423,10 +423,10 @@ cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on yaroslavtsev-cv.pdf (5 pages, 149233 bytes).
+Output written on yaroslavtsev-cv.pdf (6 pages, 150041 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
