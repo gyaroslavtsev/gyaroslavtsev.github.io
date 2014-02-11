@@ -288,12 +288,22 @@ Friday, February 28, 2014:
 <a class="name" href="http://web.engr.illinois.edu/~kylefox2/">Kyle Fox</a></b> (Brown University, ICERM)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Optimal Cuts in Surface Embedded Graphs
 </a>
 <!--
 [<a rel="nofollow" target="_blank" href="http://grigory.us/files/theory/vahab.pdf"><font color="green"><b>Slides</b></font></a>]
 -->
 <div class="abs">
+<p>
+In this talk, I will describe some recent algorithmic results related to computing optimal flows and cuts in surface embedded graphs. These results are motivated by a desire to bring our understanding of efficient planar flow and cut algorithms to more general classes of graphs.
+<p>
+I will begin by sketching an algorithm to compute a global minimum cut in an embedded genus g undirected graph. The algorithm runs in time g<sup>O(g)</sup> n log log n. For constant g, this running time is a polylogarithmic improvement over the best known running time for sparse graphs due to Karger. Unlike Karger’s algorithm, the one I will describe is deterministic
+<p>
+Second, I will describe an algorithm for counting minimum s,t-cuts in an embedded genus g directed graph. This problem has applications in image segmentation, and despite the problem being #P-complete in general, the algorithm I will describe runs in 2<sup>O(g)</sup> n<sup>2</sup> time. The algorithm can also be used to aid in sampling minimum s,t-cuts uniformly at random.
+<p>
+When the genus is constant, both algorithms I will describe match the running time of the best known planar graph algorithms for their respective problems. I will conclude the talk by discussing some future work and open problems in this area of research.
+<p>
+This talk is based on work done with Erin W. Chambers, Jeff Erickson, and Amir Nayyeri.
 </div>
 </li>
 
