@@ -187,12 +187,27 @@ Friday, April 04, 2014:
 <a class="name" href="http://www.cs.cmu.edu/~venkatg/">Venkatesan Guruswami</a></b> (Carnegie-Mellon University and Microsoft Research, New England)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Superlinear Lower Bounds for Multipass Graph Processing
 </a>
 <!--
 [<a rel="nofollow" target="_blank" href="http://grigory.us/files/theory/vahab.pdf"><font color="green"><b>Slides</b></font></a>]
 -->
 <div class="abs">
+The data stream model has emerged as a popular algorithmic paradigm for computation on massive data sets. With large graphs arising naturally in many contexts, graph problems have also been considered in the streaming model. However, streaming algorithms for even simple graph-theoretic tasks require space proportional to the number of vertices. The semi-streaming setting that allows quasi-linear (n poly(log n)) space has therefore been identified as a potential "sweet-spot" for graph streaming.
+
+In this talk, we will rule out multipass semi-streaming algorithms for some basic graph problems. Specifically, we will present n^(1+Omega(1/p)) lower bounds for the space complexity of p-pass streaming algorithms for the following basic problems on n-vertex graphs:
+
+<ul>
+<li> testing if a graph has a perfect matching,
+<li> computing the distance between two specific vertices in an undirected graph, and
+<li> testing if there is a directed path between two vertices in a directed graph.
+</ul>
+
+Before our result, it was known that these problems require Omega(n^2) space in one pass, but no n^(1+Omega(1)) lower bound was known for two or more passes.
+
+Our result follows from a communication complexity lower bound for a communication game in which the players hold two graphs on the same set of vertices. The task of the players is to find out whether the sets of vertices reachable from a specific vertex in exactly p+1 steps intersect. We show that this game requires a significant amount of communication if the players are forced to speak in a specific difficult order. Our proof proceeds via an information cost lower bound for a decision version of the classic pointer chasing problem and a direct sum type theorem for the disjunction of several instances of this problem.
+
+Joint work with Krzysztof Onak.
 </div>
 </li>
 
