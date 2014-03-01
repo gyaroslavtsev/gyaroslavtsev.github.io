@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 FEB 2014 12:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 MAR 2014 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,12 +379,6 @@ Underfull \hbox (badness 1436) in paragraph at lines 497--498
 Underfull \hbox (badness 1533) in paragraph at lines 687--688
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 688--689
-[]\OT1/cmr/m/n/10.95 Conferences: FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'
-12, FOCS'12,
  []
 
 [5]
