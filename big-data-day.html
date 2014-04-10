@@ -4,7 +4,7 @@
 bs///
 
 <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-<title>Sublinear Algorithms Day</title>
+<title>Sublinear Algorithms and Big Data Day</title>
 
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="starter-template.css" rel="stylesheet"> 
@@ -56,11 +56,10 @@ return true;
 <span class="icon-bar">
 <span class="icon-bar">
 </button>
-<a class="navbar-brand" href="#"><b>Sublinear Algorithms Day</b></a>
+<a class="navbar-brand" href="#"><b>Sublinear Algorithms and Big Data Day</b></a>
 <a class="navbar-brand" href="#info">Information</a>
 <a class="navbar-brand" href="#speakers">Speakers</a>
 <a class="navbar-brand" href="#schedule">Schedule</a>
-<a class="navbar-brand" href="#location">Location</a>
 </div>
 </div>
 </div>
@@ -72,7 +71,7 @@ return true;
 <br/>
 <br/>
 
-<h1 style="padding-top:0pt;margin-top:0pt;"><img src="img/sublinear.jpeg" style="width:50pt"> <font color="brown">Sublinear Algorithms Day</font>
+<h1 style="padding-top:0pt;margin-top:0pt;"><img src="img/sublinear.jpeg" style="width:50pt"> <font color="brown">Sublinear Algorithms and Big Data Day</font>
 </h1>
 
 <a id="info"><h1>Information</h1></a>
@@ -86,9 +85,9 @@ return true;
 TBD
 </a>
 <div class="abs">
-TBD
+Text
 </div>
-
+</li>
 
 <li> <i class="fa li fa fa-group"></i>
 10:30 &ndash; 10:55 <a class="name" href="http://www.mit.edu/~kapralov/"><b>Michael Kapralov</b></a> (Massachusetts Institute of Technology)
@@ -104,10 +103,15 @@ TBD
 11:00 &ndash; 11:25 <a class="name" href="http://www.cs.princeton.edu/~hlnguyen/"><b>Huy Le Nguyen</b></a> (Princeton University)
 <p>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Turnstile Streaming Algorithms Might as Well Be Linear Sketches
 </a>
 <div class="abs">
-TBD
+<p>
+In the turnstile model of data streams, an underlying vector x in {-m, -m + 1, ..., m - 1, m}^n is presented as a long sequence of arbitrary positive and negative integer updates to its coordinates. A randomized algorithm seeks to approximate a function f(x) with constant probability while only making a single pass over this sequence of updates and using a small amount of space. All known algorithms in this model are linear sketches: they sample a matrix A from a distribution on integer matrices in the preprocessing phase, and maintain the linear sketch Ax while processing the stream. At the end of the stream, they output an arbitrary function of Ax. One cannot help but ask: are linear sketches universal?
+<p>
+In this work we answer this question by showing that any 1-pass constant probability streaming algorithm for approximating an arbitrary function f of x in the turnstile model can also be implemented by sampling a matrix A from the uniform distribution on O(n log m) integer matrices, with entries of magnitude poly(n), and maintaining the linear sketch Ax. Furthermore, the logarithm of the number of possible states of Ax, as x ranges over {m, -m + 1, ...,m}^n, plus the amount of randomness needed to store A, is at most a logarithmic factor larger than the space required of the space-optimal algorithm. Our result shows that to prove space lower bounds for 1-pass streaming algorithms, it suffices to prove lower bounds in the simultaneous model of communication complexity, rather than the stronger 1-way model. Moreover, the fact that we can assume we have a linear sketch with polynomially-bounded entries further simplifies existing lower bounds, e.g., for frequency moments we present a simpler proof of the tilde{Omega}(n^{1-2/k}) bit complexity lower bound without using communication complexity.
+<p>
+Joint work with Yi Li and David P. Woodruff.
 </div>
 
 <li> <i class="fa li fa fa-cutlery"></i>
@@ -149,8 +153,62 @@ TBD
 </ul>
 
 <a id="speakers"><h1>Speakers</h1></a>
-<ul>
-</ul>				     
+<div>
+<ul class="list-thumbnail">
+
+<li>
+<img alt=""  src="pics/big-data/ronitt.jpg">
+<h4>Ronitt Rubinfeld</h4> 
+<p>
+
+<li>
+<img alt=""  src="">
+<h4>Michael Kapralov</h4> 
+<p>
+
+<li>
+<img alt=""  src="pics/big-data/huy.jpg">
+<h4>Huy Le Nguyen</h4> 
+<p>
+Huy Le Nguyen is a graduate student in the Computer Science Department at Princeton University, advised by Professor Moses Charikar. Before attending Princeton, he received his Bachelor's degrees in Computer Science and Mathematics, and Master of Engineering in Computer Science, all from MIT. His research has focused on algorithms for large datasets, including dimensionality reduction methods, approximate nearest neighbor search, and fast numerical linear algebra algorithms. He is also interested in other areas of theoretical computer science, and has worked on online algorithms, natural algorithms, and data structure lower bounds.
+
+<li>
+<img alt=""  src="pics/big-data/sofya.jpg">
+<h4>Sofya Raskhodnikova</h4> 
+<p>
+Sofya Raskhodnikova is an associate professor of Computer Science and Engineering at the Pennsylvania State University. She is currently on sabbatical, visiting Boston University and Harvard University. Sofya works on design and analysis of sublinear-time algorithms for combinatorial problems and on privacy-preserving methods for publishing aggregate statistical data. Sofya got her PhD from MIT in 2003. From the fall of 2003 to 2006, she worked at the Hebrew University of Jerusalem, the Weizmann Institute of Science and the Institute for Pure and Applied Mathematics at UCLA.
+
+<li>
+<img alt=""  src="pics/big-data/andrew.jpg">
+<h4>Andrew McGregor</h4> 
+<p>
+Andrew McGregor is an Assistant Professor at the University of Massachusetts, Amherst. He received a B.A. degree and the Certificate of Advance Study in Mathematics from the University of Cambridge and a Ph.D. from the University of Pennsylvania. He also spent a couple of years as a post-doc at UC San Diego and Microsoft Research SVC. He is interested in many areas of theoretical computer science and specializes in data stream algorithms, linear sketching, and communication complexity. He received the NSF Career Award in 2010.
+
+<li>
+<img alt=""  src="pics/big-data/amit.jpg">
+<h4>Amit Chakrabarti</h4> 
+<p>
+Amit Chakrabarti is an Associate Professor in the Department of Computer
+Science at Dartmouth College. He received an M.A. and a Ph.D. in
+Computer Science from Princeton University in 2002 and a B.Tech. in
+Computer Science from the Indian Institute of Technology, Bombay, along
+with the President of India Gold Medal, in 1997.  Professor
+Chakrabarti's research is in the broad area of theoretical computer
+science. Specific interests are (1) complexity theory, especially
+communication complexity and the application of information theory, and
+(2) algorithms, including space-efficient algorithms for massive data
+streams and approximation techniques for optimization problems.
+
+
+
+
+
+
+</ul>
+
+
+
+
 
 
 </body></html>
