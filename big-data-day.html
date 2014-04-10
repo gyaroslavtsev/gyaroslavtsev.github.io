@@ -29,6 +29,7 @@ display: none;
 }
 </style>
 
+
 <script type="text/javascript">
 function showAbstract(e){
 f = e;
@@ -44,6 +45,11 @@ return true;
 }
 </script>
 
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+
 </head>
 
 <body>
@@ -58,8 +64,8 @@ return true;
 </button>
 <a class="navbar-brand" href="#"><b>Sublinear Algorithms and Big Data Day</b></a>
 <a class="navbar-brand" href="#info">Information</a>
-<a class="navbar-brand" href="#speakers">Speakers</a>
 <a class="navbar-brand" href="#schedule">Schedule</a>
+<a class="navbar-brand" href="#speakers">Speakers</a>
 </div>
 </div>
 </div>
@@ -78,76 +84,114 @@ return true;
 
 <a id="schedule"> <h1> Schedule</h1></a>
 <ul class="fa-ul">
+<li> <i class="fa li fa fa-coffee"></i> 
+09:00 &ndash; 09:30 <b>Coffee Break</b>
+<p>
+
 <li> <i class="fa li fa fa-group"></i>
 09:30 &ndash; 10:15 <a class="name" href="http://people.csail.mit.edu/ronitt/"><b>Ronitt Rubinfeld</b></a> (Massachusetts Institute of Technology)
-<p>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
+<br>
 TBD
 </a>
 <div class="abs">
-Text
+TBD
 </div>
 </li>
+<p>
 
 <li> <i class="fa li fa fa-group"></i>
 10:30 &ndash; 10:55 <a class="name" href="http://www.mit.edu/~kapralov/"><b>Michael Kapralov</b></a> (Massachusetts Institute of Technology)
-<p>
+<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Approximating matching size from random streams
 </a>
 <div class="abs">
-TBD
+We present a streaming algorithm that makes one pass over the edges of an
+unweighted graph presented in random order, and produces a polylogarithmic approximation
+to the size of the maximum matching in the graph, while using only polylogarithmic space. Prior to this
+work the only approximations known were a folklore \(\tilde{O}(\sqrt{n})\)-approximation with polylogarithmic space in an \(n\)-vertex graph and a constant approximation with \(\Omega(n)\) space. 
+Our work thus gives the first algorithm where both the space and approximation
+factors are smaller than any polynomial in \(n\).
 </div>
+<p>
 
 <li> <i class="fa li fa fa-group"></i>
 11:00 &ndash; 11:25 <a class="name" href="http://www.cs.princeton.edu/~hlnguyen/"><b>Huy Le Nguyen</b></a> (Princeton University)
-<p>
+<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
 Turnstile Streaming Algorithms Might as Well Be Linear Sketches
 </a>
 <div class="abs">
 <p>
-In the turnstile model of data streams, an underlying vector x in {-m, -m + 1, ..., m - 1, m}^n is presented as a long sequence of arbitrary positive and negative integer updates to its coordinates. A randomized algorithm seeks to approximate a function f(x) with constant probability while only making a single pass over this sequence of updates and using a small amount of space. All known algorithms in this model are linear sketches: they sample a matrix A from a distribution on integer matrices in the preprocessing phase, and maintain the linear sketch Ax while processing the stream. At the end of the stream, they output an arbitrary function of Ax. One cannot help but ask: are linear sketches universal?
+In the turnstile model of data streams, an underlying vector x in \(\{-m, -m + 1, ..., m - 1, m\}^n\) is presented as a long sequence of arbitrary positive and negative integer updates to its coordinates. A randomized algorithm seeks to approximate a function \(f(x)\) with constant probability while only making a single pass over this sequence of updates and using a small amount of space. All known algorithms in this model are linear sketches: they sample a matrix \(A\) from a distribution on integer matrices in the preprocessing phase, and maintain the linear sketch \(Ax\) while processing the stream. At the end of the stream, they output an arbitrary function of \(Ax\). One cannot help but ask: are linear sketches universal?
 <p>
-In this work we answer this question by showing that any 1-pass constant probability streaming algorithm for approximating an arbitrary function f of x in the turnstile model can also be implemented by sampling a matrix A from the uniform distribution on O(n log m) integer matrices, with entries of magnitude poly(n), and maintaining the linear sketch Ax. Furthermore, the logarithm of the number of possible states of Ax, as x ranges over {m, -m + 1, ...,m}^n, plus the amount of randomness needed to store A, is at most a logarithmic factor larger than the space required of the space-optimal algorithm. Our result shows that to prove space lower bounds for 1-pass streaming algorithms, it suffices to prove lower bounds in the simultaneous model of communication complexity, rather than the stronger 1-way model. Moreover, the fact that we can assume we have a linear sketch with polynomially-bounded entries further simplifies existing lower bounds, e.g., for frequency moments we present a simpler proof of the tilde{Omega}(n^{1-2/k}) bit complexity lower bound without using communication complexity.
+In this work we answer this question by showing that any 1-pass constant probability streaming algorithm for approximating an arbitrary function \(f\) of \(x\) in the turnstile model can also be implemented by sampling a matrix \(A\) from the uniform distribution on \(O(n log m)\) integer matrices, with entries of magnitude \(poly(n)\), and maintaining the linear sketch \(Ax\). Furthermore, the logarithm of the number of possible states of \(Ax\), as \(x\) ranges over \(\{-m, -m + 1, ...,m\}^n\), plus the amount of randomness needed to store \(A\), is at most a logarithmic factor larger than the space required of the space-optimal algorithm. Our result shows that to prove space lower bounds for 1-pass streaming algorithms, it suffices to prove lower bounds in the simultaneous model of communication complexity, rather than the stronger 1-way model. Moreover, the fact that we can assume we have a linear sketch with polynomially-bounded entries further simplifies existing lower bounds, e.g., for frequency moments we present a simpler proof of the \(\tilde{\Omega}(n^{1-2/k})\) bit complexity lower bound without using communication complexity.
 <p>
 Joint work with Yi Li and David P. Woodruff.
 </div>
+<p>
 
-<li> <i class="fa li fa fa-cutlery"></i>
-11:30 &ndash; 13:00 <a class="name" href=""><b>Lunch Break</b></a>
+<li> <i class="fa li fa fa-cutlery"></i> 
+&#160;11:30 &ndash; 13:00 <b>Lunch Break</b>
 <p>
 
 <li> <i class="fa li fa fa-group"></i>
 13:00 &ndash; 13:45 <a class="name" href="http://www.cse.psu.edu/~sofya"><b>Sofya Raskhodnikova</b></a> (Pennsylvania State University + Boston University)
-<p>
+<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
 TBD
 </a>
 <div class="abs">
 TBD
 </div>
+<p>
 
 <li> <i class="fa li fa fa-group"></i>
 14:00 &ndash; 14:45 <a class="name" href="http://people.cs.umass.edu/~mcgregor/"><b>Andrew McGregor</b></a> (University of Massachusetts, Amherst)
-<p>
+<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Analyzing Big Graphs via Sketching and Streaming
 </a>
 <div class="abs">
-TBD
+Early work on data stream algorithms focused on estimating numerical statistics such as quantiles, frequency moments, and heavy hitters given limited memory and a single pass over the input. However, there's now a growing body of work on analyzing more structured data such as graphs. In this talk, we survey recent research in this area.
 </div>
+<p>
 
 <li> <i class="fa li fa fa-group"></i>
 15:00 &ndash; 15:45 <a class="name" href="http://www.cs.dartmouth.edu/~ac/"><b>Amit Chakrabarti</b></a> (Dartmouth College)
-<p>
+<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title">
-TBD
+Streaming Interactive Proofs or: How I Learned to Stop Worrying and Trust the Cloud
 </a>
 <div class="abs">
-TBD
-</div>
+<p>
+We consider the following scenario motivated by the rise of cloud computing.
+A client needs to process a massive stream of data, arriving online, but is
+unable to store even a small fraction of the data. It outsources the
+processing to a commercial cloud computing service, but is unwilling to
+blindly trust answers returned by this service. How can we design a suitable
+communication protocol between client and server that allows the server to not
+just provide the desired answer but prove to the client that the answer is
+correct?
+<p>
+This general question has been the subject of several recent research works.
+In this talk we shall focus on one particular problem of great practical
+interest: Nearest Neighbour Search. Our main protocol allows a client to find,
+with proof (in the above sense) the nearest neighbour to a query point in a
+stream of data points, while storing barely more than a constant number of
+points. In fact, the protocol we design is considerably more general, allowing
+us to solve many other data streaming problems, and leading to a rich theory
+within communication complexity, known as Arthur-Merlin communication. The
+talk will outline this theory broadly.
+<p>
+Based on joint work with Cormode, McGregor, Thaler, and Venkatasubramanian.
 
+</div>
+<p>
+
+<li> <i class="fa li fa fa-coffee"></i> 
+15:45 &ndash; 16:00 <b>Coffee Break</b>
 
 
 </ul>
@@ -202,14 +246,7 @@ streams and approximation techniques for optimization problems.
 
 
 
-
-
 </ul>
-
-
-
-
-
 
 </body></html>
 
