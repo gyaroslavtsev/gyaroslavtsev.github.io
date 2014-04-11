@@ -7,6 +7,7 @@ bs///
 <title>Sublinear Algorithms and Big Data Day</title>
 
 <link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/social-buttons.css" rel="stylesheet">
 <link href="starter-template.css" rel="stylesheet"> 
 <link rel="stylesheet" href="files/font-awesome-4.0.3/css/font-awesome.min.css">
 
@@ -53,6 +54,17 @@ return true;
 </head>
 
 <body id="big-data-home" class="text-center homepage">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 <div class="container">
 <div class="navbar-header">
@@ -80,6 +92,13 @@ return true;
 
 <h1 style="padding-top:0pt;margin-top:0pt;"><img src="img/sublinear.jpeg" style="width:50pt"> <font color="brown">Sublinear Algorithms and Big Data Day</font>
 </h1>
+
+<div class="fb-like" data-href="http://grigory.us/big-data-day.html" data-width="20" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgrigory.us%2Fbig-data-day.html&amp;width=20&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:20px; height:80px;" allowTransparency="true"></iframe>
+
+
+
 
 <a id="info"><h1>Information</h1></a>
 The first Sublinear Algorithms and Big Data Day or, in short, "The Sublinear Day" will take place at <a href="http://icerm.brown.edu">Brown ICERM</a> on Friday, April 18.
@@ -114,12 +133,14 @@ TBD
 Approximating matching size from random streams
 </a>
 <div class="abs">
+<p align="left">
 We present a streaming algorithm that makes one pass over the edges of an
 unweighted graph presented in random order, and produces a polylogarithmic approximation
 to the size of the maximum matching in the graph, while using only polylogarithmic space. Prior to this
 work the only approximations known were a folklore \(\tilde{O}(\sqrt{n})\)-approximation with polylogarithmic space in an \(n\)-vertex graph and a constant approximation with \(\Omega(n)\) space. 
 Our work thus gives the first algorithm where both the space and approximation
 factors are smaller than any polynomial in \(n\).
+</p>
 </div>
 <p>
 
@@ -131,12 +152,15 @@ factors are smaller than any polynomial in \(n\).
 Turnstile Streaming Algorithms Might as Well Be Linear Sketches
 </a>
 <div class="abs">
-<p>
+<p align="left">
 In the turnstile model of data streams, an underlying vector x in \(\{-m, -m + 1, ..., m - 1, m\}^n\) is presented as a long sequence of arbitrary positive and negative integer updates to its coordinates. A randomized algorithm seeks to approximate a function \(f(x)\) with constant probability while only making a single pass over this sequence of updates and using a small amount of space. All known algorithms in this model are linear sketches: they sample a matrix \(A\) from a distribution on integer matrices in the preprocessing phase, and maintain the linear sketch \(Ax\) while processing the stream. At the end of the stream, they output an arbitrary function of \(Ax\). One cannot help but ask: are linear sketches universal?
-<p>
+</p>
+<p align="left">
 In this work we answer this question by showing that any 1-pass constant probability streaming algorithm for approximating an arbitrary function \(f\) of \(x\) in the turnstile model can also be implemented by sampling a matrix \(A\) from the uniform distribution on \(O(n log m)\) integer matrices, with entries of magnitude \(poly(n)\), and maintaining the linear sketch \(Ax\). Furthermore, the logarithm of the number of possible states of \(Ax\), as \(x\) ranges over \(\{-m, -m + 1, ...,m\}^n\), plus the amount of randomness needed to store \(A\), is at most a logarithmic factor larger than the space required of the space-optimal algorithm. Our result shows that to prove space lower bounds for 1-pass streaming algorithms, it suffices to prove lower bounds in the simultaneous model of communication complexity, rather than the stronger 1-way model. Moreover, the fact that we can assume we have a linear sketch with polynomially-bounded entries further simplifies existing lower bounds, e.g., for frequency moments we present a simpler proof of the \(\tilde{\Omega}(n^{1-2/k})\) bit complexity lower bound without using communication complexity.
-<p>
+</p>
+<p align="left">
 Joint work with Yi Li and David P. Woodruff.
+</p>
 </div>
 <p>
 
@@ -153,9 +177,15 @@ Joint work with Yi Li and David P. Woodruff.
 Testing and Reconstruction of Lipschitz Functions
 </a>
 <div class="abs">
+<p align="left">
 We will study algorithmic questions about a basic property of functions: the Lipschitz property. The Lipschitz property is defined as follows: a real-valued function \(f\) that takes a vector \(x\) is Lipschitz if for all pairs of inputs \(x\) and \(y\), the value \(|f(x)-f(y)|\) is at most the number of coordinates on which \(x\) and \(y\) differ. We will discuss sublinear-time algorithms for testing whether a function is Lipschitz and for reconstructing Lipschitz functions.
-
+</p>
+<p align="left">
 We will show applications of these algorithms to differential privacy. The framework of differential privacy allows one to answer global queries about information in a database while protecting privacy specific to individuals whose information it contains. There are many known differentially private algorithms for specific queries and classes of queries. What if database analysts are allowed to write their own programs to access a private database? Can one test if such programs are differentially private? Can one ensure that they are differentially private? We will show that sublinear-algorithms for testing and reconstructing Lipschitz functions can be used to answer these question.
+</p>
+<p align="left">
+The talk is based on joint works with Madhav Jha, with Pranjal Awasthi, Madhav Jha and Marco Molinaro, and with Kashyap Dixit, Madhav Jha and Abhradeep Thakurta.
+</p>
 </div>
 <p>
 
@@ -167,7 +197,9 @@ We will show applications of these algorithms to differential privacy. The frame
 Analyzing Big Graphs via Sketching and Streaming
 </a>
 <div class="abs">
+<p align="left">
 Early work on data stream algorithms focused on estimating numerical statistics such as quantiles, frequency moments, and heavy hitters given limited memory and a single pass over the input. However, there's now a growing body of work on analyzing more structured data such as graphs. In this talk, we survey recent research in this area.
+</p>
 </div>
 <p>
 
@@ -179,7 +211,7 @@ Early work on data stream algorithms focused on estimating numerical statistics 
 Streaming Interactive Proofs or: How I Learned to Stop Worrying and Trust the Cloud
 </a>
 <div class="abs">
-<p>
+<p align="left">
 We consider the following scenario motivated by the rise of cloud computing.
 A client needs to process a massive stream of data, arriving online, but is
 unable to store even a small fraction of the data. It outsources the
@@ -188,7 +220,8 @@ blindly trust answers returned by this service. How can we design a suitable
 communication protocol between client and server that allows the server to not
 just provide the desired answer but prove to the client that the answer is
 correct?
-<p>
+</p>
+<p align="left">
 This general question has been the subject of several recent research works.
 In this talk we shall focus on one particular problem of great practical
 interest: Nearest Neighbour Search. Our main protocol allows a client to find,
@@ -198,9 +231,10 @@ points. In fact, the protocol we design is considerably more general, allowing
 us to solve many other data streaming problems, and leading to a rich theory
 within communication complexity, known as Arthur-Merlin communication. The
 talk will outline this theory broadly.
-<p>
+</p>
+<p align="left">
 Based on joint work with Cormode, McGregor, Thaler, and Venkatasubramanian.
-
+</p>
 </div>
 <p>
 
@@ -285,6 +319,7 @@ streams and approximation techniques for optimization problems.
 &nbsp;
 <img src="pics/icerm.png">
 </div>
+
 </body></html>
 
 
