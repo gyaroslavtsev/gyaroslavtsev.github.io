@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 APR 2014 22:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 APR 2014 05:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,61 +360,61 @@ Overfull \hbox (5.37471pt too wide) in paragraph at lines 356--356
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 453.
+(Font)              <9> on input line 451.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 453.
+(Font)              <5> on input line 451.
 
-Underfull \hbox (badness 4229) in paragraph at lines 479--480
+Underfull \hbox (badness 4229) in paragraph at lines 477--478
 []\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
 a, Lan-guages and
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 486--487
+Underfull \hbox (badness 4229) in paragraph at lines 484--485
 []\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
 a, Lan-guages and
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 498--499
+Underfull \hbox (badness 1436) in paragraph at lines 496--497
 []\OT1/cmr/m/n/10.95 IBM T.J. Wat-son Re-search Cen-ter, York-town Heights, NY.
  04/19/11--04/21/11,
  []
 
 [3] [4]
-Underfull \hbox (badness 1533) in paragraph at lines 690--691
+Underfull \hbox (badness 1533) in paragraph at lines 688--689
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 691--692
+Underfull \hbox (badness 3250) in paragraph at lines 689--690
 []\OT1/cmr/m/n/10.95 Conferences: FOCS'14, ICALP'14, FOCS'13, MFCS'13, ICALP'13
 , SODA'13,
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 691--692
+Underfull \hbox (badness 2134) in paragraph at lines 689--690
 \OT1/cmr/m/n/10.95 AP-PROX'12, FOCS'12, CO-COA'12, SWAT'12, SODA'12, VLDB'12, W
 ADS'11,
  []
 
 [5]
-Overfull \hbox (1.61829pt too wide) in paragraph at lines 759--759
+Overfull \hbox (1.61829pt too wide) in paragraph at lines 757--757
 []\OT1/cmr/m/sc/10.95 Professional 
  []
 
 
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 802.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 802.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 800.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 800.
  (./yaroslavtsev-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 802.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 802.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 800.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 800.
 Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 46DD77F7EB9970D2E33974AB2E6AF87B;918.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 802.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 800.
  ) 
 Here is how much of TeX's memory you used:
  5626 strings out of 493488
@@ -435,7 +435,7 @@ cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on yaroslavtsev-cv.pdf (6 pages, 151245 bytes).
+Output written on yaroslavtsev-cv.pdf (6 pages, 151078 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  182 compressed objects within 2 object streams
