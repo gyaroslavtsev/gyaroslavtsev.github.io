@@ -1,0 +1,216 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+bs///
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>Big Data Reading Group</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="starter-template.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="starter-template.css" rel="stylesheet">
+
+<meta property="og:image" content="logo-big-data.png">
+<meta property="og:image:type" content="image/png">
+
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+<script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</button>
+<a class="navbar-brand" href="#"><b>Big Data Reading Group</b></a>
+<a class="navbar-brand" href="#info">Info</a>
+<a class="navbar-brand" href="#topics">Topics</a>
+<a class="navbar-brand" href="#schedule">Schedule</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="starter-template">
+<br/>
+<br/>
+<br/>
+
+<h1 style="padding-top:0pt;margin-top:0pt;"><img src="img/sublinear.jpeg" style="width:50pt"> <font color="brown">Big Data Reading Group</font>
+</h1>
+
+<a id="info"><h1>Information</h1></a>
+<ul class="fa-ul">
+<li> <i class="fa-li fa fa-question"></i> <b>What?</b>
+<p>
+<ul>
+<li>This reading group will cover some of the most influential modern (last 5-10 years) developments in algorithms for large data processing. 
+<li>No background knowledge (except general mathematical maturity) is required.
+</ul>
+
+
+<li> <i class="fa-li fa fa-question"></i>  <b>When?</b> 
+<ul>
+<li>Weekly meetings during the Fall 2014 semester. 
+<li>To agree on time, please, take time to fill the poll: <a href="http://doodle.com/kmddqmmw9rppvcbw">http://doodle.com/kmddqmmw9rppvcbw </a>
+</ul>
+
+<li> <i class="fa-li fa fa-question"></i> <b>How can I join?</b>
+<ul>
+<li>Please, send an e-mail to Grigory Yaroslavtsev, <b>grigory (at) grigory (dot) us</b> to join. Also, fill the poll above to pick the time. 
+<li>Each participant will be expected to pick one of the papers for presentation and discussion with the rest of the group. 
+<li>It is expected that such presentation will cover technical parts of the paper in detail.
+<li>Preparing slides is not necessary and it's perfectly fine if you use the paper and/or notes during the presentation.
+</ul>
+
+<li> <i class="fa-li fa fa-question"></i><b>What's next?</b>
+<ul>
+<li> Stay tuned: I will be teaching a related class next semester (Spring 2015). This reading group and the class are complementary and will cover different sets of topics. The main difference is that the class cover foundations of algorithms for massive data in more detail, while the reading group will focus on the most recent developments.  
+<li> Try some open problems: <a rel="nofollow" target="_blank" href="http://sublinear.info/index.php?title=Main_Page"><b>sublinear.info</b></a> 
+</ul>
+</ul>				     
+
+<a id="topics"><h1>Topics</h1></a>
+
+<p>
+Increasingly large datasets are being collected by governments, private companies and research institutions. This motivates increased interest in the design and analysis of algorithms for rigorous analysis of such data. In this reading group we will consider scenarios when the size of the data is too large to fit into the main memory of a single machine. 
+Two main paradigms of computation that we will focus on are massively parallel computation (applicable to frameworks such as Yahoo!'s Hadoop, Google's MapReduce and Microsoft's Dryad) and streaming algorithms (Apache Storm and Spark Streaming).
+
+<p>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Massively Parallel Algorithms</h3>
+<img src="pics/big-data-reading/mapreduce.png"></a>
+In massively parallel computational systems (clusters) the data is partitioned between a large number of identical machines connected via a high-speed network.
+An algorithm proceeds in synchronous rounds, each consisting of local computation performed by each machine followed by an exchange of information through the network.
+The typical goal of algorithm design is to minimize the number of synchronous rounds, together with optimizing the time/space, communication, etc.
+</ul>
+<p>
+<p>
+Some papers suggested for reading:
+<ul class="fa-ul">
+<li> <a href="http://theory.stanford.edu/~sergei/papers/soda10-mrc.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Howard J. Karloff, Siddharth Suri, Sergei Vassilvitskii: A Model of Computation for MapReduce. SODA 2010.
+<li> <a href="http://theory.stanford.edu/~sergei/papers/spaa11-matchings.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Silvio Lattanzi, Benjamin Moseley, Siddharth Suri, Sergei Vassilvitskii: Filtering: a method for solving graph problems in MapReduce. SPAA 2011.
+<li> <a href="http://theory.stanford.edu/~sergei/papers/vldb12-kmpar.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Bahman Bahmani, Benjamin Moseley, Andrea Vattani, Ravi Kumar, Sergei Vassilvitskii: Scalable K-Means++. VLDB 2012.
+<li> <a href="http://webdocs.cs.ualberta.ca/~svitkina/pub/mr-talg.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Jon Feldman, S. Muthukrishnan, Anastasios Sidiropoulos, Clifford Stein, Zoya Svitkina: On distributing symmetric streaming computations. SODA 2008.
+<li> <a href="http://theory.stanford.edu/~sergei/papers/www11-triangles.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Siddharth Suri, Sergei Vassilvitskii: Counting triangles and the curse of the last reducer. WWW 2011.
+<li> <a href="http://research.microsoft.com/pubs/145447/mod113-bahmani.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Bahman Bahmani, Kaushik Chakrabarti, Dong Xin: Fast personalized PageRank on MapReduce. SIGMOD 2011.
+</ul>
+</li>
+
+<br>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Streaming algorithms</h3>
+<img src="pics/big-data-reading/stream.jpg"></a>
+Data streams represent a large dataset as a sequence updates to its entries.
+Streaming algorithms extract only a small amount of information about the data stream  (a "sketch") and compute an answer based on that. 
+Such algorithms are typically allowed to make only one pass over the data (or very few passes).
+The typical goal of algorithm design is to minimize the number of passes and space, while achieving a good approximation guarantee.
+</ul>
+<p>
+Some papers suggested for reading:
+<ul class="fa-ul">
+<li> <a href="http://twiki.di.uniroma1.it/pub/Ing_algo/WebHome/p14_Cormode_JAl_05.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Graham Cormode, S. Muthukrishnan: An Improved Data Stream Summary: The Count-Min Sketch and Its Applications. LATIN 2004, <b>Imre Simon Test-of-Time Paper Award</b>.
+<li> <a href="http://www.cs.yale.edu/homes/el327/papers/simpleMatrixSketching.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Edo Liberty: Simple and deterministic matrix sketching. KDD 2013, <b>Best Paper Award</b>.
+<li> <a href="http://people.seas.harvard.edu/~minilek/papers/f0.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Daniel M. Kane, Jelani Nelson, David P. Woodruff: An optimal algorithm for the distinct elements problem. PODS 2010, <b>Best Paper Award</b>.
+<li> <a href="http://arxiv.org/pdf/1212.2264.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Madhav Jha, C. Seshadhri, Ali Pinar: A space efficient streaming algorithm for triangle counting using the birthday paradox. KDD 2013, <b>Best Student Paper Award</b>.
+<li> <a href="http://131.107.65.14/pubs/65175/pagerankpods.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Atish Das Sarma, Sreenivas Gollapudi, Rina Panigrahy: Estimating PageRank on graph streams. PODS 2008, <b>Best Paper Award</b>.
+</ul>
+
+
+<br>
+
+
+<a id="schedule"> <h1> Schedule</h1></a>
+<br>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-group"></i>Week 1: <b>Organization, introduction.</b> 
+<li><i class="fa-li fa fa-group"></i>Week 2: <b>TBD.</b> 
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+
+<!--
+
+<ul class="fa-ul">
+<li> <i class="fa-li fa fa-file-text"></i>
+Noga Alon, Yossi Matias, Mario Szegedy: The Space Complexity of Approximating the Frequency Moments. J. Comput. Syst. Sci. 58(1): 137-147 (1999)
+
+<li> <i class="fa-li fa fa-file-text"></i>Broder, Andrei Z. (1997), "On the resemblance and containment of documents", Compression and Complexity of Sequences: Proceedings, Positano, Amalfitan Coast, Salerno, Italy, June 11-13, 1997, IEEE, pp. 21–29
+
+<li> <i class="fa-li fa fa-file-text"></i>Johnson, William B.; Lindenstrauss, Joram (1984), "Extensions of Lipschitz mappings into a Hilbert space", Conference in Modern Analysis and Probability (New Haven, Conn., 1982), Contemporary Mathematics 26, Providence, RI: American Mathematical Society, pp. 189–206
+
+<li> <i class="fa-li fa fa-file-text"></i>Funda Ergün, Sampath Kannan, Ravi Kumar, Ronitt Rubinfeld, Mahesh Viswanathan,                 Spot-Checkers. Journal of Computer System and Sciences 2000, STOC 1998.        
+
+<li>  <i class="fa-li fa fa-file-text"></i>Oded Goldreich, Dana Ron,                 Property testing in bounded degree graphs. Algorithmica 2002, STOC 1997.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Bernard Chazelle, Ronitt Rubinfeld, Luca Trevisan,                 Approximating the Minimum Spanning Tree Weight in Sublinear Time. SIAM Journal of Computing 2005, ICALP 2001.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Noga Alon, Eldar Fischer, Michael Krivelevich, Mario Szegedy,                 Efficient testing of large graphs, Combinatorica 20 (2000), 451-476.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Oded Goldreich, Dan Ron,                 Approximating average parameters of graphs, Random Struct. Algorithms 32(4): 473-493 (2008)        
+
+<li> <i class="fa-li fa fa-file-text"></i>Piotr Berman, Sofya Raskhodnikova, and Grigory Yaroslavtsev, Testing properties with respect to L<sub>p</sub> distances, STOC 2014.
+
+<li> <i class="fa-li fa fa-file-text"></i>Alexandr Andoni, Aleksandar Nikolov, Krzysztof Onak, Grigory Yaroslavtsev, Parallel algorithms for geometric graph problems. STOC 2014.
+
+</ul>
+-->
+
+</body></html>
+
+
