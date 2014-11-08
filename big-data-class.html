@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+bs///
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>algorithms for Big Data</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="starter-template.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="starter-template.css" rel="stylesheet">
+
+<meta property="og:image" content="keep-calm6.png">
+<meta property="og:image:type" content="image/png">
+
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+<script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</button>
+<a class="navbar-brand" href="#"><b>algorithms for Big Data</b></a>
+<a class="navbar-brand" href="#information">Info</a>
+<a class="navbar-brand" href="#sketch">Sketch</a>
+<a class="navbar-brand" href="#plan">Plan</a>
+<a class="navbar-brand" href="#hw">HW</a>
+<a class="navbar-brand" href="#biblio">Biblio</a>
+<a class="navbar-brand" href="#poster">Poster</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="starter-template">
+<br/>
+<br/>
+<br/>
+
+<h1 style="padding-top:0pt;margin-top:0pt;"><img src="pics/favicon.png" style="width:50pt"> <font color="brown">CIS 677: algorithms for Big Data</font>
+</h1>
+<!--
+<img src="img/dc-uba.jpg" width="160px">
+<embed width="610" height="155" align="middle" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" name="Untitled-1" bgcolor="#ffffff" quality="high" src="banner-eci-2014.swf"></embed>
+-->
+<!--
+<a id="team"><h1> Team 
+</h1></a>
+<ul class="fa-ul">
+<li> <i class="fa-li fa fa-male"></i> <b><a class="name" href="http://grigory.us">Grigory Yaroslavtsev</a></b> <tt>grigory (at) grigory.us</tt>
+<li> <i class="fa-li fa fa-male" style="padding-left:-5pt"></i><i class="fa-li fa fa-female" style="padding-left:12pt"></i> Brilliant Teaching Assistants from the University of Buenos Aires. Want to become one? Send me an e-mail.  
+</ul>
+-->
+
+<a id="information"><h1>Information</h1></a>
+<table>
+<tr>	
+<td>
+	<img src="pics/keep-calm6.png" width="150px" style="border:1px solid black">
+</td>
+<td>	
+<ul class="fa-ul">
+	<li> <i class="fa-li fa fa-question"></i>  <b>Who?</b> <b><a href="http://grigory.us">Grigory Yaroslavtsev</a></b>.
+	<li> <i class="fa-li fa fa-question"></i>  <b>When?</b> Spring 2015, Thursdays 10am &ndash; 1pm.
+	<li> <i class="fa-li fa fa-question"></i> <b>Where?</b> TBD. 
+<li> <i class="fa-li fa fa-question"></i><b>What's next?</b> Try some open problems: <a rel="nofollow" target="_blank" href="http://sublinear.info/index.php?title=Main_Page"><b>sublinear.info</b></a> 
+<li> <i class="fa-li fa fa-question"></i> <b>Poster design challenge?</b>
+See details <a href="#poster">below</a>.
+
+</ul>				     
+</td>
+</tr>
+<table>
+
+<a id="sketch"><h1>Sketch<span style="color:red"><sup>*</sup></span>   </h1></a>
+
+<p>
+Increasingly large datasets are being collected by governments, private companies and research institutions. This motivates increased interest in the design and analysis of algorithms for rigorous analysis of such data. In this class we will consider algorithms for scenarios when the size of the data is too large to fit into the main memory of a single machine. Two main paradigms of computation that we will focus on are massively parallel computation (applicable to frameworks such as Yahoo!'s Hadoop, Google's MapReduce and Microsoft's Dryad) and streaming algorithms (Apache Storm and Spark Streaming).
+
+
+
+
+<p>
+This class covers a rapidly evolving area. There is no textbook. Related classes at other universities:
+<ul>
+	<li><a rel="nofollow" target="_blank" href="http://stellar.mit.edu/S/course/6/sp13/6.893/ ">Sublinear Algorithms</a> by Piotr Indyk and Ronitt Rubinfeld at MIT
+	<li><a rel="nofollow" target="_blank" href="http://people.seas.harvard.edu/~minilek/cs229r/lec.html">Algorithms for Big Data</a> by Jealni Nelson at Harvard
+	<li><a href="http://people.cs.umass.edu/~mcgregor/courses/CS711S12/index.html">Data Stream Algorithms</a> by Andrew McGregor at UMass Amherst 
+	<li><a rel="nofollow" target="_blank" href="http://www.cse.psu.edu/~sofya/sublinear598/">Sublinear Algorithms</a> by Sofya Raskhodnikova at Penn State 
+</ul>	
+<br>
+<span style="color:red"><sup>*</sup></span> Usually there is an abstract here.
+
+
+<a id="plan"> <h1> Plan</h1></a>
+
+This class will cover the following topics:
+
+<ul class="list-thumbnail">
+	<li>
+	<h3>Part 1: Streaming Algorithms</h3>
+	<img src="pics/big-data-reading/stream.jpg"></a>
+Data streams represent a large dataset as a sequence updates to its entries.
+Streaming algorithms extract only a small amount of information about the data stream  (a "sketch") and compute an answer based on that. 
+Such algorithms are typically allowed to make only one pass over the data (or very few passes).
+The typical goal of algorithm design is to minimize the number of passes and space, while achieving a good approximation guarantee.
+</ul>
+Tentative outline:
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 1.</b> 
+	Introduction. Probablity basics. Approximate counting, Morris's algorithm.
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 2.</b> 
+Approximating the median. AMS-sketching. Frequency moments via AMS. F2-moment via 4-wise independent hashing. Distinct elements.
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 3.</b> 
+Count-Min sketch, heavy hitters. Count-Sketch. L2-sampling. L0-sampling. L1 sparse recovery. 
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 4.</b> 
+	Graph sketching: Connectivity, Bipartiteness, Minimum spanning tree.
+</ul>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Part 2: Algorithms for Numerical Linear Algebra and High-Dimensional Data</h3>
+<img src="pics/matrix.jpg"></a>
+</ul>
+Tentative outline:
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 5.</b> 
+	Dimension reduction, Johnson-Lindenstrauss transform. Nearest neighbor search, locality-sensitive hashing.
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 6.</b> 
+	Subspace embeddings. Approximate matrix multiplication, leverage scores, L2-squared regression.
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 7.</b> 
+	L1-regression, low rank approximation
+</ul>
+	
+<ul class="list-thumbnail">
+<li>
+<h3>Part 3: Massively Parallel Algorithms</h3>
+<img src="pics/big-data-reading/mapreduce.png"></a>
+In massively parallel computational systems (clusters) the data is partitioned between a large number of identical machines connected via a high-speed network.
+An algorithm proceeds in synchronous rounds, each consisting of local computation performed by each machine followed by an exchange of information through the network.
+The typical goal of algorithm design is to minimize the number of synchronous rounds, together with optimizing the time/space, communication, etc.
+</ul>
+Tentative outline:
+
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 8.</b>
+	Model for massively parallel computation. Frequency moments, connectivity, minimum spanning tree.
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 9.</b>
+	Algorithms for dense graphs via filtering. K-means||. Euclidean Minimum Spanning Tree.
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 10.</b>
+	TBD.
+</ul>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Part 4: Sublinear Time Algorithms</h3>
+<img src="pics/sublinear.jpg"></a>
+</ul>
+Tentative outline:
+
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 11.</b>
+	Sublinear time approximation and property testing. Testing images, sortedness, connectedness. 
+	<li><i class="fa-li fa fa-group"></i> <b>Lecture 12.</b>
+Approximating weight of the Minimum Spanning Tree. Lp-Testing.
+<li><i class="fa-li fa fa-group"></i> <b>Lecture 13.</b>
+TBD.
+</ul>
+
+
+<!--
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-group"></i><b>Introduction.</b> (<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-1.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-1.pdf">pdf</a>]). 
+<br> Probability basics. Introduction to streaming algorithms, Moriss's algorithm.
+
+
+<li> <i class="fa-li fa fa-group"></i><b>Sketching and streaming algorithms I.</b> (<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-2.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-2.pdf">pdf</a>]).
+<br> Approximating the median. AMS-sketching. Frequency moments via AMS. F<sub>2</sub>-moment via 4-wise independent hashing. Distinct elements. Count-Min sketch. 
+
+<li> <i class="fa-li fa fa-group"></i><b>Sketching and streaming algorithms II.</b> 
+(<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-3.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-3.pdf">pdf</a>], Graph sketching (by Andrew McGregor): [<a href="files/teaching/sublinear-big-data-3-graph-sketching.pdf">pdf</a>]). 
+<br>Count-Min sketch (continued), Count-Sketch. L<sub>2</sub>-sampling. L<sub>0</sub>-sampling. L<sub>1</sub> sparse recovery. Graph sketching.
+
+<li> <i class="fa-li fa fa-group"></i><b>Sublinear-time algorithms I.</b>
+(<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-4.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-4.pdf">pdf</a>], Sublinear-time algoirthms (by Sofya Raskhodnikova): [<a href="files/teaching/sublinear-big-data-4-sublinear-time.pdf">pdf</a>]).
+<br> Dimension reduction, Johnson-Lindenstrauss transform. Introduction to sublinear-time algorithms: models, approximation, property testing. Basic examples: testing images, sortedness, connectedness.
+
+<li>  <i class="fa-li fa fa-group"></i><b>Sublinear-time algorithms II + Introduction to MapReduce.</b> 
+(<b>Slides: </b> MapReduce [<a href="files/teaching/sublinear-big-data-5-mapreduce.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-5-mapreduce.pdf">pdf</a>], L<sub>p</sub>-testing [<a href="files/teaching/sublinear-big-data-5-lp-testing.pptm">pptm</a>],[<a href="files/teaching/sublinear-big-data-5-lp-testing.pdf">pdf</a>], Sublinear-time algoirthms (by Sofya Raskhodnikova): [<a href="files/teaching/sublinear-big-data-5-sublinear-time.pdf">pdf</a>]).
+<br> Approximating weight of the Minimum Spanning Tree. Testing properties of real-valued functions (L<sub>p</sub>-testing). MapReduce algorithms, Euclidean Minimum Spanning Tree.
+</ul>
+-->
+<a id="exam"> <h1>Homework</h1></a>
+<br>
+
+Homework problems will appear here.
+
+<!--
+<ul class="fa-ul">
+<li>  <i class="fa-li fa fa-graduation-cap"></i><b>Exam Problems: </b>[<a href="files/teaching/sublinear-big-data-exam.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-exam.pdf">pdf</a>].
+-->
+</ul>
+
+<a id="biblio"> <h1> Bibliography</h1></a>
+<br>
+
+<ul class="fa-ul">
+<li> <i class="fa-li fa fa-file-text"></i>
+Noga Alon, Yossi Matias, Mario Szegedy: The Space Complexity of Approximating the Frequency Moments. J. Comput. Syst. Sci. 58(1): 137-147 (1999)
+
+<li> <i class="fa-li fa fa-file-text"></i>Broder, Andrei Z. (1997), "On the resemblance and containment of documents", Compression and Complexity of Sequences: Proceedings, Positano, Amalfitan Coast, Salerno, Italy, June 11-13, 1997, IEEE, pp. 21–29
+
+<li> <i class="fa-li fa fa-file-text"></i>Johnson, William B.; Lindenstrauss, Joram (1984), "Extensions of Lipschitz mappings into a Hilbert space", Conference in Modern Analysis and Probability (New Haven, Conn., 1982), Contemporary Mathematics 26, Providence, RI: American Mathematical Society, pp. 189–206
+
+<li> <i class="fa-li fa fa-file-text"></i>Funda Ergün, Sampath Kannan, Ravi Kumar, Ronitt Rubinfeld, Mahesh Viswanathan,                 Spot-Checkers. Journal of Computer System and Sciences 2000, STOC 1998.        
+
+<li>  <i class="fa-li fa fa-file-text"></i>Oded Goldreich, Dana Ron,                 Property testing in bounded degree graphs. Algorithmica 2002, STOC 1997.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Bernard Chazelle, Ronitt Rubinfeld, Luca Trevisan,                 Approximating the Minimum Spanning Tree Weight in Sublinear Time. SIAM Journal of Computing 2005, ICALP 2001.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Noga Alon, Eldar Fischer, Michael Krivelevich, Mario Szegedy,                 Efficient testing of large graphs, Combinatorica 20 (2000), 451-476.        
+
+<li> <i class="fa-li fa fa-file-text"></i>Oded Goldreich, Dan Ron,                 Approximating average parameters of graphs, Random Struct. Algorithms 32(4): 473-493 (2008)        
+
+<li> <i class="fa-li fa fa-file-text"></i>Piotr Berman, Sofya Raskhodnikova, and Grigory Yaroslavtsev, Testing properties with respect to L<sub>p</sub> distances, STOC 2014.
+
+<li> <i class="fa-li fa fa-file-text"></i>Alexandr Andoni, Aleksandar Nikolov, Krzysztof Onak, Grigory Yaroslavtsev, Parallel algorithms for geometric graph problems. STOC 2014.
+
+
+<li> <i class="fa-li fa fa-file-text"></i>Graham Cormode, S. Muthukrishnan: An Improved Data Stream Summary: The Count-Min Sketch and Its Applications. LATIN 2004: 29-38
+</ul>
+
+<a id="poster"><h1>Poster Challenge</h1></a>
+<p>
+Unleash your creativity and show us your love for big data and sublinear algorithms!
+<p>
+Guidelines for the poster design challenge:
+<ul>
+	<li> Deadline: TBA.
+	<li> Please, use this <a href="http://www.keepcalm-o-matic.co.uk/?country=us">poster generator</a> with one of these two official Penn <a href="http://www.upenn.edu/webservices/styleguide/color.html ">background colors</a>: #01256e or #bf191f.
+	<li> It is important that you keep the "keep calm" part. Those who successfully complete the class will receive a limited edition of the "I kept calm and ..." T-shirt.
+	<li> Send your poster in PNG to <b>grigory (at) grigory (dot) us</b>.
+	<li> See examples below.
+</ul>
+<table>
+	<tr>
+		<td><img src="pics/keep-calm.png" width="150px"></td>
+		<td><img src="pics/keep-calm2.png" width="150px"></td>
+		<td><img src="pics/keep-calm3.png" width="150px"></td>
+		<td><img src="pics/keep-calm4.png" width="150px"></td>
+		<td><img src="pics/keep-calm5.png" width="150px"></td>
+		<td><img src="pics/keep-calm6.png" width="150px" style="border:1px solid black"></td>
+	</tr>
+<table>
+
+
+
+
+</body></html>
+
+
