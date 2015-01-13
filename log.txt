@@ -1,0 +1,2213 @@
+commit 396084097faff60cbb5480dd560e75f17b9c1913
+Author: Grigory Yaroslavtsev <grigory@SEAS372.wlan.seas.upenn.edu>
+Date:   Thu Jan 8 12:06:50 2015 -0500
+
+    up
+
+commit 61d9613c83bf60c98287dcfd72d01937e2a5de19
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 7 07:10:44 2015 -0800
+
+    up
+
+commit 47924d9b941613665ea0f5290b9828688d5a2b97
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 7 07:10:19 2015 -0800
+
+    up
+
+commit 7e61f6ee9f34353813dc77254fad45389c685846
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 23:12:27 2015 -0800
+
+    up
+
+commit c3121bb1c3f3ddaabe0d504ff0f5fa8ec1be709d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 23:11:19 2015 -0800
+
+    up
+
+commit 61f3fdc15c0c015efbcb0ddf3e86ade606a9f425
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 23:08:22 2015 -0800
+
+    up
+
+commit b2997d26408db51f49bfca2672a7a7dff91e0e5d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:52:07 2015 -0800
+
+    up
+
+commit d1ccb896cfa2cf2b13f5a886f9bf87e940512eba
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:49:53 2015 -0800
+
+    up
+
+commit 4875b51aa52332132adb827884d87a55783dd07c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:47:38 2015 -0800
+
+    up
+
+commit e6f41ad7bf44b0be94de011935f07d069fdf2579
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:44:54 2015 -0800
+
+    up
+
+commit 39401d00252d354c31cf97d7881e5ecda031bf97
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:42:01 2015 -0800
+
+    up
+
+commit 2731d1b17ab84d7d984b238545c30a17e85fc88b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:29:36 2015 -0800
+
+    revert
+
+commit f33a100f8892f33dee4ef158eb989b9c2817e833
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jan 6 22:26:24 2015 -0800
+
+    up
+
+commit 0b3275f041a31a6de869bbe604421027d10a2f68
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Tue Dec 30 00:20:51 2014 -0500
+
+    up
+
+commit 855859667563b065221a514c89c0d3a4e067b45b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Thu Dec 11 23:01:33 2014 -0500
+
+    up
+
+commit 086002d07570992f3ccc04cabfd2bfba40c2f302
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Dec 6 21:59:38 2014 -0500
+
+    up
+
+commit 9ce596910d8617e4e598ad056518f6bc724fea30
+Author: Grigory Yaroslavtsev <grigory@seas568.wireless-pennnet.upenn.edu>
+Date:   Sat Dec 6 17:52:19 2014 -0500
+
+    up
+
+commit 869e21cd8a8a7f01ea899262f0ef94552a36882c
+Author: Grigory Yaroslavtsev <grigory@seas568.wireless-pennnet.upenn.edu>
+Date:   Sat Dec 6 17:48:05 2014 -0500
+
+    up
+
+commit 5653487cbe0612064403566eefa35cec28056879
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Tue Dec 2 23:23:57 2014 -0500
+
+    up
+
+commit b3768e858b8cc0d515d027265ecb06ef839d9d4d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Tue Dec 2 22:34:30 2014 -0500
+
+    up
+
+commit ab0f320862faae507aaf7812df66a9b70ee2c952
+Author: Grigory Yaroslavtsev <grigory@SEAS345.wlan.seas.upenn.edu>
+Date:   Wed Nov 26 20:48:43 2014 -0500
+
+    up
+
+commit 12f2708c55f25eb6a7012fbc3e2686231c4cacca
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Fri Nov 21 11:26:19 2014 -0500
+
+    up
+
+commit 15e5253196c11463ec96fbb47604c9497afdb767
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Nov 19 10:52:28 2014 -0500
+
+    up
+
+commit f2f3bbadf8e18643884096173d31c23919abf216
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Nov 17 21:05:28 2014 -0500
+
+    up
+
+commit 9f8d84a1615ec0e50c6c7cb65a66cb1bb5cd0809
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Nov 17 20:58:30 2014 -0500
+
+    up
+
+commit 7f016716b53d7a9fa4cbdd14c369b671fe906505
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 15 15:38:42 2014 -0500
+
+    up
+
+commit 7b8c9cf71c11ffbf10633adcdb2077629a3e3cb2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 15 15:31:23 2014 -0500
+
+    up
+
+commit c474e1efdb83e3389cfdf017c719c0d86f192d84
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Nov 14 11:09:39 2014 -0500
+
+    up
+
+commit 30864d6267097e21dfdda355b74364b7b15900eb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Nov 14 11:08:19 2014 -0500
+
+    up
+
+commit 926302820e176538916de5c5f93c00158e4cf998
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 8 23:13:00 2014 -0500
+
+    up
+
+commit ce1dacc65598a8eebbb26e30e72b2c3f84a76460
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 8 22:55:50 2014 -0500
+
+    up
+
+commit a74553ea98f4118fd97b54d6c575e2fc8674663d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 8 22:41:00 2014 -0500
+
+    up
+
+commit dd56ac33c9e2280320487656fa66a7090f7522cd
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Nov 8 22:30:43 2014 -0500
+
+    up
+
+commit 5cb80aee44dfee8e83358cf7492e5bf318b86f66
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:59:06 2014 -0500
+
+    up
+
+commit 2783a3a267552d8db91d2069174ff9929bf7b3e7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:56:18 2014 -0500
+
+    up
+
+commit 30c6fe826b2b7959edac41128ec619186aff8610
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:51:47 2014 -0500
+
+    up
+
+commit 6bc8684eda1ae2fe4fd0676a23cc41cf5ac54624
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:49:29 2014 -0500
+
+    up
+
+commit 836eab764aa39909adeb08e7d87d377d09d5daf5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:38:47 2014 -0500
+
+    up
+
+commit 6d493a37305fb7c1f7fade905265aa7061d320f3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:36:57 2014 -0500
+
+    up
+
+commit 7f8be54258a60942142bdc1a896c9e3a73c6f02b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:30:22 2014 -0500
+
+    up
+
+commit 512ff06064383399e9b28e501b32e093e99f8ff6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:27:31 2014 -0500
+
+    up
+
+commit ec758ba29d2f9196f2439ec6956d3a8eca8f141d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:24:49 2014 -0500
+
+    up
+
+commit e909dc1f58a3f1c59eaed29939b69b42dae5e4f9
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:22:55 2014 -0500
+
+    up
+
+commit d7593606b3bad408c7cc971b9497d47bd1d17080
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MBP.home>
+Date:   Sat Nov 8 18:19:40 2014 -0500
+
+    up
+
+commit d71d4ce85540262fcf62cdab23b3e684465d4e03
+Author: Grigory Yaroslavtsev <grigory@seas1348.wireless-pennnet.upenn.edu>
+Date:   Tue Nov 4 14:34:29 2014 -0500
+
+    up
+
+commit 41b1b51ec5d381b86432f02bdab3822323c11700
+Author: Grigory Yaroslavtsev <grigory@seas1348.wireless-pennnet.upenn.edu>
+Date:   Tue Nov 4 14:33:50 2014 -0500
+
+    up
+
+commit 60d94790c3ad78db6c173b41ee46108208cee5d9
+Author: Grigory Yaroslavtsev <grigory@seas1348.wireless-pennnet.upenn.edu>
+Date:   Tue Nov 4 14:31:17 2014 -0500
+
+    up
+
+commit bf88fcd68108c0dc62ca4a56d4a1f136614f1905
+Author: Grigory Yaroslavtsev <grigory@seas1348.wireless-pennnet.upenn.edu>
+Date:   Tue Nov 4 14:29:40 2014 -0500
+
+    up
+
+commit a15bfff871d3a79d87e1f0a667efc69606607bca
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:58:23 2014 -0500
+
+    up
+
+commit 5f3f3b72c07ed7d1808a3418a3da176a61054ce3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:51:27 2014 -0500
+
+    up
+
+commit 21e2e09918e32691ee330e7774b52316588d2482
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:37:56 2014 -0500
+
+    up
+
+commit 54f67b0127e3284ee0ba48ef880e675a20d990b5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:34:04 2014 -0500
+
+    up
+
+commit 46a0efbfd33118c8b3ef23abd188e75128637b7c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:25:32 2014 -0500
+
+    up
+
+commit ec4dc16d2083d74afaee487ca53b0befb57eb73a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:12:46 2014 -0500
+
+    up
+
+commit 5f06fae33419e7ac9dd06c3ea8e369235043bfb7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Nov 4 11:07:52 2014 -0500
+
+    up
+
+commit 1bc46e01b9bcd66d8fd98148410b23217b1236cf
+Author: Grigory Yaroslavtsev <grigory@grigorys-mbp.home>
+Date:   Tue Oct 28 23:28:39 2014 -0400
+
+    up
+
+commit 6b532fe7c272998fb07bcbdf1470c0d50224c02d
+Author: Grigory Yaroslavtsev <grigory@grigorys-mbp.home>
+Date:   Tue Oct 28 22:47:25 2014 -0400
+
+    up
+
+commit bfc6346ba13f9b60d88b9b86fd578a668090cd42
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Oct 21 10:06:55 2014 -0400
+
+    up
+
+commit 6b088c034d219a479166e3295bdf7b86b92f7b6f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Oct 21 10:06:01 2014 -0400
+
+    up
+
+commit 6c6578e1c26f3a04dea5141deae5b7ad76c9bf88
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Oct 18 00:12:12 2014 -0400
+
+    up
+
+commit ed4895f076d8d70584ad821f9d7c0f1ac52f96cd
+Author: Grigory Yaroslavtsev <grigory@grigorys-mbp.home>
+Date:   Fri Oct 17 23:15:10 2014 -0400
+
+    up
+
+commit 8e20d3274174ad37253cd181a493d6bf4c880eca
+Author: Grigory Yaroslavtsev <grigory@grigorys-mbp.home>
+Date:   Fri Oct 17 23:11:19 2014 -0400
+
+    up
+
+commit 01128cd30666abe49a5ae74a7ce4e3e7c6fc0079
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Oct 13 02:49:53 2014 -0400
+
+    up
+
+commit 630467cd8bb60d389e8f8bffe88a1ada090f4897
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Sun Oct 12 14:52:15 2014 -0400
+
+    up
+
+commit 13f29b0fd52282917253141c3a071d27a577abf7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Oct 12 14:46:34 2014 -0400
+
+    up
+
+commit 170f1bc4ee789032c0bb24725184d29ff64a356a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Oct 3 16:57:13 2014 -0400
+
+    up
+
+commit d9937b8f5066c651220b7b6e7c31d6de8c1394c0
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Tue Sep 30 00:49:27 2014 -0400
+
+    up
+
+commit 492b2d61ab53c0e4d15c2a999a3965d6712da2db
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Tue Sep 30 00:20:02 2014 -0400
+
+    up
+
+commit 76297fce2a8fed5df972394ab613c0651eece663
+Author: Grigory Yaroslavtsev <grigory@seas1373.wireless-pennnet.upenn.edu>
+Date:   Mon Sep 29 15:19:41 2014 -0400
+
+    up
+
+commit f26e6760ee3ccc8ef2771ebd1a6fc760f74d4636
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Mon Sep 29 02:43:09 2014 -0400
+
+    up
+
+commit 34eb560fa1d710d844c55c700836eb609ddd6b19
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Sep 29 02:03:20 2014 -0400
+
+    up
+
+commit f9078f2ba3dd138c7cd9632993d56e1f414de90a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 28 20:39:28 2014 -0400
+
+    up
+
+commit 6f139c3d86e87f05d19ade4d5a7c41db593a6550
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 28 20:29:26 2014 -0400
+
+    up
+
+commit 8689674a16a2210aea0476a9330370c417cc961c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 28 19:26:41 2014 -0400
+
+    up
+
+commit 8890f7aa6865e703d69a9a98acc83c7cb71292df
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 28 16:06:46 2014 -0400
+
+    up
+
+commit 8c1830496cbbf7cd5e026cdc8e2c99b83b353e48
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 28 15:11:50 2014 -0400
+
+    up
+
+commit 4be1f8047e412c69a3055328f56833966d62f4dc
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Sat Sep 27 18:40:05 2014 -0400
+
+    up
+
+commit 55f9e22c19f4e2c30277e80af9ec11641cbf646d
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Wed Sep 24 00:51:17 2014 -0400
+
+    more-clean-up
+
+commit f940f7b070d5d9f8dec9fc9dd0570e7b943777df
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Sep 24 00:18:51 2014 -0400
+
+    jekyll-blog
+
+commit 8f51d899a3e40c30394a26b511304c1c6f511aaf
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Sep 23 23:34:52 2014 -0400
+
+    logo
+
+commit 3390d66d22d6946a9f2c3e61560698b8d0eac7b7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Sep 23 23:30:18 2014 -0400
+
+    logo
+
+commit 6ed282699d9868e5f511e2816e475238488d60cb
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Sat Sep 20 09:35:52 2014 -0700
+
+    path
+
+commit dc510c99250185df74e13f51556a101c8ae9c005
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Sat Sep 20 09:34:25 2014 -0700
+
+    removed-blog
+
+commit 48419220cc63ed436d190443ed7ce59d551e622e
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Sat Sep 20 09:07:44 2014 -0700
+
+    powerpoint
+
+commit a0fedfba5406e1a705c5f83d50762eb3c843f967
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Sep 20 09:05:42 2014 -0700
+
+    babak-slides
+
+commit fc5a8492c883b9bf8eac1b4555a36bcd3cd7f7df
+Author: System Administrator <root@Grigorys-MacBook-Pro.local>
+Date:   Thu Sep 18 22:54:30 2014 -0700
+
+    blog
+
+commit 04163cdad12e91d41d3ad9ba72fbfe3e8ce2700e
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Sep 18 22:08:40 2014 -0700
+
+    CNAME
+
+commit fe8fc309d7d6f851d63f388af43baf26783c2ad3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Sep 18 21:05:22 2014 -0700
+
+    fix
+
+commit 01aaedeec3aa31a00d5ff0c29dc32891a71e7685
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Sep 18 20:42:50 2014 -0700
+
+    cnae
+
+commit 1f33908dbee0f6072ecfb409e050d1394bb575ae
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Sep 18 10:57:18 2014 -0700
+
+    reading
+
+commit 4454fcda9ffea0aa828b961458ef1a2b6fabd0aa
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:32:37 2014 -0400
+
+    WP-quick
+
+commit 37ab69a39c4eb6f208308bf8f875b97453143b5f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:30:30 2014 -0400
+
+    clean-up
+
+commit ecb28a4852e992eaa2c6a4c2d69d3dad7ffdcb12
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:26:42 2014 -0400
+
+    blog
+
+commit 42eb3dbdf1553cf7ab1cef1357f90041cce64ced
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:25:02 2014 -0400
+
+    paths
+
+commit d3e1f74ef32fbf20f39a40534e14b32c7deb6f2e
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:21:06 2014 -0400
+
+    Moving config and content outside the submodule
+
+commit e63d6a4426d9fb791615865b0fe6a07bef85b101
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:20:18 2014 -0400
+
+    Checkout latest Wordpress version
+
+commit fc79c552b20850c6defbb234746b6176f5ea1f77
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Sep 14 14:19:08 2014 -0400
+
+    Add Wordpress submodule.
+
+commit a2427d9aed7265101dc127bef0d73fdc42fee522
+Author: Grigory Yaroslavtsev <grigory@seas136.wlan.seas.upenn.edu>
+Date:   Fri Sep 12 17:35:22 2014 -0400
+
+    fixes
+
+commit 4e2f0455b0b5ccc79fc274068d2cb123862c4849
+Author: Grigory Yaroslavtsev <grigory@seas136.wlan.seas.upenn.edu>
+Date:   Fri Sep 12 17:02:50 2014 -0400
+
+    fix
+
+commit 2c8705874f6664a50e70a04bedb587447f0cc018
+Author: Grigory Yaroslavtsev <grigory@seas136.wlan.seas.upenn.edu>
+Date:   Fri Sep 12 17:01:37 2014 -0400
+
+    reading
+
+commit e4acda77a3276746e2f3f1a838b7ce2f7bbc235d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Sep 5 22:14:20 2014 -0400
+
+    link-big-data-reading
+
+commit 1aa0936d20b9f0642b85c43a9a17ca427ccc6657
+Author: Grigory Yaroslavtsev <grigory@seas0921.wireless-pennnet.upenn.edu>
+Date:   Fri Sep 5 18:54:50 2014 -0400
+
+    big-data-reading
+
+commit a01a7fb365600da1be58336f1ffc0776b66a887a
+Author: Grigory Yaroslavtsev <grigory@seas1251.wireless-pennnet.upenn.edu>
+Date:   Fri Aug 29 14:31:33 2014 -0400
+
+    upenn14
+
+commit c7a4262d43e09264fe865d2a2055389a3e116664
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Aug 11 21:31:00 2014 -0400
+
+    links
+
+commit 33ae6d52fc1c39ab0c6203a3635910cab135ebd4
+Author: Grigory Yaroslavtsev <grigory@seas337.wlan.seas.upenn.edu>
+Date:   Mon Aug 11 16:32:25 2014 -0400
+
+    caps
+
+commit 88f8e2ac2a6775f7e5841e9556a852d99ec6e730
+Author: Grigory Yaroslavtsev <grigory@seas337.wlan.seas.upenn.edu>
+Date:   Mon Aug 11 16:31:25 2014 -0400
+
+    links
+
+commit d58b182ea2277db3bf60cf057981d29f0a051e37
+Author: Grigory Yaroslavtsev <grigory@seas337.wlan.seas.upenn.edu>
+Date:   Mon Aug 11 16:17:29 2014 -0400
+
+    text
+
+commit 1af4575f0005aabf1a0041b3ba2dff93710bc248
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 19:45:50 2014 -0300
+
+    on
+
+commit 96083c254ec18e376209c3aca7577a6df508996a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 19:44:38 2014 -0300
+
+    dash
+
+commit d36a5b524d0ebfb4042277c26ee46f65ae08685d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 19:39:01 2014 -0300
+
+    fix
+
+commit 59ee65115605bdc4879171d21efabea270f5374c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 19:38:03 2014 -0300
+
+    final-big-data
+
+commit 2c382a71eabadc7cf44963b992da363929dfb014
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 15:46:53 2014 -0300
+
+    exam
+
+commit 369353fee750c9fefa48818efc26a52c30317c35
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 13:55:32 2014 -0300
+
+    lecture5+exam
+
+commit 400200596dea6e43beac6ffd21cd00bf05dc6042
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Aug 1 08:02:10 2014 -0300
+
+    lp-testing
+
+commit 6e38da0826a1f457e0953a9fb26de92c4d954f0e
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jul 31 13:55:42 2014 -0300
+
+    lecture4
+
+commit cb02adb49453ea5ffb22142e207883ade1050c25
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jul 30 23:00:34 2014 -0300
+
+    preprint
+
+commit d957487e430ac7ed7514dc4edf82fdd060545ee4
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jul 30 13:37:59 2014 -0300
+
+    lecture-3-draft
+
+commit b794e241ace07df84c5cc703f2f1dd41fe603619
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jul 29 17:26:23 2014 -0300
+
+    lecture-2-final
+
+commit ba625c7b85db3478bf020f18fd6553280ba61be1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jul 29 15:33:11 2014 -0300
+
+    lecture-2-draft
+
+commit a7735de754bd1d644aa46e5b69517359d644d402
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jul 28 22:03:33 2014 -0300
+
+    pdf
+
+commit 3fa28735c90454dd54121aeed5302abcaa8700cd
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jul 28 21:48:19 2014 -0300
+
+    pdf
+
+commit da6f21a3ef4b660e48382f2848b51e70725b6379
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jul 28 18:03:43 2014 -0300
+
+    pdf
+
+commit 25cc3f8de88b4da32f796cd80159656b20142920
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jul 28 15:33:16 2014 -0300
+
+    slides
+
+commit 395ec3c2382d8bb912f6f0b77719dd70f09519ee
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jul 28 15:29:02 2014 -0300
+
+    lecture-1-eci
+
+commit 2c268d89735dfe1eb5fe69820482abad0c584482
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jul 27 23:41:50 2014 -0300
+
+    big-data
+
+commit 76d4881fb286c4afc707a3cdd381a57d576c0495
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jul 27 14:25:24 2014 -0300
+
+    homepage
+
+commit ae947dc567ed7fbb99115a7fe4cfbb642085c7e3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jul 27 12:48:37 2014 -0300
+
+    max-rcsp
+
+commit e7dbee89fd8d81b3b94b753fb3c7134707de5b85
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jul 23 12:49:24 2014 -0300
+
+    links+fun
+
+commit 6b1b3d8682fc6b1a954cca10e6bf162562a0b064
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jul 17 02:46:39 2014 +0200
+
+    fix
+
+commit 8efd337ae072b3f51d9484c479ed8f07e6053db0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jul 17 02:28:57 2014 +0200
+
+    podc-talk
+
+commit d645196ca3a6de3eb78c2572fe15aaeb35e67e73
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jul 10 17:31:15 2014 -0400
+
+    departments
+
+commit 6638517692906c641cb4da541a9bc4054520d736
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jul 10 17:28:55 2014 -0400
+
+    streaming
+
+commit 15a62724e7969f84643b655cef0a38c2658a43f4
+Author: Grigory Yaroslavtsev <grigory@seas0971.wireless-pennnet.upenn.edu>
+Date:   Tue Jul 1 09:12:53 2014 -0400
+
+    cikm
+
+commit 0a4cf5e66212f1c4c4c8e45f9981c8fb229e79f3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jun 26 22:45:58 2014 -0400
+
+    warren
+
+commit 7765d472a9c915d5021309b8d164a0bc817f4b21
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jun 26 22:41:25 2014 -0400
+
+    address
+
+commit 662d3dd592c9918ca7bbd40eb5f86ebd0f74e478
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jun 24 23:19:33 2014 -0400
+
+    Combinatorica
+
+commit 235b35f386df49a96075de4775cafe69bda93259
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jun 24 12:22:14 2014 -0400
+
+    cv
+
+commit 7bec8a58270f74869c2ced07c022eea239a559ec
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Jun 24 12:04:10 2014 -0400
+
+    affiliations
+
+commit ec65fc996d123a586226fd7085be1edabd5b7e5b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jun 22 13:26:06 2014 -0400
+
+    upenn
+
+commit 26a29721dd0a96e2317d1d7f505b2d752422fc45
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Jun 14 13:21:14 2014 -0700
+
+    ccc14
+
+commit db2227ca3d69bbf856191c7e0d10b7eb987f3f5c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 20:01:32 2014 -0400
+
+    spacing
+
+commit a126e607dff055c27519a6c53627fb26e9e6989b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 13:15:17 2014 -0400
+
+    logo-new
+
+commit ecd7f44847ed18fd9dfd5c454e9557abc65d674c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 13:05:34 2014 -0400
+
+    new-pic
+
+commit 1e95f96904650bf663d75577ce0febe4b87eb839
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 13:05:22 2014 -0400
+
+    new-logo
+
+commit 66dbf374f7c0b1b694c8397df96f0917977607ca
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 09:35:42 2014 -0400
+
+    ratings
+
+commit 940fc98cc990a1c3be1d40843f8551dde77da4eb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 09:34:04 2014 -0400
+
+    ratings
+
+commit 40a4044cfa50e706abe924a9ec3df94aa2187945
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 09:32:36 2014 -0400
+
+    ratings
+
+commit 31166b2c50a4d180240ece648f2a4ee5e1cf8367
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jun 9 09:31:39 2014 -0400
+
+    ratings
+
+commit effacf7696ad144cf6a65677db5ba2afd7a7f1f5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jun 6 08:23:14 2014 -0400
+
+    random
+
+commit 145fb09d229cb6a6faa7bef460c6239e9890380d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jun 6 08:22:49 2014 -0400
+
+    random
+
+commit 2a865d43e763cf845e5f3de10f3df93dcd4e22b1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jun 6 08:15:30 2014 -0400
+
+    tag
+
+commit 3bc1b8c2f31b04a725744c2747d1b541641f3319
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jun 6 08:12:19 2014 -0400
+
+    random-2014
+
+commit 852374beb3f0186b06ae3a428862748bf9de4e4b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jun 5 15:01:28 2014 -0400
+
+    july
+
+commit 78904418faf6d37f77c536b3135483dd61384fae
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jun 1 23:27:49 2014 -0400
+
+    stoc-slides
+
+commit a20c8e34597f7356e5556cb13405b33a36c4707d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jun 1 23:27:33 2014 -0400
+
+    stoc-slides
+
+commit ed676993cdc8806905983b88f29e04decc7b5655
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sat May 24 08:45:18 2014 -0400
+
+    knuth
+
+commit c9154d8ad544a1fa14aa2915f496cd0c771795e1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri May 23 20:22:51 2014 -0400
+
+    button
+
+commit 7b871142da091f4c7268a61abea7d82cf29b7ea2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu May 22 09:30:56 2014 -0400
+
+    spacing
+
+commit f91585f3e320c2b882e4f8ca2b102d97fda8eba0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu May 22 09:30:26 2014 -0400
+
+    quotes
+
+commit 38f191c7df5bcdf767ad9ae5363965f7b73dc6b6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu May 22 09:29:15 2014 -0400
+
+    knuth
+
+commit 838db2d1d218b16d34b17cc69a8886fabe9aec59
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Thu May 22 00:06:55 2014 -0400
+
+    parallal-algorithms
+
+commit 12aed4779e65e3409ffd4e10831bb40cd6f7927a
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Wed May 21 23:58:04 2014 -0400
+
+    penn-pic
+
+commit 4d651a8d703328b693564e669c3f127af702e47d
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Wed May 21 23:57:31 2014 -0400
+
+    penn
+
+commit c0cc383b28e7013828c4b2943975799e8e6bf445
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun May 18 12:55:50 2014 -0400
+
+    talks
+
+commit 87b2680f828a04e7770efc62f1fd77317344654f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun May 18 12:53:36 2014 -0400
+
+    talks
+
+commit a554cc8d0338c2891a6887dda328aeb2e38a9289
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun May 18 12:45:57 2014 -0400
+
+    news
+
+commit 3f1e5f2f5b2029ab5ca964b4d4f4a9ab75907540
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun May 18 12:41:04 2014 -0400
+
+    news
+
+commit 0c01428fb44009ff1bcf7928c5045fa157df840d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun May 18 12:33:43 2014 -0400
+
+    cv
+
+commit f8c9bd691811a523e34a3bfecb672e8dc19dd727
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Thu May 15 18:42:52 2014 -0400
+
+    alt
+
+commit a5711a4483c4cf8aaf0cba6a3fa4e8dba155a3ef
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri May 2 16:03:44 2014 -0400
+
+    bry14
+
+commit 9ccece0543544c7610b3c29722002d0e752ff8f5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri May 2 16:03:03 2014 -0400
+
+    bry14
+
+commit bf1563e678fd938ae18502c2f7efe41dfd550d20
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Apr 29 18:16:11 2014 -0400
+
+    bla
+
+commit fffa0e5778f4416721028c75abfed6a56d17b9da
+Author: Grigory Yaroslavtsev <grigory@31-34-32.wireless.csail.mit.edu>
+Date:   Mon Apr 28 16:00:33 2014 -0400
+
+    cv
+
+commit 3b1e2ced80552e922fedf0d6dfbf582c8b196c5e
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 10:30:16 2014 -0400
+
+    cv
+
+commit a00eb6a1945c06f961bdb96637c0b95916559591
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 10:21:45 2014 -0400
+
+    sofsem
+
+commit 20946e886b5619b9bd4e31789045f71feb4c9b4a
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 10:20:41 2014 -0400
+
+    sofsem
+
+commit 38404de34cd796234645d6f0ac77dd11592b7252
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 09:51:58 2014 -0400
+
+    fix
+
+commit 4e9f1593fd1e8b6aa7d2960ac83077dc4650adae
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 09:44:42 2014 -0400
+
+    sofsem
+
+commit f0182d4c60d1a571b7a52e6b9cdd01f3f4b21f02
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Apr 28 09:41:54 2014 -0400
+
+    pc
+
+commit 27508c532c0ef4514c9c762a6858dc40a9cb7d5a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 24 10:09:45 2014 -0400
+
+    abstracts
+
+commit cd43c416c908218c35c1da50d5d5ca013a761c5c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 24 10:04:28 2014 -0400
+
+    windows
+
+commit 0a0972fe4729c499d36a14eb8695e5ce7589a761
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Wed Apr 23 23:30:56 2014 -0400
+
+    minor
+
+commit 2c4d469b1f9b15d40869e1ab07d2f53db5808bc4
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Wed Apr 23 23:29:15 2014 -0400
+
+    ankur
+
+commit 8d7d29d195ee0f95d4cc8e131709ff39a09bd15b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Apr 23 13:40:42 2014 -0400
+
+    ga
+
+commit ae1f118c66d131e6ad387bb80c57ad70619ce083
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Apr 23 13:11:27 2014 -0400
+
+    ga
+
+commit 903ca1c7244a80ea025b03afd2cb3561b288447a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Apr 20 19:25:07 2014 -0400
+
+    cv
+
+commit d074494682096ca9d0f23d26b382aecf6ed65773
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Apr 20 19:16:50 2014 -0400
+
+    john
+
+commit 1afdafe4b8f80a78fdffe3cd285fe7e254229488
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Apr 20 14:16:29 2014 -0400
+
+    seminar
+
+commit 5dfc0c8a03f66d36d125d86e0d27f7d85dd381af
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Apr 20 13:32:04 2014 -0400
+
+    tim
+
+commit 47d37888cda99cfac2fdb1344ca783a7199b3613
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sun Apr 20 05:49:28 2014 -0400
+
+    podc
+
+commit 6e99a89672ad24da8cb3025ccf5491a02c64ac97
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Fri Apr 18 22:08:19 2014 -0400
+
+    cv.
+
+commit 51731e3c2efcb89eac15ea19f73ad056daf04fb1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Apr 15 22:16:30 2014 -0400
+
+    parking-removed
+
+commit abe4f9d042a57b2d2b6d0825e2e67ef0e67b1d14
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Apr 15 22:15:37 2014 -0400
+
+    parking
+
+commit 159c92e14b6c205c83afdb32be1220c589ec5715
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Apr 15 22:13:59 2014 -0400
+
+    parking
+
+commit 2155191fdf323cc18b517aff8dfd32e1260fe5b3
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sat Apr 12 00:54:39 2014 -0400
+
+    michael
+
+commit 0d30433da3b6bc92076aa02a07c40f0d936310fb
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sat Apr 12 00:50:23 2014 -0400
+
+    news
+
+commit d654d9162b8ddb69cd6b79c5a0188c2d5310a6ef
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sat Apr 12 00:36:08 2014 -0400
+
+    social
+
+commit c7dbd8576409d648fe0ac10a4374d455962a0d33
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 23:00:29 2014 -0400
+
+    registration
+
+commit f2a25f372179a6969df033ee2892cd48b1dc79e8
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 22:55:57 2014 -0400
+
+    logo-big
+
+commit 123d36271c2072e545ef323133368ee6a810672d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 22:52:08 2014 -0400
+
+    og
+
+commit 05f18c900d7bf9d111cab0f8b21aaf405204b9c0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 22:01:15 2014 -0400
+
+    logo
+
+commit 1580eb8040455813908a0f9959974f647784a39a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:17:49 2014 -0400
+
+    og:url
+
+commit a57096350a36965dc2bc39bd6ee00e44e73552a5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:17:03 2014 -0400
+
+    og:url
+
+commit 02777dd1d7536e3c6c268935ed92254f3866ef85
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:15:43 2014 -0400
+
+    og:url
+
+commit 431df84a66c380563bec2bbba59da5845aabcf27
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:14:47 2014 -0400
+
+    og:url
+
+commit d553cc7348cd63fac95b9f2189c91b58580a77db
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:11:39 2014 -0400
+
+    pic
+
+commit e599fc6d1ccba7cf3b145e8d1e9ce06231bd2867
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 21:03:15 2014 -0400
+
+    ronitt
+
+commit 680a6d86ed454d9b742a8640d8b34d5bd5acf9f8
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:54:30 2014 -0400
+
+    sizes
+
+commit 456323dfc3ae1b498d5c344e3e5d80616305fcb8
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:49:07 2014 -0400
+
+    pic
+
+commit 8da5169ccb75af83280a65af792e5b0db7f7144c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:43:10 2014 -0400
+
+    logo
+
+commit b509e509bdc9359ca6357661368eab54571b6feb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:37:45 2014 -0400
+
+    image
+
+commit ae78ec944665392c069313cbd6aad6d4e0f7a2cd
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:36:51 2014 -0400
+
+    image
+
+commit 4518a6c4941458c1ee38834275090ea68b7410ac
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:29:02 2014 -0400
+
+    formatting
+
+commit 9af70b9015a8b729b0410d63dc7015f1222f0869
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 20:27:29 2014 -0400
+
+    ronitt
+
+commit dc18205861f9ee9ffaca81ab93b2f3d975666d53
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 19:14:51 2014 -0400
+
+    logo
+
+commit 5f217b3441eefb1d5010c50f42268599ded699d0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 19:12:00 2014 -0400
+
+    logo
+
+commit be112317a456c06f3d9cfc7e0cec7f9ab17f8e37
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 19:09:09 2014 -0400
+
+    logo
+
+commit 02db8a5f64faa223e950f6c76e6c76242ae6f3c2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 19:02:40 2014 -0400
+
+    up
+
+commit 4976138531235dadfae2c376736945a9efc87c0c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 19:00:59 2014 -0400
+
+    up
+
+commit ca583d10ffbb1188d82bb9b3f538a8fa6dcd827e
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 18:59:33 2014 -0400
+
+    final?
+
+commit ae57794ee56805a85a3ef39e5ca06e74114bcc5a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 18:12:18 2014 -0400
+
+    up
+
+commit 4b970867c610f5f119401592b92ca0b8fe7ae631
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 18:03:15 2014 -0400
+
+    short
+
+commit 5d1df8967a5cd6f80ac434f92db6707c4a6a528f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:58:31 2014 -0400
+
+    up
+
+commit 493b75a90f26865a66ddd0af1ba1f86cc7fc38cb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:31:43 2014 -0400
+
+    spacing
+
+commit 5d1d475041817ee026c518968a6f4404c1c3fc9c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:29:32 2014 -0400
+
+    spacing
+
+commit 253d966dcd7dfb78663458158fcdce422504707a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:28:51 2014 -0400
+
+    spacing
+
+commit f7a40aefd8a05e5d006a2c25360a7a78d322ec4d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:27:24 2014 -0400
+
+    spacing
+
+commit b37bc4eed8f6e34dd9a4272e63a56b093de551a5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:19:43 2014 -0400
+
+    spacing
+
+commit c4bcfc798063ab10a2737bc9b74bc00a87361985
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:10:30 2014 -0400
+
+    fb
+
+commit 8cd2f14f5c4152debb7ce2b07681fdc8d1d98db1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:06:37 2014 -0400
+
+    formatting
+
+commit 9b327d0f1a63f348d24b399dfd2d9c5c9b8cf70c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 17:05:25 2014 -0400
+
+    formatting
+
+commit f61c3cf12f944d0cbe6820f56c762cf88b0f74d9
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 16:59:34 2014 -0400
+
+    twitter
+
+commit e947505ac525ebdebbe3025afa0f5a9b28a25568
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 16:52:42 2014 -0400
+
+    gplus
+
+commit 4103413ed2f41c16a70cbd75dcfd788929b620da
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 16:41:42 2014 -0400
+
+    up
+
+commit 8c0879a9214c571ae1b7a676314d783cc0287c80
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 16:39:54 2014 -0400
+
+    up
+
+commit fc28e86406c69b1a5213688650fb972d0c34b178
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 16:38:35 2014 -0400
+
+    online
+
+commit 37e99e92d25bec1d8f76bd2df0592ac90ab12b98
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 14:46:07 2014 -0400
+
+    ronitt
+
+commit 51c0a87f1bca78f31a46cd5053980716df78e950
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 14:27:41 2014 -0400
+
+    up
+
+commit 44bf472cbe24065cf0aedb9a44af6644f457f1d0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Apr 11 12:18:27 2014 -0400
+
+    updates
+
+commit 8c371a6bc3e9b6af67d86a9146138a1931aedce0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 21:52:09 2014 -0400
+
+    minors
+
+commit f59c2f18c8a5ce741e5cb0dec648143c5f6bef30
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 21:02:33 2014 -0400
+
+    pic
+
+commit 85b129e49a1974f201cb902bc125eed8f2d53b6f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 21:02:02 2014 -0400
+
+    big-day
+
+commit 44be22128ab4c596bf58279e8dd6079f5dacf87a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 20:07:07 2014 -0400
+
+    updates
+
+commit 1acbc34f280fce42634d53bd1f56554864dfdb7c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 17:56:45 2014 -0400
+
+    big-data-day-update
+
+commit 8d00b26bfefcaf9e64d6e9fff60b2c97d7e974e7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 17:24:56 2014 -0400
+
+    big-data-day
+
+commit 6b86d80e02a16c1bff61eb49b9d127d88b2a19c2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 16:10:17 2014 -0400
+
+    big-data-pics
+
+commit a7d48aeeaca8c8b58fd4571dd43a8581da7fabd7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 16:09:00 2014 -0400
+
+    big-data-day
+
+commit 94bc76da745baaff9544f7677e62453ec10f6b19
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 10 12:06:10 2014 -0400
+
+    big-data-day-speakers
+
+commit 15cd7b72b7c8065f7be0096e7ca3d0b7a64359fe
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Apr 9 11:43:29 2014 -0400
+
+    cancellation
+
+commit 29bf0cba49772241bdb3cd9221ca7b4ff62c9852
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Fri Apr 4 23:00:27 2014 -0400
+
+    Google-Tech-Talk
+
+commit cfa3cb73438ee76a24b67cf83c1c1dff9773085d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Apr 3 17:16:56 2014 -0400
+
+    google-talk
+
+commit 1f47f60c2df836eb0a825c86d96e8cc1f59cbe7d
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Fri Mar 28 11:34:36 2014 -0400
+
+    stanford
+
+commit 6986e94170b285e565cb502d7e3d9c3ef0ce6122
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Fri Mar 28 11:34:03 2014 -0400
+
+    stanford
+
+commit b66821a13ae1ca992a0aacafc3f13c140e98c12c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Mar 20 11:24:56 2014 -0400
+
+    ravi-time-change
+
+commit 363bfd16c35f1a0f23815d8da7ee1e8225c1832c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Mar 19 19:09:02 2014 -0400
+
+    cv
+
+commit 0ec31d2d5ea249564a4128752ccf43a4d621ce45
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Mar 13 14:17:12 2014 -0400
+
+    room
+
+commit d2d9c4b892e2e74099330405b3cceeeaf3504813
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Mar 11 14:31:05 2014 -0400
+
+    ravi
+
+commit 36cefe0bb8247474f84353f8dcdd09d2b011d2c5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Mar 11 14:22:02 2014 -0400
+
+    grouping
+
+commit 9e1d0bed50e5c16181ee3552556f0174bf61d419
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Mar 11 14:19:56 2014 -0400
+
+    fix
+
+commit 3fa9461b70f0be7b37c15ab844ffc012c63d18c6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Mar 11 14:19:27 2014 -0400
+
+    minor
+
+commit 612725b92224d48da67b1220533d39efd5178c25
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Mar 11 14:18:14 2014 -0400
+
+    news
+
+commit 0e805a70762f10b8ca05fca195f5b97b51164d89
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 10 11:26:09 2014 -0400
+
+    ravi
+
+commit c264374c985faaf6fc44a6777af565f1b284a5f4
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 10 11:24:41 2014 -0400
+
+    ravi
+
+commit 424b4a731996c48b7eb7c8f36bf7e7aa8632f843
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Thu Mar 6 22:19:07 2014 -0500
+
+    news
+
+commit 7cfc9f0b3063582811e977ca19546a8b514943d6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Mar 6 12:40:51 2014 -0500
+
+    fix
+
+commit 0da0333ea25abe902946d6415fcc8d7a4fd16a40
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Mar 6 12:39:53 2014 -0500
+
+    room-change
+
+commit df233db2c3ea8af0bcb19343cb284dd0b2d936b1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 21:14:48 2014 -0500
+
+    cv
+
+commit 8c835ba095ceaa4ff1810f9253d9feb8dffa45f5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 21:14:27 2014 -0500
+
+    cv
+
+commit 5938b69f88c9edb1f921dbb90d9c59d8150167ae
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 21:10:59 2014 -0500
+
+    online
+
+commit 75c3d0a271d3c8b6494708336812b74ef05eca5d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 19:58:22 2014 -0500
+
+    test
+
+commit 83f30918dc322bd0df08d3255bb5b30c6e1a218b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 19:14:42 2014 -0500
+
+    quotes
+
+commit 16e27c447ff7c8e192a2515b197aa41f9c817ffc
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Mar 3 13:48:22 2014 -0500
+
+    minor
+
+commit 558e7b220c04de98c18af190328e9c2362c8c2da
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Mar 3 01:43:06 2014 -0500
+
+    jason
+
+commit 531b758473413241ba14fa888857a9589f6dea0c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Mar 1 20:59:51 2014 -0500
+
+    fix
+
+commit c123f5309ee4b790602ee6de3efc876c8dd7145d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Mar 1 20:59:01 2014 -0500
+
+    tri-pics
+
+commit e5a956373cacb4e5bf638b46cdbd856663e1b884
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Mar 1 20:55:37 2014 -0500
+
+    sizing
+
+commit 91ccbf5989a44e6dd041feca2db1d4e414b5b9ca
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Mar 1 20:54:05 2014 -0500
+
+    ocean-shores
+
+commit 4487111e65e7c2990b31f2b7e9d65c9f6a042d9e
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Mar 1 20:28:56 2014 -0500
+
+    fellowship
+
+commit ccfcf074a315679c92dcfe7be7d49156a8d42b7f
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Sat Mar 1 12:29:32 2014 -0500
+
+    review
+
+commit 72a298119ca8cfc257c17834da6a1918cdc271e6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Feb 28 12:55:38 2014 -0500
+
+    cv
+
+commit 22cc80a43782cb8349403a77e5b07d41b2ee1003
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Feb 28 12:15:35 2014 -0500
+
+    howard
+
+commit 458e83a8b67660f844cc4433750bf0cc68a9efa6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Feb 28 12:14:27 2014 -0500
+
+    howard
+
+commit 9acaf3cd9c4d8f026f028b7a4194b9b572753f45
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 21:27:05 2014 -0500
+
+    more-fix
+
+commit 437ce435bb06498c762805dac9b0e1a65b6b009d
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 21:25:56 2014 -0500
+
+    fix
+
+commit e839313052a3e6da4cf1d5a3fadaa2fa8d11326b
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 21:24:49 2014 -0500
+
+    cv
+
+commit 86f019d4bf69a4b917079fa28bbcaa25cc0ef404
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 21:22:28 2014 -0500
+
+    gatech
+
+commit 356c9bc8a5768df308bfc2d1c5059ad4614ecf98
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 20:05:10 2014 -0500
+
+    madry
+
+commit de4696fed32d301b04f0a233e0a4e14753da2e0e
+Author: Grigory Yaroslavtsev <grigory@31-34-48.wireless.csail.mit.edu>
+Date:   Thu Feb 27 20:04:09 2014 -0500
+
+    -calendar
+
+commit a4f3eb2ad2729acd297471f6e03a12fb5c8fe8d5
+Author: Grigory Yaroslavtsev <grigory@31-35-18.wireless.csail.mit.edu>
+Date:   Thu Feb 27 14:35:46 2014 -0500
+
+    Ronitt
+
+commit 496054694e74d248a59b906571bf801cf42353e1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Feb 27 13:23:04 2014 -0500
+
+    Howard
+
+commit 70f4809760c1ec49d7b865852ec95395e90f57e2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 26 09:51:54 2014 -0500
+
+    venkar
+
+commit bd52f7195ee68b020f1733b7769147489d28b071
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 26 01:16:47 2014 -0500
+
+    mit
+
+commit d6e9802638ad78cf291eada18a025b57b3117e81
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 26 01:16:06 2014 -0500
+
+    moitra
+
+commit 82074088abe3657889b8f2f274db5faa77e90874
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 25 06:41:26 2014 -0500
+
+    past-news
+
+commit eba5cad39603a859298d1823a58003931ab07871
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 25 06:40:11 2014 -0500
+
+    minor
+
+commit f6677cb816541cc9afc3dc566f0bc0ff6a8d00d9
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 25 06:38:52 2014 -0500
+
+    minors
+
+commit 77f8f2b8c689d35cb3318648e81a2cc41d79de7c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 23 23:02:26 2014 -0500
+
+    jason
+
+commit 860df617a6583416d0f99c12a822a2fbdb6de32d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 23 13:27:56 2014 -0500
+
+    venkat
+
+commit 6825edcff013bc72cc3bcd150130e88ddc665572
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 23 12:28:56 2014 -0500
+
+    venkat
+
+commit 49bbf4a14406974f03d2f059914b7d7fedc93495
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Feb 20 15:14:59 2014 -0500
+
+    talks
+
+commit dd474fd0917b678c995b9b51a8908b3e44666361
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Feb 20 15:13:33 2014 -0500
+
+    talks
+
+commit 43bb31b262633154131b67894d70cc49953643b6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Feb 20 15:07:49 2014 -0500
+
+    new-submissions
+
+commit 866ff9ae31bbbdbbe558739e483bd68fcf3b61c7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 18 13:14:45 2014 -0600
+
+    cv
+
+commit e402a05ca45e3fec1e6f1247abd59534e1cee447
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Feb 15 21:44:43 2014 -0500
+
+    pics
+
+commit d1a0b2b181c80a178c38e8bc2363260cba6c38af
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Feb 13 18:26:33 2014 -0500
+
+    bry-link
+
+commit 6b575ebf97d92830275d5a07b186b91ce8afc246
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 15:50:50 2014 -0500
+
+    cv
+
+commit 8092521b9cdda7ac27d8926695b376623acc3114
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 15:36:10 2014 -0500
+
+    kyle
+
+commit d88aeed000810db2377a98c42c04ba7719067d4f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 15:12:55 2014 -0500
+
+    target-blank
+
+commit fb5d87f792926f4e6e3655de12ff406bdd96bb29
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 15:08:32 2014 -0500
+
+    Facbook-link-fixed
+
+commit 6cce861b19826449f205bd06b9f6f1cc14c8d0ea
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 13:58:10 2014 -0500
+
+    rel-no-follow
+
+commit 8e7a19e9ea1db8bfb86291b19a7945ad8b887756
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 13:56:21 2014 -0500
+
+    rel-no-follow
+
+commit 4bbcbf906999fa424715e63f8cdc56f4d54db5eb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 13:38:03 2014 -0500
+
+    rel-no-follow
+
+commit c4112bcf83a16f9d334b9f4f41906363440066ec
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 11 12:13:06 2014 -0500
+
+    seminar
+
+commit 1cf0bcf8819bcea322d4415ec64ee97129cb5408
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 10 20:39:53 2014 -0500
+
+    news
+
+commit dcbe310053d576cac5ac286287bfd026e860c85c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 10 19:33:39 2014 -0500
+
+    cv
+
+commit fdf91ca057cde1c53cecfa898c181ebed05e1163
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 21:30:28 2014 -0500
+
+    news-fixed
+
+commit 1370b75882a5991368849a9f9fefae19c405a0d1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 21:11:11 2014 -0500
+
+    minor
+
+commit f8988214666b304490874d6c34c867ecf1748649
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 20:43:22 2014 -0500
+
+    sketch-explanation
+
+commit 6c0331a1fd79c71e5a3c41b6eb570da803cb38c2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 19:20:07 2014 -0500
+
+    sketch-explanation
+
+commit fcff1601c6482487263bf96043f12a126c62f9d8
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 18:35:33 2014 -0500
+
+    big-data-logo
+
+commit 068189f2f7de92deee6f3e8bce6d9221ee3037d3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 18:15:44 2014 -0500
+
+    pics
+
+commit f496bd2a0dc9d741177c24c8e61ef70f50aaf079
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 18:05:04 2014 -0500
+
+    new-files
+
+commit 51a2a4a9cbb7ecb39ef4343b74516b46af19971a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 18:04:16 2014 -0500
+
+    big-data-done
+
+commit 0d12b31a6c58c3b95ed33e598262bdd9be571be7
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 17:14:36 2014 -0500
+
+    fixed-spacing
+
+commit 5059e95e147ac2af47392e0dee6227884ef72890
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 16:42:19 2014 -0500
+
+    minor
+
+commit 98dc1a5bc80eba53d6c5d99836727c0d8b742ea2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 16:36:07 2014 -0500
+
+    minors
+
+commit 3a0d97e9a740ee93b4bcadad1034348a9d0e3ddc
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 16:17:47 2014 -0500
+
+    padding
+
+commit 4e1c01e9cac8ee1eaa8c55c5872180d380928d06
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 15:17:05 2014 -0500
+
+    more-updates
+
+commit e8967262b2eadaeff3a6c357e23c048fdbd04ffb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 14:38:44 2014 -0500
+
+    lots-of-stuff
+
+commit 3fd1d319c331e70688bdb17318a75871be109fd0
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 13:47:58 2014 -0500
+
+    bigdata
+
+commit d4e8b6b727f1571bd3468d508a448535fce230ca
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 13:15:31 2014 -0500
+
+    big-data
+
+commit fb9ce2bfb7bf53fdab7bc61c48095c1ed40ee835
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 12:29:40 2014 -0500
+
+    big-data
+
+commit 79d51927b83276b34de1d97c68b8f955dfeb26c2
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 12:19:25 2014 -0500
+
+    big-data
+
+commit a565542ed8f541f7a08ecb4915f2dc8885b7d13d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Feb 9 12:13:34 2014 -0500
+
+    big-data
+
+commit cae5e5efb1f714855ca4cdf50a95e5a64810ba81
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Feb 8 15:17:11 2014 -0500
+
+    title-change
+
+commit c76f00a8f4a08fa10af6ca7c7bd2bfd98c802ead
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Feb 8 15:16:29 2014 -0500
+
+    cv
+
+commit 6512795eb3f51bed29f9427392565e49485ff24d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 5 16:45:39 2014 -0500
+
+    shmoys
+
+commit 908802945540a862cd378cf296e13e45e5aa5e24
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 5 11:49:26 2014 -0500
+
+    shmoys
+
+commit 3f904f1d2e2e10640291b82780d2b231bf2fa92b
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Feb 5 10:27:32 2014 -0500
+
+    stoc-ccc
+
+commit 3e27569d7a74721dbd9d972979e3b019b253187a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 4 15:03:37 2014 -0500
+
+    howard
+
+commit ad886b7c489855aa487cb531fff118140642fe3c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 4 14:57:16 2014 -0500
+
+    howard
+
+commit f252070b178fcf0b4ea17948999b572b05642b4a
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Tue Feb 4 14:55:26 2014 -0500
+
+    howard
+
+commit 2cd9b06584c4de853c8edafffbbb75fd37450c72
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 19:15:39 2014 -0500
+
+    updates
+
+commit 56475e35b16c257de9ec8402275a76561fa2a8a1
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 18:48:03 2014 -0500
+
+    ilya
+
+commit 953c038eeff32b7ef79ec8696155bd36f0b460a5
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 13:23:09 2014 -0500
+
+    soft-link-seminar
+
+commit 076a861290a79ceadb8e55687d34918a640f7f31
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 11:10:28 2014 -0500
+
+    minors
+
+commit 5b18f493dda6a23f4eda64f830baf8735a7fc7e6
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 11:08:36 2014 -0500
+
+    minors
+
+commit 27b88d157a6442f0293ae76f526e19d3da473394
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Feb 3 10:52:55 2014 -0500
+
+    Feb14-28
+
+commit dd3d4ec636bf4147b4dd917547ba3e9f2669371e
+Author: Grigory Yaroslavtsev <grigory@new-host.home>
+Date:   Mon Feb 3 02:56:08 2014 -0500
+
+    cv
+
+commit cd185a4ef60b55bb210dc6bbc975ee52e3c5d03f
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 31 09:59:10 2014 -0500
+
+    grigory
+
+commit c7357cbee7dc99789e1afec16ef3fa684e6f0d5d
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jan 23 16:16:16 2014 -0500
+
+    renaming
+
+commit ee505027ebf801015a97a0d7d0fe03141f919ae3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Thu Jan 23 16:10:46 2014 -0500
+
+    renaming
+
+commit 8595c2401fb2e2142f6a47ae0feebc333b795df4
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 22 18:34:02 2014 -0500
+
+    room
+
+commit 049455a34a024ce34300227d2dc584cdad9f1ad3
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 22 17:41:46 2014 -0500
+
+    grigory
+
+commit 627b7343e7e78a03ef6530c833508d6071f3c547
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 22 12:23:35 2014 -0500
+
+    silvio
+
+commit 4d895dedbacd9b58b0932315b4e599e0b28ef923
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Wed Jan 22 12:18:25 2014 -0500
+
+    silvio
+
+commit 4af9d9ff6aa48b3dd0ee629606030e9acf3bb48c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Mon Jan 20 18:51:20 2014 -0500
+
+    CV
+
+commit 0ea1ca4458771a92e88728318c35449a50ae81cc
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jan 19 22:19:52 2014 -0500
+
+    minor
+
+commit fa5dc02421edc1feb9e48080cb26c779a95e200c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jan 19 22:18:14 2014 -0500
+
+    silvio
+
+commit 0f2d44692fffe839b6d9e41895f93c8fc1bfbbbb
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jan 19 19:08:30 2014 -0500
+
+    test public key
+
+commit 66b8692a365298625f581ae52363d7b92b31e196
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sun Jan 19 19:06:07 2014 -0500
+
+    test
+
+commit 90ed37b44d657eb4f5a9e430a6c5edcebc791847
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Jan 18 16:09:14 2014 -0500
+
+    name
+
+commit bf86969bc88816422350be0828bbbc10ee975a64
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Sat Jan 18 15:45:46 2014 -0500
+
+    scheduling
+
+commit ab5062c58d5369869f67976a2ccf17271d9c7b94
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 23:13:30 2014 -0500
+
+    new link
+
+commit 89705c88e634b18b05ed8a351f4fd938d4d2cf54
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 21:47:39 2014 -0500
+
+    Relative links
+
+commit 3ab78e54f6cd2923832b67cfdc473e4ac825d684
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 21:41:27 2014 -0500
+
+    Homepage
+
+commit e32801028b7d7e8bc02ad12c8d02b5921ef5bc5c
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 21:32:54 2014 -0500
+
+    Fix
+
+commit aed85dbc47f11f6f3799e1eb3f264a2f398d3d09
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 21:16:42 2014 -0500
+
+    Index
+
+commit 565d70015cd47a2fa344c6b15e950c8d667b7335
+Author: Grigory Yaroslavtsev <grigory@Grigorys-MacBook-Pro.local>
+Date:   Fri Jan 17 21:13:15 2014 -0500
+
+    first commit
