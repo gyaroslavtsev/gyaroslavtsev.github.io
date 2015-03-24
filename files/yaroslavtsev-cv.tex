@@ -1,4 +1,4 @@
-\def\online{0}
+\def\online{1}
 \def\software{0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
@@ -400,6 +400,7 @@ Information Processing Letters, 110, pp. 264-267, Elsevier, 2010.
 
 \end{lonelist}
 
+\if\online0 
 \section{Submitted}
 \begin{lonelist}
 \item \textbf{Online Algorithms for Machine Minimization}, with Nikhil Devanur, Konstantin Makarychev and Debmalya Panigrahi.
@@ -409,14 +410,17 @@ Tech report: \href{http://arxiv.org/abs/1403.0486}{ArXiv:1403.0486}.
 
 \item \textbf{Correlation Clustering with Overlaps}, with Howard Karloff, Jessica McClintock, Charalampos Tsourakakis and Anthony Wirth.
 
-\if\online0 
 Draft: \href{https://www.dropbox.com/s/7erlyx6zpcdrw7o/kwy.pdf}{PDF}.
-\else Available upon request.\fi
-
 \end{lonelist}
+\fi
 
 \section{Conference Papers}
 \begin{lonelist}
+\item \textbf{Near Optimal LP Rounding Algorithm for Correlation Clustering on Complete and Complete k-partite Graphs}, with Shuchi Chawla, Konstantin Makarychev and Tselil Schramm.
+
+STOC 2015 (47th ACM Symposium on the Theory of Computing).
+
+
 \item \textbf{Certifying Equality with Limited Interaction}, with Joshua Brody, Amit Chakrabarti, Ranganath Kondapally and David Woodruff.
 
 RANDOM 2014 (18th International Workshop on Randomization and Computation).
@@ -498,7 +502,8 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 
 \section{Research visits}
 \begin{innerlist}
-\item Microsoft Research, Redmond. 01/08/14--01/12/14. (Host: Konstantin Makarychev)
+\item Microsoft Research, Redmond, WA. 03/08/15--03/14/15. (Host: Konstantin Makarychev)
+\item Microsoft Research, Redmond, WA. 01/08/14--01/12/14. (Host: Konstantin Makarychev)
 \item IBM T.J. Watson Research Center, Yorktown Heights, NY. 04/19/11--04/21/11, 11/13/12--11/15/12. (Hosts: Konstantin Makarychev, Vishwanath Nagarajan)
 \item AT\&T Labs -- Research, Florham Park, NJ. 11/18/11--11/25/11. (Host: Howard Karloff)
 \item Weizmann Institute of Science, Rehovot, Israel. 12/27/12--01/04/13. (Host: Robert Krauthgamer)
@@ -508,6 +513,16 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 
 \section{Long Talks}
 \begin{innerlist}
+
+\item Near Optimal LP Rounding for Correlation Clustering
+\begin{innerlist}
+\item MIT, Boston, MA. Algorithms and Complexity Seminar. April 2015.
+\item Microsoft Research, Redmond, WA. Theory Seminar. March 2015.
+\item Google Research, NYC. Google Tech Talk. February 2015.
+\item Rutgers University, New Brunswick, NJ. Theory Seminar. January 2015.
+\item Carnegie Mellon University, Pittsburgh, PA. Theory Lunch. January 2015.
+\item Pennsylvania State University, State College, PA. CSE Departmental Colloquium. January 2015.
+\end{innerlist}
 
 \item Beyond Set Disjointness: The Communication Complexity of Finding the Intersection
 \begin{innerlist}
@@ -560,6 +575,7 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 \item University of Maryland, College Park, MD. Capital Area Theory Seminar. October 2014.
 \item University of Pennsylvania, Philadelphia, PA. Theory Seminar. August 2014.
 \item University of Massachusetts, Amherst. Theory Seminar. May 2014.
+\item Google Research, NYC. Google Tech Talk. March 2014.
 \item Sandia Labs, Livermore, CA. March 2014.
 \item Stanford University, Stanford, CA. Theory Seminar. March 2014.
 \item Microsoft Research SVC, Mountain View, CA. Lab Meeting. October 2012.
@@ -732,7 +748,7 @@ Reviewing:
 
 \begin{innerlist}
 \item Journals: SIAM Journal on Computing (SICOMP), SIAM Journal on Discrete Mathematics (SIDMA), Information and Computation (I\&C), IEEE Transactions on Knowledge and Data Engineering (TKDE), Theory of Computing (ToC).
-\item Conferences: STOC'15, CIKM'14, ALT'14, RANDOM'14, FOCS'14, ICALP'14, FOCS'13, MFCS'13, ICALP'13, SODA'13, APPROX'12, FOCS'12, COCOA'12, SWAT'12, SODA'12, VLDB'12, WADS'11, MFCS'10, SAT'10.
+\item Conferences: ICALP'15, STOC'15, CIKM'14, ALT'14, RANDOM'14, FOCS'14, ICALP'14, FOCS'13, MFCS'13, ICALP'13, SODA'13, APPROX'12, FOCS'12, COCOA'12, SWAT'12, SODA'12, VLDB'12, WADS'11, MFCS'10, SAT'10.
 \end{innerlist}
 
 \blankline
