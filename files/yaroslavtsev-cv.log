@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 MAR 2015 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 APR 2015 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,86 +353,86 @@ Overfull \hbox (5.37471pt too wide) in paragraph at lines 360--360
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 424--425
+Underfull \hbox (badness 1092) in paragraph at lines 383--385
+[]\OT1/cmr/bx/n/10.95 Certifying Equal-ity with Lim-ited In-ter-ac-tion\OT1/cmr
+/m/n/10.95 , with Joshua Brody, Amit
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 429--430
 []\OT1/cmr/bx/n/10.95 Certifying Equal-ity with Lim-ited In-ter-ac-tion\OT1/cmr
 /m/n/10.95 , with Joshua Brody, Amit
  []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 461.
+(Font)              <9> on input line 466.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 461.
+(Font)              <5> on input line 466.
 
-Underfull \hbox (badness 4229) in paragraph at lines 487--488
+Underfull \hbox (badness 4229) in paragraph at lines 492--493
 []\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
 a, Lan-guages and
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 494--495
+Underfull \hbox (badness 4229) in paragraph at lines 499--500
 []\OT1/cmr/m/n/10.95 ICALP 2011 (38th In-ter-na-tional Col-lo-quium on Au-tomat
 a, Lan-guages and
  []
 
 [3]
-Underfull \hbox (badness 3838) in paragraph at lines 505--506
+Underfull \hbox (badness 3838) in paragraph at lines 510--511
 []\OT1/cmr/m/n/10.95 Microsoft Re-search, Red-mond, WA. 03/08/15--03/14/15. (Ho
 st: Kon-stantin
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 506--507
+Underfull \hbox (badness 3838) in paragraph at lines 511--512
 []\OT1/cmr/m/n/10.95 Microsoft Re-search, Red-mond, WA. 01/08/14--01/12/14. (Ho
 st: Kon-stantin
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 507--508
+Underfull \hbox (badness 1436) in paragraph at lines 512--513
 []\OT1/cmr/m/n/10.95 IBM T.J. Wat-son Re-search Cen-ter, York-town Heights, NY.
  04/19/11--04/21/11,
  []
 
 [4] [5]
-Underfull \hbox (badness 1533) in paragraph at lines 750--751
+Underfull \hbox (badness 1533) in paragraph at lines 755--756
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 751--752
-[]\OT1/cmr/m/n/10.95 Conferences: ICALP'15, STOC'15, CIKM'14, ALT'14, RAN-DOM'1
-4, FOCS'14,
+Underfull \hbox (badness 1769) in paragraph at lines 756--757
+[]\OT1/cmr/m/n/10.95 Conferences: FOCS'15, ICALP'15, STOC'15, CIKM'14, ALT'14, 
+RAN-DOM'14,
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 751--752
-\OT1/cmr/m/n/10.95 ICALP'14, FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'12, F
-OCS'12,
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 761--762
+Underfull \hbox (badness 1502) in paragraph at lines 766--767
 [][][]\OT1/cmr/m/n/10.95 Theory Sem-i-nar[][] at Brown CS De-part-ment and Brow
 n Uni-ver-sity, In-sti-tute for
  []
 
 
-Overfull \hbox (1.61829pt too wide) in paragraph at lines 828--828
+Overfull \hbox (1.61829pt too wide) in paragraph at lines 833--833
 []\OT1/cmr/m/sc/10.95 Professional 
  []
 
 
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 871.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 871.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 876.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
  (./yaroslavtsev-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 871.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 871.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 876.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
 Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
-(rerunfilecheck)             Checksum: 059CCBA77173498280856DD2BD3265EE;964.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 871.
+(rerunfilecheck)             Checksum: 717490A070FFE009FC29E37D419DF421;967.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 876.
  ) 
 Here is how much of TeX's memory you used:
  5738 strings out of 493117
@@ -453,7 +453,7 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on yaroslavtsev-cv.pdf (6 pages, 150973 bytes).
+Output written on yaroslavtsev-cv.pdf (6 pages, 150928 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
