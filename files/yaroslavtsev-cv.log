@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2015 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAY 2015 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,15 +388,9 @@ Underfull \hbox (badness 1533) in paragraph at lines 755--756
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 756--757
-[]\OT1/cmr/m/n/10.95 Conferences: RAN-DOM'15, FOCS'15, ICALP'15, STOC'15, CIKM'
-14, ALT'14,
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 756--757
-\OT1/cmr/m/n/10.95 RAN-DOM'14, FOCS'14, ICALP'14, FOCS'13, MFCS'13, ICALP'13, S
-ODA'13,
+Underfull \hbox (badness 1810) in paragraph at lines 756--757
+[]\OT1/cmr/m/n/10.95 Conferences: ESA'15, RAN-DOM'15, FOCS'15, ICALP'15, STOC'1
+5, CIKM'14,
  []
 
 
@@ -447,7 +441,7 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on files/yaroslavtsev-cv.pdf (7 pages, 151439 bytes).
+Output written on files/yaroslavtsev-cv.pdf (7 pages, 151435 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
