@@ -251,11 +251,19 @@ Parallel Algorithms for Graphs on a Very Large Number of Nodes
 <br><a class="name" href="http://homes.cs.washington.edu/~beame/beame.html" style="text-decoration: none"   ><b>Paul Beame</b></a> (University of Washington)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none" >
-TBD
+Massively Parallel Communication and Query Evaluation
 </a>
 <div class="abs">
 <p align="left">
-TBD
+
+Modern massively parallel computation systems using MapReduce/Hadoop and related primitives make specific assumptions about the local computations available per round of computation. We consider a complexity model that relaxes these assumptions.   We identify the memory required per processor (or equivalently the amount of communication required per processor per step) as a key parameter of such computations, a parameter we term the {\em load}.   This yields a communication complexity-based model, like a simplified version of Valiant's Bulk Synchronous Parallel model,  in which we consider complexity tradeoffs between the number of processors,  the load, and number of rounds required to solve specific problems.
+<p>
+ In this model, we consider the complexity of solving families of database query problems that correspond to (hyper)-graph algorithms on multipartite graphs and hypergraphs, including problems like triangle-enumeration and path-finding.   For single round computation, in many instances we show that simple well-known MapReduce algorithms provide optimal tradeoffs between processors and the load.   We also analyze how the best algorithms become more complicated as the distribution of degrees in the input graphs and hypergraphs becomes more skewed.
+ <p>
+ For multiple rounds, analyzing the general model requires understanding of circuit complexity over non-standard bases. However, in a more restricted version of the model (which is still sufficiently general to simulate MapReduce) we show some of the first lower bounds for multi-round computations on MapReduce-like models.
+ <p>
+ Joint work with Paraschos Koutris and Dan Suciu.
+
 </p>
 </div>
 <p>
