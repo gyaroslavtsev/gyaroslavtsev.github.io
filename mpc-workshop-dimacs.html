@@ -87,7 +87,8 @@ fjs.parentNode.insertBefore(js, fjs);
 </button>
 <a class="navbar-brand" href="#"><b>Big Data through the Lens of Sublinear Algorithms</b></a>
 <a class="navbar-brand" href="#info">Information</a>
-<a class="navbar-brand" href="#schedule">Schedule</a>
+<a class="navbar-brand" href="#day1">Day 1</a>
+<a class="navbar-brand" href="#day2">Day 2</a>
 <a class="navbar-brand" href="#speakers">Speakers</a>
 <a class="navbar-brand" href="#orgs">Orgs & Support</a>
 </div>
@@ -166,168 +167,381 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po
 
 
 <a id="schedule"> <h1> Schedule</h1></a>
+
+<a id="day1"><h1>Day 1, August 27</h1></a>
+
+
 <ul class="fa-ul">
-<li> <i class="fa li fa fa-group"></i> 
-09:00 &ndash; 09:30
-<br> <a class="name" href="http://theory.stanford.edu/~sergei/"  style="text-decoration: none" ><b>Sergei Vassilvitskii</b></a> (Google Research, NYC)
+<li> <i class="fa li fa fa-bullhorn"></i> 
+09:00 &ndash; 10:00
+<br> <a class="name" href="https://people.csail.mit.edu/indyk/"  style="text-decoration: none" ><b>Piotr Indyk</b></a> (MIT)
 <br>
-<p> <b>Introduction</b> [<a href="./mpc-slides/sergei.pdf">Slides (pdf)</a>]
 <p>
-
-<li> <i class="fa li fa fa-group"></i>
-09:30 &ndash; 10:15
-<br> <a class="name" href="http://www.cs.cmu.edu/~ninamf/ "  style="text-decoration: none" ><b>Nina Balcan</b></a> (Carnegie Mellon University)
-<br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
-Distributed Machine Learning  
-</a>  [<a href="./mpc-slides/nina.pdf">Slides (pdf)</a>]
+Keynote: TBD
+</a> 
 <div class="abs">
 <p align="left">
-<br>
-We consider the problem of learning from distributed data and analyze
-fundamental algorithmic and communication complexity questions involved.
-Broadly, we consider a framework where information is distributed between
-several locations, and our goal is to learn a low-error hypothesis with
-respect to the overall  data by  using as little communication, and as few
-rounds of communication, as possible. As an example, suppose k research
-groups around the world have collected large scientific datasets, such as
-genomic sequence data or sky survey data, and we wish to perform learning
-over the union of all these different datasets without too much
-communication.
-<br>
-In this talk, I will first discuss a general statistical or PAC style
-framework for analyzing communication complexity issues involved when
-doing distributed supervised machine learning, i.e., learning from
-annotated data distributed across multiple locations. I will discuss
-general lower bounds on the amount of communication needed to learn a
-given class and broadly-applicable techniques for achieving
-communication-efficient learning, as well as efficient learning algorithms
-with especially good communication performance for specific interesting
-classes.
-<br>
-I will also discuss algorithms with good communication complexity for
-unsupervised learning and dimensionality reduction problems, with
-interesting connections to efficient distributed coreset construction.
+TBD
 </p>
 </div>
-
-<p>
-
-<li> <i class="fa li fa fa-group"></i>
-10:15 &ndash; 11:00 
-<br><a class="name" href="http://people.csail.mit.edu/mirrokni/Welcome.html "  style="text-decoration: none" ><b>Vahab Mirrokni</b></a> (Google Research, NYC)
-<br>
-<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none">
-Randomized Composable Core-sets for Distributed Computation
-</a>  [<a href="./mpc-slides/vahab.pdf">Slides (pdf)</a>]
-<div class="abs">
-<p align="left">
-An effective technique for solving optimization problems over massive data sets is to partition the data into smaller pieces, solve the problem on each piece and compute a representative solution from it, and finally obtain a solution inside the union of the representative solutions for all pieces. Such an algorithm can be implemented easily in 2 rounds of MapReduces or be applied in an streaming model. This technique can be captured via the concept of {\em composable core-sets}, and has been recently applied to solve diversity maximization problems as well as several clustering problems. However, for coverage and submodular maximization problems, impossibility bounds are known for this technique. In this talk, after a initial discussion about this technique and applications in diversity maximization and clustering problems, we focus on the submodular maximization problem, and show how to apply a randomized variant of composable core-set problem, and achieve 1/3-approximation for monotone and non-montone submodualr maximization problems. We prove this result by applying a simple greedy algorithm and show that a large class of algorithms can be deployed in this framework. Time-permitting, we show a more involved algorithm that achieves 54% of the optimum in two rounds of MapReduces.
-<br>
-The main part of the talk is to appear in STOC 2015 and is a joint work with Morteza ZadiMoghaddam. The initial parts are from two recent papers that appeared in PODS 2014 and NIPS 2014.
-</p>
-</div>
-
-<p>
 
 <li> <i class="fa li fa fa-coffee"></i> 
-11:00 &ndash; 11:30
+10:00 &ndash; 10:30
 <p> <b>Coffee Break</b>
 <p>
 
 <p>
-
 <li> <i class="fa li fa fa-group"></i>
-11:30 &ndash; 12:15
+10:30 &ndash; 12:30
+
+<br> <a class="name" href="http://www.cs.dartmouth.edu/~ac/ "  style="text-decoration: none" ><b>Amit Chakrabarti</b></a> (Dartmouth College)
 <br>
-<a class="name" href=" http://onak.pl " style="text-decoration: none"><b>Krzysztof Onak</b></a> (IBM T.J. Watson Research Center)
-<br>
-<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none">
-Parallel Algorithms for Graphs on a Very Large Number of Nodes
-</a>  [<a href="./mpc-slides/krzysztof.pdf">Slides (pdf)</a>]
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
- The research on parallel algorithms for modern massive computation systems has identified minimizing the number of computation rounds as one of the main challenges. In the case of graph algorithms, it has encountered a natural barrier in the form of the connectivity problem. This problem is widely believed to require a large, super-constant number of computation rounds if the number of nodes is significantly larger than the amount of memory of a single machine. Moreover, a lower bound on the number of computation rounds for connectivity would imply a similar lower bound for a number of graph problems.
-<br>
- I will present a few graph algorithms that require a constant number of computation rounds as long as the number of nodes is at most polynomially larger than the amount of memory of a single machine. The algorithms either take advantage of a natural assumption on the input data or solve a slightly relaxed version of the problem. The set of applied techniques ranges from geometric random partitioning to graph exploration methods developed for sublinear-time algorithms.
- <br>
- (The talk will include results obtained in collaboration with Alexandr Andoni, Jakub Łącki, Aleksander Mądry, Slobodan Mitrović, Aleksandar Nikolov, Piotr Sankowski, and Grigory Yaroslavtsev.)
 
 </p>
 </div>
-</li>
+
+
+<br> <a class="name" href="http://dimacs.rutgers.edu/~graham/ "  style="text-decoration: none" ><b>Graham Cormode</b></a> (University of Warwick)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+A Second Look at Counting Triangles in Graph Streams
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+The problems of counting and enumerating triangles in large data has attracted much interest, as it represents a simple, canonical challenge in analyzing large graphs.  This seems particularly challenging in the traditional one-pass streaming model.  It turns out that models that allow multiple passes provide better dependencies.  In particular, just two passes suffices to give better results, parameterized in terms of the number of edges and the number of triangles, and more passes do not help to improve this dependency.
+<br>
+Joint work with Hossein Jowhari.
+</p>
+</div>
+<br> <a class="name" href="http://www.dcs.warwick.ac.uk/~czumaj/ "  style="text-decoration: none" ><b>Artur Czumaj</b></a> (University of Warwick)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+<br> <a class="name" href="http://www.cis.upenn.edu/~sanjeev/ "  style="text-decoration: none" ><b>Sanjeev Khanna</b></a> (University of Pennsylvania)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
 <p>
+
 <li> <i class="fa li fa fa-cutlery"></i> 
-&#160;12:15 &ndash; 14:15
+&#160;12:30 &ndash; 14:00
 <p> <b>Lunch Break</b>
 <p>
 
-<li> <i class="fa li fa fa-group"></i>
-14:15 &ndash; 15:00 
-<br><a class="name" href="http://homes.cs.washington.edu/~beame/beame.html" style="text-decoration: none"   ><b>Paul Beame</b></a> (University of Washington)
-<br>
-<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none" >
-Massively Parallel Communication and Query Evaluation
-</a>  [<a href="./mpc-slides/paul.pdf">Slides (pdf)</a>]
-<div class="abs">
-<p align="left">
 
-Modern massively parallel computation systems using MapReduce/Hadoop and related primitives make specific assumptions about the local computations available per round of computation. We consider a complexity model that relaxes these assumptions.   We identify the memory required per processor (or equivalently the amount of communication required per processor per step) as a key parameter of such computations, a parameter we term the load.   This yields a communication complexity-based model, like a simplified version of Valiant's Bulk Synchronous Parallel model,  in which we consider complexity tradeoffs between the number of processors,  the load, and number of rounds required to solve specific problems.
-<p>
- In this model, we consider the complexity of solving families of database query problems that correspond to (hyper)-graph algorithms on multipartite graphs and hypergraphs, including problems like triangle-enumeration and path-finding.   For single round computation, in many instances we show that simple well-known MapReduce algorithms provide optimal tradeoffs between processors and the load.   We also analyze how the best algorithms become more complicated as the distribution of degrees in the input graphs and hypergraphs becomes more skewed.
- <p>
- For multiple rounds, analyzing the general model requires understanding of circuit complexity over non-standard bases. However, in a more restricted version of the model (which is still sufficiently general to simulate MapReduce) we show some of the first lower bounds for multi-round computations on MapReduce-like models.
- <p>
- Joint work with Paraschos Koutris and Dan Suciu.
-
-</p>
-</div>
-<p>
-
-
-<p>
-<li> <i class="fa li fa fa-group"></i>
-15:00 &ndash; 15:30
-<br><a class="name" href="https://sites.google.com/site/ravik53/ "  style="text-decoration: none" ><b>Ravi Kumar</b></a> (Google Research, Mountain View)
+<li> <i class="fa li fa fa-pencil-square-o"></i>
+14:00 &ndash; 15:00 
+<br><a class="name" href="http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru"  style="text-decoration: none" ><b>David Woodruff</b></a> (IBM Research, Almaden)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none">
-Clustering in a Few Rounds
-</a>  [<a href="./mpc-slides/ravi.pdf">Slides (pdf)</a>]
+Tutorial: A Survey of Results in the Message Passing Communication Model 
+</a> <!-- [<a href="./mpc-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-We present constant-factor approximation algorithms for two graph
-clustering problems---densest subgraph and correlation
-clustering---that are easily implementable in computational models
-such as MapReduce and streaming, and run in a small number of rounds.
+I'll discuss various tools for proving bounds in the message passing communication model, where there are k players each with an input who speak to each other in a point-to-point communication network, with the goal being to solve a function of their inputs while minimizing total communication. I'll discuss graph problems, linear-algebraic problems, and statistical problems.
 </p>
 </div>
+
 <p>
 
 <li> <i class="fa li fa fa-coffee"></i> 
-15:30 &ndash; 16:00
+15:00 &ndash; 15:30
 <p> <b>Coffee Break</b>
 <p>
 
 <li> <i class="fa li fa fa-group"></i>
-16:00 &ndash; 16:45 
-<br> <a class="name" href="http://research.engineering.wustl.edu/~bmoseley/  "  style="text-decoration: none"  ><b>Benjamin Moseley</b></a> (Washington University, St. Louis)
+15:30 &ndash; 18:00
+<br> <a class="name" href="http://www.cs.princeton.edu/~aene/"  style="text-decoration: none" ><b>Alina Ene</b></a> (University of Warwick)
 <br>
-<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none"  >
-Sample and Prune: An Efficient MapReduce Method for Submodular Optimization
-</a> [<a href="./mpc-slides/ben.pdf">Slides (pdf)</a>]
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+The Power of Randomization: Distributed Submodular Maximization on Massive Datasets
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-MapReduce has been widely considered for optimizing submodular functions over large data sets and several techniques have been developed.  In this talk, we will discuss the Sample and Prune procedure.  Sample and Prune is a distributed sampling method used to efficiency discover a small set of representative elements from a large data set.  We discuss how Sample and Prune can be used for submodular optimization in MapReduce.  In particular, we show how this procedure can be utilized to simulate a class of greedy sequential algorithms for submodular optimization in MapReduce. We will further discuss its use to construct new distributed algorithms for submodular optimization and how it could possibly be extended to construct efficient algorithms for a wide range of problems in the distributed setting.
+A wide variety of problems in machine learning, including exemplar clustering, document summarization, and sensor placement, can be cast as constrained submodular maximization problems. Unfortunately, the resulting submodular optimization problems are often too large to be solved on a single machine. In this talk, we describe a simple distributed algorithm that is embarrassingly parallel and it achieves provable, constant factor, worst-case approximation guarantees. We demonstrate its efficiency in large problems with different kinds of constraints with objective values always close to what is achievable in the centralized setting.
+<br>
+This is joint work with Rafael Barbosa, Huy Nguyen and Justin Ward.
+</p>
+</div>
+
+
+
+<br> <a class="name" href="http://www.stat.berkeley.edu/~mmahoney/"  style="text-decoration: none" ><b> Michael Mahoney </b></a> (University of California, Berkeley)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Linear and sublinear aspects of combining SGD and RLA 
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+In recent years, stochastic gradient descent (SGD) methods and randomized linear algebra (RLA) algorithms have been applied to many large-scale problems in machine learning and data analysis.  SGD methods are easy to implement and applicable to a wide range of convex optimization problems.  In contrast, RLA algorithms provide much stronger performance guarantees but are applicable to a narrower class of problems.  In addition, both SGD and RLA methods have been studied from an algorithmic perspective, where one must at least touch all of the data in order to obtain nontrivial results, as well as from a statistical perspective, where one can obtain stronger results without even looking at the entire data under quite strong statistical assumptions. We discuss some of these results, and we describe how to use ideas from stochastic optimization to develop a hybrid algorithm for overdetermined L1 and L2 regression that uses RLA techniques for preconditioning and constructing an importance sampling distribution, and then performs an SGD-like iterative process with weighted sampling on the preconditioned system.
+</p>
+</div>
+
+<br> <a class="name" href="http://people.csail.mit.edu/mirrokni/Welcome.html"  style="text-decoration: none" ><b>Vahab Mirrokni</b></a> (Google Research, NYC)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+<br> <a class="name" href=" http://onak.pl/ "  style="text-decoration: none" ><b>Krzysztof Onak</b></a> (IBM Research, NY)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+<br> <a class="name" href=" https://users.soe.ucsc.edu/~sesh/ "  style="text-decoration: none" ><b>C. Seshadhri</b></a> (University of California, Santa Cruz)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Know thy graphs, for it beats fancy algorithmics
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+While it is apparent (to us theorists at least) that sublinear algorithms can solve big data problems, the path is not as clear as one may think. Consider pattern counting in graphs, a theoretically clean and practically relevant problem for massive graph analysis. For example, one may want the triangle/4-clique count of a large social network, or want to the relative fraction of triangles incident to low degree vertices in a web network. The secret to designing provable and practical algorithms is not fancy algorithmics, but rather a deeper understanding of the properties of real-world datasets. With the right intuition on *what* real graphs look like, we can design simple, easy to prove algorithms, that work well in practice. Some of this knowledge goes back and inspires new theoretical results on the classic problem of triangle counting.
+<br>
+This talk is a survey of recent results on counting small subgraphs that highlights this journey between theory and practice.
 </p>
 </div>
 <p>
 
-<li> <i class="fa li fa fa-group"></i> 
-16:45 &ndash; 17:00 
-<br><b>Q&A + Discussion</b>
+<li> <i class="fa li fa fa-cutlery"></i> 
+&#160;18:00 &ndash; 20:00
+<p> <b>Dinner + Poster Session</b>
+<p>
+
+</ul>
+
+
+<a id="day2"><h1>Day 2, August 28</h1></a>
+
+
+<ul class="fa-ul">
+<li> <i class="fa li fa fa-bullhorn"></i> 
+09:00 &ndash; 10:00
+<br> <a class="name" href="http://web.stanford.edu/~ashishg/ "  style="text-decoration: none" ><b>Ashish Goel</b></a> (Stanford University)
+<br>
+<p>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Keynote: TBD
+</a> 
+<div class="abs">
+<p align="left">
+TBD
+</p>
+</div>
+
+<li> <i class="fa li fa fa-coffee"></i> 
+10:00 &ndash; 10:30
+<p> <b>Coffee Break</b>
+<p>
+
+<li> <i class="fa li fa fa-pencil-square-o"></i> 
+10:30 &ndash; 11:30
+<br> <a class="name" href="http://theory.stanford.edu/~sergei/ "  style="text-decoration: none" ><b>Sergei Vassilvitskii</b></a> (Google Research, NYC)
+<br>
+<p>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Tutorial: TBD
+</a> 
+<div class="abs">
+<p align="left">
+TBD
+</p>
+</div>
+<p>
+
+<li> <i class="fa li fa fa-group"></i>
+11:30 &ndash; 12:30
+
+
+<br> <a class="name" href="http://people.seas.harvard.edu/~minilek/"  style="text-decoration: none" ><b>Jelani Nelson</b></a> (Harvard University)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+An introduction to chaining, and applications to sublinear algorithms
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+This talk will give a short introduction to chaining methods
+in probability, present in the works of Kolmogorov and developed by
+many since (see the book by Talagrand). Applications related to
+sublinear algorithms will be highlighted, such as to compressed
+sensing and dimensionality reduction.
+<br>
+This talk is based on works by many authors, none of whom is me.
+</p>
+</div>
+
+<br> <a class="name" href="http://people.csail.mit.edu/ronitt/ "  style="text-decoration: none" ><b>Ronitt Rubinfeld</b></a> (MIT)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+<p>
+
+<li> <i class="fa li fa fa-cutlery"></i> 
+&#160;12:30 &ndash; 14:00
+<p> <b>Lunch Break</b>
+<p>
+
+
+<li> <i class="fa li fa fa-bullhorn"></i>
+14:00 &ndash; 15:00 
+<br><a class="name" href="http://hunch.net/~jl/ "  style="text-decoration: none" ><b>John Langford</b></a> (Microsoft Research, NYC)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title"  style="text-decoration: none">
+Keynote: TBD
+</a> <!-- [<a href="./mpc-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+TBD
+</p>
+</div>
+
+<p>
+
+<li> <i class="fa li fa fa-coffee"></i> 
+15:00 &ndash; 15:30
+<p> <b>Coffee Break</b>
+<p>
+
+<li> <i class="fa li fa fa-group"></i>
+15:30 &ndash; 18:30
+
+<br> <a class="name" href="http://www.cs.cmu.edu/~ninamf/  "  style="text-decoration: none" ><b>Nina Balcan</b></a> (Carnegie Mellon University)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+
+<br> <a class="name" href="http://www.cs.princeton.edu/~mbraverm/pmwiki/index.php?n=Site.Main"  style="text-decoration: none" ><b>Mark Braverman</b></a> (Princeton University)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Communication lower bounds for statistical estimation problems via a distributed data processing inequality
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+We study the tradeoff between the statistical error and communication
+cost for distributed statistical estimation problems in high
+dimensions. In the distributed sparse Gaussian mean estimation
+problem, each of the m machines receives n data points from a
+d-dimensional Gaussian distribution with unknown mean theta which is
+promised to be k-sparse. The machines communicate by message passing
+and aim to estimate the mean theta. We provide a tight (up to
+logarithmic factors) tradeoff between the estimation error and the
+number of bits communicated between the machines.
+<br>
+This bound directly leads to a lower bound for the distributed sparse
+linear regression problem: to achieve the statistical minimax error,
+the total communication is at least Omega(min{n,d}m), where n is the
+number of observations that each machine receives and d is the ambient
+dimension. As our main technique, we prove a distributed data
+processing inequality, as a generalization of usual data processing
+inequalities, which might be of independent interest. Finally, we give
+a communication-optimal protocol for distributed Gaussian mean
+estimation, improving the number of rounds of the previous such
+protocol from O(log m) to 1.
+<br>
+Joint work with Ankit Garg, Tengyu Ma, Huy Nguyen, and David Woodruff
+</p>
+</div>
+
+
+<br> <a class="name" href=" http://www.cis.upenn.edu/~sudipto/ "  style="text-decoration: none" ><b>Sudipto Guha</b></a> (University of Pennsylvania)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+
+<br> <a class="name" href="http://people.cs.umass.edu/~mcgregor/ "  style="text-decoration: none" ><b>Andrew McGregor</b></a> (University of Massachusetts, Amherst)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+The Latest on Linear Sketching for Large Graphs: Lots of Problems, Little Space
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+In this talk, we survey recent work on using random linear projections, a.k.a. sketches, to solve graph problems. Sketches are useful in a variety of computational models including the dynamic graph stream model were the input is defined by a stream of edge insertions and deletions that need to be processed in small space. A large number of problems have now been considered in this model including edge and vertex connectivity, sparsification, densest subgraph, correlation clustering, vertex cover and matching.
+</p>
+</div>
+
+
+<br> <a class="name" href="https://www.cs.duke.edu/~kamesh/"  style="text-decoration: none" ><b>Kamesh Munagala</b></a> (Duke University)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+TBD
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+
+</p>
+</div>
+
+
+<br> <a class="name" href=" http://people.seas.harvard.edu/~jthaler/ "  style="text-decoration: none" ><b>Justin Thaler</b></a> (Yahoo! Research, NYC)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+Parallel Peeling Algorithms
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+Consider the following peeling process: starting with a random hypergraph, repeatedly remove vertices with degree less than k, together with their incident edges, until the hypergraph is empty or the process cannot continue. In a surprising variety of settings, this simple process produces algorithms with very fast running times, typically linear in the size of the hypergraph.
+<br>
+After surveying applications of such peeling algorithms to various big data problems, I will discuss methods for parallelizing the peeling process. Our analysis yields parallel peeling algorithms that are highly efficient, completing in just O(log log n) rounds.
+<br>
+Joint work with Jiayang Jiang and Michael Mitzenmacher
+</p>
+</div>
 
 
 </ul>
+
+
 
 <a id="speakers"><h1>Speakers</h1></a>
 <div>
@@ -429,18 +643,10 @@ recently Program Committee Chair for COLT 2014.
 
 
 <li> 
-<img alt=""  src="pics/mpc/graham.jpeg">
-<h4>Graham Cormode (University of Warwick)</h4> 
+<img alt=""  src="pics/mpc/mark.jpg">
+<h4>Mark Braverman (Princeton University)</h4> 
 <p align="left">
-Graham Cormode is a professor in the Department of Computer Science at the University of Warwick in the UK. His interests are in data stream analysis, massive data sets, and general algorithmic problems. Previously, he has been a researcher at AT&amp;T Labs&ndash;Research in New Jersey, and at Lucent Bell Laboratories, with focus on Network Management. Previously, he was a Postdoc researcher at the DIMACS research facility, which is located at Rutgers University.
-</p>
-
-
-<li> 
-<img alt=""  src="pics/mpc/andrew.jpg">
-<h4>Andrew McGregor (University of Massachusetts, Amherst)</h4> 
-<p align="left">
-Andrew McGregor is an Assistant Professor at the University of Massachusetts, Amherst. He received a B.A. degree and the Certificate of Advance Study in Mathematics from the University of Cambridge and a Ph.D. from the University of Pennsylvania. He also spent a couple of years as a post-doc at UC San Diego and Microsoft Research SVC. He is interested in many areas of theoretical computer science and specializes in data stream algorithms, linear sketching, and communication complexity. He received the NSF Career Award in 2010.
+Assistant Professor Mark Braverman joined the department in 2011 from the University of Toronto, where he was an assistant professor in the mathematics and computer science departments. He earned his Ph.D. in 2008 from Toronto and did post-doctoral research at Microsoft Research New England, Cambridge, MA. Professor Braverman’s interests center on the connections between theoretical computer science and other disciplines, including information theory, mathematics, and economics. Most recently, he has been building new connections between information theory and complexity theory, and investigating how better algorithms can lead to better mechanism design, particularly in the context of healthcare.
 </p>
 
 <li> 
@@ -449,6 +655,15 @@ Andrew McGregor is an Assistant Professor at the University of Massachusetts, Am
 <p align="left">
 Amit Chakrabarti is an Associate Professor in the Department of Computer Science at Dartmouth College. He received an M.A. and a Ph.D. in Computer Science from Princeton University in 2002 and a B.Tech. in Computer Science from the Indian Institute of Technology, Bombay, along with the President of India Gold Medal, in 1997. Professor Chakrabarti's research is in the broad area of theoretical computer science. Specific interests are (1) complexity theory, especially communication complexity and the application of information theory, and (2) algorithms, including space-efficient algorithms for massive data streams and approximation techniques for optimization problems.
 </p>
+
+
+<li> 
+<img alt=""  src="pics/mpc/graham.jpeg">
+<h4>Graham Cormode (University of Warwick)</h4> 
+<p align="left">
+Graham Cormode is a professor in the Department of Computer Science at the University of Warwick in the UK. His interests are in data stream analysis, massive data sets, and general algorithmic problems. Previously, he has been a researcher at AT&amp;T Labs&ndash;Research in New Jersey, and at Lucent Bell Laboratories, with focus on Network Management. Previously, he was a Postdoc researcher at the DIMACS research facility, which is located at Rutgers University.
+</p>
+
 
 <li> 
 <img alt=""  src="pics/mpc/artur.jpg">
@@ -465,6 +680,28 @@ parallel and distributed computing, string matching, and algorithmic game theory
 </p>
 
 <li> 
+<img alt=""  src="pics/mpc/alina.jpg">
+<h4>Alina Ene (University of Warwick)</h4> 
+<p align="left">
+Alina Ene is an Assistant Professor at the University of Warwick. Ene has broad research interests in theoretical computer science and optimization. She is currently working on approximation algorithms for combinatorial optimization problems. The main areas of approximation that she has worked in are submodular optimization, routing, and network design. Ene has also worked on geometric approximation problems, general packing and covering, and large data analysis using MapReduce.
+</p>
+
+
+<li> 
+<img alt=""  src="pics/mpc/sudipto.jpg">
+<h4>Sudipto Guha (University of Pennsylvania)</h4> 
+<p align="left">
+Sudipto Guha is an Associate Professor in the Department of Computer and Information Sciences at University of Pennsylvania since Fall 2001. He completed his Ph.D. in 2000 at Stanford University working on approximation algorithms and spent a year working as a senior member of technical staff in Network Optimizations and Analysis Research department in AT&amp;T Shannon Labs Research. He is a recipient of the NSF CAREER award and the Alfred P. Sloan Foundation fellowship. 
+</p>
+
+<li> 
+<img alt=""  src="pics/mpc/sanjeev.jpg">
+<h4>Sanjeev Khanna (University of Pennsylvania)</h4> 
+<p align="left">
+Sanjeev Khanna is a Henry Salvatori Professor of Computer and Information Science at University of Pennsylvania. He received a Ph.D. in Computer Science from Stanford University (1996), and undergraduate degrees in Computer Science and Economics from Birla Institute of Technology, India (1990). From 1996 to 1999, he was a member of the Mathematical Sciences Research center at Bell Labs. He joined University of Pennsylvania in 1999. Sanjeev's research interests are in algorithms and complexity with a focus on approximation algorithms and hardness of approximation. He is a recipient of an Arthur Samuel dissertation award, a Sloan Fellowship, and a Guggenheim Fellowship.
+</p>
+
+<li> 
 <img alt=""  src="pics/mpc/michael.png">
 <h4>Michael Mahoney (University of California, Berkeley)</h4> 
 <p align="left">
@@ -473,53 +710,24 @@ He works on algorithmic and statistical aspects of modern large-scale data analy
 </p>
 
 <li> 
-<img alt=""  src="pics/mpc/mark.jpg">
-<h4>Mark Braverman (Princeton University)</h4> 
+<img alt=""  src="pics/mpc/andrew.jpg">
+<h4>Andrew McGregor (University of Massachusetts, Amherst)</h4> 
 <p align="left">
-Assistant Professor Mark Braverman joined the department in 2011 from the University of Toronto, where he was an assistant professor in the mathematics and computer science departments. He earned his Ph.D. in 2008 from Toronto and did post-doctoral research at Microsoft Research New England, Cambridge, MA. Professor Braverman’s interests center on the connections between theoretical computer science and other disciplines, including information theory, mathematics, and economics. Most recently, he has been building new connections between information theory and complexity theory, and investigating how better algorithms can lead to better mechanism design, particularly in the context of healthcare.
-</p>
-
-<li> 
-<img alt=""  src="pics/mpc/sesh.jpg">
-<h4>C. Seshadhri (University of California, Santa Cruz)</h4> 
-<p align="left">
-C. Seshadhri is an assistant professor of Computer Science at the University of California, Santa Cruz. Prior to joining UCSC, he was a researcher at Sandia National Labs, Livermore in the Information Security Sciences department, during 2010-2014. His primary interest is in mathematical foundations of big data, especially modeling and algorithms. By and large, he works at the boundary of theoretical computer science and data mining. His work spans many areas: sublinear algorithms, graph algorithms, graph modeling, scalable computation, and data mining. His background is in theoretical computer science, specifically sublinear algorithms. He got his Ph.D from Princeton University and spent two years as a postdoc in IBM Almaden Labs.
+Andrew McGregor is an Assistant Professor at the University of Massachusetts, Amherst. He received a B.A. degree and the Certificate of Advance Study in Mathematics from the University of Cambridge and a Ph.D. from the University of Pennsylvania. He also spent a couple of years as a post-doc at UC San Diego and Microsoft Research SVC. He is interested in many areas of theoretical computer science and specializes in data stream algorithms, linear sketching, and communication complexity. He received the NSF Career Award in 2010.
 </p>
 
 
-<li> 
-<img alt=""  src="pics/mpc/ronitt.jpg">
-<h4>Ronitt Rubinfeld (Massachusetts Institute of Technology)</h4> 
+<li>
+<img alt=""  src="pics/mpc/vahab.jpg">
+<h4>Vahab Mirrokni (Google Research, NYC)</h4> 
 <p align="left">
-Ronitt Rubinfeld received her PhD at the University of California, Berkeley, and is currently on the faculties at MIT and Tel Aviv University. Her research focuses on sub-linear time algorithms for big data sets.
+Vahab Mirrokni is a Senior Staff Research Scientist, heading the algorithms research group at Google Research, New York. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 1999. He joined Google Research in New York in 2008, after spending a couple of years at Microsoft Research, MIT and Amazon.com. He is the co-winner of a SODA05 best student paper award and ACM EC08 best paper award. His research areas include algorithms, algorithmic game theory, combinatorial optimization, and social networks analysis. At Google, he is mainly working on algorithmic and economic problems related to search and online advertising. Recently he is working on online ad allocation problems, distributed algorithms for large-scale graph mining, and mechanism design for advertising exchanges.
 </p>
-<li> 
-<img alt=""  src="pics/mpc/sanjeev.jpg">
-<h4>Sanjeev Khanna (University of Pennsylvania)</h4> 
-<p align="left">
-Sanjeev Khanna is a Henry Salvatori Professor of Computer and Information Science at University of Pennsylvania. He received a Ph.D. in Computer Science from Stanford University (1996), and undergraduate degrees in Computer Science and Economics from Birla Institute of Technology, India (1990). From 1996 to 1999, he was a member of the Mathematical Sciences Research center at Bell Labs. He joined University of Pennsylvania in 1999. Sanjeev's research interests are in algorithms and complexity with a focus on approximation algorithms and hardness of approximation. He is a recipient of an Arthur Samuel dissertation award, a Sloan Fellowship, and a Guggenheim Fellowship.
-</p>
-<li> 
-<img alt=""  src="pics/mpc/sudipto.jpg">
-<h4>Sudipto Guha (University of Pennsylvania)</h4> 
-<p align="left">
-Sudipto Guha is an Associate Professor in the Department of Computer and Information Sciences at University of Pennsylvania since Fall 2001. He completed his Ph.D. in 2000 at Stanford University working on approximation algorithms and spent a year working as a senior member of technical staff in Network Optimizations and Analysis Research department in AT&amp;T Shannon Labs Research. He is a recipient of the NSF CAREER award and the Alfred P. Sloan Foundation fellowship. 
-</p>
-<li> 
-<img alt=""  src="pics/mpc/jelani.jpg">
-<h4>Jelani Nelson (Harvard University)</h4> 
-<p align="left">
-TBD
-</p>
-<li> 
-<img alt=""  src="pics/mpc/justin.jpg">
-<h4>Justin Thaler (Yahoo! Labs)</h4> 
-<p align="left">
-Justin Thaler is a Research Scientist at Yahoo! Labs in New York. Previously, he spent two enjoyable semesters as a Research Fellow at the Simons Institute for the Theory of Computing at UC Berkeley. He received his Ph.D. from the Theory of Computation Group at Harvard University, where he was fortunate to be advised by Michael Mitzenmacher, and he graduated from Yale University in 2009 with a B.S. in Computer Science and a second major in Mathematics. He is broadly interested in algorithms and computational complexity, especially algorithms for massive data sets, verifiable computation, and computational learning theory.
-</p>
-<li> 
+
+
+
 <img alt=""  src="pics/mpc/kamesh.jpg">
-<h4>Kamesh Mungala (Duke University)</h4> 
+<h4>Kamesh Munagala (Duke University)</h4> 
 <p align="left">
 Kamesh Munagala is Associate Professor of Computer Science at Duke
 University, where he has been employed since 2004. He obtained his
@@ -535,22 +743,12 @@ Alfred P. Sloan Research Fellowship, and the best paper award at the WWW
 2012, and currently serves as the Director of Graduate Studies for the Duke
 CS department.
 </p>
+
 <li> 
-<img alt=""  src="pics/mpc/alina.jpg">
-<h4>Alina Ene (University of Warwick)</h4> 
+<img alt=""  src="pics/mpc/jelani.jpg">
+<h4>Jelani Nelson (Harvard University)</h4> 
 <p align="left">
-Alina Ene is an Assistant Professor at the University of Warwick. Ene has broad research interests in theoretical computer science and optimization. She is currently working on approximation algorithms for combinatorial optimization problems. The main areas of approximation that she has worked in are submodular optimization, routing, and network design. Ene has also worked on geometric approximation problems, general packing and covering, and large data analysis using MapReduce.
-</p>
-
-
-
-
-
-<li>
-<img alt=""  src="pics/mpc/vahab.jpg">
-<h4>Vahab Mirrokni (Google Research, NYC)</h4> 
-<p align="left">
-Vahab Mirrokni is a Senior Staff Research Scientist, heading the algorithms research group at Google Research, New York. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 1999. He joined Google Research in New York in 2008, after spending a couple of years at Microsoft Research, MIT and Amazon.com. He is the co-winner of a SODA05 best student paper award and ACM EC08 best paper award. His research areas include algorithms, algorithmic game theory, combinatorial optimization, and social networks analysis. At Google, he is mainly working on algorithmic and economic problems related to search and online advertising. Recently he is working on online ad allocation problems, distributed algorithms for large-scale graph mining, and mechanism design for advertising exchanges.
+Jelani Nelson is an Assistant Professor of Computer Science at Harvard University. His research interests include streaming algorithms, dimensionality reduction, compressed sensing, and large-scale linear algebra.
 </p>
 
 <li>
@@ -559,7 +757,35 @@ Vahab Mirrokni is a Senior Staff Research Scientist, heading the algorithms rese
 <p align="left">
 Krzysztof Onak is a computer scientist who works at the IBM T.J. Watson Research Center near Yorktown Heights, NY. He is interested in computation with limited resources, including sublinear-time algorithms, streaming algorithms, and algorithms for modern parallel systems. Krzysztof received his Master's degree from the University of Warsaw and his PhD from the Massachusetts Institute of Technology. Before joining IBM, he was a Simons Postdoctoral Fellow at Carnegie Mellon University.
 </p>
+
+<li> 
+<img alt=""  src="pics/mpc/ronitt.jpg">
+<h4>Ronitt Rubinfeld (Massachusetts Institute of Technology)</h4> 
+<p align="left">
+Ronitt Rubinfeld received her PhD at the University of California, Berkeley, and is currently on the faculties at MIT and Tel Aviv University. Her research focuses on sub-linear time algorithms for big data sets.
+</p>
+
+
+
+<li> 
+<img alt=""  src="pics/mpc/sesh.jpg">
+<h4>C. Seshadhri (University of California, Santa Cruz)</h4> 
+<p align="left">
+C. Seshadhri is an assistant professor of Computer Science at the University of California, Santa Cruz. Prior to joining UCSC, he was a researcher at Sandia National Labs, Livermore in the Information Security Sciences department, during 2010-2014. His primary interest is in mathematical foundations of big data, especially modeling and algorithms. By and large, he works at the boundary of theoretical computer science and data mining. His work spans many areas: sublinear algorithms, graph algorithms, graph modeling, scalable computation, and data mining. His background is in theoretical computer science, specifically sublinear algorithms. He got his Ph.D from Princeton University and spent two years as a postdoc in IBM Almaden Labs.
+</p>
+
+
+<li> 
+<img alt=""  src="pics/mpc/justin.jpg">
+<h4>Justin Thaler (Yahoo! Labs)</h4> 
+<p align="left">
+Justin Thaler is a Research Scientist at Yahoo! Labs in New York. Previously, he spent two enjoyable semesters as a Research Fellow at the Simons Institute for the Theory of Computing at UC Berkeley. He received his Ph.D. from the Theory of Computation Group at Harvard University, where he was fortunate to be advised by Michael Mitzenmacher, and he graduated from Yale University in 2009 with a B.S. in Computer Science and a second major in Mathematics. He is broadly interested in algorithms and computational complexity, especially algorithms for massive data sets, verifiable computation, and computational learning theory.
+</p>
+<li> 
+
 </ul>
+
+
 
 
 
