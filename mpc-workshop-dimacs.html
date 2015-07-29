@@ -473,6 +473,32 @@ TBD
 <li> <i class="fa li fa fa-group"></i>
 15:30 &ndash; 18:30
 
+<br> <a class="name" href="https://www.cs.duke.edu/~kamesh/"  style="text-decoration: none" ><b>Kamesh Munagala</b></a> (Duke University)
+<br>
+<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
+ &nbsp;&nbsp;Efficient primal-dual graph algorithms on MapReduce
+</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
+<div class="abs">
+<p align="left">
+We present improved algorithms for some key graph-theoretic
+problems in the popular MapReduce framework. We first consider the
+densest subgraph problem and present a primal-dual algorithm that
+provides a (1 + eps) approximation and takes O(1/eps^2  log n)
+MapReduce iterations, each iteration having a shuffle size of O(m) and
+a reduce-key-complexity of O(dmax). Here m is the number of edges, n
+is the number of vertices, and dmax is the maximum degree of a node.
+Our key idea is to carefully control the width of the underlying
+polytope so that the number of iterations becomes small, but an
+approximate primal solution can still be recovered from the
+approximate dual solution. Our technique also applies to maximum
+multicommodity flows with bounded path lengths, and our algorithms
+also naturally map to the PRAM model. For the problems we consider,
+the best previous distributed algorithms needed number of iterations
+depending on 1/eps^4, in order to achieve a (1+eps) approximation.
+</p>
+</div>
+
+
 <br> <a class="name" href="http://www.cs.cmu.edu/~ninamf/  "  style="text-decoration: none" ><b>Nina Balcan</b></a> (Carnegie Mellon University)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
@@ -538,32 +564,6 @@ Joint work with Ankit Garg, Tengyu Ma, Huy Nguyen, and David Woodruff
 <div class="abs">
 <p align="left">
 In this talk, we survey recent work on using random linear projections, a.k.a. sketches, to solve graph problems. Sketches are useful in a variety of computational models including the dynamic graph stream model were the input is defined by a stream of edge insertions and deletions that need to be processed in small space. A large number of problems have now been considered in this model including edge and vertex connectivity, sparsification, densest subgraph, correlation clustering, vertex cover and matching.
-</p>
-</div>
-
-
-<br> <a class="name" href="https://www.cs.duke.edu/~kamesh/"  style="text-decoration: none" ><b>Kamesh Munagala</b></a> (Duke University)
-<br>
-<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
- &nbsp;&nbsp;Efficient primal-dual graph algorithms on MapReduce
-</a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
-<div class="abs">
-<p align="left">
-We present improved algorithms for some key graph-theoretic
-problems in the popular MapReduce framework. We first consider the
-densest subgraph problem and present a primal-dual algorithm that
-provides a (1 + eps) approximation and takes O(1/eps^2  log n)
-MapReduce iterations, each iteration having a shuffle size of O(m) and
-a reduce-key-complexity of O(dmax). Here m is the number of edges, n
-is the number of vertices, and dmax is the maximum degree of a node.
-Our key idea is to carefully control the width of the underlying
-polytope so that the number of iterations becomes small, but an
-approximate primal solution can still be recovered from the
-approximate dual solution. Our technique also applies to maximum
-multicommodity flows with bounded path lengths, and our algorithms
-also naturally map to the PRAM model. For the problems we consider,
-the best previous distributed algorithms needed number of iterations
-depending on 1/eps^4, in order to achieve a (1+eps) approximation.
 </p>
 </div>
 
