@@ -213,11 +213,33 @@ TBD
 <br> <a class="name" href="http://www.cs.dartmouth.edu/~ac/ "  style="text-decoration: none" ><b>Amit Chakrabarti</b></a> (Dartmouth College)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
-&nbsp;&nbsp;TBD
+&nbsp;&nbsp;Optimisation While Streaming
 </a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-
+Dealing with the space limitations and sequential-access constraints of the
+data-streaming model has infused new life into a wide array of algorithmic
+problems. A recent and growing trend has been to revisit classic combinatorial
+optimisation problems in the streaming setting. In this talk I shall address
+two recent works in this vein, the first on constrained submodular
+maximisation, and the second on set cover. 
+<br>
+Each of these problems is defined over a "ground set" or "universe", which we
+shall take to be [n] := {1,2,...,n}. The input is then a stream of subsets of
+this universe: the sets themselves in the case of set cover, and (say) the
+edges of a graph on [n] in the case of maximum-submodular matching. Our focus
+shall be on semi-streaming algorithms: those running in space O(n poly(log n)). 
+<br>
+For the matching problem (and, more generally, submodular maximization) we
+give new one-pass and multi-pass upper bounds, leaving the establishment of
+corresponding lower bounds as interesting open problems.  For set cover, we
+give tight upper and lower bounds that fully resolve the pass/approximation
+tradeoffs achievable: in short, p semi-streaming passes lead to an
+approximation ratio of n^{1/(p+1)}. The set cover lower bound uses a novel
+algebraic construction of an abstract incidence geometry, which may be
+interesting in its own right as a combinatorial result.
+<br>
+Based on separate joint works with Sagar Kale and Tony Wirth.
 </p>
 </div>
 
