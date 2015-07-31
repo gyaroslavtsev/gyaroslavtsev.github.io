@@ -193,11 +193,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po
 <br>
 <p>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
-&nbsp;&nbsp;Keynote: TBD
+&nbsp;&nbsp;Keynote:Streaming Algorithms for Set Cover
 </a> 
 <div class="abs">
 <p align="left">
-TBD
+In the Set Cover problem, we are given a collection of sets S_1...S_m that cover {1...n} and want to find a minimum cardinality sub-collection that covers the same set. In the streaming version of this problem, the sets are stored consecutively in a read-only memory and an algorithm can access them by performing sequential scans of the input. Over the last few years several algorithms for this problem have been discovered. The algorithms achieve various tradeoffs between the number of passes over the input, the amount of storage used and the approximation factor.
+<br>
+In this talk I will give an overview of what we know about this problem, followed by several new upper and lower bounds. In particular, I will describe a recent algorithm that uses O(p) passes and O(m n^(1/p)) storage while guaranteeing O(p log n) approximation factor, as well as lower bounds that indicate that some of the tradeoffs achieved by this algorithm might be tight. 
+<br>
+Joint work with Sepideh Mahabadi and Ali Vakilian.  
 </p>
 </div>
 
