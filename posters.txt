@@ -1,0 +1,17 @@
+List of accepted posters (in the order of submission)
+
+1) Clement Canonne (Columbia), "Sampling Correctors"
+
+2) Hoa Vu (UMass, Amherst), "Densest Subgraph in Dynamic Graph Streams"
+
+3) Sofya Vorotnikova (UMass, Amherst), "Parameterized Vertex Cover, Hitting Set, and Matching in Dynamic Graphs"
+
+4) Yingyu Liang (Princeton), "A Distributed Frank-Wolfe Algorithm for Communication-Efficient Sparse Learning"
+
+5) Krishna Pillutla (CMU), "Distributed ML: Reducing Communication Cost with ADMM."
+
+6) Nithin Varma (Penn State), "Erasure-Resilient Property Testing"
+
+7) Meyram Murzabulatov (Penn State), "Testing Convexity of Figures Under the Uniform Distribution"
+
+8) Jayadev Acharya (MIT), "Estimating Renyi Entropy of Discrete Distributions"
