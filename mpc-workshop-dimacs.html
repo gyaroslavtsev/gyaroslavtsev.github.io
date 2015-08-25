@@ -250,13 +250,13 @@ Based on separate joint works with Sagar Kale and Tony Wirth.
 <br> <a class="name" href="http://dimacs.rutgers.edu/~graham/ "  style="text-decoration: none" ><b>Graham Cormode</b></a> (University of Warwick)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
- &nbsp;&nbsp;A Second Look at Counting Triangles in Graph Streams
+ &nbsp;&nbsp;Trusting the Cloud with Practical Interactive Proofs
 </a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-The problems of counting and enumerating triangles in large data has attracted much interest, as it represents a simple, canonical challenge in analyzing large graphs.  This seems particularly challenging in the traditional one-pass streaming model.  It turns out that models that allow multiple passes provide better dependencies.  In particular, just two passes suffices to give better results, parameterized in terms of the number of edges and the number of triangles, and more passes do not help to improve this dependency.
+When handling large quantities of data, it is often necessary to outsource the computational effort to a third party: this captures current efforts in cloud computing, but also scenarios within trusted computing systems and inter-organizational data sharing. When the third party is not fully trusted, it is important to give assurance that the computation has been performed correctly. This talk presents some recent results in designing new protocols for verifying computations which are streaming in nature: the verifier (data owner) needs only a single pass over the input, storing a sublinear amount of information, and follows a simple protocol with a prover (service provider) that takes a small number of rounds. A dishonest prover fools the verifier with only vanishingly small probability, while an honest prover's answer is always accepted. Starting from basic aggregations, interactive proof techniques allow a quite general class of computations to be verified, leading to practical implementations.
 <br>
-Joint work with Hossein Jowhari.
+Joint work with Amit Chakrabarti, Andrew McGregor, Justin Thaler and Suresh Venkatasubramanian
 </p>
 </div>
 <br> <a class="name" href="http://www.dcs.warwick.ac.uk/~czumaj/ "  style="text-decoration: none" ><b>Artur Czumaj</b></a> (University of Warwick)
@@ -366,12 +366,15 @@ This is joint work with Rafael Barbosa, Huy Nguyen and Justin Ward.
 <br> <a class="name" href="https://sites.google.com/site/silviolattanzi/ "  style="text-decoration: none" ><b>Silvio Lattanzi</b></a> (Google Research, NYC)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
-&nbsp;&nbsp;Distributed Balanced Clustering via Mapping Coresets
+&nbsp;&nbsp;Expanders via Local Edge Flips
 </a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-Large-scale clustering of data points in metric spaces is an important problem in mining big data sets. For many applications, we face explicit or implicit size constraints for each cluster which leads to the problem of clustering under capacity constraints or the “balanced clustering” problem. Although the balanced clustering problem has been widely studied, developing a theoretically sound distributed algorithm remains an open problem. In the present paper we develop a new technique based on “mapping coresets” to tackle this issue. Our technique results in first distributed approximation algorithms for balanced clustering problems for a wide range of clustering objective functions such as k-center, k-median, and kmeans. A coreset for a point-set in a metric space is a subset of the point-set with the property that an approximate
-solution to the whole point-set can be obtained given the coreset alone. A mapping coreset is coreset with an additional mapping of points in the original space to points in the coreset. In addition to solutions of the coresets, the mapping of points will later be used to reconstruct the solution to the original problem. In this paper, we first show that using mapping coresets, one can turn a single-machine α-approximation algorithms for balanced clustering problem to an efficient distributed O(α)-approximation algorithm for the same problem in massive data processing frameworks such as the MapReduce framework and streaming algorithms. Furthermore, we develop a mapping coreset for a general class of balanced clustering problems. Using this technique, we will develop the first constant-factor approximation algorithms for balanced k-center, k-median, and k-means running in a constant number of rounds. Moreover even for some general variants of the uncapacitated clustering problems our general framework implies the first constant-factor distributed approximation algorithm in a constant number of rounds.
+Designing distributed and scalable algorithms to improve network connectivity is a central topic in peer-to-peer networks. In this paper we focus on the following well-known problem: given an n-node d-regular network for d = Ω(log n), we want to design a decentralized, local algorithm that transforms the graph into one that has good connectivity properties (low diameter, expansion, etc.) without affecting the sparsity of the graph. To this end, Mahlmann and Schindelhauer introduced the random “flip” transformation, where in each time step, a random pair of vertices that have an edge decide to ‘swap a neighbor’. They conjectured that performing O(nd) such flips at random would convert any connected d-regular graph into a d-regular expander graph, with high probability. However, the best known upper bound for the number of steps is roughly O(n^17d^23), obtained via a delicate Markov chain comparison argument. 
+<br>
+Our main result is to prove that a natural instantiation of the random flip produces an expander in at most O(n^2d^2\sqrt{\log n}) steps, with high probability. Our argument uses a potential-function analysis based on the matrix exponential, together with the recent beautiful results on the higher-order Cheeger inequality of graphs. We also show that our technique can be used to analyze another well-studied random process known as the ‘random switch’, and show that it produces an expander in O(nd) steps with high probability.
+<br>
+Joint work with Zeyuan Allen-Zhu, Aditya Bhaskara, Vahab Mirrokni and Lorenzo Orecchia.
 </p>
 </div>
 
