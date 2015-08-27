@@ -399,11 +399,11 @@ In recent years, stochastic gradient descent (SGD) methods and randomized linear
 <br> <a class="name" href="http://people.csail.mit.edu/mirrokni/Welcome.html"  style="text-decoration: none" ><b>Vahab Mirrokni</b></a> (Google Research, NYC)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
- &nbsp;&nbsp;TBD
+	&nbsp;&nbsp;Large-scale Graph Mining at Google NYC: Problems and Frameworks
 </a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-
+In this talk, I discuss large-scale graph mining project at Google NYC. The goal of the project is to develop a distributed graph algorithm library for analyzing graphs with hundreds of billions of edges. I present an overview of challenges from three perspectives:  application-inspired problems, distributed computation challenges, and finally combined system+algorithms research. In the first  topic, I discuss the model of public-private graphs. On the 2nd topic, I discuss randomized composable core-sets for distributed submodular maximization and clustering. Finally, I discuss hybrid algorithmic and system problems for computing connected components in Mapreduce, and also a new graph mining framework based on asynchronous message passing, referred to as ASYMP.
 </p>
 </div>
 
@@ -494,24 +494,23 @@ This talk is based on works by many authors, none of whom is me.
 <br> <a class="name" href="http://people.csail.mit.edu/ronitt/ "  style="text-decoration: none" ><b>Ronitt Rubinfeld</b></a> (MIT)
 <br>
 <a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
- &nbsp;&nbsp;Testing and Correcting Structured Distributions
+ &nbsp;&nbsp;Sampling Correctors
 </a>  <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-Given samples of a distribution from an unknown source, one would like
-to understand what properties the underlying distribution exhibits.    When
-the distribution is over a very large underlying domain, traditional statistics
-techniques do not usually give a satisfying answer.  We survey recent results
-which give general purpose techniques for addressing such questions.  
-These results apply to a variety of structured properties defined in terms of 
-"shape constraints".
-<br>
-We next suggest a principled methodology for "correcting" samples of distributions 
-which come from a noisy or imperfect source.   We show connections between
-these correction procedures and distribution learning and property testing algorithms.
-<br>
-Some of the results described represent joint work with Clement Canonne, Ilias
-Diakonikolas and Themis Gouleakis.
+In many situations, sample data is obtained from a noisy or imperfect
+source.  In order to address such corruptions, we the methodology of
+sampling correctors. Such algorithms use structure that the distribution is
+purported to have, in order to allow one to make "on-the-fly" corrections to
+samples drawn from probability distributions. These algorithms then act as
+filters between the noisy data and the end user.
+  We show connections between sampling correctors, distribution learning
+  algorithms, and distribution property testing algorithms. We show that these
+  connections can be utilized to expand the applicability of known
+  distribution learning and property testing algorithms as well as to achieve improved
+  algorithms for those tasks.
+  <br>
+  Joint work with Clement Canonne and Themis Gouleakis.
 </p>
 </div>
 
