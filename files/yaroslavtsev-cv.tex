@@ -26,6 +26,7 @@
 
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
+\usepackage[disable]{todonotes}
 
 % Layout: Puts the section titles on left side of page
 \reversemarginpar
@@ -184,6 +185,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+
+\listoftodos
+
+\newpage
+
+
 \sloppy
 
 \makeheading{Grigory Yaroslavtsev, \href{http://grigory.us}{http://grigory.us}}
@@ -229,7 +236,7 @@ Place of birth: St. Petersburg, USSR
 
 \section{Research Interests}
 %
-Approximation and sublinear time algorithms for big data: sparsification, summarization, private data release, property testing.
+Approximation and sublinear time algorithms for big data: sparsification, summarization, private data release, property testing.\todo{rewrite this.}
 
 \section{2014--}
 \textbf{University of Pennsylvania}, Philadelphia, PA.
@@ -269,7 +276,7 @@ Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summariza
 %\item[]
  \medskip
 
- M.S. in Applied Mathematics and Physics ($1^{st}$ student in the pilot class, joint with Steklov Institute), GPA: 4.9/5.0.
+ M.S. in Applied Mathematics and Physics ($1^{st}$ student in the pilot class, joint with Steklov Institute).\todo{remove?}
 %\end{outerlist}
 
 
@@ -279,7 +286,7 @@ Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summariza
 %\item[]
 \medskip 
 
- B.S. in Physics and Technology. ($1^{st}$ result in the admission test for the department).
+ B.S. in Physics and Technology. ($1^{st}$ result in the admission test for the department)\todo{remove?}.
 %\end{outerlist}
 
 \section{Research internships}
@@ -289,7 +296,7 @@ Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summariza
 
 \begin{innerlist}
 %\item Optimal online algorithm for online macine minimization (with N. Devanur, K. Makarychev and D. Panigrahi, in submission to ICALP'14).
-\item Improved approximation algorithms for correlation clustering (with S. Chawla, K. Makarychev, T. Schramm, STOC'15).
+\item Approximation algorithms for correlation clustering (with S. Chawla, K. Makarychev, T. Schramm, STOC'15).
 \end{innerlist}
 
 \blankline
@@ -312,7 +319,7 @@ Ph.D., Thesis: ``Efficient Combinatorial Techniques in Sparsification, Summariza
 \begin{innerlist}
 \item Optimal direct-sum theorem for one-way communication complexity, showing that parallel repetition is optimal for solving multiple instances of problems, such as augmented indexing (with M. Molinaro and D. Woodruff, SODA'13). 
 %This implies optimality for several sketching techniques ($n$-point Johnson-Lindenstrauss transform, multiple norm estimation, sketching matrix products, mergeable database sketches).
-\item Almost optimal round vs. communication protocol for computing the intersection of distributed databases (with D. Woodruff, PODC'14, U.S. patent pending).
+\item A protocol for computing the intersection of distributed databases with almost optimal round vs. communication tradeoffs  (with D. Woodruff, PODC'14; U.S. patent pending).
 \end{innerlist}
 
 \blankline
@@ -370,15 +377,15 @@ New page: \href{http://www.fbreader.org/fbreaderj}{www.fbreader.org/fbreaderj}. 
 %%\item Third diploma in 14th All-Russian Olympiad in Informatics and Programming for university students, 2009.
 %%\item Google CodeJam, local onsite finalist, 2008.
 %%\item TopCoder coder of the month, April 2008.
-\item Travel awards: ICDE'13, SODA'13, FOCS'12, STOC'12, STOC'11, ICALP'11, SAT'09.
-\item Diploma for coaching the best team in St. Petersburg Olympiad in Informatics and Programming for high-school students, 2008.
+%\item Travel awards: ICDE'13, SODA'13, FOCS'12, STOC'12, STOC'11, ICALP'11, SAT'09.
+%\item Diploma for coaching the best team in St. Petersburg Olympiad in Informatics and Programming for high-school students, 2008.
 %\item Google CodeJam Europe, 99th place. 2006.
-\item $2^{nd}$ place in St. Petersburg State Polytechnic University Olympiad in Mathematics, 2005.
-\item Best result in the admissions test for the Department of Physics and Technology in St. Petersburg State Polytechnic University, 2004.
+%\item $2^{nd}$ place in St. Petersburg State Polytechnic University Olympiad in Mathematics, 2005.
+%\item Best result in the admissions test for the Department of Physics and Technology in St. Petersburg State Polytechnic University, 2004.
 \end{innerlist}
 
 \section{Journal Papers}
-\begin{lonelist}
+\begin{innerlist}
 
 \item \textbf{Certifying Equality with Limited Interaction}, 
 with Joshua Brody, Amit Chakrabarti, Ranganath Kondapally and David Woodruff.
@@ -388,22 +395,22 @@ Algorithmica, special issue on ``Information Complexity and Applications'', to a
 \item \textbf{Private Analysis of Graph Structure},
 with Vishesh Karwa, Sofya Raskhodnikova and Adam Smith.
 
-ACM Transactions on Database Systems, Volume 39, Issue 3, 2014.
+ACM Transactions on Database Systems, 2014.
 
 \item \textbf{Steiner Transitive-Closure Spanners of Low-Dimensional Posets},
 with Piotr Berman, Arnab Bhattacharyya, Elena Grigorescu, Sofya Raskhodnikova and David Woodruff.
 
-Combinatorica, June 2014, Volume 34, Issue 3, pages 255-277.
+Combinatorica, 2014.
 
 \item \textbf{Approximation Algorithms for Spanner Problems and Directed Steiner Forest}, with Piotr Berman, Arnab Bhattacharyya, Konstantin Makarychev and Sofya Raskhodnikova.
 
-Information and Computation, special issue for ICALP'11. Volume 222, 2013, pp. 93-107.
+Information and Computation, special issue for ICALP'11. 
 
 \item \href{http://grigory.us/files/publications/2010_upper_bounds_symmetric_ipl.pdf}{\textbf{New upper bounds on the Boolean Circuit Complexity of Symmetric Functions}}, with Eugeny Demenkov, Arist Kojevnikov and Alexander Kulikov.
 
-Information Processing Letters, 110, pp. 264-267, Elsevier, 2010.
+Information Processing Letters,  2010.
 
-\end{lonelist}
+\end{innerlist}
 
 \if\online0 
 \section{Submitted}
@@ -420,95 +427,83 @@ Draft: \href{https://www.dropbox.com/s/7erlyx6zpcdrw7o/kwy.pdf}{PDF}.
 \fi
 
 \section{Conference Papers}
-\begin{lonelist}
+\begin{innerlist}
 
-\item \textbf{Tight Bounds on Linear Sketches of Approximate Matchings}, with Sepehr Assadi, Sanjeev Khanna and Yang Li.
+\item \textbf{Tight Bounds on Linear Sketches of Approximate Matchings}, with S. Assadi, S. Khanna and Y. Li.
 
 SODA 2016 (27th Annual ACM-SIAM Symposium on Discrete Algorithms).
 
-\item \textbf{Near Optimal LP Rounding Algorithm for Correlation Clustering on Complete and Complete k-partite Graphs}, with Shuchi Chawla, Konstantin Makarychev and Tselil Schramm.
+\item \textbf{Amplification of One-Way Information Complexity via Codes and Noise Sensitivity}, with M. Molinaro and D. Woodruff.
+
+ICALP 2015 (42nd International Colloquium on Automata, Languages and Programming).
+
+\item \textbf{Near Optimal LP Rounding Algorithm for Correlation Clustering on Complete and Complete k-partite Graphs}, with S. Chawla, K. Makarychev and T. Schramm.
 
 STOC 2015 (47th ACM Symposium on the Theory of Computing).
 
-
-\item \textbf{Certifying Equality with Limited Interaction}, with Joshua Brody, Amit Chakrabarti, Ranganath Kondapally and David Woodruff.
+\item \textbf{Certifying Equality with Limited Interaction}, with J. Brody, A. Chakrabarti, R. Kondapally and D. Woodruff.
 
 RANDOM 2014 (18th International Workshop on Randomization and Computation).
 
-\if\online0 
-Draft: \href{https://www.dropbox.com/s/kbu6a1202749xg4/bckwy.pdf}{PDF}.
-\else Available upon request.\fi
+\item \textbf{Beyond Set Disjointness: The Communication Complexity of Finding the Intersection}, with J. Brody, A. Chakrabarti, R. Kondapally and D. Woodruff.
 
-\item \textbf{Beyond Set Disjointness: The Communication Complexity of Finding the Intersection}, with Joshua Brody, Amit Chakrabarti, Ranganath Kondapally and David Woodruff.
+PODC 2014 (33rd ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing).
 
-PODC 2014 (33rd Annual ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing).
-
-\item \textbf{Parallel Algorithms for Geometric Graph Problems}, with Alexandr Andoni, Krzysztof Onak and Aleksandar Nikolov.
+\item \textbf{Parallel Algorithms for Geometric Graph Problems}, with A. Andoni, K. Onak and A. Nikolov.
 
 STOC 2014 (46th ACM Symposium on the Theory of Computing). 
-\if\online0 
-Draft: \href{https://www.dropbox.com/s/tnckb9xe3xkxu7l/anoy.pdf}{PDF}.
-\else Available upon request.\fi
-Tech report: \href{http://arxiv.org/abs/1401.0042}{ArXiv:1401.0042}.
 
-\item \textbf{$L_p$-testing}, with Piotr Berman and Sofya Raskhodnikova.
+\item \textbf{$L_p$-testing}, with P. Berman and S. Raskhodnikova.
 
 STOC 2014 (46th ACM Symposium on the Theory of Computing). 
-\if\online0 
-Draft: \href{https://www.dropbox.com/s/q3li9u4hpob4y9z/bry.pdf}{PDF}.
-\else Available upon request.\fi
 
-\item \textbf{Lower Bounds for Testing Properties of Functions over Hypergrid Domains}, with Eric Blais and Sofya Raskhodnikova.
+\item \textbf{Lower Bounds for Testing Properties of Functions over Hypergrid Domains}, with E. Blais and S. Raskhodnikova.
 
 CCC 2014 (29th IEEE Conference on Computational Complexity). 
-\if\online0 
-Draft: \href{https://www.dropbox.com/s/lxbiymajfmocd66/bry2.pdf}{PDF}. 
-\else Available upon request. \fi
- Tech report: 
-\href{http://eccc.hpi-web.de/report/2013/036/}{ECCC TR13-036}.
-
 
 \item \footnote{This is the only paper with non-alphabetical ordering of authors}\textbf{Accurate and Efficient Private Release of Datacubes and Contingency Tables}. 
-Grigory Yaroslavtsev, Graham Cormode, Cecilia M. Procopiuc and Divesh Srivastava.
+G. Yaroslavtsev, G. Cormode, C. Procopiuc and D. Srivastava.
 
-ICDE 2013 (29th IEEE International Conference on Data Engineering). Available as \href{http://arxiv.org/pdf/1207.6096.pdf}{ArXiv:1207.6096}.
+ICDE 2013 (29th IEEE International Conference on Data Engineering). 
 
 \item \textbf{Beating the Direct Sum Theorem in Communication Complexity with Implications for Sketching}, with Marco Molinaro and David Woodruff.
 
 SODA 2013 (24th Annual ACM-SIAM Symposium on Discrete Algorithms).
 
-\item \textbf{Learning Pseudo-Boolean k-DNF and Submodular Functions}, with Sofya Raskhodnikova.
+\item \textbf{Learning Pseudo-Boolean k-DNF and Submodular Functions}, with S. Raskhodnikova.
 
 SODA 2013 (24th Annual ACM-SIAM Symposium on Discrete Algorithms).
 
-\item \textbf{Primal-dual algorithms for Node-Weighted Network Design in Planar Graphs}, with Piotr Berman.
+\item \textbf{Primal-dual algorithms for Node-Weighted Network Design in Planar Graphs}, with . Berman.
 
 APPROX 2012 (15th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems).
 
-\item \href{http://grigory.us/files/PrivateGraphStructure-VLDB11.pdf}{
-    \textbf{Private Analysis of Graph Structure}},
-with Vishesh Karwa, Sofya Raskhodnikova and Adam Smith.
+\item %\href{http://grigory.us/files/PrivateGraphStructure-VLDB11.pdf}
+{\textbf{Private Analysis of Graph Structure}},
+with V. Karwa, S. Raskhodnikova and A. Smith.
 
 VLDB 2011 (37th International Conference on Very Large Data Bases), Research track.
 
-\item \href{http://grigory.us/files/publications/directed-spanners-journal-submitted.pdf}
-{\textbf{Improved Approximation for the Directed Spanner Problem}}, with Piotr Berman, Arnab Bhattacharyya, Konstantin Makarychev and Sofya Raskhodnikova.
+\item %\href{http://grigory.us/files/publications/directed-spanners-journal-submitted.pdf}
+{\textbf{Improved Approximation for the Directed Spanner Problem}}, with P. Berman, A. Bhattacharyya, K. Makarychev and S. Raskhodnikova.
 
-ICALP 2011 (38th International Colloquium on Automata, Languages and Programming), Track A. 
+ICALP 2011 (38th International Colloquium on Automata, Languages and Programming). 
 
 \textbf{Runner-up for the Best Paper Award, invited to a special issue of a journal "Information and Computation"}.
 
-\item \href{http://grigory.us/files/steiner-ICALP11.pdf}{\textbf{Steiner Transitive-Closure Spanners of Low-Dimensional Posets}},
-with Piotr Berman, Arnab Bhattacharrya, Elena Grigorescu, Sofya Raskhodnikova and David Woodruff.
+\item %\href{http://grigory.us/files/steiner-ICALP11.pdf}
+{\textbf{Steiner Transitive-Closure Spanners of Low-Dimensional Posets}},
+with P. Berman, A. Bhattacharrya, E. Grigorescu, S. Raskhodnikova and D. Woodruff.
 
-ICALP 2011 (38th International Colloquium on Automata, Languages and Programming), Track A.
+ICALP 2011 (38th International Colloquium on Automata, Languages and Programming).
 
-\item \href{http://grigory.us/files/publications/0903_SAT2009_Efficient_Boolean_Circuits.pdf}{\textbf{Finding Efficient Circuits using SAT-solvers}}, with
-Arist Kojevnikov and Alexander Kulikov.
+\item %\href{http://grigory.us/files/publications/0903_SAT2009_Efficient_Boolean_Circuits.pdf}
+{\textbf{Finding Efficient Circuits using SAT-solvers}}, with
+A. Kojevnikov and A. Kulikov.
 
 SAT 2009 (12th International Conference on Theory and Applications of Satisfiability Testing).
 
-\end{lonelist}
+\end{innerlist}
 
 \section{Research visits}
 \begin{innerlist}
@@ -657,6 +652,8 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 \end{innerlist}
 \blankline
 
+\begin{comment}
+
 \section{Posters}
 \begin{innerlist}
 
@@ -675,6 +672,7 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 \begin{innerlist}
 \item FOCS 2012, Rutgers University, NJ. October 2012.
 \end{innerlist}
+}
 
 
 \item Learning and Testing Submodular Functions
@@ -694,6 +692,8 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 \begin{innerlist}
 \item STOC 2011, San Jose, CA. June 2011.
 \end{innerlist}
+
+\end{comment
 
 \end{innerlist}
 
@@ -742,14 +742,19 @@ SAT 2009 (12th International Conference on Theory and Applications of Satisfiabi
 
 
 \section{Teaching}
-Computational Learning Theory
+Algorithms for Big Data
 \begin{innerlist}
-	\item \textbf{University of Pennsylvania}, CIS 625, Spring 2015 (co-teaching with Michael Kearns)
+\item \textbf{University of Pennsylvania}, CIS 700, Fall 2015.
 \end{innerlist}
 
-15-hour crash course ``\href{http://grigory.us/big-data.html}{Sublinear Algorithms for Big Data}'':
+Computational Learning Theory
 \begin{innerlist}
-\item \textbf{University of Buenos Aires}, Argentina. July -- August 2014.
+	\item \textbf{University of Pennsylvania}, CIS 625, Spring 2015 (co-teaching with Michael Kearns).
+\end{innerlist}
+
+\href{http://grigory.us/big-data.html}{Sublinear Algorithms for Big Data}:
+\begin{innerlist}
+\item \textbf{University of Buenos Aires}, Argentina. 15-hour crash course. July -- August 2014.
 \end{innerlist}
 
 \blankline
@@ -772,8 +777,8 @@ Extracurricular education for high-school students:
 
 \item Co-founder and coordinator of St. Petersburg network of extracurricular education in informatics for high-school students (\href{http://spbtc.ru}{http://spbtc.ru}) (2009-2010).
 
-\item Judge for Baltic Science and Engineering Contest (Intel ISEF semifinals), 2010.
-\
+%\item Judge for Baltic Science and Engineering Contest (Intel ISEF semifinals), 2010.
+
 \end{innerlist}
 
 
@@ -781,16 +786,16 @@ Extracurricular education for high-school students:
 \section{Patents}
 
 \begin{innerlist}
-\item ``A Communication and Message-Efficient Protocol for Computing the Intersection Between Different Sets of Data'', with David P. Woodruff. U.S. patent application \#20150172425. IBM Almaden Research Center, San Jose, CA.
+\item ``A Communication and Message-Efficient Protocol for Computing the Intersection Between Different Sets of Data'', with David P. Woodruff. U.S. patent application publication \#20150172425. IBM Almaden Research Center, San Jose, CA.
 \end{innerlist}
 
 
 \section{Service}
 
-Program comittees:
+Program committees:
 \begin{innerlist}
-\item 41st International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM'15), Foundations of Computer Science Track. Pec pod Snezkou, Czech Republic.
-\item ``Graph Theory and Applications'' CSEDays 2012, Theory track. Ekaterinburg, Russia.
+\item 24th Annual European Symposium on Algorithms (ESA'16), Design and Analysis Track. 
+\item 41st International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM'15), Foundations of Computer Science Track.
 \end{innerlist}
 
 \blankline
@@ -808,8 +813,8 @@ Organizer:
 \begin{innerlist}
 \item \href{http://dimacs.rutgers.edu/Workshops/ParallelAlgorithms/}{Big Data through the Lens of Sublinear Algorithms}: 2-Day workshop at Rutgers University, DIMACS, Aug 2015.
 \item \href{http://grigory.us/mpc-workshop-fcrc.html}{Algorithmic Frontiers of Modern Massively Parallel Computation}: 1-Day workshop at ACM Federated Computing Research Conference, Jun 2015.
-\item \href{http://theory.cis.upenn.edu/seminar/}{Theory Seminar} at the Univeristy of Pennsylvania, Computer and Information Sciences Department (2014 -- 2015).
 \item \href{http://grigory.us/big-data-day.html}{Sublinear Algorithms and Big Data Day} at Brown University, Institute for Computational and Experimental Research in Mathematics.
+\item \href{http://theory.cis.upenn.edu/seminar/}{Theory Seminar} at the Univeristy of Pennsylvania, Computer and Information Sciences Department (2014 -- 2015).
 \item \href{http://grigory.us/theory-seminar-brown-fall13.html}{Theory Seminar} at Brown CS Department and Brown University, Institute for Computational and Experimental Research in Mathematics (2013 -- 2014).
 \end{innerlist}
 
@@ -881,7 +886,7 @@ ACM SIGACT, IEEE
 %\end{outerlist}
 
 \section{Technical skills}
-C/C++, STL, Java, Windows/Linux, \LaTeX, CPlex/Gurobi/AMPL.
+C/C++, STL, Java, Windows/Linux, \LaTeX, CPlex/Gurobi/AMPL, MapReduce/Hadoop.
 
 %\blankline
 %
