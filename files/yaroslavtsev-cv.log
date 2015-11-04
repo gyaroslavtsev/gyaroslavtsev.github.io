@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 NOV 2015 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 NOV 2015 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,10 +749,10 @@ Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 929.
  ) 
 Here is how much of TeX's memory you used:
- 16141 strings out of 493117
- 305930 string characters out of 6135433
+ 16140 strings out of 493117
+ 305920 string characters out of 6135433
  376795 words of memory out of 5000000
- 19305 multiletter control sequences out of 15000+600000
+ 19304 multiletter control sequences out of 15000+600000
  8852 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,68p,431b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
