@@ -6,6 +6,23 @@ body {
   text-align: left;
 }
 
+
+a , a:visited, a:active {
+  text-decoration: none;
+  border-bottom: 1px #ba191f dotted;
+}
+
+a:hover {
+  color: #01256e;
+  text-decoration: underline;
+  border: none;
+}
+
+a.navbar-brand {
+    text-decoration: none;
+    border: none;	
+}
+
 .navbar-default {
 background-color: #01256e;
 border-color: #01256e;
