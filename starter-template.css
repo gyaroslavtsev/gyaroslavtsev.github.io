@@ -7,6 +7,10 @@ body {
 }
 
 
+.btn-primary{
+	border-color: #01256e;
+}
+
 a , a:visited, a:active {
   text-decoration: none;
   border-bottom: 1px #ba191f dotted;
