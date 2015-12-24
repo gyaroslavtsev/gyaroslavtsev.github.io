@@ -1,0 +1,11 @@
+ul.lectures li {
+	margin-top: 10;
+
+}
+
+ul.lectures li ul li {
+	margin-top: 3;
+	font-size: 12px;
+}
+
+
