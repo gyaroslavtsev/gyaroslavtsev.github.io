@@ -27,10 +27,8 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 	  ga('create', 'UA-50314209-1', 'auto');
 	    ga('send', 'pageview');
-
 	    </script>
 
 
@@ -113,6 +111,10 @@
 </table>
 </div>
 
+<!--
+</td>
+<td>
+	-->
 <div class="col-xs-6">
 <h1><div align="right"><b>Grigory Yaroslavtsev</b></div></h1>
 <div align="left">
@@ -124,6 +126,17 @@
 </div>
 </div>
 
+<!--
+</td>
+</tr>
+</table>
+-->
+
+<!--
+<table class="table" style="margin-bottom:0px">
+<tr>
+<td width="60%">
+	-->
 
 <div class="row">
 <div class="col-xs-7">
@@ -190,6 +203,10 @@ Recently created/taught/organized:
 <p>
 <p>
 		
+<!--
+</td>
+<td width="40%">
+	-->
 
 </div>
 
@@ -209,32 +226,27 @@ Recently created/taught/organized:
 </div>
 </div>
 
+<!--
+</td>
+</tr>
+</table>
+-->
 
+<br />
+<br />
 
 <br>
 <br>
 
 <a id="news"><h1 style="padding-top:50px; margin-top:-50px;">News</h1> </a>
 
+
 <div class="panel-group" id="newslist">
 <div class="panel panel-default">
 <div class="panel-heading">
-<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#2016">2016</a></h4>
-</div>
-<div id="2016" class="panel-collapse collapse in">
-<div class="panel-body">
-	<ul class="fa-ul">
-		<li><i class="fa li fa fa-bullhorn"></i> 01/08/16: Talk &ldquo;<a href="files/talks/jhu-sublinear16.pdf">L<sub>p</sub>-Testing</a>&rdquo; at the <a href="http://www.cs.jhu.edu/~vova/sublinear2016/program.html">Johns Hopkins University workshop on sublinear algorithms</a>. See also <a href="files/lp-testing-open.pdf">open problems</a>.
-	</ul>
-</div>
-</div>
-</div>
-
-<div class="panel panel-default">
-<div class="panel-heading">
-	<h4 class="panel-title">
-		<a data-toggle="collapse" data-parent="#accordion" href="#2015">2015</a>
-	</h4>
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#2015">2015</a>
+</h4>
 </div>
 <div id="2015" class="panel-collapse collapse in">
 <div class="panel-body">
@@ -266,7 +278,6 @@ Recently created/taught/organized:
 </div>
 </div>
 </div>
-
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
@@ -304,7 +315,7 @@ Recently created/taught/organized:
 <li><i class="fa li fa fa-bullhorn"></i> 02/19/14: Talk &ldquo;Approximating Graph Problems: The Old and The New&rdquo; at MIT Algorithms and Complexity Seminar.
 <li><i class="fa li fa fa-bullhorn"></i> 02/17/14: Talk &ldquo;Approximating Graph Problems: The Old and The New&rdquo; at Toyota Technological Institute at Chicago.
 <li> <i class="fa li fa fa-bullhorn"></i> 02/09/14: I will be teaching a crash course "<a href="http://grigory.us/big-data.html"  >Sublinear Algorithms for Big Datasets</a>" at the University of Buenos Aires (July 28 &ndash; August 01) 
-<li> <i class="fa li fa fa-bullhorn"></i> 02/04/14: 2 papers in <a href="http://www.columbia.edu/~cs2035/stoc/stoc2014/">STOC'14</a>, 1 paper in <a href="http://computationalcomplexity.org/">CCC'14</a>:
+<li> <i class="fa li fa fa-bullhorn"></i> 02/04/14: 2 papers in <a   href="http://www.columbia.edu/~cs2035/stoc/stoc2014/">STOC'14</a>, 1 paper in <a   href="http://computationalcomplexity.org/">CCC'14</a>:
 <ul>
 <li> <a href="#mapreduce">First &ldquo;MapReduce&rdquo; paper in STOC/FOCS</a>.  
 <li> <a href="#lp-testing">First property testing paper for noisy real-valued data</a>. 
@@ -318,7 +329,25 @@ Recently created/taught/organized:
 </div>
 
 
+
+
+
+
+
 <a id="papers"><h1> Papers <small>(authors listed in alphabetical order unless otherwise specified)</small> </h1> </a>
+
+
+<!--
+<li> <i class="fa-li fa fa-file-text"></i>
+<a href="http://scholar.google.com/citations?user=i5PazXwAAAAJ "   >H. Karloff</a>,
+<a href="http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=992"   >J. McClintock</a>,
+<a href="http://www.math.cmu.edu/~ctsourak/"   >C. Tsourakakis</a>,
+<a href="http://ww2.cs.mu.oz.au/~awirth/TonyWirth%40Unimelb/Welcome.html "   >A. Wirth</a>, 
+G. Yaroslavtsev
+<p>
+<b>A Practical Approximation Algorithm for Overlapping Correlation Clustering</b>
+<p>
+-->
 
 <h2>Selected Publications</h2>
 
@@ -357,7 +386,7 @@ STOC 2014 (46th ACM Symposium on the Theory of Computing).
 </p>
 <p>
 <ul class="fa-ul">
-<li> <i class="fa-li fa fa-question"></i> Open problems from JHU workshop on Sublinear Algorithms [<a href="./files/lp-testing-open.pptx">pptx</a>, <a href="./files/lp-testing-open.pdf">pdf</a>].
+<li> <i class="fa-li fa fa-question"></i> Open problems from JHU workshop on Sublinear Algorithms [<a href="files/lp-testing-open.pptx">pptx</a>, <a href="files/lp-testing-open.pdf">pdf</a>].
 <li> <i class="fa-li fa fa-comments"></i> <a href="http://www.wisdom.weizmann.ac.il/~oded/MC/159.html">Oded Goldreich's review</a> on &ldquo;My Choices&rdquo; 
 <li> <i class="fa-li fa fa-comments"></i> Property Testing Review <a href="http://ptreview.sublinear.info/?m=201408">Post 1</a>, <a href="http://ptreview.sublinear.info/?p=383">Post 2</a>
 </ul>
@@ -713,7 +742,6 @@ G. Yaroslavtsev
 	<b>L<sub>p</sub>-Testing</b>
 	[Slides: <i class="fa fa-file-powerpoint-o"></i>(<a   href="./files/talks/BRY-STOC14.pptm">pptm</a>), <i class="fa fa-file-pdf-o"></i>(<a   href="./files/talks/BRY-STOC14.pdf">pdf</a>))]	
 	<ul class="fa-ul">
-	<li> <i class="fa-li fa fa-group"></i> Johns Hopkins University, Sublinear Algorithms Workshop. January 08, 2016.
 	<li> <i class="fa-li fa fa-group"></i> Columbia University, Theory seminar. October 24, 2014.
 	<li> <i class="fa-li fa fa-group"></i> 46th ACM Symposium on Theory of Computing (STOC 2014). June 01, 2014.
 	<li> <i class="fa-li fa fa-group"></i> Microsoft Research, Redmond, Theory lunch. January 08, 2014.
@@ -855,6 +883,7 @@ G. Yaroslavtsev
 </ul>
 
 
+
 <a id="personal"><h1> Personal</h1></a>
 <div>
 <ul class="list-thumbnail">
@@ -928,6 +957,7 @@ Here is a <a href="https://www.youtube.com/watch?v=ux68R2g6yxo">recent video</a>
 </div>
 
 
+
 <a id="links"><h1>Links</h1></a>
 
 <br />
@@ -947,7 +977,6 @@ Here is a <a href="https://www.youtube.com/watch?v=ux68R2g6yxo">recent video</a>
 <li> <i class="fa-li fa fa-briefcase"></i> <a href="./files/mary-fernandez-job-industrial-lab.pdf">Getting a Job in an Industrial Lab</a> (by <a href="http://www.linkedin.com/in/maryffernandez">Mary Fernandez</a>, AT&amp;T Labs &ndash; Research/MentorNet)
 <li> <i class="fa-li fa fa-briefcase"></i> <a href="http://pgbovine.net/guo-faculty-job-search.pdf">Reflections on My Tenure-Track Assistant Professor Job Search</a> (by <a href="http://www.pgbovine.net/">Philip Guo</a>, University of Rochester)
 <li> <i class="fa-li fa fa-briefcase"></i> <a href="http://grigory.us/blog/research-internship/">Getting a Research Internship</a> (an entry on my <a href="http://grigory.us/blog/">blog</a>) 
-<li> <i class="fa-li fa fa-briefcase"></i> <a href="http://archive2.cra.org/uploads/documents/events/cmw/">Slides from CRA Career Mentoring Workshops</a> (see e.g. slides by <a href="https://en.wikipedia.org/wiki/Jeannette_Wing">Jeanette Wing</a> from 2012)
 </ul>
 
 <li> <i class="fa-li fa fa-external-link"></i> <b>Funding:</b> 
@@ -975,6 +1004,7 @@ Here is a <a href="https://www.youtube.com/watch?v=ux68R2g6yxo">recent video</a>
 <li> <i class="fa-li fa fa-external-link"></i><b> Online Seminars on Theoretical Computer Science:</b> <a href="https://sites.google.com/site/plustcs">TCS+</a>.  
 <li> <i class="fa-li fa fa-external-link"></i> <b>Workshops:</b> <a href="www.dagstuhl.de/">Dagstuhl</a>, <a href="http://www.birs.ca/">BIRS</a>, <a href="http://www.bici.eu/">Bertinoro</a>, <a href="http://simons.berkley.edu">Simons Center</a>, <a href="http://icerm.brown.edu">ICERM</a>, <a href=" https://www.ipam.ucla.edu/">IPAM</a>, <a href="www.msri.org">MSRI</a>,  <a href="http://www.shonan-village.co.jp/svc/">Shonan Center</a>, <a href="http://www.cs.mcgill.ca/~denis/barbados.html">Barbados</a>, <a href="http://www.fields.utoronto.ca/ ">Fields Institute</a>, <a href=" http://www.iasi.cnr.it/~ventura/Cargese14/Overview.html">Cargese</a>, <a href=" http://www.mfo.de/scientific-programme/meetings/oberwolfach-seminars">Oberwolfach</a>, <a href="http://cs.nyu.edu/web/Calendar/colloquium/theory_day.html">New York Area Theory Day</a>.      
 <li> <i class="fa-li fa fa-external-link"></i><b> Social:</b> <a href="https://plus.google.com/communities/102658328974323340942">TCS community</a> on Google+.
+<!-- <li> <i class="fa-li fa fa-external-link"></i> E-mail Lists: There are too many. -->
 <li> <i class="fa-li fa fa-external-link"></i> <b>Blogs:</b> <a href="http://feedworld.net/toc/">TCS Blog Aggregator</a>, <a href="http://math.stackexchange.com/questions/81/list-of-interesting-math-blogs">List of Math Blogs</a>.
 <li> <i class="fa-li fa fa-external-link"></i><b> Q&amp;A: </b> <a href="http://cstheory.stackexchange.com">CSTheory</a>, <a href="http://mathoverflow.net">MathOverflow</a>. See also top questions on <a href="http://cstheory.stackexchange.com/questions?sort=votes">CSTheory</a> and <a href="http://mathoverflow.net/questions?sort=votes">MathOverflow</a>, including &ldquo;What Papers Should Everyone Read&rdquo;, &ldquo;What Books Should Everyone Read&rdquo;, &ldquo;What Lecture Notes Should Everyone Read&rdquo;, &ldquo;Advice on Good Research Practices&rdquo;, &ldquo;Core Algorithms Deployed&rdquo;, &ldquo;Algorithms from the Book&rdquo;, &ldquo;Examples of Common False Beliefs in Mathematics&rdquo;, &ldquo;Refereeing a Paper&rdquo;, etc.
 <li> <i class="fa-li fa fa-external-link"></i> <b> Richard Feynman:</b> &ldquo;<a href="http://www.chem.fsu.edu/chemlab/isc3523c/feyn_surely.pdf ">Surely You're Joking, Mr. Feynman!</a>&rdquo; and &ldquo;<a href="http://202.114.108.237/Download/d84fa222-921a-43de-a8f3-87388597371e.pdf">What Do You Care What Other People Think?</a>&rdquo; (both by Ralph Leighton). IMHO, you should better read this when you are a teenager and not take it too seriously, but it's so much fun! ;)
@@ -983,7 +1013,9 @@ Here is a <a href="https://www.youtube.com/watch?v=ux68R2g6yxo">recent video</a>
 </div>
 
 </div>
-</div>
+</div><!-- /.container -->
+
+
 
 
 
@@ -996,5 +1028,4 @@ Here is a <a href="https://www.youtube.com/watch?v=ux68R2g6yxo">recent video</a>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
 
