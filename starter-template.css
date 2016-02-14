@@ -3,12 +3,25 @@
 	overflow: auto;
 }
 
+ul {
+	padding-left: 2em;
+}
+
+.list-thumbnail {
+	padding-left: 0em;
+}
+
+.fa-ul {
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+
 body {
   padding-top: 0px;
 }
 .starter-template {
-  padding: 0px 10px;
-  text-align: left;
+	text-align: left;
 }
 
 
