@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 FEB 2016 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 FEB 2016 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,15 +708,15 @@ a, Lan-guages and
  []
 
 [3]
-Underfull \hbox (badness 1533) in paragraph at lines 619--620
-[]\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
--nal on Dis-crete
+Underfull \hbox (badness 2237) in paragraph at lines 619--620
+\OT1/cmr/m/n/10.95 FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'12, FOCS'12, CO
+-COA'12,
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 620--621
-\OT1/cmr/m/n/10.95 FOCS'13, MFCS'13, ICALP'13, SODA'13, AP-PROX'12, FOCS'12, CO
--COA'12,
+Underfull \hbox (badness 1533) in paragraph at lines 620--621
+[]\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
+-nal on Dis-crete
  []
 
 [4] [5]
@@ -750,10 +750,10 @@ Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 973.
  ) 
 Here is how much of TeX's memory you used:
- 16150 strings out of 493117
- 306032 string characters out of 6135433
+ 16149 strings out of 493117
+ 306022 string characters out of 6135433
  376795 words of memory out of 5000000
- 19309 multiletter control sequences out of 15000+600000
+ 19308 multiletter control sequences out of 15000+600000
  9020 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,68p,431b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -769,7 +769,7 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on files/yaroslavtsev-cv.pdf (7 pages, 162398 bytes).
+Output written on files/yaroslavtsev-cv.pdf (7 pages, 162424 bytes).
 PDF statistics:
  203 PDF objects out of 1000 (max. 8388607)
  180 compressed objects within 2 object streams
