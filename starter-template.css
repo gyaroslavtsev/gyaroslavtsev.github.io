@@ -1,3 +1,9 @@
+.navbar-header{
+margin-left:10% !important;
+}
+.content{
+}
+
 .list-thumbnail li {
 	padding: 10px 10px 10px 0px;
 	overflow: auto;
@@ -45,6 +51,7 @@ a.navbar-brand {
 	text-decoration:none;
 	border:none;
 }
+
 
 .navbar-default {
 background-color: #01256e;
@@ -151,5 +158,4 @@ box-shadow: none;
 color: #fff;
 opacity: 1;
 }
-
 
