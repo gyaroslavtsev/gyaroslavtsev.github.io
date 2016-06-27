@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta property="og:image" content="http://grigory.us/class-logo-large.png">
+<meta property="og:image:type" content="image/png">
+
+<title>CSCI-B609: Foundations of Data Science</title>
+
+<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="iu-template.css" rel="stylesheet">
+<link href="list-template.css" rel="stylesheet">
+
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+<script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top navbar-default" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</button>
+<a class="navbar-brand" href="#"><b>CSCI-B609: Foundations of Data Science</b></a> 
+<a class="navbar-brand" href="#sketch">Abstract</a>
+<a class="navbar-brand" href="#lectures">Lectures</a>
+<a class="navbar-brand" href="#hw">Homework</a>
+<a class="navbar-brand" href="#project">Project</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="iu-template">
+<br/>
+<br/>
+<br/>
+
+<h1 style="padding-top:0pt;margin-top:0pt;"><font color="brown">CSCI-B609: Foundations of Data Science</font>
+</h1>
+
+<!--<a id="information"><h1>Information</h1></a>
+-->
+<table>
+<tr>	
+<!--	
+<td>
+	<img src="pics/keep-calm6.png" width="150px" style="border:1px solid black">
+</td>
+-->
+<td>	
+<ul class="fa-ul">
+	<li> <i class="fa-li fa fa-question"></i>  <b>What?</b> This class will give you a mathematical toolkit that can be applied to problems in data anslysis. Target audience are students interested in algorithms, statistics, machine learning, data mining and related areas. 
+	<li> <i class="fa-li fa fa-question"></i>  <b>Who?</b> <b><a href="http://grigory.us">Grigory Yaroslavtsev</a></b>.
+	<li> <i class="fa-li fa fa-question"></i>  <b>When?</b> Fall 2016, MW 16:00 &ndash; 17:15. 
+	<li> <i class="fa-li fa fa-question"></i>  <b>Where?</b> BH 310. 
+<li> <i class="fa-li fa fa-question"></i> <b>Need permission?</b> Please, send me an e-mail with relevant coursework you have taken. In most cases permission will be granted.
+<li> <i class="fa-li fa fa-question"></i> <b>Office hours?</b> By appointment.
+<li> <i class="fa-li fa fa-question"></i> <b>Prerequisites?</b> There are no formal prerequisites, but you should be familiar with the basics of algorithm design and analysis, discrete mathematics, probability and have a strong mathematical background.
+<li> <i class="fa-li fa fa-question"></i> <b>Textbook?</b> 
+This class is primarily based on the emponimous textbook by Blum, Hopcroft and Kannan which is <a href="./files/bhk-book.pdf">available here</a>.
+</ul>				     
+</td>
+</tr>
+<table>
+
+<a id="sketch"><h1>Abstract</span>   </h1></a>
+
+<p>
+<p>
+This class covers a rapidly evolving area.
+Related classes at other universities:
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-institution"></i><a rel="nofollow" target="_blank" href="http://www.cs.cornell.edu/Courses/cs4850/2015sp/">Mathematical Foundations for the Information Age</a> by John Hopcroft at Cornell
+	<li><i class="fa-li fa fa-institution"></i><a rel="nofollow" target="_blank" href="https://barnasaha.net/barna/compsci590d/">Algorithms for Data Science</a> by Barna Saha at University of Massachusetts, Amherst
+	<li><i class="fa-li fa fa-institution"></i><a rel="nofollow" target="_blank" href="https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/">Computer Science Theory for the Information Age</a> by Venkatesan Guruswami and Ravi Kannan at CMU 
+	
+</ul>	
+
+
+<a id="lectures"> <h1>Lectures</h1></a>
+
+TBA
+<!--
+This class will focus on fundamental principles of algorithm design for big data processing. 
+Most of these principles are very robust to the choice of a specific platform, system or computational model.
+Thus, the lines drawn between different parts of this class are sometimes blurry and only serve as an approximate guideline.
+
+You should consider taking this class if you are interestd in scalability of algorithms for large data.  
+<ul class="list-thumbnail">
+	<li>
+	<h3>Part 1: Streaming Algorithms</h3>
+	<img src="pics/big-data-reading/stream.jpg"></a>
+Data streams represent a large dataset as an arriving online sequence of updates to its entries.
+Streaming algorithms extract only a small amount of information about the dataset (a "sketch"), which approixmately preserves its key properties. 
+Such algorithms are typically allowed to make only one pass over the data (or very few passes).
+The typical goal of algorithm design is to minimize the number of passes and space, while achieving the best possible approximation guarantee.
+All algrotihms discussed in this part are based on linear sketching, a powerful technique with multiple applications that go beyond streaming.
+</ul>
+<ul class="fa-ul lectures">
+	<li><i class="fa-li fa fa-group"></i> <b>Week 1.</b> [Slides (<a href="./big-data/lecture01.pptx">pptx</a>, <a href="./big-data/lecture01.pdf">pdf</a>)] 
+	Introduction. Probablity basics. Approximate counting, Morris's algorithm. 
+<ul class="fa-ul">
+	<li> <a href="http://www.inf.ed.ac.uk/teaching/courses/exc/reading/morris.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Robert Morris: "Counting large numbers of events in small registers." Communications of the ACM, 1978.
+</ul>
+
+	<li><i class="fa-li fa fa-group"></i> <b>Week 2.</b> [Slides (<a href="./big-data/lecture02.pptx">pptx</a>, <a href="./big-data/lecture02.pdf">pdf</a>)] 
+ 
+	Approximating the median. AMS-sketching. Frequency moments via AMS. F<sub>2</sub>-moment via 4-wise independent hashing. Distinct elements.
+	<ul class="fa-ul">
+		<li> <a href="http://algo.inria.fr/flajolet/Publications/FlMa85.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Philppe Flajolet, Nigel Martin: "Probabilistic Counting Algorithms for Data Base Applications.", Journal of Computer and System and Sciences, 1985.
+
+		<li> <a href="http://wwwmath.tau.ac.il/~nogaa/PDFS/amsz4.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>
+Noga Alon, Yossi Matias, Mario Szegedy: "The Space Complexity of Approximating the Frequency Moments." Journal of Computer and System Sciences, 1999.
+	</ul>
+
+	<li><i class="fa-li fa fa-group"></i> <b>Week 3.</b> [Slides (<a href="./big-data/lecture03.pptx">pptx</a>, <a href="./big-data/lecture03.pdf">pdf</a>)] 
+	Count-Min sketch, heavy hitters. L<sub>2</sub>-sampling.
+	
+	<ul class="fa-ul">	
+		<li> <a href="http://dimacs.rutgers.edu/~graham/pubs/papers/cm-latin.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> Graham Cormode, S. Muthukrishnan: "An Improved Data Stream Summary: The Count-Min Sketch and Its Applications." LATIN 2004.
+	</ul>
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Week 4.</b> [Slides (<a href="./big-data/lecture04.pptx">pptx</a>, <a href="./big-data/lecture04.pdf">pdf</a>)]
+	L<sub>0</sub>-sampling. L<sub>1</sub> sparse recovery. Count-Sketch.	 
+
+	<ul class="fa-ul">	
+		<li> <a href="http://arxiv.org/pdf/1012.4889.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Hossein Jowhari, Mert Saglam, Gabor Tardos. Tight Bounds for L<sub>p</sub>-Samplers, Finding Duplicates in Streams, and Related Problems. PODS 2011. 
+	
+		
+		<li> <a href="https://www.cs.rutgers.edu/~farach/pubs/FrequentStream.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Moses Charikar, Kevin Chen, Martin Farach-Colton. "Finding Frequent Items in Data Streams". Theoretical Computer Science, 2004; ICALP 2002. 
+	</ul>
+	
+
+	<ul class="fa-ul">	
+		
+</ul>
+
+
+	<li><i class="fa-li fa fa-group"></i> <b>Week 5.</b> [Slides (<a href="./big-data/lecture05.pptx">pptx</a>, <a href="./big-data/lecture05.pdf">pdf</a>)] 
+	Dimension reduction, Johnson-Lindenstrauss transform. Hanson-Wright inequality. Sparse and fast JL-transform.
+	
+	<ul class="fa-ul">	
+		<li> <i class="fa-li fa fa-file-text"></i>William B. Johnson, Joram Lindenstrauss: "Extensions of Lipschitz mappings into a Hilbert space." Conference in Modern Analysis and Probability, 1982.
+		<li> <a href="http://cseweb.ucsd.edu/~dasgupta/papers/jl.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+		Sanjoy Dasgupta, and Anupam Gupta: "An elementary proof of a theorem of Johnson and Lindenstrauss." Random Structures &amp; Algorithms, 2003.
+		<li> <a href="http://projecteuclid.org/download/pdf_1/euclid.aoms/1177693335"><i class="fa-li fa fa-file-pdf-o"></i></a> David Hanson, Farroll Wright. "A bound on tail probabilities
+		for quadratic forms in independent random variables."
+		Annals of Mathematical Statistics, 1971
+		<li> <a href="https://www.cs.princeton.edu/~chazelle/pubs/FJLT-sicomp09.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Nir Ailon, Bernard Chazelle. "The Fast Johnson-Lindenstrauss Transform and Approximate Nearest Neighbors." SIAM Journal on Computing, 2009. 
+		<li> <a href="http://arxiv.org/pdf/1012.1577.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Daniel Kane, Jelani Nelson: "Sparser Johnson-Lindenstrauss Transforms." Journal of the ACM, 2014. 
+
+	</ul>
+	<li><i class="fa-li fa fa-group"></i> <b>Week 6.</b> [Slides (<a href="./big-data/lecture06.pptx">pptx</a>, <a href="./big-data/lecture06.pdf">pdf</a>)] 
+	Graph sketching: Connectivity, K-connectivity, Bipartiteness, Minimum spanning tree, Min-cut and cut sparsifiers.
+	<ul class="fa-ul">	
+		<li> <a href="http://people.cs.umass.edu/~mcgregor/papers/05-tcs.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Joan Feigenbaum, Sampath Kannan, Andrew McGregor, Siddharth Suri, and Jian Zhang: "On graph problems in a semi-streaming model." Theoretical Computer Science, 2005. 
+		<li> <a href=" http://people.cs.umass.edu/~mcgregor/papers/12-dynamic.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Kook Jin Ahn, Sudipto Guha, and Andrew McGregor: "Analyzing graph structure via linear measurements." SODA 2012. 
+	</ul>
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Week 7.</b> [Guest lecture by <a href="http://www.seas.upenn.edu/~sassadi/">Sepehr Assadi</a>] 
+	Linear sketches for approximate matchings.
+	<ul class="fa-ul">	
+		<li> <a href="http://arxiv.org/abs/1505.01467"><i class="fa-li fa fa-file-pdf-o"></i></a> 		Sepehr Assadi, Sanjeev Khanna, Yang Li, Grigory Yaroslavtsev: "Tight Bounds for Linear Sketches of Approximate Matchings", SODA 2016.
+	</ul>
+
+</ul>
+
+
+
+
+<ul class="list-thumbnail">
+<li>
+<h3>Part 2: Selected Topics</h3>
+<img src="pics/matrix.jpg"></a>
+This part covers an assortment of selected topics in algorithms for large matrices and vectors, convex optimization and compressed sensing. 
+</ul>
+
+<ul class="fa-ul lectures">
+	<li><i class="fa-li fa fa-group"></i> <b>Week 1.</b> [Slides (<a href="./big-data/lecture07.pptx">pptx</a>, <a href="./big-data/lecture07.pdf">pdf</a>)] 
+	Subspace embeddings, L<sub>2</sub>-regression. Leverage score sampling, computing approximate leverage scores.
+	<ul class="fa-ul">
+		<li> <a href="http://researcher.ibm.com/files/us-dpwoodru/journal.pdf"> <i class="fa-li fa fa-file-pdf-o"></i></a> David P. Woodruff: "Sketching as a Tool for Numerical Linear Algebra." Foundations and Trends® in Theoretical Computer Science, 2014.
+	</ul>
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Week 2.</b> 	
+	[Slides (<a href="./big-data/lecture08.pptx">pptx</a>, <a href="./big-data/lecture08.pdf">pdf</a>)]
+	Smooth convex optimization, gradient descent, accelerated gradient descent, stochastic gradient descent.
+	<ul class="fa-ul">
+		<li> <i class="fa-li fa fa-file-text"></i> Yurii Nesterov: "A method of solving a convex programming problem with convergence rate O(1/k<sup>2</sup>)." Soviet Mathematics Doklady, 1983 
+		<li> <a href="http://web.stanford.edu/~boyd/cvxbook/"><i class="fa-li fa fa-file-pdf-o"></i></a> Stephen Boyd, Lieven Vandenberghe: "Convex Optimization", Cambridge University Press.
+		<li> <a href="http://arxiv.org/pdf/1405.4980v2.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Sebastian Bubeck: "Convex Optimization: Algorithms and Complexity", Foundations and Trends in Machine Learning, 2015. 
+	
+	</ul>
+
+
+	<li><i class="fa-li fa fa-group"></i> <b>Week 3.</b> 
+	[Slides (<a href="./big-data/lecture09.pptx">pptx</a>, <a href="./big-data/lecture09.pdf">pdf</a>)]
+	Compressed sensing, restricted isometry property.
+
+	<ul class="fa-ul">
+		<li> <a href="http://www.cs.cornell.edu/jeh/bookMay2015.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Avrim Blum, John Hopcroft, Ravi Kannan: "Foundations of Data Science", Chapter 10.3. 2015.
+		
+		<li> <a href=" http://arxiv.org/pdf/math/0409186.pdf "> <i class="fa-li fa fa-file-pdf-o"></i></a> 
+Emmanuel J. Candès, Justin K. Romberg, Terence Tao: "Robust uncertainty principles: exact signal reconstruction from highly incomplete frequency information.", IEEE Transactions on Information Theory, 2006.
+	</ul>
+</ul>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Part 3: Massively Parallel Algorithms</h3>
+<img src="pics/big-data-reading/mapreduce.png"></a>
+In massively parallel computational systems (clusters) the data is partitioned between a large number of identical machines connected via a high-speed network.
+An algorithm proceeds in synchronous rounds, each consisting of local computation performed by each machine followed by an exchange of information through the network.
+The typical goal of algorithm design is to minimize the number of synchronous rounds, while optimizing the time/space, communication, approximation, etc.
+</ul>
+
+
+<ul class="fa-ul lectures">
+	<li><i class="fa-li fa fa-group"></i> <b>Week 1.</b>
+	[Slides (<a href="./big-data/lecture10.pptx">pptx</a>, <a href="./big-data/lecture10.pdf">pdf</a>)]
+	Model for massively parallel computation. Sorting. Graph connectivity and applications. Algorithms for geometric graph problems.
+	<ul class="fa-ul">
+		<li> <a href="https://cs.uwaterloo.ca/~Brecht/courses/702/Possible-Readings/distributed-systems/mapreduce-osdi-2004.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Jeff Dean, Sanjay Ghemawat: "MapReduce: Simplified Data Processing on Large Clusters", Communication of the ACM 2008, OSDI 2004. 
+		<li> <a href="http://theory.stanford.edu/~sergei/papers/soda10-mrc.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Howard Karloff, Siddharth Suri, Sergei Vassilvitskii: "A Model of Computation for MapReduce." SODA 2010.
+		<li> <a href="http://sortbenchmark.org/YahooHadoop.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>Owen O'Malley: "TeraByte sort on Apache Hadoop." 2008.
+		<li> <a href="http://arxiv.org/abs/1401.0042"><i class="fa-li fa fa-file-pdf-o"></i></a>Alexandr Andoni, Aleksandar Nikolov, Krzysztof Onak, Grigory Yaroslavtsev: "Parallel algorithms for geometric graph problems." STOC 2014.
+	</ul>
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Week 2.</b>
+	[Slides (<a href="./big-data/lecture11.pptx">pptx</a>, <a href="./big-data/lecture11.pdf">pdf</a>)]
+	K-means: dimension reduction and parallel algorithms.
+
+	<ul class="fa-ul">
+		<li> <a href="http://theory.stanford.edu/~sergei/papers/vldb12-kmpar.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Bahman Bahmani, Benjamin Moseley, Andrea Vattani, Ravi Kumar, Sergei Vassilvitskii: "Scalable K-Means++." VLDB 2012.
+	</ul>
+</ul>
+
+<ul class="list-thumbnail">
+<li>
+<h3>Part 4: Sublinear Time Algorithms</h3>
+<img src="pics/sublinear.jpg"></a>
+In this part we will focus on algorithms, which have access to the entire dataset. However, the size of the data is prohibitively large so that we can only make a small number of carefully chosen queries to it. The goal of algorithm design is to approximate interesting parameters of the dataset and study its properties while minimizing the number of queries and running time.
+</ul>
+
+
+<ul class="fa-ul lectures">
+	<li><i class="fa-li fa fa-group"></i> <b>Week 1.</b>
+	[Slides by <a href="http://www.cse.psu.edu/~sxr48/">Sofya Raskhodnikova</a> (<a href="./big-data/lecture12.pptx">pptx</a>, <a href="./big-data/lecture12.pdf">pdf</a>)]
+	Sublinear time approximation and property testing. Testing properties of images. Testing sortedness and monotonicity. Testing connectedness and approximation on graphs. 
+	
+	<ul class="fa-ul">
+		<li> <a href="http://www.cs.princeton.edu/courses/archive/spr04/cos598B/bib/GoldreichR-boundedG.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Oded Goldreich, Dana Ron: "Property testing in bounded degree graphs." Algorithmica 2002, STOC 1997.        
+		<li> <a href="http://www.cs.uiuc.edu/homes/vmahesh/papers/jcss00.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>Funda Ergün, Sampath Kannan, Ravi Kumar, Ronitt Rubinfeld, Mahesh Viswanathan: "Spot-Checkers." Journal of Computer System and Sciences 2000, STOC 1998.       
+		<li> <a href="https://www.cs.princeton.edu/~chazelle/pubs/mstapprox.pdf "><i class="fa-li fa fa-file-pdf-o"></i></a> Bernard Chazelle, Ronitt Rubinfeld, Luca Trevisan: "Approximating the Minimum Spanning Tree Weight in Sublinear Time." SIAM Journal of Computing 2005, ICALP 2001.        
+		<li> <a href="http://people.csail.mit.edu/sofya/pixels.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> Sofya Raskhodnikova: "Approximate Testing of Visual Properties." RANDOM 2003. 
+	</ul>
+	
+	
+	<li><i class="fa-li fa fa-group"></i> <b>Week 2.</b>
+	[Slides (<a href="./big-data/lecture13.pptx">pptx</a>, <a href="./big-data/lecture13.pdf">pdf</a>)]
+	L<sub>p</sub>-Testing. Sublinear algorithms for isotonic regression. 
+
+	<ul class="fa-ul">
+		<li> <a href="http://grigory.us/files/publications/BRY14-Lp-Testing.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>Piotr Berman, Sofya Raskhodnikova, and Grigory Yaroslavtsev: "L<sub>p</sub>-testing." STOC 2014.
+	</ul>
+
+</ul>
+
+
+<!--
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-group"></i><b>Introduction.</b> (<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-1.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-1.pdf">pdf</a>]). 
+<br> Probability basics. Introduction to streaming algorithms, Moriss's algorithm.
+
+
+<li> <i class="fa-li fa fa-group"></i><b>Sketching and streaming algorithms I.</b> (<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-2.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-2.pdf">pdf</a>]).
+<br> Approximating the median. AMS-sketching. Frequency moments via AMS. F<sub>2</sub>-moment via 4-wise independent hashing. Distinct elements. Count-Min sketch. 
+
+<li> <i class="fa-li fa fa-group"></i><b>Sketching and streaming algorithms II.</b> 
+(<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-3.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-3.pdf">pdf</a>], Graph sketching (by Andrew McGregor): [<a href="files/teaching/sublinear-big-data-3-graph-sketching.pdf">pdf</a>]). 
+<br>Count-Min sketch (continued), Count-Sketch. L<sub>2</sub>-sampling. L<sub>0</sub>-sampling. L<sub>1</sub> sparse recovery. Graph sketching.
+
+<li> <i class="fa-li fa fa-group"></i><b>Sublinear-time algorithms I.</b>
+(<b>Slides: </b>[<a href="files/teaching/sublinear-big-data-4.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-4.pdf">pdf</a>], Sublinear-time algoirthms (by Sofya Raskhodnikova): [<a href="files/teaching/sublinear-big-data-4-sublinear-time.pdf">pdf</a>]).
+<br> Dimension reduction, Johnson-Lindenstrauss transform. Introduction to sublinear-time algorithms: models, approximation, property testing. Basic examples: testing images, sortedness, connectedness.
+
+<li>  <i class="fa-li fa fa-group"></i><b>Sublinear-time algorithms II + Introduction to MapReduce.</b> 
+(<b>Slides: </b> MapReduce [<a href="files/teaching/sublinear-big-data-5-mapreduce.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-5-mapreduce.pdf">pdf</a>], L<sub>p</sub>-testing [<a href="files/teaching/sublinear-big-data-5-lp-testing.pptm">pptm</a>],[<a href="files/teaching/sublinear-big-data-5-lp-testing.pdf">pdf</a>], Sublinear-time algoirthms (by Sofya Raskhodnikova): [<a href="files/teaching/sublinear-big-data-5-sublinear-time.pdf">pdf</a>]).
+<br> Approximating weight of the Minimum Spanning Tree. Testing properties of real-valued functions (L<sub>p</sub>-testing). MapReduce algorithms, Euclidean Minimum Spanning Tree.
+</ul>
+-->
+
+
+<a id="hw"> <h1>Homework</h1></a>
+<br>
+
+TBA
+
+
+<a id="project"> <h1>Project</h1></a>
+<br>
+
+TBA
+<!--
+Deadline: December 18, 2015. Details about the project: [Slides (<a href="./big-data/project.pptx">pptx</a>, <a href="./big-data/project.pdf">pdf</a>)].
+-->
+
+
+<!--
+<ul class="fa-ul">
+<li>  <i class="fa-li fa fa-graduation-cap"></i><b>Exam Problems: </b>[<a href="files/teaching/sublinear-big-data-exam.pptx">pptx</a>], [<a href="files/teaching/sublinear-big-data-exam.pdf">pdf</a>].
+</ul>
+-->
+
+
+
+
+<!--
+<a id="biblio"> <h1> Bibliography</h1></a>
+<br>
+
+<h3>Part 1: Streaming Algorithms</h3>
+
+
+
+<ul class="fa-ul">
+
+
+
+In Proceedings of the Twenty-Third Annual ACM-SIAM Symposium on Discrete Algorithms, pp. 459-467. SIAM, 2012.
+Theoretical Computer Science 348, no. 2 (2005): 207-216.
+<li> <a href="http://people.cs.umass.edu/~mcgregor/papers/05-approx1.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Andrew McGregor: "Finding graph matchings in data streams." APPROX 2005. 
+In Approximation, Randomization and Combinatorial Optimization. Algorithms and Techniques, pp. 170-181. Springer Berlin Heidelberg, 2005.
+</ul>
+<li> <a href=" "><i class="fa-li fa fa-file-pdf-o"></i></a> 
+
+<h3>Part 2: Algorithms for Numerical Linear Algebra and High-Dimensional Data</h3>
+<ul class="fa-ul">
+</ul>
+
+
+<h3>Part 3: Massively Parallel Algorithms</h3>
+<ul class="fa-ul">
+<li> <a href="http://theory.stanford.edu/~sergei/papers/spaa11-matchings.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a> 
+Silvio Lattanzi, Benjamin Moseley, Siddharth Suri, Sergei Vassilvitskii: "Filtering: a method for solving graph problems in MapReduce." SPAA 2011.
+</ul>
+
+
+
+<h3>Part 4: Sublinear Time Algorithms</h3>
+<ul class="fa-ul">
+<li> <a href="http://wwwmath.tau.ac.il/~nogaa/PDFS/testn12.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>Noga Alon, Eldar Fischer, Michael Krivelevich, Mario Szegedy: "Efficient testing of large graphs." Combinatorica, 2000.        
+<li> <a href="http://www.eng.tau.ac.il/~danar/Public-pdf/avg.pdf"><i class="fa-li fa fa-file-pdf-o"></i></a>Oded Goldreich, Dan Ron: "Approximating average parameters of graphs." Random Structures and Algorithms, 2008.       
+</ul>
+
+
+
+-->
+
+
+
+
+<!--
+<a id="poster"><h1>Poster Challenge</h1></a>
+<p>
+Unleash your creativity and show us your love for big data and sublinear algorithms!
+<p>
+Guidelines for the poster design challenge:
+<ul>
+	<li> Deadline: TBA.
+	<li> Please, use this <a href="http://www.keepcalm-o-matic.co.uk/?country=us">poster generator</a> with official Penn <a href="http://www.upenn.edu/webservices/styleguide/color.html ">colors</a>.
+	<li> It is important that you keep the "keep calm" part. Those who successfully complete the class will receive a limited edition of the "I kept calm and ..." T-shirt.
+	<li> Send your poster in PNG to <b>grigory (at) grigory (dot) us</b>.
+	<li> See examples below.
+</ul>
+<table>
+	<tr>
+		<td><img src="pics/keep-calm.png" width="150px"></td>
+		<td><img src="pics/keep-calm2.png" width="150px"></td>
+		<td><img src="pics/keep-calm3.png" width="150px"></td>
+		<td><img src="pics/keep-calm4.png" width="150px"></td>
+		<td><img src="pics/keep-calm5.png" width="150px"></td>
+		<td><img src="pics/keep-calm6.png" width="150px" style="border:1px solid black"></td>
+	</tr>
+<table>
+	-->
+
+
+
+</body></html>
+
+
