@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 JUL 2016 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 JUL 2016 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,26 +786,26 @@ Underfull \hbox (badness 7468) in paragraph at lines 484--485
 a, Lan-guages and
  []
 
-[3]
+[3] [4]
 Underfull \hbox (badness 1281) in paragraph at lines 631--632
 \OT1/cmr/m/n/10.95 RAN-DOM'15, FOCS'15, ICALP'15, STOC'15, CIKM'14, ALT'14, RAN
 -DOM'14,
  []
 
-[4]
+
 Underfull \hbox (badness 1533) in paragraph at lines 632--633
 []\OT1/cmr/m/n/10.95 Journals: SIAM Jour-nal on Com-put-ing (SICOMP), SIAM Jour
 -nal on Dis-crete
  []
 
-[5]
+[5] [6]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no œ in font cmr10!
 
 
 Package hyperref Warning: Suppressing empty link on input line 895.
 
-[6]
+
 Underfull \hbox (badness 1436) in paragraph at lines 906--907
 []\OT1/cmr/m/n/10.95 IBM T.J. Wat-son Re-search Cen-ter, York-town Heights, NY.
  04/19/11--04/21/11,
@@ -836,7 +836,7 @@ Here is how much of TeX's memory you used:
  20195 multiletter control sequences out of 15000+600000
  12207 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,68p,431b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,68p,431b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -850,10 +850,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on files/yaroslavtsev-cv.pdf (7 pages, 166191 bytes).
+Output written on files/yaroslavtsev-cv.pdf (7 pages, 166170 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
