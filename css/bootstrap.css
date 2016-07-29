@@ -330,7 +330,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #01256e;
+  color: #990000;
   text-decoration: underline;
 }
 
@@ -2364,8 +2364,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #01256e;
-  border-color: #01256e;
+  background-color: #990000;
+  border-color: #990000;
 }
 
 .btn-primary:hover,
@@ -2592,7 +2592,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-  color: #01256e;
+  color: #990000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4140,8 +4140,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a .caret,
 .nav .open > a:hover .caret,
 .nav .open > a:focus .caret {
-  border-top-color: #01256e;
-  border-bottom-color: #01256e;
+  border-top-color: #990000;
+  border-bottom-color: #990000;
 }
 
 .nav .nav-divider {
@@ -4341,8 +4341,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav a:hover .caret {
-  border-top-color: #01256e;
-  border-bottom-color: #01256e;
+  border-top-color: #990000;
+  border-bottom-color: #990000;
 }
 
 .nav-tabs .dropdown-menu {
