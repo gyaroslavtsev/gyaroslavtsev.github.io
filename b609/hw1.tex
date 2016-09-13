@@ -1,0 +1,151 @@
+%
+% This is a borrowed LaTeX template file for lecture notes for CS267,
+% Applications of Parallel Computing, UCBerkeley EECS Department and
+%  CMU's 10725 Fall 2012 Optimization course
+% taught by Geoff Gordon and Ryan Tibshirani.  
+%Now it is used for CSCI-B609 Foundations of Data Science 
+%course at Indiana  University. When preparing 
+% your homework for this class, please use this template.
+%
+% To familiarize yourself with this template, the body contains
+% some examples of its use.  Look them over.  Then you can
+% run LaTeX on this file.  After you have LaTeXed this file then
+% you can look over the result either by printing it out with
+% dvips or using xdvi. "pdflatex template.tex" should also work.
+%
+
+\documentclass[twoside]{article}
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+%
+% ADD PACKAGES here:
+%
+
+\usepackage{amsmath,amsfonts,graphicx}
+
+%
+% The following commands set up the hwnum (homework number)
+% counter and make various numbering schemes work relative
+% to the homework number.
+%
+\newcounter{hwnum}
+\renewcommand{\thepage}{\thehwnum-\arabic{page}}
+\renewcommand{\thesection}{\thehwnum.\arabic{section}}
+\renewcommand{\theequation}{\thehwnum.\arabic{equation}}
+\renewcommand{\thefigure}{\thehwnum.\arabic{figure}}
+\renewcommand{\thetable}{\thehwnum.\arabic{table}}
+
+%
+% The following macro is used to generate the header.
+%
+\newcommand{\hw}[4]{
+   \pagestyle{myheadings}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{hwnum}{#1}
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to 6.28in { {\bf CSCI B609 -- Foundations of Data Science
+	\hfill Fall 2016} }
+       \vspace{4mm}
+       \hbox to 6.28in { {\Large \hfill Homework #1: #2  \hfill} }
+       \vspace{2mm}
+       \hbox to 6.28in { {\it Name: #3 \hfill #4} }
+      \vspace{2mm}}
+   }
+   \end{center}
+
+
+}
+%
+% Convention for citations is authors' initials followed by the year.
+% For example, to cite a paper by Leighton and Maggs you would type
+% \cite{LM89}, and to cite a paper by Strassen you would type \cite{S69}.
+% (To avoid bibliography problems, for now we redefine the \cite command.)
+% Also commands that create a suitable format for the reference list.
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+
+%Use this command for a figure; it puts a figure in wherever you want it.
+%usage: \fig{NUMBER}{SPACE-IN-INCHES}{CAPTION}
+\newcommand{\fig}[3]{
+			\vspace{#2}
+			\begin{center}
+			Figure \thehwnum.#1:~#3
+			\end{center}
+	}
+% Use these for theorems, lemmas, proofs, etc.
+\newtheorem{theorem}{Theorem}[hwnum]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newenvironment{proof}{{\bf Proof:}}{\hfill\rule{2mm}{2mm}}
+\newtheorem{problem}[theorem]{Problem}
+
+
+% **** IF YOU WANT TO DEFINE ADDITIONAL MACROS FOR YOURSELF, PUT THEM HERE:
+
+\newcommand\E{\mathbb{E}}
+
+\begin{document}
+
+\hw{1}{September 12}{YOUR NAME HERE}{Due: September 25, 11:59pm EST}
+
+\begin{problem}[Exercise 2.4]
+	The Chebyshev inequality states that $Pr[|X - \mathbb E[X]| \ge k \sqrt{Var[X]}] \le \frac{1}{k^2}$ for $k \ge 1$.
+	Give a probability distribution and a value $k$ for which:
+	\begin{enumerate}
+	\item The inequality is tight.
+	\item The inequality is not tight.
+	\end{enumerate}
+\end{problem}
+
+\begin{problem}[Exercise 2.21]
+What is the volume of the largest $d$-dimensional hypercube that can be placed entirely inside a unit radius $d$-dimensional ball? Argue that no larger cube can be placed.
+\end{problem}
+
+\begin{problem}[Exercise 2.47]
+Let $x_1, x_2, \dots, x_n$ be independent samples of a random variable $\mathbf{x}$ with mean $\mu$ and variance $\sigma^2$. Let $m_s = \frac1n\sum_{i=1}^n x_i$ be the sample mean. Suppose one estimates the variance using the sample mean rather than the true mean, that is,
+$$\sigma^2_s = \frac1n \sum_{i = 1}^n(x_i - m_s)^2.$$
+Prove that $\mathbb E[\sigma^2_s]= \frac{n-1}{n} \sigma^2$ and thus one should have divided by $n-1$ rather than $n$.
+
+\textbf{Hint}: First calculate the variance of the sample mean and show that $Var(m_s)=\frac1n Var(\mathbf{x})$.
+Then calculate $\mathbb E[\sigma^2_s]  = \mathbb E[\frac1n \sum_{i = 1}^n (x_i - m_s)^2]$ by replacing $x_i - m_s$ with $(x_i - \mu) + (\mu - m_s)$.
+
+\end{problem}
+
+
+\begin{problem}[Exercise 2.49, Part 1]
+Suppose you want to estimate the unknown center of a Gaussian in $d$-dimensional space which has variance one in each direction. 
+Show that $O(\log d / \epsilon^2)$ random samples from the Gaussian are sufficient to get an estimate $\mathbf{m}$ of the true center $\mathbf{\mu}$, so that with probability at least $99/100$,
+$$\max_i\left[|\mu_i - \textbf{m}_i|\right] \le \epsilon.$$
+\end{problem}
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
