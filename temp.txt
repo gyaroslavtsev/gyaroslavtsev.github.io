@@ -1,0 +1,147 @@
+Yixin Cao. Linear Recognition of Almost Interval Graphs
+Noga Alon, Humberto Naves and Benny Sudakov. On the maximum quartet distance between phylogenetic trees
+Scott Garrabrant and Igor Pak. Permutation patterns are hard to count
+Varun Kanade, Reut Levi, Zvi Lotker, Frederik Mallmann-Trenn and Claire Mathieu. Effective Diameter for Forest Fire and Social Random Walk Model
+Andreas Galanis and Leslie Ann Goldberg. The complexity of approximately counting in 2-spin systems on k-uniform bounded-degree hypergraphs
+Antares Chen, David Harris and Aravind Srinivasan. Partial Resampling to Approximate Covering Integer Programs
+David Harris and Aravind Srinivasan. Algorithmic and Enumerative Aspects of the Moser-Tardos Distribution
+Tamal Dey, Facundo Memoli and Yusu Wang. Multiscale Mapper: An Algorithm for Topological Summarization via Codomain Covers
+Mahdi Cheraghchi and Piotr Indyk. Nearly Optimal Deterministic Algorithm for Sparse Walsh-Hadamard Transform
+Marcin Pilipczuk and Magnus Wahlström. Directed multicut is W[1]-hard, even for four terminal pairs
+Ivan Bliznets, Fedor Fomin, Marcin Pilipczuk and Michał Pilipczuk. Subexponential parameterized algorithm for Interval Completion
+Moran Feldman, Ola Svensson and Rico Zenklusen. Online Contention Resolutions Schemes
+Aaron Bernstein and Clifford Stein. Faster Fully Dynamic Matchings with Small Approximation Ratios
+Timothy Chan and Ryan Williams. Deterministic APSP, Partial Matches, and More: Quickly Derandomizing the Polynomial Method
+Rajesh Chitnis, Graham Cormode, Hossein Esfandiari, Mohammadtaghi Hajiaghayi, Andrew McGregor, Morteza Monemizadeh and Sofya Vorotnikova. Kernelization via Sampling with Applications to Dynamic Graph Streams
+Giorgi Nadiradze and Andreas Wiese. On approximating strip packing with a better ratio than 3/2
+Stephen Alstrup, Cyril Gavoille, Esben Bistrup Halvorsen and Holger Petersen. Simpler, faster and shorter labels for distances in graphs
+Yuichi Yoshida. Gowers Norm, Function Limits, and Parameter Estimation
+Jonathan Scarlett and Volkan Cevher. Phase Transitions in Group Testing
+Noah Stephens-Davidowitz. Discrete Gaussian Sampling Reduces to CVP and SVP
+Ashwinkumar Badanidiyuru, Christos Papadimitriou, Aviad Rubinstein, Lior Seeman and Yaron Singer. Locally Adaptive Optimization: Adaptive Seeding for Monotone Submodular Functions
+Amit Chakrabarti and Anthony Wirth. Incidence Geometries and the Pass Complexity of Semi-Streaming Set Cover
+Christian Glacet, Avery Miller and Andrzej Pelc. Time vs. Information Tradeoffs for Leader Election in Anonymous Trees
+Gerandy Brito, Ioana Dumitriu, Shirshendu Ganguly, Christopher Hoffman and Linh Tran. Recovery and rigidity in a regular stochastic block model
+Ali Kemal Sinop. How to Round Subspaces: A New Spectral Clustering Algorithm
+Dimitris Achlioptas and Fotis Iliopoulos. Focused Stochastic Local Search and the Lovasz Local Lemma
+Maria Chudnovsky, Jan Goedgebeur, Oliver Schaudt and Mingxian Zhong. Obstructions for three-coloring graphs with one forbidden induced subgraph
+Sariel Har-Peled, Haim Kaplan and Micha Sharir. Approximating the k-Level in Three-Dimensional Plane Arrangements
+Richard Peng. Approximate Undirected Maximum Flows in O(m polylog(n)) Time
+Samuel Hopkins, Pravesh Kothari, Aaron Henry Potechin, Prasad Raghavendra and Tselil Schramm . On the Integrality Gap of Degree-4 Sum of Squares for Planted Clique
+William M. Hoza and Leonard J. Schulman. The Adversarial Noise Threshold for Distributed Protocols
+János Pach, Natan Rubin and Gábor Tardos. Beyond the Richter-Thomassen Conjecture
+Xi Chen and Jinyu Xie. Tight Bounds for the Distribution-Free Testing of Monotone Conjunctions
+Martin Dyer, Mark Jerrum and Haiko Müller. On the switch Markov chain for perfect matchings
+Jisu Jeong, Eun Jung Kim and Sang-Il Oum. Constructive algorithm for path-width of matroids
+T-H. Hubert Chan and Shaofeng H.-C. Jiang. Reducing Curse of Dimensionality: Improved PTAS for TSP (with Neighborhoods) in Doubling Metrics
+Chidambaram Annamalai. Finding perfect matchings in bipartite hypergraphs
+Sixia Chen, Matthew Dippel, Alexander Russell, Abhishek Samanta and Ravi Sundaram. How to Play Multichannel Rendezvous Games with Public Randomness
+Niv Buchbinder and Moran Feldman. Deterministic Algorithms for Submodular Maximization Problems
+Andris Ambainis, Alexander Belov, Oded Regev and Ronald de Wolf. Efficient Quantum Algorithms for (Gapped) Group Testing and Junta Testing
+Michael Kerber, Don Sheehy and Primoz Skraba. Persistent Homology and Nested Dissection
+Kunal Agrawal, Jing Li, Kefu Lu and Benjamin Moseley. Scheduling Parallel DAG Jobs Online to Minimize Average Flow Time
+Christian Wulff-Nilsen. Approximate Distance Oracles for Planar Graphs with Improved Query Time-Space Tradeoff
+Zeyuan Allen-Zhu, Yin Tat Lee and Lorenzo Orecchia. Using Optimization to Obtain a Width-Independent, Parallel, Simpler, and Faster Positive SDP Solver
+Guillaume Chapuy and Guillem Perarnau. Connectivity in bridge-addable graph classes: the McDiarmid-Steger-Welsh conjecture
+Zeyuan Allen-Zhu, Aditya Bhaskara, Silvio Lattanzi, Vahab Mirrokni and Lorenzo Orecchia. Expanders via Local Edge Flips
+Boris Bukh and Venkatesan Guruswami. An improved bound on fraction of correctable deletions
+Pankaj K. Agarwal, Kyle Fox and Oren Salzman. An Efficient Algorithm for Computing High Quality Paths amid Polygonal Obstacles
+Rasmus Pagh. Locality-sensitive Hashing without False Negatives
+Guy Kindler, Alexandra Kolla and Luca Trevisan. Approximation of non-boolean 2CSP
+Christos Papadimitriou, George Pierrakos, Christos-Alexandros Psomas and Aviad Rubinstein. On the Complexity of Dynamic Mechanism Design
+David Eppstein. Treetopes and their Graphs
+Satoru Iwata, Shin-Ichi Tanigawa and Yuichi Yoshida. Improved Approximation Algorithms for k-Submodular Function Maximization
+Tsz Chiu Kwok, Lap Chi Lau and Yin Tat Lee. Improved Cheeger's Inequality and Analysis of Local Graph Partitioning using Vertex Expansion and Expansion Profile
+Dimitris Achlioptas, S. Hamed Hassani, Nicolas Macris and Rudiger Urbanke. Bounds for Random Constraint Satisfaction Problems via Spatial Coupling
+Sina Dehghani, Soheil Ehsani, Mohammadtaghi Hajiaghayi and Vahid Liaghat. Online Degree-Bounded Steiner Network Design
+John Iacono and Stefan Langerman. Weighted dynamic finger in binary search trees
+Michael Dinitz and Zeyu Zhang. Approximating Low-Stretch Spanners
+Daniel Lokshtanov, Marcin Pilipczuk and Erik Jan van Leeuwen. Independence and Efficient Domination on $P_6$-free Graphs
+Tasuku Soma and Yuichi Yoshida. Non-convex Compressed Sensing with the Sum-of-Squares Method
+Yossi Azar, Amir Epstein, Lukasz Jez and Adi Vardi. Make-to-Order Integrated Scheduling and Distribution
+John Fearnley and Rahul Savani. The Complexity of All-switches Strategy Improvement
+Badih Ghazi, Ilan Komargodski, Pravesh Kothari and Madhu Sudan. Communication with Contextual Uncertainty
+David Peleg and Shay Solomon. Dynamic (1 + \eps)-Approximate Matchings: A Density-Sensitive Approach
+Anne Driemel, Amer Krivosija and Christian Sohler. Clustering time series under the Frechet distance
+Lin Chen, Nicole Megow and Kevin Schewior. An O(log m)-Competitive Algorithm for Online Machine Minimization
+Justin Hsu, Zhiyi Huang, Aaron Roth and Zhiwei Steven Wu. Jointly Private Convex Programming
+Merav Parter, David Peleg and Shay Solomon. Local-on-Average Distributed Tasks
+Luca Becchetti, Andrea Clementi, Emanuele Natale, Francesco Pasquale and Luca Trevisan. Stabilizing Consensus with Many Opinions
+Shiri Chechik and Christian Wulff-Nilsen. Near-Optimal Light Spanners
+Anupam Gupta, Viswanath Nagarajan and Sahil Singla. Algorithms and Adaptivity Gaps for Stochastic Probing
+John Augustine, William K. Moses Jr., Amanda Redlich and Eli Upfal. Balanced Allocation: Patience is not a Virtue
+Robert Ganian, Ramanujan M. S. and Stefan Szeider. Discovering Archipelagos of Tractability for Constraint Satisfaction and Counting
+Patrizio Angelini, Giordano Da Lozzo, Giuseppe Di Battista, Valentino Di Donato, Philipp Kindermann, Günter Rote and Ignaz Rutter. Windrose Planarity: Embedding Graphs with Direction-Constrained Edges
+Antonio Blanca and Alistair Sinclair. Random-cluster Dynamics in Z^2
+Ishay Haviv and Oded Regev. The Restricted Isometry Property of Subsampled Fourier Matrices
+Badih Ghazi, Pritish Kamath and Madhu Sudan. Communication Complexity of Permutation-Invariant Functions
+Joshua Brakensiek, Venkatesan Guruswami and Samuel Zbarsky. Efficient Low-Redundancy Codes for Correcting Multiple Deletions
+Xue Chen. Integrality Gaps and Approximation Algorithms for Dispersers and Bipartite Expanders
+Nicolas Bousquet, Yang Cai, Christoph Hunkenschroder and Adrian Vetta. On the Economic Efficiency of the Combinatorial Clock Auction
+Gabor Braun, Jonah Brown-Cohen, Arefin Huq, Sebastian Pokutta, Prasad Raghavendra, Aurko Roy, Benjamin Weitz and Daniel Zink. The Matching Problem Has No Small Symmetric SDP
+Yossi Azar, Ilan Cohen, Amos Fiat and Alan Roytman. Packing Small Vectors
+Avrim Blum, Sariel Har-Peled and Benjamin Raichel. Sparse Approximation via Generating Point Sets
+Arturs Backurs, Piotr Indyk, Ilya Razenshteyn and David Woodruff. Nearly-optimal bounds for sparse recovery in generic norms, with applications to k-median sketching
+Massimo Cairo, Roberto Grossi and Romeo Rizzi. New Bounds for Approximating Extremal Distances in Undirected Graphs
+Mohsen Ghaffari. An Improved Distributed Algorithm for Maximal Independent Set
+Chandra Chekuri and Kent Quanrud. Fast Approximations for Matroid Intersection
+Michael Bender, Jeremy Fineman, Seth Gilbert and Maxwell Young. How to Scale Exponential Backoff: Constant Throughput, Polylog Access Attempts, and Robustness
+Shuchi Chawla, Nikhil R. Devanur, Anna Karlin and Balasubramanian Sivan. Simple pricing schemes for consumers with evolving values
+Ioannis Panageas, Piyush Srivastava and Nisheeth Vishnoi. Evolutionary dynamics in finite populations mix rapidly
+Mohsen Ghaffari and Bernhard Haeupler. Distributed Algorithms for Planar Networks II: Low-Congestion Shortcuts, MST, and Min-Cut
+Timothy M. Chan. Improved Deterministic Algorithms for Linear Programming in Low Dimensions
+Ran Gelles, Bernhard Haeupler, Gillat Kol, Noga Ron-Zewi and Avi Wigderson. Towards optimal deterministic coding for interactive communication
+Nick Gravin, Yuval Peres and Balasubramanian Sivan. Towards Optimal Algorithms for Prediction with Expert Advice
+Shi Li. Approximating capacitated $k$-median with $(1+\eps)k$ open facilities
+Thodoris Lykouris, Vasilis Syrgkanis and Eva Tardos. Learning and Efficiency in Games with Dynamic Population
+Chien-Chung Huang, Naonori Kakimura and Naoyuki Kamiyama. Exact and Approximation Algorithms for Weighted Matroid Intersection
+Tsvi Kopelowitz, Seth Pettie and Ely Porat. Higher Lower Bounds from the 3SUM Conjecture
+Jean-François Biasse and Fang Song. A polynomial time quantum algorithm for computing class groups and solving the principal ideal problem in arbitrary degree number fields
+Nikhil Bansal, Marek Elias and Arindam Khan. Improved Approximation for Vector Bin Packing
+Venkatesan Guruswami and Euiwoong Lee. Nearly Optimal NP-Hardness of Unique Coverage
+Jiyan Yang, Yinlam Chow, Christopher Ré and Michael Mahoney. Weighted SGD for $\ell_p$ Regression with Randomized Preconditioning
+Chandra Chekuri and Vivek Madan. Simple and Fast Rounding Algorithms for Directed and Node-weighted Multiway Cut
+Chandra Chekuri and Vivek Madan. Constant Factor Approximation for Subset Feedback Problems via a new LP relaxation
+Vladimir Braverman, Harry Lang, Keith Levin and Morteza Monemizadeh. Clustering Problems on Sliding Windows
+Damian Straszak and Nisheeth Vishnoi. Natural Algorithms for Flow Problems
+Anja Becker, Leo Ducas, Nicolas Gama and Thijs Laarhoven. New directions in nearest neighbor searching with applications to lattice sieving
+Constantinos Daskalakis and Sebastien Roch. Species Trees from Gene Trees Despite a High Rate of Lateral Genetic Transfer: A Tight Bound
+Yann Disser, Jan Hackfeld and Max Klimm. Undirected Graph Exploration with Θ(log log n) Pebbles
+Paweł Brach, Marek Cygan, Jakub Łącki and Piotr Sankowski. Algorithmic Complexity of Power Law Networks
+Søren Dahlgaard, Mathias Bæk Tejs Knudsen, Eva Rotenberg and Mikkel Thorup. The Power of Two Choices with Simple Tabulation
+Pratik Ghosal, Adam Kunysz and Katarzyna Paluch. Characterisation of Strongly Stable Matchings
+Gwenaël Joret, Piotr Micek and Veit Wiechert. Sparsity and dimension
+Marek Cygan, Fedor Fomin, Alexander Golovnev, Alexander Kulikov, Ivan Mihajlin, Jakub Pachocki and Arkadiusz Socała . Tight bounds for graph homomorphism and subgraph isomorphism
+Yu Yokoi and Satoru Iwata. Finding Stable Allocations in Polymatroid Intersection
+Ran Duan, Jugal Garg and Kurt Mehlhorn. An Improved Combinatorial Polynomial Algorithm for the Linear Arrow-Debreu Market
+Marek Cygan, Marcin Mucha, Piotr Sankowski and Qiang Zhang. Online Pricing with Impatient Bidders
+Amir Abboud and Greg Bodwin. Error Amplification for Pairwise Spanner Lower Bounds
+Greg Bodwin and Virginia Vassilevska Williams. Better Distance Preservers and Additive Spanners
+Subhash Khot, Rishi Saket and Devanathan Thiruvenkatachari. Hardness of Satisfiable CSPs and Hypergraph Coloring via efficient PCPs with Super-position Complexity
+Yair Bartal, Arnold Filtser and Ofer Neiman. Constructing Almost Minimum Spanning Trees with Constant Average Distortion
+Lingxiao Huang, Pinyan Lu and Chihao Zhang. Canonical Paths for MCMC: from Art to Science
+Christos Kalaitzis. An Improved Approximation Guarantee for the Maximum Budgeted Allocation Problem
+Robert Hildebrand, Robert Weismantel and Kevin Zemmer. An FPTAS for Minimizing Indefinite Quadratic Forms over Integers in Polyhedra
+Klaus Jansen, Marten Maack and Malin Rau. Approximation schemes for machine scheduling with resource (in-)dependent processing times
+Riccardo Colini-Baldeschi, Bart de Keijzer, Stefano Leonardi and Stefano Turchetta. Approximately Efficient Double Auctions with Strong Budget Balance
+Sepehr Assadi, Sanjeev Khanna, Yang Li and Grigory Yaroslavtsev. Maximum Matchings in Dynamic Graph Streams and the Simultaneous Communication Model
+Attila Bernáth and Tamás Király. Blocking optimal k-arborescences
+Ross Churchley, Bojan Mohar and Hehui Wu. Packing edge-disjoint odd (u,v) trails
+Benjamin Sach, Raphael Clifford, Allyx Fontaine, Tatiana Starikovskaya and Ely Porat. The $k$-mismatch problem revisited
+Brendan Nagle, Vojtech Rodl and Mathias Schacht. An Algorithmic Hypergraph Regularity Lemma
+Michael B. Cohen. Simpler and tighter analysis of sparse oblivious subspace embeddings
+Radu Curticapean and Dániel Marx. Tight conditional lower bounds for counting perfect matchings on graphs of bounded treewidth and cliquewidth
+Ivan Bliznets, Marek Cygan, Paweł Komosa, Lukas Mach and Michał Pilipczuk. Lower bounds for the parameterized complexity of Minimum Fill-in and other completion problems
+Shivam Garg and Geevarghese Philip. Raising The Bar For Vertex Cover: Fixed-parameter Tractability Above A Higher Guarantee
+Djamal Belazzougui and Simon Puglisi. Range Predecessor and Lempel-Ziv Parsing
+Joshua Wang, Amir Abboud and Virginia Vassilevska-Williams. Approximation and Fixed Parameter Subquadratic Algorithms for Radius and Diameter in Sparse Graphs
+Sunil Arya and David Mount. A Fast and Simple Algorithm for Computing Approximate Euclidean Minimum Spanning Trees
+Gilbert Oscar, Jacob Hendricks, Matthew Patitz and Trent Rogers. Computing in continuous space with self-assembling polygonal tiles (extended abstract)
+Matti Karppa, Petteri Kaski and Jukka Kohonen. A faster subquadratic algorithm for finding outlier correlations
+Ross Berkowitz and Swastik Kopparty. Robust Positioning Patterns
+Sarah Cannon and Dana Randall. Sampling on lattices with free boundary conditions using randomized extensions
+Surender Baswana, Shreejit Ray Chaudhury, Keerti Choudhary and Shahbaz Khan. Dynamic DFS Tree in Undirected Graphs: breaking the O(m) barrier
+Mark Braverman, Jieming Mao and S. Matthew Weinberg. Interpolating Between Truthful and Non-Truthful Mechanisms for Combinatorial Auctions
+George Christodoulou and Alkmini Sgouritsa. Designing Networks with Good Equilibria under Uncertainty
+Ittai Abraham, Shiri Chechik, Daniel Delling, Andrew Goldberg and Renato Werneck. On Dynamic Approximate Shortest Paths for Planar Graphs with Worst-Case Costs
+Amir Abboud, Arturs Backurs, Thomas Dueholm Hansen, Virginia Vassilevska Williams and Or Zamir. Subtree Isomorphism Revisited
