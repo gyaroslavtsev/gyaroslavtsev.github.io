@@ -1,0 +1,148 @@
+%
+% This is a borrowed LaTeX template file for lecture notes for CS267,
+% Applications of Parallel Computing, UCBerkeley EECS Department and
+%  CMU's 10725 Fall 2012 Optimization course
+% taught by Geoff Gordon and Ryan Tibshirani.  
+%Now it is used for CSCI-B609 Foundations of Data Science 
+%course at Indiana  University. When preparing 
+% your homework for this class, please use this template.
+%
+% To familiarize yourself with this template, the body contains
+% some examples of its use.  Look them over.  Then you can
+% run LaTeX on this file.  After you have LaTeXed this file then
+% you can look over the result either by printing it out with
+% dvips or using xdvi. "pdflatex template.tex" should also work.
+%
+
+\documentclass[twoside]{article}
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+%
+% ADD PACKAGES here:
+%
+
+\usepackage{amsmath,amsfonts,graphicx}
+
+%
+% The following commands set up the hwnum (homework number)
+% counter and make various numbering schemes work relative
+% to the homework number.
+%
+\newcounter{hwnum}
+\renewcommand{\thepage}{\thehwnum-\arabic{page}}
+\renewcommand{\thesection}{\thehwnum.\arabic{section}}
+\renewcommand{\theequation}{\thehwnum.\arabic{equation}}
+\renewcommand{\thefigure}{\thehwnum.\arabic{figure}}
+\renewcommand{\thetable}{\thehwnum.\arabic{table}}
+
+%
+% The following macro is used to generate the header.
+%
+\newcommand{\hw}[4]{
+   \pagestyle{myheadings}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{hwnum}{#1}
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to 6.28in { {\bf CSCI B609 -- Foundations of Data Science
+	\hfill Fall 2016} }
+       \vspace{4mm}
+       \hbox to 6.28in { {\Large \hfill Homework #1: #2  \hfill} }
+       \vspace{2mm}
+       \hbox to 6.28in { {\it Name: #3 \hfill #4} }
+      \vspace{2mm}}
+   }
+   \end{center}
+
+
+}
+%
+% Convention for citations is authors' initials followed by the year.
+% For example, to cite a paper by Leighton and Maggs you would type
+% \cite{LM89}, and to cite a paper by Strassen you would type \cite{S69}.
+% (To avoid bibliography problems, for now we redefine the \cite command.)
+% Also commands that create a suitable format for the reference list.
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+
+%Use this command for a figure; it puts a figure in wherever you want it.
+%usage: \fig{NUMBER}{SPACE-IN-INCHES}{CAPTION}
+\newcommand{\fig}[3]{
+			\vspace{#2}
+			\begin{center}
+			Figure \thehwnum.#1:~#3
+			\end{center}
+	}
+% Use these for theorems, lemmas, proofs, etc.
+\newtheorem{theorem}{Theorem}[hwnum]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newenvironment{proof}{{\bf Proof:}}{\hfill\rule{2mm}{2mm}}
+\newtheorem{problem}[theorem]{Problem}
+
+
+% **** IF YOU WANT TO DEFINE ADDITIONAL MACROS FOR YOURSELF, PUT THEM HERE:
+
+\newcommand\E{\mathbb{E}}
+
+\begin{document}
+
+\hw{2}{October 04}{YOUR NAME HERE}{Due: Monday, October 17, 11:59pm EST}
+
+\begin{problem}[Exercise 3.1, text modified]
+Given a set of points $\{(x_i, y_i) | 1 \le i \le n\}$ give formulas for parameters $m$ and $b$ of the line of the form $y = mx + b$ that minimizes squared vertical distance between the points and the line (rather than the distance to the closest point on the line as we did in class). Formally if $(x_i, y_i)$ is a data point and $(x_i, y)$ is a point on the line then the vertical distance equals $|y_i - y|$.
+\end{problem}
+
+\begin{problem}[Problem 3.23, text modified]
+\begin{enumerate}
+\item For any matrix $A$ show that $\sigma_k \le \frac{\|A\|_F}{\sqrt{k}}$.
+\item Prove that there exists a matrix $B$ of rank at most $k$ such that $\|A-B\|_2 \le \frac{\|A\|_F}{\sqrt{k}}$.
+\item Does there exist a matrix $B$ of rank at most $k$ such that $\|A-B\|_F \le \frac{\|A\|_F}{\sqrt{k}}$? If yes, construct $B$, if no then give a counterexample.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}[Excercise 6.11]
+What is the VC-dimension of the class $\mathcal H$ of axis-parallel boxes in $\mathbb R^d$. That is $\mathcal H = \{h_{a,b}: a,b \in \mathbb R^d\}$ where $h_{a,b}(x) = 1$ is $a_i \le x \le b_i$ for all $i = 1, \dots, d$ and $h_{a,b}(x) = 0$ otherwise.
+\begin{enumerate}
+\item Prove that the VC-dimension is at least your chosen $V$ by given a set of $V$ points that is shattered by the class (and explaining why it is shattered).
+\item Prove taht the VC-dimension is at most your chosen $V$ by proving that no set of $V + 1$ points can be shattered.
+\end{enumerate}
+
+\end{problem}
+
+
+
+\begin{problem}[Excercise 6.12]
+Recall that the margin of a linear separator $w^*$ is defined as $\gamma = 1/\|w^*\|_2$.
+Say that a set of points is shattered by linear separators of margin $\gamma$ if every laeling of the points in $S$ is achievable by a linear separator of margin at least $\gamma$. Prove that no set of $1/\gamma^2 + 1$ points in the unit ball is shattered by linear separators of margin $\gamma$.
+
+\textbf{Hint:} think about the Perceptron algorithm and try a proof by contradiction.
+\end{problem}
+
+
+
+\end{document}
+
+
+
+
+
