@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 FEB 2017 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 FEB 2017 09:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,12 +787,6 @@ a, Lan-guages and
  []
 
 [3] [4]
-Underfull \hbox (badness 2653) in paragraph at lines 670--671
-\OT1/cmr/m/n/10.95 RAN-DOM'14, FOCS'14, ICALP'14, FOCS'13, MFCS'13, ICALP'13, S
-ODA'13,
- []
-
-
 Underfull \hbox (badness 2134) in paragraph at lines 670--671
 \OT1/cmr/m/n/10.95 AP-PROX'12, FOCS'12, CO-COA'12, SWAT'12, SODA'12, VLDB'12, W
 ADS'11,
@@ -828,10 +822,6 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1067.
 
 Package rerunfilecheck Info: File `yaroslavtsev-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 3BD494476240805B83324C1605E98D38;914.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1067.
  ) 
 Here is how much of TeX's memory you used:
@@ -855,7 +845,7 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on files/yaroslavtsev-cv.pdf (8 pages, 167735 bytes).
+Output written on files/yaroslavtsev-cv.pdf (8 pages, 167736 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  200 compressed objects within 2 object streams
