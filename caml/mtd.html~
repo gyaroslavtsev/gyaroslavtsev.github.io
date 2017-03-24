@@ -1,0 +1,351 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta property="og:title" content="67th Midwest Theory Day">
+<meta property="og:description" content="67th Midwest Theory Day">
+<meta property="og:image" content=" ">
+<meta property="og:url" content="">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1000"/> 
+<meta property="og:image:height" content="1000" />
+<link rel="shortcut icon" href="img/iu-maroon-bg.jpg">
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<title>67th Midwest Theory Day</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/social-buttons.css" rel="stylesheet">
+<link href="iu-template.css" rel="stylesheet"> 
+<link rel="stylesheet" href="files/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="image_src" href="" />
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="iu-template.css" rel="stylesheet">
+
+
+<link rel="image_src" href="">
+
+
+<style type="text/css">
+.title {font-weight: bold; }
+.abs {
+background-color: #eee;
+padding: 5px;
+display: none;
+}
+</style>
+
+
+<script type="text/javascript">
+function showAbstract(e){
+f = e;
+var div;
+for(div = e.nextSibling; div.className != "abs"; div = div.nextSibling);
+
+if (div.style.display=="block"){
+div.style.display="";
+} else {
+div.style.display="block";
+}
+return true;
+}
+</script>
+
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+
+</head>
+
+<body id="mpc-home" class="text-center homepage">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation
+<span class="icon-bar">
+<span class="icon-bar">
+<span class="icon-bar">
+</button>
+<a class="navbar-brand" href="#mtd"><img style="height:20px;margin-right:20px" src="img/iu-maroon-bg.jpg"></img>67th Midwest Theory Day</a>
+<a class="navbar-brand" href="#info">Info</a>
+<a class="navbar-brand" href="https://goo.gl/forms/wcf5f1eFwl6oYl663">Register</a>
+<a class="navbar-brand" href="#schedule">Schedule</a>
+<a class="navbar-brand" href="#speakers">Speakers</a>
+<a class="navbar-brand" href="#orgs">Orgs</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="iu-template">
+<br/>
+<br/>
+<br/>
+
+<a id="info"><h1>Information</h1></a>
+
+The 67th Midwest Theory Day will bring together researchers in theoretical computer science from the Midwest for a weekend of interaction and collaboration.
+
+<p>
+<p>
+
+<table style="width:100%">
+	<tr>	
+	<td style="width:50%">
+		<ul style="list-style:none;">
+<li> <b>When?</b> <br> April 15&ndash;16, 2017. Program will start at 11am on Saturday and finish at 4pm on Sunday.
+<li> <b>Where?</b> <br> Indiana University, Bloomington. <a href="https://goo.gl/maps/ygaZUfaNUNq">Lindley Hall</a>. 
+<li> <b>What?</b> <br> See the <a href="#schedule">schedule</a> and the <a href="#speakers">list of speakers</a>.
+<li> <b>Poster session?</b> <br>Details about the poster session will be announced later. 
+<li> <b>Do I need to register?</b> <br> Yes, registration is <font color="red"><b>free but required for all participants</b></font>. Registration deadline: <font color="red"><b>March 25, 2017</b></font>. 
+
+</ul>
+<br>
+<p><a href="https://goo.gl/forms/wcf5f1eFwl6oYl663" role="button" class="btn btn-primary btn-lg btn-block"><b>Register</b></a></p>
+</td>
+<td align="middle">
+<img style="width:80%" src="pics/mtd/iu-sample-gates.jpg"></img>
+</td>
+</tr>
+</table>
+
+
+<!--
+<br>
+
+<div class="fb-like" data-href="http://grigory.github.io/mpc-workshop-dimacs.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://grigory.github.io/mpc-workshop-dimacs.html" data-via="gyaroslavtsev" align="top">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+-->
+<!-- Place this tag where you want the +1 button to render. -->
+
+<!--
+<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://grigory.github.io/mpc-workshop-dimacs.html" align="top"></div>
+
+
+-->
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/platform.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+</p>
+
+<a id="schedule"><h1>Schedule</h1></a>
+
+
+
+<div>
+<h1 id="speakers">Speakers</h1>	
+<h2> <i class="fa fa-group"></i> External Speakers</h2>
+
+<ul class="list-thumbnail">
+	
+<li>
+<img alt=""  src="pics/mtd/alex.jpg">
+<h3>Alexandr Andoni (Columbia University)</h3>
+<p align="left">
+<a href="http://www.mit.edu/~andoni/">Alexandr Andoni</a> is an Associate Professor at Columbia University. He was previously a Researcher at Microsoft Research Silicon Valley. His research interests include sublinear algorithms, streaming, algorithms for massive data sets, high-dimensional computational geometry, metric embeddings and theoretical machine learning. Andoni graduated from MIT in 2009, under the supervision of Professor Piotr Indyk. His PhD thesis is entitled, "Nearest Neighbor Search: the Old, the New, and the Impossible." From 2009 to 2010, he was a postdoc at the Center for Computational Intractability at Princeton, and a visitor at NYU and IAS.
+</p>
+
+<li>
+<img alt=""  src="pics/mtd/ryan.jpg">
+<h3>Ryan O'Donnell (Carnegie Mellon University)</h3>
+<p align="left">
+<a href="https://www.cs.cmu.edu/~odonnell/">Ryan O'Donnell</a> is an Associate Professor at the School of Computer Science at Carnegie Mellon University. His research interests include the following topics: Complexity Theory, Approximation Algorithms, Analysis of Boolean Functions, Learning Theory, Property Testing and Probability. Ryan got his Ph.D. from MIT in 2003 and joined CMU after postdocs at the Institute for Advanced Study and Microsoft Research.
+</p>
+
+<li>
+<img alt=""  src="pics/mtd/vahab.jpg">
+<h3>Vahab Mirrokni (Google Research, NYC)</h3>
+<p align="left">
+<a href="https://people.csail.mit.edu/mirrokni/Welcome.html">Vahab Mirrokni</a> is a Principal Research Scientist, heading the algorithms research group at Google Research, New York. He received his PhD from MIT in 2005 and his B.Sc. from Sharif University of Technology in 1999. He joined Google Research in New York in 2008, after spending a couple of years at Microsoft Research, MIT and Amazon.com. He is the co-winner of a SODA'05 best student paper award and ACM EC'08 best paper award. His research areas include algorithms, algorithmic game theory, combinatorial optimization, and social networks analysis. At Google, he is mainly working on algorithmic and economic problems related to search and online advertising. Recently he is working on online ad allocation problems, distributed algorithms for large-scale graph mining, and mechanism design for advertising exchanges.
+</p>
+
+</ul>
+
+<h2> <i class="fa fa-group"></i> Midwest Speakers</h2>
+
+<ul class="list-thumbnail">
+<li>
+<img alt=""  src="pics/mtd/karthik.jpg">
+<h3>Karthik Chandrasekaran (University of Illinois, Urbana-Champaign)</h3>
+<p align="left">
+<a href="http://karthik.ise.illinois.edu/">Karthik Chandrasekaran </a> is an Assistant Professor at University of Illinois, 
+Urbana-Champaign. He received his Ph.D. in Algorithms, Combinatorics 
+and Optimization (ACO) from Georgia Tech in 2012. He was a Simons 
+postdoctoral fellow in the Theory of Computation research group at 
+Harvard University prior to joining UIUC in 2014. His research interests 
+are in discrete optimization, approximation and randomized algorithms, 
+probabilistic methods and analysis.
+
+<!--
+<li>
+<img alt=""  src="pics/mtd/shuchi.jpg">
+<h3>Shuchi Chawla (University of Wisconsin, Madison)</h3>
+<p align="left">
+<a href=""></a> 
+</p>
+-->
+
+
+<li>
+<img alt=""  src="pics/mtd/anindya.jpg">
+<h3>Anindya De (Northwestern University)</h3>
+<p align="left">
+<a href=""></a> 
+</p>
+
+
+<li>
+<img alt=""  src="pics/mtd/anna.jpg">
+<h3>Anna Gilbert (University of Michigan)</h3>
+<p align="left">
+<a href="http://www.math.lsa.umich.edu/~annacg/">Anna Gilbert </a> 
+received an S.B. degree from the University of Chicago and a
+Ph.D. from Princeton University, both in mathematics. In 1997, she was a
+postdoctoral fellow at Yale University and AT&T Labs-Research. From 1998 to
+2004, she was a member of technical staff at AT&T Labs-Research in Florham
+Park, NJ. Since then she has been with the Department of Mathematics at the
+University of Michigan, where she is now the Herman H. Goldstine Collegiate
+Professor. She has received several awards, including a Sloan Research
+Fellowship (2006), an NSF CAREER award (2006), the National Academy of
+Sciences Award for Initiatives in Research (2008), the Association of
+Computing Machinery (ACM) Douglas Engelbart Best Paper award (2008),
+the EURASIP Signal Processing Best Paper award (2010), a National
+Academy of Sciences Kavli Fellow (2012), and the SIAM Ralph E.
+Kleinman Prize (2013). Her research interests include analysis,
+probability, networking, and algorithms. She is especially interested
+in randomized algorithms with
+applications to harmonic analysis, signal and image processing,
+networking, and massive datasets.
+
+
+<li>
+<img alt=""  src="pics/mtd/yury.jpg">
+<h3>Yury Makarychev (Toyota Technological Institute, Chicago)</h3>
+<p align="left">
+<a href="http://ttic.uchicago.edu/~yury/">Yury Makarychev</a> is an associate professor of computer science at TTIC. He received an MS in Mathematics from Moscow State University and a PhD in Computer Science from Princeton University. Yury served as a postdoctoral researcher at Microsoft Research in Redmond, WA, and Cambridge, MA. Upon completion of the postdoc at Microsoft, Yury joined TTIC in 2009. Yury's research interests include combinatorial optimization, approximation algorithms, and metric geometry.
+	
+<li>
+<img alt=""  src="pics/mtd/ruta.jpg">
+<h3>Ruta Mehta (University of Illinois, Urbana-Champaign)</h3>
+<p align="left">
+<a href="http://rutamehta.cs.illinois.edu/">Ruta Mehta</a> 
+is an assistant professor in the Department of Computer Science at UIUC. Her research lies at the intersection of theoretical computer science, game theory, and mathematical economics, and their applications to evolution, dynamical systems and learning. She has worked on computability of equilibria, both market and Nash, under various settings, and also on understanding the impact of strategic behavior in multi-agent situations. In addition she has explored learning economic parameters through revealed preferences, genetic evolution under sexual reproduction, and dynamics in social networks. 
+She did Postdoc at Georgia Tech with Prof. Vijay V. Vazirani, and later at Simons Institute, UC Berkeley. Prior to that she did her PhD from Indian Institute of Technology, Bombay. Her thesis won ACM India Doctoral Dissertation Award 2012. In 2014, she was conferred the Best Postdoctoral Research Award by CoC at Georgia Tech.
+
+<li>
+<img alt=""  src="pics/mtd/ben.jpg">
+<h3>Benjamin Moseley (Washington University, St. Louis)</h3>
+<p align="left">
+<a href="http://www.cse.wustl.edu/~bmoseley/">Benjamin Moseley</a> 
+joined the Department of Computer Science and Engineering at Washington University in St. Louis in July 2014. Previously, Moseley was a Research Assistant Professor at the Toyota Technological Institute at Chicago from 2012 to 2014, has frequently been affiliated with Yahoo Research and was a visiting scientist at Sandia National Laboratories. He received his Ph.D. in computer science from the University of Illinois at Urbana-Champaign (Illinois) in 2012.   
+
+Moseley received the Best Paper Award at the 2015 International Parallel and Distributed Processing Symposium (IPDPS), the Best Paper Award at the 2013 Symposium on Parallelism in Algorithms and Architectures (SPAA), and the Best Student Paper Award at the 2010 Symposium on Discrete Algorithms (SODA). He co-organizes the bi-annual meeting, "New Challenges in Scheduling Theory'' and is an associate editor of Operations Research Letters.
+</p>
+
+<li>
+<img alt=""  src="pics/mtd/tasos.jpg">
+<h3>Anastasios Sidiropoulos (Ohio State University)</h3>
+<p align="left">
+<a href="http://web.cse.ohio-state.edu/~sidiropoulos.1/">Anastasios Sidiropoulos</a> 
+is an Assistant Professor at the Computer Science and Engineering and the Mathematics Departments at The Ohio State University. He received his PhD from the Massachusetts Institute of Technology and has been a postdoctoral fellow at the University of Toronto and the University of Illinois at Urbana-Champaign, and a Research Assistant Professor at the Toyota Technological Institute at Chicago. His research focuses on developing algorithms for the analysis of graphs and geometric data sets.
+
+<li>
+<img alt=""  src="pics/mtd/matus.jpg">
+<h3>Matus Telgarsky (University of Illinois, Urbana-Champaign)</h3>
+<p align="left">
+<a href=""></a> 
+
+</p>
+
+<li>
+<img alt=""  src="pics/mtd/nitin.jpg">
+<h3>Nitin Vaidya (University of Illionis, Urbana-Champaign)</h3>
+<p align="left">
+<a href="http://disc.ece.illinois.edu/">Nitin Vaidya </a> 
+received the Ph.D. from the University of Massachusetts at Amherst. He is a Professor of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign. He has held visiting positions at Argonne National Lab, Technicolor Paris Lab, TU-Berlin, IIT-Bombay, Microsoft Research, and Sun Microsystems, as well as a faculty position at the Texas A&M University. Nitin Vaidya has co-authored papers that received awards at several conferences. He is a fellow of the IEEE. He presently serves the Chair of the Steering Committee for the ACM PODC conference, and has previously served as Editor-in-Chief for the IEEE Transactions on Mobile Computing, and Editor-in-Chief for ACM SIGMOBILE publication MC2R. More information at <a href="http://disc.ece.illinois.edu/"> http://disc.ece.illinois.edu/</a>.
+
+<li>
+<img alt=""  src="pics/mtd/aravindan.jpg">
+<h3>Aravindan Vijayraghavan (Northwestern University)</h3>
+<p align="left">
+<a href="http://users.eecs.northwestern.edu/~aravindv/ ">Aravindan Vijayaraghavan</a> is an Assistant Professor of
+Computer Science at Northwestern University. After obtaining his PhD
+in Computer Science from Princeton University in 2012, he was a Simons
+Postdoctoral Fellow at Carnegie Mellon University. He also spent a
+year as a postdoc at the Courant Institute, with the Simons
+Collaboration on Algorithms & Geometry. His research interests are in
+designing efficient algorithms for problems in Combinatorial
+Optimization and Machine Learning, and in using paradigms that go
+Beyond Worst-Case Analysis to obtain good algorithmic guarantees.
+</ul>
+
+
+
+<h1 id="orgs">Organizers</h1>	
+<!--<h2> <i class="fa fa-group"></i> Organizers</h2>-->
+<ul class="list-thumbnail">
+	
+	<li>
+	<img alt=""  src="pics/caml/grigory.jpg">
+	<h3>Grigory Yaroslavtsev </h3>
+	<p align="left">
+	<a href="http://grigory.us">Grigory Yaroslavtsev</a> is an assistant professor of Computer Science at Indiana University. Prior to that he was a postdoctoral fellow at the Warren Center for Network and Data Sciences at the University of Pennsylvania. He was previously a Postdoctoral Fellow in Mathematics at Brown University, ICERM. He received his Ph.D. in Theoretical Computer Science in 2014 from Pennsylvania State University and an M.Sc. in Applied Mathematics and Physics from the Academic University of the Russian Academy of Sciences in 2010.
+	Grigory works on efficient algorithms for sparsification, summarization and testing properties of large data, including approximation, parallel and online algorithms, learning theory and property testing, communication and information complexity and private data release.
+	</p>
+
+
+	<li>
+	<img alt=""  src="pics/caml/qin.jpg">
+	<h3>Qin Zhang</h3>
+	<p align="left">
+	<a href="http://homes.soic.indiana.edu/qzhangcs/">Qin Zhang</a> is an assistant professor at the Indiana University, Bloomington.  He received a B.S. degree from Fudan University and a Ph.D. from Hong Kong University of Science and Technology.  He also spent a couple of years as a post-doc at the Theory Group of IBM Almaden Research Center, and the Center for Massive Data Algorithmics at Aarhus University.  He is interested in algorithms for big data, in particular, data stream algorithms, sublinear algorithms, algorithms on distributed data; I/O-efficient algorithms, data structures, database algorithms and communication complexity.
+	</p>
+
+	<li>
+	<img alt=""  src="pics/caml/yuan.png">
+	<h3>Yuan Zhou</h3>
+	<p align="left">
+	<a href="http://homes.soic.indiana.edu/yzhoucs/">Yuan Zhou</a> is an assistant professor of Computer Science at Indiana University.
+	Prior to that he was an instructor in applied mathematics at MIT. Yuan received his Ph.D. from Carnegie Mellon University in 2014. His research interests span theoretical computer science and operations research with emphasis on linear programming and semidefinite programming relaxations, discrete optimization, approximation algorithms and hardness of approximation, harmonic analysis of discrete functions, process flexibility and decision under uncertainty with applications to crowdsourcing.
+	</p>
+	
+	
+</ul>
+
+</body></html>
+
+
