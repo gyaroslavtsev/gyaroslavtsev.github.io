@@ -190,6 +190,10 @@ Distributed Optimization via Composable Core-sets: From Submodularity to Feature
 <div class="abs">
 <p align="left">
 
+An effective technique for solving optimization problems over massive data sets is to partition the data into smaller pieces, solve the problem on each piece and compute a representative solution from it, and finally obtain a solution inside the union of the representative solutions for all pieces. Such an algorithm can be implemented easily in 2 rounds of MapReduces or be applied in a streaming model. This technique can be captured via the concept of {\em composable core-sets}, and has been recently applied to solve various problems. We will see that diversity maximization and clustering problems, a deterministic variant of this technique applies, and for submodular maximization and column subset selection  problems, a randomized variant of composable core-set problem can be applied, e.g., a 0.3 and a 0.58-approximation for non-monotone and monotone submodualr maximization problems. Finally, I show how to improve the above results to achieve a 1-1/e-\eps-approximation for coverage function using a new sketching technique. I will discuss how to design almost optimal streaming and distributed algorithms for coverage problems, and how to use these algorithms in feature selection problems.
+</p>
+<p>
+The main part of the talk summarizes results from a STOC 2015 (with M. ZadiMoghaddam) and a new paper (with H. Bateni and H. Esfandiari). The survey part of the talk is from three recent papers that appeared in PODS'14, NIPS'14, and ICML'16.
 </p>
 </div>
 
@@ -265,12 +269,14 @@ We obtain faster algorithms on sets of low fractal dimension for a plethora of c
 <br> <a class="name" href="http://users.eecs.northwestern.edu/~anindya/"  style="text-decoration: none" ><b>Anindya De</b></a> (Northwestern University)
 <br>
 &nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0)" onclick="showAbstract(this)" class="title" style="text-decoration: none" >
-TBD
+Learning SICSIRVs
 </a>  
 <!-- [<a href="./dimacs-slides/TBD.pdf">Slides (pdf)</a>] -->
 <div class="abs">
 <p align="left">
-TBD
+For S a finite set of natural numbers, an "S-supported SICSIRV" is a random variable which is the sum of N independent random variables each of which is supported on S. So, for example, if S = {0,1}, then an S-supported SICSIRV is a sum of N independent but not necessarily identically distributed Bernoulli random variables (a.k.a. a Poisson Binomial random variable). Daskalakis et. al. (STOC 12, FOCS 13) have shown that for S={0,1,...,k-1}, there is an algorithm for learning an unknown S-SICSIRV using poly(k,1/\epsilon) draws from the distribution and running in poly(k,1/\epsilon) time, independent of N. In this work we investigate the problem of learning an unknown S-SICSIRV where S={a_1,...,a_k} may be any finite set. We show that* when k=3, it is possible to learn any S-SICSIRV with poly(1/\epsilon) samples, independent of the values a_1,a_2,a_3;* when k >= 4, it is possible to learn any S-SICSIRV with poly(1/\epsilon, \log \log a_k) samples; and* already when k=4, at least \log \log a_k samples may be required for learning. We thus establish a sharp transition in the complexity of learning S-SICSIRVs when the size of S goes from three to four. 
+<p>
+Joint work with Rocco Servedio and Phil Long. 
 </p>
 </div>
 
@@ -597,7 +603,7 @@ probabilistic methods and analysis.
 <img alt=""  src="pics/mtd/anindya.jpg">
 <h3>Anindya De (Northwestern University)</h3>
 <p align="left">
-<a href=""></a> 
+<a href="http://users.eecs.northwestern.edu/~anindya/">Anindya De</a> is an Assistant Professor at Northwestern University. He graduated from Berkeley in 2013 and was a Simons fellow at Berkeley and a postdoc at IAS / DIMACS before starting at Northwestern in Fall 2015. He is interested in theoretical computer science, especially looking at 'discrete math through the lens of continuous methods'. 
 </p>
 
 
