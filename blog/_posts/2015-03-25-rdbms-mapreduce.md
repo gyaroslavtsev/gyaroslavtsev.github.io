@@ -1,0 +1,84 @@
+---
+layout: post
+comments: true
+title: "MapReduce and RDBMS: Practice and Theory"
+author: grigory 
+date: 2015-04-02
+excerpt: "In this post I discuss differences between RDBMSs and MapReduce addressing Michael Stonebraker's criticism." 
+markdown: kramdown
+image: /pics/mapreduce-rdbms.png
+tags: [mapreduce, big-data, databases]
+---
+
+<div align="center"><img alt="Mapreduce and RDBMS" src="{{site.url}}/pics/mapreduce-rdbms.png"> </div>
+
+Congratulations to Michael Stonebraker on winning the ACM Turing Award last week! 
+Michael is recognized for his fundamental contributions to the concepts and practices underlying modern database systems. It is somewhat unfortunate though that the RDBMS community and the MapReduce crowd ended up being split apart after the 2010 CACM articles <a href="http://cacm.acm.org/magazines/2010/1/55744-mapreduce-a-flexible-data-processing-tool/fulltext">MapReduce: A Flexible Data Processing Tool</a> (by Jeffrey Dean and Sanjay Ghemawat) and <a href="http://cacm.acm.org/magazines/2010/1/55743-mapreduce-and-parallel-dbmss-friends-or-foes/fulltext">MapReduce and Parallel DBMSs: Friends or Foes</a> (by Michael Stonebraker et al.).
+
+Stonebraker's criticism of MapReduce/Hadoop started back in 2008 with a post <a href="http://homes.cs.washington.edu/~billhowe/mapreduce_a_major_step_backwards.html">MapReduce: A major step backwards</a>. It has only changed slightly over the last 7 years (see e.g. <a href="http://cacm.acm.org/blogs/blog-cacm/177467-hadoop-at-a-crossroads/fulltext">this</a>). 
+A good example is <a href="https://www.youtube.com/watch?v=OYGJe1z97VI">Michael's talk</a> at XLDB12 which I found fun and educational.
+Moreover, I tend to agree with most of waht Michael says except when it comes to Hadoop (e.g. "Hadoop is right at the top of the Gartner group hype cycle", M.S. 2012) because over the 7 years of his criticism Hadoop has become the most successful open source platform for general purpose massively parallel computing.
+It probably won't be surprising to see Dean and Ghemawat winning the Turing Award in the future for making massively parallel computing commonplace.
+
+
+I believe that both in theory and in <a href="http://data-informed.com/hadoop-vs-data-warehouse-comparing-apples-oranges/">practice</a> MapReduce and RDBMSs are apples and oranges in the big data universe. Both are crunching hundreds of petabytes of data these days. However, in my experience some people still think that there is a way to directly compare the two and determine a single winner. I heard about Stonebraker's criticism of Hadoop so many times and in places so diverse (e.g. from one of my running club buddies on the Penn track as well as during my visit to Princeton in a conversation with one of the professors I highly respect) that I decided to write a blog post about it. I will try to "bite the bull by the horns" (expression courtesy of Ken Clarkson) and summarize the advantages of each paradigm from my experience both in practice and in theory.
+
+<h1>Advantages of MapReduce</h1>
+<div align="center"><img alt="MapReduce = Magic Hammer" src="{{site.url}}/pics/mapreduce-hammer.png"> </div>
+MapReduce paradigm has emerged as a universal tool for a specific type of parallel computing. 
+I would compare it with a magic hammer that in theory allows you to do almost anything you might want. While a "Swiss army knife" RDBMS solution would certainly be more efficient for specific tasks that it has been designed for the magic hammer of MapReduce works for almost any problem that is possible to parallelize. 
+<ul>
+<li> <b> Universality.</b> A big advantage of MapReduce is its universality. In particular, it offers efficient low-level access to the data for a software engineer. This allows to handle completely unstructured messy data. 
+<!--It is a great advantage for algorithm designers that MapReduce doesn't impose any restrictions on the format of the data. 
+It also offers low-level access for the software engineer who can manipulate data entries without any restrictions on the type of queries. -->
+For example, many graph algorithms can be easily implemented in MapReduce, while general purpose databases don't play well with graphs. This is a well-known issue and also the reason why specialized graph databases such as <a href="http://neo4j.com/">Neo4j</a> exist.
+While learning how to use MapReduce takes some time and experience with programming in my experience good software engineers can learn it fairly quickly. This is why for best companies such as Google, Facebook, etc. the learning curve and cost of skillful engineers doesn't seem to be an issue.
+</li>
+<li><b>Customization.</b> During the 10 years of its existence the base Hadoop layer has been extended by many different frameworks that can run on top of it. 
+Examples of free such frameworks are <a href="http://spark.apache.org/">Spark</a> (greatly improved raw Hadoop efficiency), <a href="http://hortonworks.com/hadoop/storm/">Apache Storm</a> (streaming support) and others. In particular, most of the Stonebraker's criticism regarding inefficiency of Hadoop is no longer applicable because of these improvements. After the inefficient higher-level Hadoop layers are replaced it is only the HDFS that remains untouched. According to Stonebraker himself: "I don't have any problem with HDFS, it is a parallel file system &lt;...&gt; by all means go ahead and use it".
+Companies such as Google and Facebook are running their own custom versions of Hadoop/MapReduce and while most of the details are secret we routinely hear in the news about petabytes of user data being crunched daily in such systems. 
+</li>
+</li>
+<li> <b> Support of your favorite programming language.</b> With <a href="http://hadoop.apache.org/docs/r1.2.1/streaming.html">Hadoop Streaming</a> one can use any programming language. </li>
+<li> <b>Open source.</b> Apache Hadoop is an easy to learn open source version implementation of the MapReduce framework.</li> 
+</ul>
+
+<h1>Advantages of Parallel RDBMSs</h1>
+<div align="center"><img alt="RDBMS = Swiss army knife" src="{{site.url}}/pics/rdbms-swiss-knife.png"> </div>
+Database management system technology has been perfected for over more than 40 years becoming a "Swiss army knife"-type solution for big data management.
+<ul>
+<li> <b>Efficient processing of typical queries on relational and some other types of data.</b> For relational data efficiency of parallel RDBMSs is outstanding. I am not aware of successful attempts to beat the performance of RDBMSs on their home turf using general purpose frameworks for massively parallel computing (e.g. by using Hive on Hadoop discussed below). Moreover, specialized database systems exist also for other types of structured data such as graphs (e.g. Neo4j), sparse arrays, etc. Just like with a Swiss Army knife, if a certain application can be directly handled by an RDBMS then it is probably handled pretty well and most common use cases are pretty well covered.
+</li>
+<li> <b>Simplicity.</b> While this is clearly subjective and might change over time, currently the learning curve for MapReduce users seems to be much steeper than for those who use an RDBMS.
+Simplicity also means that it costs less to employ data analysts who can work with RDBMSs. </li>
+</ul>
+
+
+<h1>In Theory</h1> 
+<p>
+As a theorist I am very excited about the fact that the performance of MapReduce-style systems can be systematicaly analyzed using a rigorous theoretical framework. See my earlier <a href="{{site.url}}/mapreduce-model/">blog post</a> for the details of the formal theoretical model for MapReduce. 
+</p>
+<p>
+It is very exciting to see MapReduce-style algorithms making it into advanced algorithms classes focused on dealing with big data at many top schools. Some examples that I am aware of are:
+<ul>
+<li>&ldquo;<b><a href="http://www.cs.columbia.edu/~coms699812/" >Dealing with Massive Data</a></b>&rdquo; by Sergei Vassilvitskii at Columbia.</li>
+<li>&ldquo;<b><a href="http://people.seas.harvard.edu/~minilek/cs229r">Algorithms for Big Data</a></b>&rdquo; by Jelani Nelson at Harvard.</li>
+<li>&ldquo;<b><a href="http://web.stanford.edu/~ashishg/amdm/ ">Algorithms for Modern Data Models</a></b> &rdquo; by Ashish Goel at Stanford.</li>
+<li> &ldquo;<b><a href="http://www.cs.utah.edu/~jeffp/teaching/cs7960.html">Models of Computation for Massive Data</a></b>&rdquo; by Jeff Philips at the University of Utah.</li>
+</ul>
+There are other examples too. In fact, these days almost every theoretical class about algorithms for big data that I am aware of covers MapReduce algorithms.
+</p>
+<p>
+Moreover, there are clean hard open problems raised by the MapReduce model which would have strong implications for the rest of theoretical computer science including such fundamental its parts as circuit complexity, communication complexity and approximation algorithms as well as more modern areas such as streaming algorithms. 
+For example, a notorisouly hard question (see details <a href="{{site.url}}/mapreduce-model/">here</a>) is: "<b>Can sparse undirected graph connectivity be solved in o(log |V|) rounds of MapReduce? Hint: Probably, no.</b>" Resolution of this kind of open questions will not only surprise the practitioners but  might also win you a best paper award at one of the top theory conferences (and it is most likely going to be not because of MapReduce itself but because of other deep consequences such a result would have). 
+On the other hand, I am unaware of open questions in databases which would have the same level of appeal to the theoretical community.  
+</p>
+<p>
+A flagship theory conference STOC 2015 together with the 27th ACM Symposium on Parallelism in Algorithms in Architectures (colocated at FCRC 2015) will host a 1-day workshop "<b>Algorithmic Frontiers of Modern Massively Parallel Computation</b>" focused on theoretical foundations of MapReduce-style systems and directions for future research which I am co-organizing together with Ashish Goel and Sergei Vassilvitskii. I will post the details later so stay tuned if you are interested.
+
+</p>
+<h1>P.S. Apple-oranges</h1>
+<div align="center"><img alt="Apple-Orange + Hive" src="{{site.url}}/pics/orange-apple-hive.png"> </div>
+While there is room for apple-oranges none of these seem to be successful so far. It seems to be common sense that SQL-on-Hadoop just like an apple-on-orange is not a great idea in terms of performance. Limited success in attempts such as Hive on Hadoop seem to prove this so far. Using low-level programming languages such as C++ with RDBMSs is also possible (see e.g. <a href="http://www.sqlapi.com/">SQLAPI</a>). However, described above advantages of RDBMSs most likely vanish if you do so.
+
+

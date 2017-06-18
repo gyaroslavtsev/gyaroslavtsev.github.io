@@ -1,0 +1,22 @@
+# Authors
+
+grigory:
+  name: Grigory Yaroslavtsev
+  web: http://grigory.us
+  email: grigory@grigory.us
+  bio: "Assistant Professor of Computer Science, Indiana University."
+  avatar: http://grigory.us/pics/logo.jpg 
+  linkedin: gyaroslavtsev
+  google:
+    plus: GrigoryYaroslavtsev
+  facebook: yaroslavtsev
+  twitter: gyaroslavtsev
+  github: grigory
+sergei:
+   name: Sergei Vassilvitskii
+   web: http://theory.stanford.edu/~sergei/
+   email: sergei@cs.stanford.edu
+   bio: Research Scientist at Google Research, NYC.
+   avatar: http://theory.stanford.edu/~sergei/portrait.jpg
+
+

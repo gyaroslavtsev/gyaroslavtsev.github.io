@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">The Big Data Theory</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2017-06-08T16:03:30+03:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Grigory Yaroslavtsev</name>
+  <uri>http://localhost:4000/</uri>
+  <email>grigory@grigory.us</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Theory Jobs 2017]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/theory-jobs-2017/" />
+  <id>http://localhost:4000/theory-jobs-2017</id>
+  <published>2017-06-08T00:00:00+03:00</published>
+  <updated>2017-06-08T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;b&gt;UPD&lt;/b&gt;: Lance created his Theory Jobs spreadsheet, I’ve moved all the information there and changed the link below to Lance’s spreadsheet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1xBpgBZXcSxjEAbU7SYCeXOJOJtPeXYCOFArqL28Uho8/edit?usp=sharing&quot;&gt;Here is a link&lt;/a&gt; to a crowdsourced spreadsheet created by Lance Fortnow that collects information about theory jobs this year. &lt;strike&gt;Previously Lance set it up, but this year it is getting late in the year so I decided to go ahead and create one myself. In previous years the jobs post was up a few weeks back so I hope I am not jumping the gun here. Rules about the spreadsheet have been copied from &lt;a href=&quot;http://blog.computationalcomplexity.org/2016/05/theory-jobs-2016.html&quot;&gt;Lance's last year post&lt;/a&gt; and all edits to the document are anonymized.
+&lt;/strike&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Separate sheets for faculty, industry and postdoc/visitors. &lt;/li&gt;
+ &lt;li&gt;People should be connected to theoretical computer science, broadly defined.&lt;/li&gt;
+ &lt;li&gt;Only add jobs that you are absolutely sure have been offered and accepted. This is not the place for speculation and rumors. &lt;/li&gt;
+ &lt;li&gt;You are welcome to add yourself, or people your department has hired. &lt;/li&gt;
+ &lt;/ul&gt;
+
+&lt;p&gt;This document will continue to grow as more jobs settle.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://docs.google.com/spreadsheets/d/1_DkI62xQF0CSNavP9AneOQFFccm-EXu_zvO_CWoYBv0/pubhtml?widget=true&amp;amp;headers=false&quot;&gt;&lt;/iframe&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/theory-jobs-2017/&quot;&gt;Theory Jobs 2017&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on June 08, 2017.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[67th Midwest Theory Day]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/mtd/" />
+  <id>http://localhost:4000/mtd</id>
+  <published>2017-04-30T00:00:00+03:00</published>
+  <updated>2017-04-30T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;IU :)&quot; src=&quot;http://localhost:4000/pics/iu-sample-gates.jpg&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;http://caml.indiana.edu/mtd.html&quot;&gt;67th Midwest Theory&lt;/a&gt; &lt;strike&gt;Day&lt;/strike&gt; Weekend took place two weeks ago here at Indiana University, Bloomington organized by &lt;a href=&quot;http://homes.soic.indiana.edu/qzhangcs/&quot;&gt;Qin Zhang&lt;/a&gt;, &lt;a href=&quot;http://homes.soic.indiana.edu/yzhoucs/&quot;&gt;Yuan Zhou&lt;/a&gt; and myself. We were lucky to have a flurry of fantastic speakers from the Midwest and three external headliners: &lt;a href=&quot;http://www.mit.edu/~andoni/&quot;&gt;Alex Andoni&lt;/a&gt;, &lt;a href=&quot;https://people.csail.mit.edu/mirrokni/Welcome.html&quot;&gt;Vahab Mirrokni&lt;/a&gt; and &lt;a href=&quot;https://www.cs.cmu.edu/~odonnell/ &quot;&gt;Ryan O’Donnell&lt;/a&gt;. Slides are now posted online.&lt;/p&gt;
+
+&lt;p&gt;As organizers we’ve decided to experiment with the format of this MTD making it a 2-day event. Based on feedback we received we believe that this format has worked out perfectly. For a geographically spread out Midwest area travel logistics makes overheads of attending a one-day event often too much for many of those interested to come.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/mtd/&quot;&gt;67th Midwest Theory Day&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on April 30, 2017.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[What's New in the Big Data Theory 2016]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/whats-new-in-big-data-theory-2016/" />
+  <id>http://localhost:4000/whats-new-in-big-data-theory-2016</id>
+  <published>2016-12-30T00:00:00+03:00</published>
+  <updated>2016-12-30T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Happy 2017!&quot; src=&quot;http://localhost:4000/pics/o2016.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This post will give an overview of papers on theory of algorithms for big data that caught my attention in 2016.
+The basic rule that I used when making the list was whether I can see these results being included into some of the advanced graduate classes on algorithms in the future.
+Also, while I obviously can’t include my own results here, among my own 2016 papers my two personal favorites are &lt;a href=&quot;http://grigory.us/files/soda16.pdf&quot;&gt;tight bounds on space complexity of computing approximate matchings in dynamic streams&lt;/a&gt; (with S. Assadi, S. Khanna and Y. Li) and the &lt;a href=&quot;http://eccc.hpi-web.de/report/2016/174/&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbb F_2&lt;/script&gt;-sketching paper&lt;/a&gt; (with S. Kannan and E. Mossel and some special credit to Swagato Sanyal who subsequently improved the dependence on error in one of our main theorems).&lt;/p&gt;
+
+&lt;p&gt;It’s been a great year with several open problems resolved, old algorithms improved and new lines of research started.
+All papers discussed below are presented in no particular order and their selection is clearly somewhat biased towards my own research interests.&lt;/p&gt;
+
+&lt;h2&gt;Maximum Weighted Matching in Semi-Streaming&lt;/h2&gt;
+&lt;p&gt;Sweeping both the best paper and the best student paper awards at the upcoming 28th ACM Symposium on Discrete Algorithms is a paper on semi-streaming algorithms for maximum weighted matching by graduate students Ami Paz and Gregory Schwartzman.
+In semi-streaming we are given one pass over edges of an &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;-vertex and only &lt;script type=&quot;math/tex&quot;&gt;\tilde O(n)&lt;/script&gt; bits of space.
+It is easy to get a 2-approximation to the maximum matching by just maintaining the maxim&lt;strong&gt;al&lt;/strong&gt; matching of the graph.
+However, for weighted graphs maximal matching no longer guarantees a 2-approximation.&lt;/p&gt;
+
+&lt;p&gt;A long line of work has previously given constant factor approximations for this problem and finally we have a &lt;script type=&quot;math/tex&quot;&gt;2+\epsilon&lt;/script&gt;-approixmation. 
+It is achieved via a careful implementation of the primal-dual algorithm for matchings in the semi-streaming setting.
+It may seem somewhat surprising that primal-dual hasn’t been applied to this problem before since in the area of approximation algorithms it is a pretty standard way of reducing weighted problems to their unweighted versions, but the exact details of how to implement primal-dual in the streaming setting are quite delicate. I couldn’t find a version of this paper online so the best bet might be to wait for the SODA proceedings.&lt;/p&gt;
+
+&lt;p&gt;Now the big open question is whether one can beat the 2-approximation which is open even in the unweighted case.&lt;/p&gt;
+
+&lt;h2&gt;Shuffles and Circuits&lt;/h2&gt;
+&lt;p&gt;Best paper award at the 28th ACM Symposium on Parallelism in Algorithms and Architectures went to ‘‘&lt;a href=&quot;http://theory.stanford.edu/~sergei/papers/spaa16-mrshuffle.pdf&quot;&gt;Shuffles and Circuits&lt;/a&gt;’’, a paper by Roughgarden, Vassilvitskii and Wang.
+This paper emphasizes the difference between rounds of MapReduce and depth of a circuit.
+Because some of the machines can choose to stay silent between the rounds a round of MapReduce can be more complex than a layer of a circuit as the machines sending input to the next round might depend on the original input data. 
+The paper shows that nevertheless the standard circuit complexity ‘‘degree bound’’ can be applied to MapReduce computation.
+I.e. any Boolean function whose polynomial representation has degree &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; requires &lt;script type=&quot;math/tex&quot;&gt;\Omega(\log_s d)&lt;/script&gt; rounds of MapReduce using machines with space &lt;script type=&quot;math/tex&quot;&gt;s&lt;/script&gt;.
+This implies an &lt;script type=&quot;math/tex&quot;&gt;\Omega(\log_s n)&lt;/script&gt; lower bound on the number of rounds for computing connectivity of a graph.
+The authors also make explicit a connection between the MapReduce model and &lt;script type=&quot;math/tex&quot;&gt;NC^1&lt;/script&gt; (see definition &lt;a href=&quot;https://en.wikipedia.org/wiki/NC_(complexity) &quot;&gt;here&lt;/a&gt;) which implies that improving lower bounds beyond &lt;script type=&quot;math/tex&quot;&gt;\log_s n&lt;/script&gt;  for polynomially many machines would imply separating &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; from &lt;script type=&quot;math/tex&quot;&gt;NC^1&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Beating Counting Sketches for Insertion-Only Streams&lt;/h2&gt;
+&lt;p&gt;Both &lt;a href=&quot;http://www.cs.princeton.edu/courses/archive/spring04/cos598B/bib/CharikarCF.pdf &quot;&gt;CountSketch&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch&quot;&gt;Count-Min Sketch&lt;/a&gt;, which are textbook approximate data structures for storing very large dynamically changing numerical tables in small space, have been improved this year under the assumption that data in the table is only incremented.
+These improvements are for the most common application of such sketches to ``heavy hitters’’– the task of recovering largest entries from the table approximately. 
+For CountSketch see &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/bciw16.pdf&quot;&gt;the paper&lt;/a&gt; by Braverman, Chestnut, Ivkin, Woodruff from STOC’16 and for CountMin Sketch &lt;a href=&quot;https://arxiv.org/abs/1603.00213&quot;&gt;the paper&lt;/a&gt; by Bhattacharyya, Dey and Woodruff from PODS’16.&lt;/p&gt;
+
+&lt;h2&gt;Optimality of the Johnson-Lindenstrauss Transform&lt;/h2&gt;
+&lt;p&gt;Two papers by &lt;a href=&quot;https://arxiv.org/pdf/1609.02094v1.pdf &quot;&gt;Green Larsen and Nelson&lt;/a&gt; and by &lt;a href=&quot;http://www.cs.tau.ac.il/~nogaa/PDFS/compression3.pdf&quot;&gt;Alon and Klartag&lt;/a&gt; have resolved the question of proving optimality of the Johnson-Lindenstrauss transform.
+Based on doing a projection on random low-dimensional subspace JL-transform is the main theoretical tool for dimensionality reduction of high-dimensional vectors.
+As these papers show no low-dimensional embedding and furthermore no data structure can achieve better bit complexity than &lt;script type=&quot;math/tex&quot;&gt;\Theta(n \log n/\epsilon^2)&lt;/script&gt; for &lt;script type=&quot;math/tex&quot;&gt;(1 \pm \epsilon)&lt;/script&gt;-approximating all pairwise distances between &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; vectors in Euclidean space (for a certain regime of parameters).
+This matches the Johnson and Lindenstrauss upper bound and improves an old lower bound of &lt;script type=&quot;math/tex&quot;&gt;\Omega\left(\frac{n \log n}{  \epsilon^2 \log 1/\epsilon}\right)&lt;/script&gt; due to Alon.
+Even though Alon’s argument is significantly simpler getting an optimal lower bound is a very nice achievement.&lt;/p&gt;
+
+&lt;h2&gt;Fast Algorithm for Edit Distance if It's Small&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Edit_distance &quot;&gt;Edit distance&lt;/a&gt; is one of the cornerstone metrics of text similairity in computer science. It can be computed in quadratic time using standard dynamic programming which is optimal assuming SETH due to the &lt;a href=&quot;https://arxiv.org/abs/1412.0348 &quot;&gt;result of Backurs and Indyk&lt;/a&gt;.
+Edit distance also has a number of applications including comparing DNAs in computational biology.
+In these applications it is usually reasonable to assume that edit distance is only interesting if it is not too large.
+Unfortunately, this doesn’t help speed up the standard dynamic program.
+A series of papers, including two papers from this year by &lt;a href=&quot;http://iuuk.mff.cuni.cz/~koucky/papers/editDistance.pdf &quot;&gt;Chakraborty, Goldenberg and Koucky&lt;/a&gt; (STOC’16) and 
+&lt;a href=&quot;http://homes.soic.indiana.edu/qzhangcs/papers/focs16-ED.pdf &quot;&gt;Belazzogui and Zhang&lt;/a&gt; lead to the following result: sketches of size &lt;script type=&quot;math/tex&quot;&gt;poly(K \log n)&lt;/script&gt; bits suffice for computing edit distance &lt;script type=&quot;math/tex&quot;&gt;\le K&lt;/script&gt;. Such sketches can be applied not just in centralized but also in distributed and streaming settings making it possible to compress input strings down to size that (up to logarithmic factors) only depends on &lt;script type=&quot;math/tex&quot;&gt;K&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Tight Bounds for Set Cover in Streaming&lt;/h2&gt;
+&lt;p&gt;Set Cover is a surprisingly powerful abstraction for a lot of applications that involve providing coverage for some set of terminals. 
+Given a collection of sets &lt;script type=&quot;math/tex&quot;&gt;S_1, \dots, S_m \subseteq [n]&lt;/script&gt; the goal is to find the smallest cardinality subcollection of these sets such that their union is &lt;script type=&quot;math/tex&quot;&gt;[n]&lt;/script&gt;, i.e. all of the underlying elements are covered.
+In approximation algorithms a celebrated greedy algorithm gives an &lt;script type=&quot;math/tex&quot;&gt;O(\log n)&lt;/script&gt;-approximation for this problem. 
+In streaming there has been a lot of interest lately in approximating classic combinatorial optimization problems in small space with Set Cover being one of the main examples.
+For an overview from last year check Piotr Indyk’s &lt;a href=&quot;https://www.youtube.com/embed/_4mM1UGI9Dg?list=PLqxsGMRlY6u659-OgCvs3xTLYZztJpEcW &quot;&gt;talk&lt;/a&gt; from the &lt;a href=&quot;http://grigory.us/mpc-workshop-dimacs.html &quot;&gt;DIMACS Workshop on Big Data and Sublinear Algorithms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;http://www.seas.upenn.edu/~sassadi/stuff/papers/tbfsscotscp-conf.pdf &quot;&gt;this STOC’16 paper&lt;/a&gt; by Assadi, Khanna and Li shows savings in space for streaming Set Cover can only be proportional to the loss in approximation.  In particular, if we are interested in computing Set Cover which is within a multiplicative factor &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; of the optimum then:
+1) for computing the cover itself space &lt;script type=&quot;math/tex&quot;&gt;\tilde \Theta(mn/\alpha)&lt;/script&gt; is necessary and sufficient,
+2) for just esimating the size space &lt;script type=&quot;math/tex&quot;&gt;\tilde \Theta(mn/\alpha^2)&lt;/script&gt; is necessary and sufficient.&lt;/p&gt;
+
+&lt;h2&gt;Polynomial Lower Bound for Monotonicity Testing&lt;/h2&gt;
+&lt;p&gt;Finally a polynomial lower bound has been shown for adaptive algorithms for testing monotonicity of Boolean functions &lt;script type=&quot;math/tex&quot;&gt;f \colon \{0,1\}^n \rightarrow \{0,1\}&lt;/script&gt;.
+The lower bound implies that any algorithm that can tell whether &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is monotone or differs from monotone on a constant fraction of inputs has to query at least &lt;script type=&quot;math/tex&quot;&gt;\tilde \Omega(n^{1/4})&lt;/script&gt; values of &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;. 
+This result is due to &lt;a href=&quot;https://arxiv.org/abs/1511.05053 &quot;&gt;Belovs and Blais&lt;/a&gt; (STOC’16) and is in contrast with the upper bound of &lt;script type=&quot;math/tex&quot;&gt;\tilde O(\sqrt{n})&lt;/script&gt; by Khot, Minzer and Safra from last year’s FOCS.
+Probably the biggest result in property testing this year.&lt;/p&gt;
+
+&lt;h2&gt;Linear Hashing is Awesome&lt;/h2&gt;
+&lt;p&gt;While ‘‘&lt;a href=&quot;http://ieee-focs.org/FOCS-2016-Papers/3933a345.pdf &quot;&gt;Linear Hashing is Awesome&lt;/a&gt;’’ by Mathias Bæk Tejs Knudsen doesn’t fall into the traditional ‘‘sublinear algorithms for big data’’ category this paper still has some sublinear flavor because of its focus on very fast query times.
+Linear hashing is a classic hashing scheme 
+&lt;script type=&quot;math/tex&quot;&gt;h(x) = ((ax + b) \mod p) \mod m&lt;/script&gt; 
+where &lt;script type=&quot;math/tex&quot;&gt;a,b&lt;/script&gt; are random. It is very often used in practice and discussed extensively in CLRS.
+This paper proves that linear hashing &lt;strike&gt;is awesome&lt;/strike&gt; results in expected length of the longest chain of only &lt;script type=&quot;math/tex&quot;&gt;O(n^{1/3})&lt;/script&gt; compared to the previous simple bound of &lt;script type=&quot;math/tex&quot;&gt;O(\sqrt{n})&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, this paper also decisively wins my ‘‘Best Paper Title 2016’’ award.&lt;/p&gt;
+
+&lt;h2&gt;Looking forward to more cool results in 2017!&lt;/h2&gt;
+&lt;p&gt;There has been a lot of great results in 2016 and it’s hard to mention all of them in one post and I certainly might have missed some exciting papers. Here is a quick shout out to some other papers that were close to making the above list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1507.04299 &quot;&gt;Tight Bounds for Data-Dependent LSH&lt;/a&gt; by Andoni and Razenshteyn from SoCG'16.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1603.05346 &quot;&gt;Optimal Quantile Estimation in Streams&lt;/a&gt; by Karnin, Lang and Liberty from FOCS'16.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Happy 2017!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/whats-new-in-big-data-theory-2016/&quot;&gt;What's New in the Big Data Theory 2016&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on December 30, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Binary Sketchman]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/the-binary-sketchman/" />
+  <id>http://localhost:4000/the-binary-sketchman</id>
+  <published>2016-10-07T00:00:00+03:00</published>
+  <updated>2016-10-07T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;In this post I will talk about some of my recent work with &lt;a href=&quot;http://www.cis.upenn.edu/~kannan/&quot;&gt;Sampath Kannan&lt;/a&gt; and &lt;a href=&quot;https://stat.mit.edu/people/elchanan-mossel/&quot;&gt;Elchanan Mossel&lt;/a&gt; on linear methods for binary data compression. The paper is &lt;a href=&quot;http://eccc.hpi-web.de/report/2016/174/&quot;&gt;available here&lt;/a&gt;, slides from my talk at Penn are &lt;a href=&quot;http://grigory.us/files/talks/penn16.pdf&quot;&gt;here&lt;/a&gt; and another talk at Columbia is &lt;a href=&quot;http://www.cs.columbia.edu/theory/f16-theoryread.html#Grigory&quot;&gt;coming up on Nov 21&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Given very large data represented in binary format as a string of length &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;, i.e. &lt;script type=&quot;math/tex&quot;&gt;x \in \{0,1\}^n&lt;/script&gt; 
+we are interested in a compression algorithm that can transform &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; into a much shorter binary string &lt;script type=&quot;math/tex&quot;&gt;y \in \{0,1\}^k&lt;/script&gt;.
+Here &lt;script type=&quot;math/tex&quot;&gt;k \ll n&lt;/script&gt; so that we can achieve some non-trivial savings in space.
+Moreover, if &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; changes in the future we would like to be able to update our compressed version of it (without having to store the original &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;).&lt;/p&gt;
+
+&lt;p&gt;Clearly compression introduces some loss making it impossible to recover certain properties of the original data from the compressed string.
+However, if we know in advance which property of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; we are interested in then efficient compression often becomes possible.
+We will model the property of interest as a binary function &lt;script type=&quot;math/tex&quot;&gt;f:\{0,1\}^n \rightarrow \{-1,1\}&lt;/script&gt; which labels all possible &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;’s with two labels.
+So our goal will be to be able to: 1) perform this binary classification, i.e. compute &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; using compressed data &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; only, 2) do this even if &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; changes over time – updates for us will be bit flips in the coordinates of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; specified by the index of the bit that is getting flipped.&lt;/p&gt;
+
+&lt;p&gt;Finally, if &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is so big that it can’t be stored locally and has to be divided into chunks stored across multiple machines then we will be able to compress the chunks locally and then combine them on a central server into a compressed version of the entire data – one simple round of MapReduce or whatever your favorite distributed framework is.&lt;/p&gt;
+
+&lt;p&gt;To make the above discussion less abstract let’s consider a machine learning application – evaluating a linear classifier over binary data.
+Let’s say we have trained a linear classifier of the form &lt;script type=&quot;math/tex&quot;&gt;sign(\sum_{i = 1}^n w_i x_i - \theta)&lt;/script&gt; where sign is the sign function. 
+Is it possible to compress &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; in such a way that we can still evaluate our classifier in the scenarios described above?
+Turns out we can compress the input down to &lt;script type=&quot;math/tex&quot;&gt;O(\theta/m \log (\theta/m))&lt;/script&gt; bits where &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; is a parameter of the linear classifier known as its margin. Moreover, no compression scheme can do better.&lt;/p&gt;
+
+&lt;h1 id=&quot;introducing-the-binary-sketchman&quot;&gt;Introducing the Binary Sketchman&lt;/h1&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;The Binary Sketchman&quot; src=&quot;http://localhost:4000/pics/binary-sketchman-final.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;While the setting described above may seem quite challenging it can be handled through a framework of linear sketching.
+In the binary case the interpretation of linear sketching is particularly simple as our binary sketchman is just going to compute &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; parities of the bits of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, say for &lt;script type=&quot;math/tex&quot;&gt;k=3&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x_4 \oplus x_2, \quad x_{42}, \quad x_{566} \oplus x_{610} \oplus x_{239} \oplus x_{57}.&lt;/script&gt;
+
+&lt;p&gt;In a matrix form this corresponds to computing &lt;script type=&quot;math/tex&quot;&gt;Mx&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; is a &lt;script type=&quot;math/tex&quot;&gt;k \times n&lt;/script&gt; binary matrix and the operations are performed over &lt;script type=&quot;math/tex&quot;&gt;\mathbb F_2&lt;/script&gt;.
+Note that now our sketch easily satisfies all the requirement above since as &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; changes we can just update the corresponding parities. In the distributed case we can compute them locally and then add up on a central server.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the power of a deterministic sketchman who just uses a fixed set of parities is quite limited and no such sketchman can compress even a simple linear classifier down to less than &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; bits.
+In fact, even for the OR function &lt;script type=&quot;math/tex&quot;&gt;f = x_1 \vee x_2 \vee \dots \vee x_n&lt;/script&gt; no deterministic sketch can have less than &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; bits.
+So our binary sketchman will “&lt;a href=&quot;http://www.cs.cmu.edu/~haeupler/15859F14/&quot;&gt;unleash the power of randomization&lt;/a&gt;” in his quest for a perfect sketch.
+According to &lt;a href=&quot;http://www.cs.cmu.edu/~haeupler/&quot;&gt;Bernhard Haeupler&lt;/a&gt; this can be quite dramatic and looks kind of like this:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img width=&quot;300px&quot; alt=&quot;The power of randomness unleashed&quot; src=&quot;http://www.cs.cmu.edu/~haeupler/15859F14/images/posternoinf.jpg&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+So our sketchman will instead pick the matrix &lt;script type=&quot;math/tex&quot;&gt;M&lt;/script&gt; randomly while the rest is the same as before.
+Now the OR function is easy to handle: pick a parity over a random subset of &lt;script type=&quot;math/tex&quot;&gt;\{1, \dots, n\}&lt;/script&gt; where each coordinate is included with probability &lt;script type=&quot;math/tex&quot;&gt;1/2&lt;/script&gt;.
+If &lt;script type=&quot;math/tex&quot;&gt;OR(x) = 1&lt;/script&gt; then this parity catches a non-zero coordinate of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; with probability &lt;script type=&quot;math/tex&quot;&gt;1/2&lt;/script&gt; and thus evaluates to &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; with probability at least &lt;script type=&quot;math/tex&quot;&gt;1/4&lt;/script&gt;.
+If &lt;script type=&quot;math/tex&quot;&gt;OR(x) = 0&lt;/script&gt; then the parity never evaluates to &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; so we can distinguish the two cases with probability &lt;script type=&quot;math/tex&quot;&gt;1 - \delta&lt;/script&gt; using &lt;script type=&quot;math/tex&quot;&gt;O(\log 1/\delta)&lt;/script&gt; such parities.
+This illustrates a more general idea – if &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; is a constant function on all but &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; different inputs then a sketch of size &lt;script type=&quot;math/tex&quot;&gt;O(\log m + \log 1/\delta)&lt;/script&gt; suffices.&lt;/p&gt;
+
+&lt;p&gt;Now for linear thresholds the high-level ideas behind this sketching process are as follows:
+1) observe that any linear threshold function takes the same value on all but &lt;script type=&quot;math/tex&quot;&gt;n^{O(\theta/m)}&lt;/script&gt; inputs,
+2) apply the same argument as above to obtain a sketch of size &lt;script type=&quot;math/tex&quot;&gt;O(\theta/m \log n + \log 1/\delta)&lt;/script&gt;.
+The only thing missing in the above argument is that we still have dependence on &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;.
+This can be avoided if we first hash the domain reducing its size down to &lt;script type=&quot;math/tex&quot;&gt;n' = poly(\theta/m)&lt;/script&gt; which replaces &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; in the above calculations giving us &lt;script type=&quot;math/tex&quot;&gt;O(\theta/m \log \theta/m + \log 1/\delta)&lt;/script&gt;.
+While this compression method is quite simple the remarkable fact is that it can’t be improved.
+Even for the simplest threshold function that corresponds to a threshold for the Hamming weight of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;, i.e. &lt;script type=&quot;math/tex&quot;&gt;sign(\sum_{i = 1}^n x_i - k)&lt;/script&gt;, any compression mechanism would require &lt;script type=&quot;math/tex&quot;&gt;\Omega(k \log k)&lt;/script&gt; bits as follows from &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-642-32512-0_44&quot;&gt;this work&lt;/a&gt; by Dasgupta, Kumar and Sivakumar.
+Note that it isn’t assumed that the protocol is based on linear sketching – it can be an arbitrary scheme.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-power-of-randomized-binary-sketchman&quot;&gt;The Power of Randomized Binary Sketchman&lt;/h1&gt;
+
+&lt;p&gt;Linear sketching by itself is not a new idea and has been studied extensively in the last two decades.
+See surveys by &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru&quot;&gt;Woodruff&lt;/a&gt; and &lt;a href=&quot;http://people.cs.umass.edu/~mcgregor/&quot;&gt;McGregor&lt;/a&gt; on how it can be applied to problems in &lt;a href=&quot;http://researcher.ibm.com/files/us-dpwoodru/wNow3.pdf &quot;&gt;numerical linear algebra&lt;/a&gt; and &lt;a href=&quot;http://link.springer.com/referenceworkentry/10.1007/978-3-642-27848-8_796-1&quot;&gt;graph compression&lt;/a&gt;.
+However, this work focuses on linear sketching over large finite fields (used to represent real values with bounded precision).
+Nevertheless some striking results are known about linear sketching that are applicable in our context as well.
+In particular, if &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is updated through a very long (triply exponential in &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;) stream of adversarial updates then linear sketches over finite fields are optimal for any function &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; as shown by Li, Nguyen and Woodruff &lt;a href=&quot;https://pdfs.semanticscholar.org/bf89/98d76741f3ee7b4ba1f82524353e7083c3b5.pdf &quot;&gt;here&lt;/a&gt; in STOC’14.&lt;/p&gt;
+
+&lt;p&gt;As our paper shows the same result holds for much shorter random streams of length &lt;script type=&quot;math/tex&quot;&gt;\tilde O(n)&lt;/script&gt; in a simple model where each update flips uniformly at random chosen coordinate of &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;.
+In other words binary sketching is optimal if in the end of the stream the input &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; is uniformly distributed.
+The proof of this fact is quite technical and relies on a notion of &lt;i&gt;approximate Fourier dimension&lt;/i&gt; for Boolean functions that we use to characterize binary sketching under the uniform distribution – check the paper for details if you are interested.
+Whether the same result holds for short (length &lt;script type=&quot;math/tex&quot;&gt;\tilde O(n)&lt;/script&gt;, say) adversarial streams is the main open question left open.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/the-binary-sketchman/&quot;&gt;The Binary Sketchman&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on October 07, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Teaching &ldquo;Foundations of Data Science&rdquo;]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/foundations-of-data-science-class/" />
+  <id>http://localhost:4000/foundations-of-data-science-class</id>
+  <published>2016-08-27T00:00:00+03:00</published>
+  <updated>2016-08-27T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;This week I started teaching a graduate class called “&lt;a href=&quot;http://grigory.us/data-science-class.html&quot;&gt;Foundations of Data Science&lt;/a&gt;” that will be mostly based on an eponymous book by &lt;a href=&quot;https://en.wikipedia.org/wiki/Avrim_Blum &quot;&gt;Avrim Blum&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Hopcroft &quot;&gt;John Hopcroft&lt;/a&gt; and &lt;a href=&quot; https://en.wikipedia.org/wiki/Ravindran_Kannan &quot;&gt;Ravi Kannan&lt;/a&gt;.
+The book is still a draft and I am using &lt;a href=&quot;http://grigory.us/files/bhk-book.pdf&quot;&gt;this version&lt;/a&gt;.
+Target audience includes advanced undergraduate and graduate level students.
+We had some success using this book as a core material for an undergraduate class at Penn this Spring (&lt;a href=&quot;http://www.thedp.com/article/2016/02/cis-399-students&quot;&gt;link to the news article&lt;/a&gt;).
+The draft has been around for a while and in fact I ran a reading group that used it four years back when I was in grad school and the book was called 
+“Computer Science Theory for the Information Age”.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img width=&quot;200px&quot; alt=&quot;Keep calm and dig foundations of Data Science&quot; src=&quot;http://localhost:4000/pics/b609-poster-homepage.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;“Data Science” is one of those buzzwords that can mean very different things to different people.
+In particular, a new graduate &lt;a href=&quot;http://www.soic.indiana.edu/graduate/degrees/data-science/index.html&quot;&gt;Masters program in Data Science here at IU&lt;/a&gt; attracts hundreds of students from diverse backgrounds. 
+What I personally really like about the Blum-Hopcroft-Kannan book is that it doesn’t go into any philosophy about the meaning of data science but rather offers a collection of mathematical tools and topics that can be considered as foundational for data science as seen from computer science perspective.
+It should be noted that just as any “Foundations of Computing” class has little to do with finding bugs in your code so do this class and book have little to do with data cleaning and other data analysis routine.&lt;/p&gt;
+
+&lt;h1&gt;Topics&lt;/h1&gt;
+
+&lt;p&gt;While the jury is still out on what topics should be considered as fundamental for data science I think that the Blum-Hopcroft-Kannan book makes a good first step in this direction.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the table of contents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chapter 2 introduces basic properties of the high-dimensional space, focusing on concentration of measure, properties of high-dimensional Gaussians and basic dimension reduction. &lt;/li&gt;
+&lt;li&gt;Chapter 3 covers the Singular Value Decomposition (SVD) and its applications (principal component analysis, clustering mixture of Gaussians, etc.).&lt;/li&gt;
+&lt;li&gt;Chapter 4 focuses on random graphs (primarily in the Erdos-Renyi model).&lt;/li&gt;
+&lt;li&gt;Chapter 5 introduces random walks and Markov chains, including Markov Chain Monte Carlo methods, random works on graphs and applications such as Page Rank.&lt;/li&gt;
+&lt;li&gt;Chapter 6 covers the very basics of machine learning theory, including learning basic function classes, perceptron algorithm, regularization, kernelization, support vector machines, VC-dimension bounds, boosting, stochastic gradient descent and a bunch of other topics. &lt;/li&gt;
+&lt;li&gt;Chapter 7 describes a couple of streaming and sampling methods for big data: frequency moments in streaming and matrix sampling.&lt;/li&gt;
+&lt;li&gt;Chapter 8 is about clustering methods: k-means, k-center, spectral clustring, cut-based clustering, etc.&lt;/li&gt;
+&lt;li&gt;Chapters 9 through 11 cover a very diverse set of topics that includes hidden Markov processes, graphical models, belief propagation, topic models, voting systems, compressed sensing, optimization methods and wavelets among others.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Discussion&lt;/h1&gt;
+&lt;p&gt;Overall this looks like a good stab at the subject and a big advantage of this book is that unlike some of its competitors it treats its topics with mathematical rigor.
+The only chapter that I personally don’t really see fit into a “data science” class is Chapter 4. Because of its focus on the Erdos-Renyi model that I haven’t seen being used realistically for graph modeling applications this chapter seems to be mostly of purely mathematical interest.&lt;/p&gt;
+
+&lt;p&gt;Selection of some of the smaller topics is a matter of personal taste, especially when it comes to those that are missing.
+A couple of quick suggestions is to cover new sketching algorithms for &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf&quot;&gt;high-dimensional linear regression&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Locality-sensitive_hashing&quot;&gt;locality-sensitive hashing&lt;/a&gt; and possibly &lt;a href=&quot;http://groups.csail.mit.edu/netmit/sFFT/index.html&quot;&gt;Sparse FFT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Slides will be posted &lt;a href=&quot;http://grigory.us/data-science-class.html#lectures&quot;&gt;here&lt;/a&gt; and I will write a report on the final selection of topics and my experience in the end of semester. Stay tuned :)&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/foundations-of-data-science-class/&quot;&gt;Teaching &ldquo;Foundations of Data Science&rdquo;&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on August 27, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[ESA'16 Deadline Approaching]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/esa-2016/" />
+  <id>http://localhost:4000/esa-2016</id>
+  <published>2016-04-18T00:00:00+03:00</published>
+  <updated>2016-04-18T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;The deadline for submissions to &lt;a href=&quot;http://conferences.au.dk/algo16/esa/&quot;&gt;ESA’16&lt;/a&gt; (24th European Symposium of Algorithms) is in 3 days.
+As a PC member I would like to encourage you to submit your work and also plug the event and its location.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost:4000/pics/esa16.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This time the conference is a part of a broader symposium &lt;a href=&quot;http://conferences.au.dk/algo16/home/&quot;&gt;ALGO’16&lt;/a&gt; which will take place in Aarhus, Denmark on August 22-26. 
+In the spirit of colocation &lt;a href=&quot;http://localhost:4000/stoc-focs-proposal-colocate.html&quot;&gt;previously advocated on this blog&lt;/a&gt; this symposium brings together several conferences and workshops.
+Most relevant to this blog are &lt;a href=&quot;&quot;&gt;ALGOCLOUD&lt;/a&gt; (a new workshop on algorthms for cloud computing) and &lt;a href=&quot;http://conferences.au.dk/algo16/massive/&quot;&gt;MASSIVE&lt;/a&gt; (a workshop on algorithms for massive data). A nice feature of MASSIVE is that it doesn’t have published proceedings. This means that contributions to the workshop can be also published in other conferences.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost:4000/pics/algo16.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aarhus is definitely one of the most vibrant and forward-thinking centers for research in algorithms and theoretical computer science at large in Europe.
+I was very lucky to visit the &lt;a href=&quot;http://ctic.au.dk/&quot;&gt;Center for the Theory of Interactive Computation&lt;/a&gt; (CTIC) about 3 years ago.
+This Sino-Danish center is a great example of a collaboration between Tsinghua University (the leading computer science institution in China) and its Western partners.&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed spending a week at CTIC hosted by &lt;a href=&quot;https://www.cs.swarthmore.edu/~brody/&quot;&gt;Joshua&lt;/a&gt; and &lt;a href=&quot;http://web.mit.edu/matulef/www/&quot;&gt;Kevin&lt;/a&gt;.
+Coincidentally a friendly soccer game between CTIC and MADALGO took place during my visit and I got drafted to play against algorithms folks. 
+MADALGO is another joint center (with MIT and MPI) and these guys clearly knew a better algorithm for soccer than we did.&lt;/p&gt;
+
+&lt;p&gt;MADALGO team:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost:4000/pics/madalgo.jpg&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;CTIC team:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost:4000/pics/ctic.jpg&quot; /&gt; &lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/esa-2016/&quot;&gt;ESA'16 Deadline Approaching&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on April 18, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Simple Economics of Algorithms for Big Data]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/" />
+  <id>http://localhost:4000/the-simple-economics-of-algorithms-for-big-data</id>
+  <published>2016-01-20T00:00:00+03:00</published>
+  <updated>2016-01-20T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;
+In this blog post I want to suggest a simple reason why you should study your algorithms &lt;b&gt;really&lt;/b&gt; well if you want to design algorithms that deal with big data.
+This reason comes from &lt;b&gt;the way billings offered by cloud services work&lt;/b&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Maybe you remember yourself taking that algorithms class and thinking: &amp;ldquo;Who really cares if that algorithm uses a bit more time? Can't we just wait a little longer?&amp;rdquo;.
+Or &amp;ldquo;Ok, we can save some space here, but if it all fits into my RAM anyway then why bother?&amp;rdquo;.
+These are both great reasons not to care too much about efficiency of your algorithms if your data is small, fits into RAM and the running times aren't significant enough to matter anyway.
+So you would go on to program your favorite video game and not care about that professor talking about all that big-Oh nonsense.
+And in the short run you would be right. While you are developing a prototype of your favorite video game you shouldn't care.
+When I was working at a startup I remember myself learning the hard way that &lt;a href=&quot;http://c2.com/cgi/wiki?PrematureOptimization &quot;&gt;premature optimization is the root of all evil&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;abstruse-goose-video-games&quot; src=&quot;http://localhost:4000/pics/abstruse-goose-video-games.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;
+However, once your video game becomes successful and you get to deal with big data that has to be stored and processed in the cloud this reasoning starts to fall short.
+Let's say you developed &lt;a href=&quot;https://en.wikipedia.org/wiki/Candy_Crush_Saga&quot;&gt;Candy Crush Saga&lt;/a&gt; (&lt;a href=&quot;http://www.standard.co.uk/business/business-news/candy-crush-saga-owner-king-digital-entertainment-valued-at-7bn-9216058.html&quot;&gt;valued at $7bn in 2014&lt;/a&gt;) and now you are interested in doing some data analytics about your &amp;gt;10 million active users.
+You are now considering outsourcing your data storage and computation to the cloud.
+Here is where you might want to learn why the design of space and time-efficient algorithms matters for the bottom line of your future business. 
+
+&lt;h1&gt;100x more efficient algorithms = 100x less money in billings&lt;/h1&gt;
+
+So that time and space your professor was talking about &amp;ndash; what does it have to do with your spending on the cloud services?
+The answer is surprisingly simple &amp;ndash; &lt;b&gt;if you need 100x more time and space then your billing increases 100 times&lt;/b&gt;.
+Below I used the pricing calculator that comes with Google Compute Engine to see how the cost scales if I want to use 100/1000/10000 identical machines for a year.
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;abstruse-goose-video-games&quot; src=&quot;http://localhost:4000/pics/cloud-pricings.png&quot; /&gt; &lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;
+I was myself surprised to find this out since I expected some economy of scale to kick in. In fact, sometimes it does but usually is quite negligible. Say, you can get an X% discount but that doesn't help much against linear scaling.
+&lt;/p&gt;
+
+
+
+
+
+&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/&quot;&gt;The Simple Economics of Algorithms for Big Data&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on January 20, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Teaching algorithms for Big Data]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/teaching-algorithms-for-big-data/" />
+  <id>http://localhost:4000/teaching-algorithms-for-big-data</id>
+  <published>2015-12-24T00:00:00+03:00</published>
+  <updated>2015-12-24T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;!--&lt;h1&gt;Teaching &amp;ldquo;algorithms for Big Data&amp;rdquo;&lt;/h1&gt;
+--&gt;
+
+&lt;p&gt;“algorithms for Big Data” (sometimes the name can slightly vary) is a new graduate class that has been introduced by many top computer science programs in the recent years.
+In this post I would like to share my experience teaching this class at the University of Pennsylvania this semester. Here is the &lt;a href=&quot;http://grigory.us/big-data-class.html&quot;&gt;homepage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Keep calm and crunch data on o(N)&quot; src=&quot;http://localhost:4000/pics/class-logo-large.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First off, let me get the most frequently asked question out of the way and say that by “big data” in this class I mean data that doesn’t fit into a local RAM
+since if the data fits into RAM then algorithms from the standard algorithms curricula will do the job. 
+At the moment a terabyte of data is already tricky to fit into RAM so this is where we will draw the line. 
+In particular, this is so that the &lt;a href=&quot;http://www.frankmcsherry.org/graph/scalability/cost/2015/02/04/COST2.html&quot;&gt;arguments about beating algorithms for big data using your laptop&lt;/a&gt; don’t apply.&lt;/p&gt;
+
+&lt;p&gt;Second, I tried to focus as much as possible on algorithms that are known to work in practice and have implementations.
+Because this is a theory class we didn’t do programming but I made sure to give links to publicly available implementations whenever possible.
+As it is always the case, the best algorithms to teach are never exactly the same as the best implementations.
+Even the most vanilla problem of sorting an array in RAM is handled in C++ STL via a combination of QuickSort, InsertionSort and HeapSort.
+Picking the right level of abstraction is always a delicate decision to make when teaching algorithms and I am pretty happy with the set of choices made in this offering.&lt;/p&gt;
+
+&lt;p&gt;Finally, “algorithms for Big Data” isn’t an entirely new phenomenon as a class since it builds on its predecessors
+typically called “Sublinear Algorithms”, “Streaming Algorithms”, etc.
+Here is a &lt;a href=&quot;http://grigory.us/big-data-class.html#sketch&quot;&gt;list of closely related classes offered at some other schools&lt;/a&gt;.
+In fact, my version of this class consisted of &lt;a href=&quot;http://grigory.us/big-data-class.html#lectures&quot;&gt;four modules&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Part 1: Streaming Algorithms.&lt;/b&gt; It is very convenient to start with this topic since techniques developed in streaming turn out to be useful later. In fact, I could as well call this part &amp;ldquo;linear sketching&amp;rdquo; since every streaming algorithm that I taught in this part was a linear sketch. I find single-pass streaming algorithms to be the most motivated and for so-called dynamic streams that can contain both insertions and deletions linear sketches are known to be almost optimal under fairly mild conditions.
+Moreover, linear sketches are the baseline solution in the more advanced massively parallel computational models studied later.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Part 2: Selected Topics.&lt;/b&gt; This part became very eclectic, containing selected topics in numerical linear algebra, convex optimization and compressed sensing.
+In fact, some of the algorithms in this part aren't even &amp;ldquo;algorithms for Big Data&amp;rdquo; according to the RAM size based definition.
+However, I considered these topics to be too important to skip in a &amp;ldquo;big data&amp;rdquo; class. 
+For example, right after we covered gradient descent methods for convex optimization Google released &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;TensorFlow&lt;/a&gt;.
+This state of the art machine learning library allows one to choose any of its &lt;a href=&quot;https://www.tensorflow.org/versions/master/api_docs/python/train.html#optimizers&quot;&gt;5 available versions&lt;/a&gt; of gradient descent for optimizing learned models. These days when you can run into some &lt;a href=&quot;https://aws.amazon.com/machine-learning/pricing/&quot;&gt;pretty steep pricing&lt;/a&gt; for outsourcing your machine learning to the cloud knowing what is under the hood of free publicly available frameworks I think is increasingly important.  
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Part 3: Massively Parallel Computation.&lt;/b&gt; I am clearly biased here, but this is my favorite. Unlike, say, streaming where many results are already tight, we are still quite far from understanding full computational power of MapReduce-like systems. Potential impact of such algorithms I think is also likely to be the highest. In this class because of the time constraints I only touched the tip of the iceberg. This part will be expanded in the future.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Part 4: Sublinear Time Algorithms.&lt;/b&gt; I always liked clever sublinear time algorithms, but for many years believed that they are not quite &amp;ldquo;big data&amp;ldquo; since they operate under the assumption of random access to the data. Well, this year I had to change my mind after Google launched its &lt;a href=&quot;https://code.google.com/codejam/distributed_index.html&quot;&gt;Distributed Code Jam&lt;/a&gt;.
+I have to admit that I have no idea how this works on the systems level but apparently it is possible to implement reasonably fast random access to large data.
+The problems that I have seen being used for Distributed Code Jam allow one to use 100 nodes each having small RAM. The goal is to process a large dataset available via random access.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall parts 1 and 4 are by now fairly standard. Part 2 has some new content from &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/journal.pdf&quot;&gt;David Woodruff’s great new survey&lt;/a&gt;. Some algorithms from it are also available in IBM’s &lt;a href=&quot;https://github.com/xdata-skylark/libskylark&quot;&gt;Skylark library for fast computational linear algebra and machine learning&lt;/a&gt;.
+Part 3 is what makes this class most different from most other similar classes.&lt;/p&gt;
+
+&lt;h1&gt;Mental Notes&lt;/h1&gt;
+&lt;p&gt;Here is a quick summary of things I was happy with in this offering + potential changes in the future.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Research insights.&lt;/b&gt; One of the main reasons why I love teaching is that it often leads to research insights, especially when it comes to simple connections I have been missing. For example, I didn't previously realize that one can use &lt;a href=&quot;http://grigory.us/files/publications/BRY14-Lp-Testing.pdf&quot;&gt;L&lt;sub&gt;p&lt;/sub&gt;-testing&lt;/a&gt; as a tool for testing assumptions about convexity and Lipschitzness used in the analysis of the convergence rate of gradient descent methods. &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Project.&lt;/b&gt; Overall I am very happy with the students' projects. 
+Some students implemented algorithms, some wrote surveys and some started new research projects.
+Most unexpected to me were the projects done by non-theory students connecting their areas of expertise with the topics discussed in the class. E.g. surveys of streaming techniques used in natural language processing and bionformatics were really fun to read.&lt;/li&gt; 
+&lt;li&gt;&lt;b&gt;Cross-list the class for other departments.&lt;/b&gt; It was a serious blunder on my behalf to not cross-list this class for other departments, especially Statistics and Applied Math.
+Given how much interest there is from other fields this is probably the easiest to fix and the most impactful mistake.
+Somehow some students from other departments learned about the class anyway and expressed their interest, often too late.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;New content.&lt;/b&gt; Because of time constraints I couldn't fit in some of the topics I really wanted to cover.
+These include coresets (there has been a resurgence of interest in coresets for massively parallel computing, but I didn't have time to cover it), nearest neighbor search (somehow I couldn't find a good source to teach from, suggestions are very welcome), Hyperloglog algorithm (same reason), more algorithms for massively parallel computing (no time), more sublinear time algorithms (no time).    
+In the next version of this class I will make sure to cover at least some of these. 
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Better structure.&lt;/b&gt; Overall I am pretty happy with the structure of the class but there is definitely room for improvement. A priority will be to better incorporate selected topics discussed in Part 2 into the overall structure of the class. In particular, convex optimization came a little out of the blue even though I am really glad I included it.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Slides and equipment.&lt;/b&gt; I really like teaching with slides that contain only some of the material and use the blackboard to fill in the missing details and pictures.
+On one hand, slides are a backbone that the students can later use to catch up on the parts they missed.  On the other hand, the risk of rushing through the slides too fast is minimized since the details are discussed on the board. Also a lot of time is saved on drawing pictures. I initially used Microsoft Surface Pro 2 to fill in the gaps on the tablet instead of the board but later gave up on this idea because of technical difficulties. Having a larger tablet would help too. I still think that the tablet can work but requires a better setup. Next time I will try to use the tablet again and post the final slides online. 
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Assign homework and get a TA.&lt;/b&gt; Michael Kearns and I managed to teach &amp;ldquo;Computational Learning Theory&amp;rdquo; without a TA last semester so I decided against getting one for my class as well. This was fine except that having a TA for grading homework would have helped a lot.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Make lecture notes and maybe videos.&lt;/b&gt; With fairly detailed slides I didn't consider lecture notes necessary. Next time it would be nice to have some since some of my fellow facutly friends asked for them. I think I will stick with the tested &amp;ldquo;a single scribe per lecture&amp;ldquo; approach although I heard in France students sometimes collaboratively work on the same file during the lecture and the result comes out nice. When I had to scribe lectures I just LaTeXed them on the fly so I don't see why you can't do this collaboratively. 
+As for videos, Jelani had &lt;a href=&quot;http://people.seas.harvard.edu/~minilek/cs229r/fall15/lec.html&quot;&gt;videos&lt;/a&gt; from his class this time and they look pretty good. &lt;/li&gt; 
+&lt;li&gt;&lt;b&gt;Consider MOOCing.&lt;/b&gt; Given that the area is in high demand doing a MOOC in the future is definitely an option. It would be nice to stabilize the content first so that the startup cost of setting up a MOOC could be amortized by running it multiple times.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Thanks&lt;/h1&gt;
+&lt;p&gt;I am very grateful to my friends and colleagues discussions with whom helped me a lot while developing this class.
+Thanks to Alex Andoni, Ken Clarkson, Sampath Kannan, Andew McGregor, Jelani Nelson, Eric Price, Sofya Raskhodnikova, Ronitt Rubinfeld and David Woodruff (this is an incomplete list, sorry if I forgot to mention you). Special thanks to all the students who took the class and &lt;a href=&quot;http://www.seas.upenn.edu/~sassadi/&quot;&gt;Sepehr Assadi&lt;/a&gt; who gave a guest lecture on our &lt;a href=&quot;http://arxiv.org/pdf/1505.01467.pdf&quot;&gt;joint paper about linear sketches of approximate matchings&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/teaching-algorithms-for-big-data/&quot;&gt;Teaching algorithms for Big Data&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on December 24, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Slides and Videos from DIMACS]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/dimacs-materials/" />
+  <id>http://localhost:4000/dimacs-materials</id>
+  <published>2015-10-29T00:00:00+03:00</published>
+  <updated>2015-10-29T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;Slides and videos from the DIMACS workshop “Big Data through the Lens of Sublinear Algorithms”
+are now available (&lt;a href=&quot;http://grigory.us/mpc-workshop-dimacs.html&quot;&gt;link&lt;/a&gt;).
+In case you missed it, this was a great opportunity to catch up on the latest and hottest results in the field.
+We were lucky to have a healthy mix of speakers from both academia and industry (represented by researchers from Microsoft, IBM, Google and Yahoo!). I was particularly excited to see talks on both traditional models for sublinear computation (streaming, property testing, etc.) as well as more recent ones (here my own favorites are MapReduce and other modern distributed models).&lt;/p&gt;
+
+&lt;p&gt;All keynotes, tutorials and regular talks were great. Among regular talks let me highlight two that were in some ways outliers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vahab Mirrokni talked about problems and frameworks for large-scale data mining at Google Research NYC (&lt;a href=&quot;https://www.youtube.com/watch?v=w7zc1OpN9gk&amp;amp;feature=youtu.be&amp;amp;list=PLqxsGMRlY6u659-OgCvs3xTLYZztJpEcW&quot;&gt;video&lt;/a&gt;). I really wish this could be a longer talk.&lt;/li&gt;
+&lt;li&gt;
+Jelani Nelson from Harvard gave a quick tutorial on chaining (&lt;a href=&quot;https://www.youtube.com/watch?v=6gfrr5VEbtc&amp;amp;feature=youtu.be&amp;amp;list=PLqxsGMRlY6u659-OgCvs3xTLYZztJpEcW&quot;&gt;video&lt;/a&gt;). From this tutorial you can also learn about applications of chaining to instance-dependent Johnson-Lindenstrauss dimensionality reduction using Gaussian mean width which I didn't know and found really cool. Jelani is organizing a workshop on related topics at Harvard that will take place on Jun 22&amp;ndash;23 (after STOC). &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kicking off 2016 is another &lt;a href=&quot;http://www.cs.jhu.edu/~vova/sublinear2016/program.html&quot;&gt;sublinear algorithms workshop&lt;/a&gt; at Johns Hopkins University (Jan 7–9, right before SODA in Arlington, VA).&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dimacs-materials/&quot;&gt;Slides and Videos from DIMACS&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on October 29, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[East Coast Workshops]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/east-coast-workshops/" />
+  <id>http://localhost:4000/east-coast-workshops</id>
+  <published>2015-08-19T00:00:00+03:00</published>
+  <updated>2015-08-19T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;Two events that might be of interest to the readers of this blog are happening on the East Coast next week.&lt;/p&gt;
+
+&lt;p&gt;On Monday–Wednesday (Aug 24–26) a &lt;a href=&quot;http://cmsa.fas.harvard.edu/big-data/&quot;&gt;conference on big data&lt;/a&gt; is taking palce at Harvard.
+This looks like a very exciting event with broad representation of research from different areas including a lot of theory and algorithms.&lt;/p&gt;
+
+&lt;p&gt;On Thursday–Friday (Aug 27–28) DIMACS at Rutgers will host a &lt;a href=&quot;http://grigory.us/mpc-workshop-dimacs.html&quot;&gt;workshop on sublinear algorithms and big data&lt;/a&gt; which will be more focused on the algorithmic questions.
+As an organizer, I would like to remind that the early registration and poster submission deadlines for this workshop are &lt;b&gt;tomorrow&lt;/b&gt; (Aug 20).
+Note, that in many cases for local researchers, students and postdocs affiliated with partners of DIMACS the registration fee can be either significantly reduced or waived.&lt;/p&gt;
+
+&lt;p&gt;We are hoping to see some of you at this workshop!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/east-coast-workshops/&quot;&gt;East Coast Workshops&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on August 19, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[algorithms for Big Data]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/big-data-class/" />
+  <id>http://localhost:4000/big-data-class</id>
+  <published>2015-08-16T00:00:00+03:00</published>
+  <updated>2015-08-16T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;Next week I am launching at Penn a new graduate class called “algorithms for Big Data”.
+Really excited to be teaching my first full class which was in the works for a while. Last semester I co-taught “&lt;a href=&quot;http://www.cis.upenn.edu/~mkearns/teaching/COLT/&quot;&gt;Computational Learning Theory&lt;/a&gt;”
+with &lt;a href=&quot;http://www.cis.upenn.edu/~mkearns/ &quot;&gt;Michael Kearns&lt;/a&gt; which was a great experience but developing a new class on my own was even more entertaining.
+The homepage is &lt;a href=&quot;http://grigory.us/big-data-class.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;&quot; width=&quot;50%&quot; style=&quot;border:3px solid black&quot; src=&quot;http://localhost:4000/pics/class-poster.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Tentative list of topics is &lt;a href=&quot;http://grigory.us/big-data-class.html#plan&quot;&gt;available&lt;/a&gt; and I will appreciate any comments/suggestions.
+Among other related “big data theory” classes listed &lt;a href=&quot;http://grigory.us/big-data-class.html#sketch&quot;&gt;here&lt;/a&gt; my class will be one of the most 
+focused on distributed algorithms for clusters and Hadoop/Mapreduce. E.g., most of the streaming and dimensionality reduction techniques introduced in the first parts of the class serve primarily as an introduction into linear sketching which works in the distributed context as well.&lt;/p&gt;
+
+&lt;p&gt;On a related note, multiple shout-outs to Google who makes its &lt;a href=&quot;https://cloud.google.com/compute/&quot;&gt;Compute Engine&lt;/a&gt; available for 2 months of free trial with a $200 credit.
+The demos in my class will be run on this platform which I think is the friendliest among the competitors.&lt;/p&gt;
+
+&lt;p&gt;I was also really excited to find out that this year Google has launched the first large online distributed algorithm competition that I am aware of – &lt;a href=&quot;https://code.google.com/codejam/distributed_index.html&quot;&gt;Distributed Code Jam&lt;/a&gt;.
+I’ve been expecting this for a while and now you can finally get your hands on a nice set of algorithmic problems in distributed computing.
+The solutions are executed on 100 machines in parallel which allows to process inputs of 10&lt;sup&gt;9&lt;/sup&gt; records easily.
+&lt;a href=&quot;https://code.google.com/codejam/contest/4264486/dashboard&quot;&gt;Practice Round problems&lt;/a&gt; include some classic theoretical problems such as distributed majority computation and finding a path on a cycle.&lt;/p&gt;
+
+&lt;!--&lt;h1&gt;Title&lt;/h1&gt;--&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/big-data-class/&quot;&gt;algorithms for Big Data&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on August 16, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Colocate, Colocate, Colocate]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/stoc-focs-proposal-colocate/" />
+  <id>http://localhost:4000/stoc-focs-proposal-colocate</id>
+  <published>2015-06-02T00:00:00+03:00</published>
+  <updated>2015-06-02T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;Adding my two cents to the discussion of the new format for STOC/FOCS conferences I would like to propose only one change which I think is also fairly modest: colocate, colocate, colocate. Well, I agree that it sounds like three changes — the point is that the more colocation the better :) In fact, I realized that I once again agree with Matt Welsh (who recently proposed a similar change for conferences in his community &lt;a href=&quot;http://matt-welsh.blogspot.com/2015/05/a-modest-proposal-sosigcommobixdi.html&quot;&gt;here&lt;/a&gt;) which often happens when he takes a break from bashing academia.
+Here are a few fairly straightforward reasons why I think colocation of multiple conferences at the same location and similar time is good:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; It has been tested and already works pretty well at FCRC. There are things that can happen at a scale of multiple communities that don't happen at the scale of just theory conferences. This year FCRC is hosting SPAA/EC/CCC as well as a few other conferences which might be of interest to theorists.
+Possible synergies between different communities can be in the form of joint workshops, tutorials, keynotes, award lectures, etc. E.g., I hope that the &lt;a href=&quot;http://grigory.us/mpc-workshop-fcrc.html&quot;&gt;workshop on massively parallel algorithms&lt;/a&gt; that I am co-organizing will benefit a lot from colocation with other conferences at FCRC. Overall, I am pretty sure these advantages are already fairly well understood. 
+&lt;/li&gt;
+&lt;li&gt;Increased number of options among possible talks to attend. I am sure almost everyone has been in a situation when there is nothing interesting happening at their favorite conferences. I would personally much rather attend a great talk on a new topic I don't know much about (even if it is applied) than sit through a mediocre STOC/FOCS talk.
+&lt;/li&gt;
+&lt;li&gt;
+Less travel. Well, at a certain stage of their career I believe many of us would like to have to travel less. 
+Now a more subtle aspect here is that there are conferences that I would really like to attend but I don't submit my papers there (e.g. EC, ICML, COLT), so I would really love to see them colocated with other conferences that I usually attend. 
+&lt;/li&gt;
+&lt;li&gt;
+No structural changes to the format of existing conferences. This eliminates all concerns associated with allocation of credit for publications, presentations, etc. thus ensuring backwards compatibility.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;What to colocate?&lt;/h1&gt;
+&lt;p&gt;A possible idea for colocation might be to change the set of colocated conferences in different years which creates a lot of opportunities.
+Here are some concrete proposals and I am pretty sure you can come up with more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;STOC+FOCS+...&lt;/b&gt; Possible proposals for ... are: CCC, SPAA, PODC, EC, SOCG, ICALP, COLT, ICML, SIGMOD, PODS  since they happen around the same time. &lt;/li&gt; 
+&amp;lt;/li&amp;gt;
+&lt;li&gt;&lt;b&gt;SODA+ITCS&lt;/b&gt;. I really try to attend both conferences whenever I can given that SODA and ITCS always happen back to back. Without colocation this always creates a seemingly unnecessary logistical overhead. In fact, I first heard this proposal from researchers at Google NYC who strongly supported it.
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Other conferences&lt;/b&gt;. Some of the conferences that don't quite fit in given the time of the year when they usually happen but I would personally love to see colocated in some way: NIPS, VLDB, KDD, CIKM, WSDM, ICDM. I am pretty sure some people have their own list too (e.g. crypto conferences).
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/stoc-focs-proposal-colocate/&quot;&gt;Colocate, Colocate, Colocate&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on June 02, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Upcoming Workshops]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/upcoming-workshops/" />
+  <id>http://localhost:4000/upcoming-workshops</id>
+  <published>2015-05-27T00:00:00+03:00</published>
+  <updated>2015-05-27T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;As promised in the New Year’s post this year there are a lot of activities related to sublinear algorithms and big data.
+On behalf of their organizers (&lt;a href=&quot;http://www.mit.edu/~andoni/ &quot;&gt;Alex&lt;/a&gt;, &lt;a href=&quot;http://web.stanford.edu/~ashishg/ &quot;&gt;Ashish&lt;/a&gt;, &lt;a href=&quot;http://www.cs.rutgers.edu/~muthu/ &quot;&gt;Muthu&lt;/a&gt;, &lt;a href=&quot;http://theory.stanford.edu/~sergei/ &quot;&gt;Sergei&lt;/a&gt; and myself) I would like to invite the readers of this blog to attend them and spread the word.&lt;/p&gt;
+
+&lt;!--
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Happy 2015!&quot; src=&quot;http://localhost:4000/pics/2015.png&quot;&gt; &lt;/div&gt;
+--&gt;
+
+&lt;div&gt;
+&lt;ul class=&quot;fa-ul&quot;&gt;
+&lt;li&gt; &lt;i class=&quot;fa li fa fa-group&quot;&gt;&lt;/i&gt;
+On June 14, &lt;a href=&quot;http://fcrc.acm.org/ &quot;&gt;FCRC 2015&lt;/a&gt; will hold a workshop &amp;ldquo;&lt;a href=&quot;http://grigory.us/mpc-workshop-fcrc.html&quot;&gt;Algorithmic Frontiers of Modern Massively Parallel Computation&lt;/a&gt;&amp;rdquo;. 
+The program is available &lt;a href=&quot;http://grigory.us/mpc-workshop-fcrc.html#schedule&quot;&gt;here&lt;/a&gt;.
+We are very excited to have a great lineup of speakers including:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~ninamf/&quot;&gt;Nina Balcan&lt;/a&gt; (CMU)&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;http://www.cs.washington.edu/people/faculty/beame&quot;&gt;Paul Beame&lt;/a&gt; (University of Washington)&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/ravik53/ &quot;&gt;Ravi Kumar&lt;/a&gt; (Google Research, CA)&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://people.csail.mit.edu/mirrokni/Welcome.html &quot;&gt;Vahab Mirrokni&lt;/a&gt; (Google Research, NYC)&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://research.engineering.wustl.edu/~bmoseley/ &quot;&gt;Ben Moseley&lt;/a&gt; (Washington University, St. Louis)&lt;/li&gt;&lt;li&gt; &lt;a href=&quot;http://onak.pl&quot;&gt;Krzysztof Onak&lt;/a&gt; (IBM Research, NY)&lt;/li&gt; 
+&lt;/ul&gt;
+To spice things up, Michael Stonebraker will be giving his Turing Award lecture right after the workshop.
+&lt;/li&gt; 
+
+&lt;br /&gt;
+
+&lt;li&gt; &lt;i class=&quot;fa li fa fa-group&quot;&gt;&lt;/i&gt; On August 27-28 &lt;a href=&quot;http://dimacs.rutgers.edu/&quot;&gt;DIMACS&lt;/a&gt; at Rutgers will host a 2-day &lt;a href=&quot;http://dimacs.rutgers.edu/Workshops/ParallelAlgorithms/ &quot;&gt;workshop on massively parallel and sublinear algorithms&lt;/a&gt;. 
+This workshop will feature keynote talks by:
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&quot;http://web.stanford.edu/~ashishg/ &quot;&gt;Ashish Goel&lt;/a&gt; (Stanford)&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://people.csail.mit.edu/indyk/&quot;&gt;Piotr Indyk&lt;/a&gt; (MIT)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://hunch.net/~jl/ &quot;&gt;John Langford&lt;/a&gt; (Microsoft Research, NYC)&lt;/li&gt;&lt;/ul&gt; 
+We will also have tutorials by:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://theory.stanford.edu/~sergei/&quot;&gt;Sergei Vassilvitskii&lt;/a&gt; (Google Research, NYC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru&quot;&gt;David Woodruff&lt;/a&gt; (IBM Research, Almaden)&lt;/li&gt;
+&lt;/ul&gt;
+This workshop will be right after RANDOM/APPROX at Princeton to make it convenient to attend both (especially if you are traveling internationally).
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I might be forgetting to mention some other events that I haven't been directly involved in, so please comment if there is anything else coming up. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, as a flashback I would like to mention the second &amp;ldquo;&lt;a href=&quot;http://www.gautamkamath.com/sublinearday/&quot;&gt;Sublinear Algorithms and Big Data Day&lt;/a&gt;&amp;rdquo; that took place at MIT on April 10. 
+One of the highlights of the event was the poster session which featured a large number of exciting new results in the field. The full list is available &lt;a href=&quot;http://www.gautamkamath.com/sublinearday/posters.txt &quot;&gt;here&lt;/a&gt;. This was probably the most successful poster session I have ever been to and we plan to continue this tradition next year.
+Thanks again to &lt;a href=&quot;http://www.gautamkamath.com/&quot;&gt;Gautam&lt;/a&gt;, &lt;a href=&quot;http://people.csail.mit.edu/costis/ &quot;&gt;Costis&lt;/a&gt; and &lt;a href=&quot;http://people.csail.mit.edu/indyk/&quot;&gt;Piotr&lt;/a&gt; for organization and support!
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/upcoming-workshops/&quot;&gt;Upcoming Workshops&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on May 27, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Modern Algorithms or The Brave New O of the Big N]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/modern-intro-algorithms/" />
+  <id>http://localhost:4000/modern-intro-algorithms</id>
+  <published>2015-05-09T00:00:00+03:00</published>
+  <updated>2015-05-09T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;h1&gt;The Role of Algorithms&lt;/h1&gt;
+
+&lt;p&gt;Driven by booming enrollments in Computer Science, the first theoretical class that the majors usually take, “Introduction to Algorithms”, is also experiencing unprecedented growth.
+At top schools this is evidenced by the fact that dozens of TAs are now employed to teach this class to several hundreds of students each year. 
+There are multiple reasons making “Introduction to Algorithms” one of the cornerstones of the Computer Science curriculum. One of the key roles that it plays for many students is serving as their first introduction into fully rigorous analysis
+of the performance of computer programs.
+It teaches the students how to use the rigorous mathematical lens to see abstract structure behind the data that they haven’t seen before.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;The Brave New O of N&quot; src=&quot;http://localhost:4000/pics/oofn.jpg&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;Furthermore, it introduces a basic set of tools that can be used to process large amounts of data regardless of any assumptions about the generation process used to create it (worst-case analysis).
+Unlike other popular approaches to algorithm design such as machine learning and its newest incarnation called “deep learning”, the core algorithms curriculum gives solutions which use no training data and behave robustly under
+any changes in their input.&lt;/p&gt;
+
+&lt;h1&gt;What Should the &amp;ldquo;Introduction to Algorithms&amp;rdquo; Look Like?&lt;/h1&gt;
+&lt;p&gt;The question asked here is provocative and doesn’t have a hard and fast answer for multiple reasons.
+First, the answers vary quite a bit depending on who you ask. I will illustrate this point later by comparing the curricula used at some of the top schools.
+Hence, I will stress first that all ideas expressed below are a matter of my personal taste.
+From this point on all opinions expressed in this post are about how I would teach introduction to algorithms rather than suggesting the reader to do the same.
+In fact, I believe that in the U.S. and all over the world we are very lucky to have enough diversity to create curricula which look quite different from each other thus giving students more options.
+While the most fundamental basics are roughly the same, the choice of advanced topics is often driven by the instructor’s research interests.
+For those interested in pursuing a research career this gives an opportunity to get involved in research early on.&lt;/p&gt;
+
+&lt;p&gt;Second, unlike more traditional subjects such as maths and physics, the subject itself is rapidly evolving.
+My rough estimate from looking at the history would be that once every 10-15 years a significant part of the curriculum has to undergo a shake-up. 
+This is another reason why having an instructor who is an active researcher in the area is critical for keeping up with developments in the field.
+Stale curricula can even sometimes create &lt;a href=&quot;http://nlpers.blogspot.com/2014/10/machine-learning-is-new-algorithms.html&quot;&gt;room for doubt&lt;/a&gt; in whether algorithms are still relevant or some other class can be used as a replacement.
+While there is &lt;a href=&quot;http://blog.geomblog.org/2014/10/algorithms-is-new-algorithms.html &quot;&gt;hardly any doubt&lt;/a&gt; that rigorous analysis of algorithms will be relevant for many years to come, concerns such as the one above can be seen as a call for action.&lt;/p&gt;
+
+&lt;p&gt;Despite the two fundamental challenges discussed above, I believe that there are some guiding principles that can be used to determine the choice of topics for the introductory classes.
+The first one is simplicity and clarity of the underlying ideas.
+The second one is them passing the test of time and being implemented and used in a variety of software packages. This process serves as a “natural selection” for algorithmic ideas.
+A 10-15 year period is usually enough for the hype around hot topics to settle down. 
+Finally, universality and robustness to the choice of a particular model or architecture also play an important role.
+This is probably the hardest principle to use since it involves predicting the future.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;The Future of Algorithms?&quot; src=&quot;http://localhost:4000/pics/the-graduate-plastics.jpg&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1&gt;The Shoulders of Giants&lt;/h1&gt;
+&lt;h2&gt;Books&lt;/h2&gt;
+&lt;p&gt;Now let’s briefly discuss the existing literature and curricula at the top schools.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;CLRS&quot; src=&quot;http://localhost:4000/pics/clrs3.jpeg&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;Probably the most canonical textbook on algorithms is the MIT book known as &lt;a href=&quot;http://www.amazon.com/gp/product/0262033844/ref=s9_simh_gw_p14_d3_i2?pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_s=desktop-1&amp;amp;pf_rd_r=0MCC9YB55GWMGAKXT26S&amp;amp;pf_rd_t=36701&amp;amp;pf_rd_p=2079475242&amp;amp;pf_rd_i=desktop&quot;&gt;CLRS&lt;/a&gt; (first published in 1990, the most recent third edition came out in 2009).
+I’ve got my first edition in high school back in 2003.
+At the time this book was quite a breakthrough compared to the previous generation of textbooks such as &lt;a href=&quot;http://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237 &quot;&gt;Aho-Hopcroft-Ullman&lt;/a&gt;’s and &lt;a href=&quot;http://www.amazon.com/gp/product/032157351X/ref=pd_lpo_sbs_dp_ss_3?pf_rd_p=1944687702&amp;amp;pf_rd_s=lpo-top-stripe-1&amp;amp;pf_rd_t=201&amp;amp;pf_rd_i=0201000237&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_r=0W96SX509C0HBREXWSN3 &quot;&gt;Sedgewick&lt;/a&gt;’s. 
+I was heavily influenced by CLRS, subsequently using it to teach introductory classes for high school students in mid-late 00’s.&lt;/p&gt;
+
+&lt;p&gt;The fact that almost all algorithms from CLRS can be implemented as is using general purpose programming languages (C++, Java, Python) also made it very popular in the programming community including the competitive part of it.
+E.g. in the Russian summer camps for high school students CLRS formed the core of the B/C-level classes while A/B-level classes cover topics roughly similar to Erik Demaine’s &lt;a href=&quot;http://courses.csail.mit.edu/6.854/current/ &quot;&gt;Advanced Algorithms&lt;/a&gt; and &lt;a href=&quot;https://courses.csail.mit.edu/6.851/spring14/ &quot;&gt;Advanced Data Structures&lt;/a&gt;. 
+I don’t have the data but will be very surprised if CLRS didn’t sell more copies than any other algorithms textbook ever published.
+A recent testament to the popularity of CLRS is the fact that its first author &lt;a href=&quot;http://www.quora.com/Thomas-Cormen-1&quot;&gt;Thomas Cormen&lt;/a&gt; is about as popular on &lt;a href=&quot;http://quora.com/&quot;&gt;Quora&lt;/a&gt; as the &lt;a href=&quot;http://www.quora.com/Barack-Obama&quot;&gt;President of the United States&lt;/a&gt; (this fact probably tells more about the kind of people who are active on Quora though).&lt;/p&gt;
+
+&lt;p&gt;Over years multiple alternatives have emerged, among which I would like to mention two: the Berkeley-UCSD “&lt;a href=&quot;http://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402/ref=sr_1_1?ie=UTF8&amp;amp;qid=1431203159&amp;amp;sr=8-1&amp;amp;keywords=papadimitriou+vazirani&quot;&gt;Algorithms&lt;/a&gt;” by Dasgupta, Papadimitriou and Vazirani and the Cornell’s “&lt;a href=&quot;http://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358/ref=sr_1_1?ie=UTF8&amp;amp;qid=1431203094&amp;amp;sr=8-1&amp;amp;keywords=kleinberg+tardos &quot;&gt;Algorithm Design&lt;/a&gt;” by Kleinberg and Tardos.
+Both books were published in 2005-06 and to the best of my knowledge second editions aren’t available yet.
+One of the main differences between these newer books and CLRS is their concise style and focus on high-level ideas rather than low-level details. 
+However, all the books discussed above are starting to show their age.
+A litmus test is the fact that they either don’t mention &lt;a href=&quot;http://en.wikipedia.org/wiki/Chernoff_bound&quot;&gt;Chernoff bounds&lt;/a&gt; at all or mention them as an exercise or in one of the last chapters where they are barely used. I would expect a modern algorithms textbook to introduce concentration bounds early on and then use them heavily throughout the course.&lt;/p&gt;
+
+&lt;p&gt;Recently among textbooks I haven’t seen any strong newcomers, which might be partly due to the fact that books are somewhat passe these days (the only notable exception off the top of my head is a recent book “&lt;a href=&quot;http://www.cs.cornell.edu/jeh/book11April2014.pdf &quot;&gt;Foundations of Data Science&lt;/a&gt;” by Hopcroft and Kannan which is very interesting but has a somewhat different goal so I don’t see how an introductory algorithms class can be based solely on it).&lt;/p&gt;
+
+&lt;h2&gt;Courses&lt;/h2&gt;
+&lt;p&gt;In search for a modern algorithms curriculum let’s now turn to the classes taught recently at some of the schools in the U.S. whose class pages are publicly available.
+At some schools different instructors teach the class in different years, so here I just picked one at random to save space.
+Certain topics appear consistently in all of these classes (sorting/median, hashing, dynamic programming, greedy algorithms, cuts and flows, BFS/DFS, union-find, MST, FFT, shortest paths, etc.) so I will focus on the differences which make these classes unique.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; At MIT the &amp;ldquo;Design and Analysis of Algorithms&amp;rdquo; class is taught by Erik Demaine. 
+Here is the &lt;a href=&quot;http://stellar.mit.edu/S/course/6/sp15/6.046J/materials.html &quot;&gt;most recent page&lt;/a&gt;.
+Erik is one of the best living experts on data structures. No surprise his class is a little heavy on cool data structures, including Van Emde Boas trees, Skip Lists and Range Trees which aren't usually present in a typical algorithms curriculum.
+&lt;/li&gt;
+&lt;li&gt;
+At CMU the &amp;ldquo;Algorithms&amp;rdquo; class was recently taught by Anupam Gupta and Danny Sleator, &lt;a href=&quot;https://www.cs.cmu.edu/~15451/schedule.html&quot;&gt;page here&lt;/a&gt;.
+This is a very interesting class where the instructors made a great effort including some modern topics such as linear programming, zero-sum games, streaming algorithms for big data, online algorithms, machine learning, gradient descent together with some advanced data structures (splay trees and segment trees). 
+&lt;/li&gt;
+&lt;li&gt;At Berkeley the class was recently taught by David Wagner, &lt;a href=&quot;http://www-inst.eecs.berkeley.edu/~cs170/fa14/ &quot;&gt;page here&lt;/a&gt;.
+The class is based on the DPV book and also serves as an introduction into Theoretical Computer Science (primarily because it discusses in detail NP-completeness, which is either not present in other classes or only mentioned briefly).
+The non-standard topics include an intro to machine learning, streaming algorithms (CountMin sketch) and PageRank.
+&lt;/li&gt;
+&lt;li&gt;
+At Cornell the class was recently taught by Eva Tardos and David Steurer, &lt;a href=&quot;http://www.cs.cornell.edu/courses/CS4820/2015sp/lectures/ &quot;&gt;page here&lt;/a&gt;.
+Not surprisingly, the class is heavily KT-based.
+Among unusual topics there is a lot of NP-hardness and computability (Turing machines, Church-Turing, undecidability, etc.) + a large module on approximation algorithms.
+Modern topics include Nash equilibria, best expert algorithm (multiplicative weights) and stable matching.
+Overall, this class has a strong bias towards foundations and approximation algorithms + an AGT/learning spin to it.
+&lt;/li&gt;
+&lt;li&gt; At Stanford the class is taught this semester by Virginia Williams, &lt;a href=&quot;http://web.stanford.edu/class/cs161/syllabus.html&quot;&gt;page here&lt;/a&gt;.
+This is a traditional CLRS-based class. Since Stanford is on a quarter system this class is shorter than others. For more advanced algorithms courses at Stanford see &lt;a href=&quot;http://web.stanford.edu/class/cs168/index.html&quot;&gt;CS168&lt;/a&gt;, &lt;a href=&quot;http://theory.stanford.edu/~tim/cs261/cs261.html &quot;&gt;CS261&lt;/a&gt;, &lt;a href=&quot;http://theory.stanford.edu/~virgi/cs267/&quot;&gt;CS267&lt;/a&gt; and &lt;a href=&quot;http://theory.stanford.edu/~virgi/cs367/index.html &quot;&gt;CS367&lt;/a&gt;. In particular, CS168, &quot;&lt;a href=&quot;http://web.stanford.edu/class/cs168/index.html&quot;&gt;The Modern Algorithmic Toolbox&lt;/a&gt;&quot; is a great example of an advanced modernized algorithms class. According to private channels a modernized version of the algorithms curriculum is currently under construction at Stanford.  
+&lt;/li&gt;
+&lt;li&gt;At Harvard the Data Structures and Algorithms class is taught by Jelani Nelson, &lt;a href=&quot;http://sites.fas.harvard.edu/~cs124/cs124/syllabus.html &quot;&gt;page here&lt;/a&gt;.
+This is also a fairly traditional CLRS/KT-based class with a touch of linear programming and approximation algorithms.
+&lt;/li&gt;
+&lt;li&gt;At UIUC the class is taught by Jeff Erickson whose &lt;a href=&quot;http://web.engr.illinois.edu/~jeffe/teaching/algorithms/ &quot;&gt;lecture notes&lt;/a&gt; basically form a book. 
+Non-standard topics include matroids, heavy emphasis of randomized algorithms and amortized data structures, 
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;The Brave New O of the Big N&lt;/h1&gt;
+&lt;p&gt;Finally, I would like to suggest some ideas for a modern algorithms curriculum.
+As I mentioned in the motivational discussion above I believe that there are three fundamental guidelines: simplicity, implementability / test of time and potential for the future.
+None of the proposed topics is particularly new and all of them have been tested in advanced graduate level classes at different schools with accessible expositions available.
+Petabytes of data are getting crunched daily using these techniques and most of them have been implemented in a variety of software packages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Randomized and approximation algorithms.&lt;/b&gt; Concentration bounds and tail inequalities early on. Examples of simple randomized and approximation algorithms that are actually used in practice, e.g PageRank,  Set Cover, etc. There is a lot of mileage in these basic algorithms. &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Linear programming.&lt;/b&gt; LP basics/duality + approximation algorithms.
+Since this topic has already made it into a large number of courses discussed above, I won't discuss it in much detail.
+Considering LP-solvers as a solution that is available for a wide class of problems is an implicit goal achieved here. &lt;/li&gt;
+
+
+&lt;li&gt;&lt;b&gt;Basics of machine learning and learning theory.&lt;/b&gt; Core learning ideas: perceptron, boosting, VC-dimension, multiplicative weights. In order to strengthen connections with machine learning one can emphasize clustering problems in other parts of the course (SVD, k-means, single-linkage clustering, nearest neighbor, etc.) &lt;/li&gt;
+
+&lt;li&gt;&lt;b&gt;Linear sketching.&lt;/b&gt; This is probably the most recent topic (see these &lt;a href=&quot;http://users.dcc.uchile.cl/~pbarcelo/mcg.pdf &quot;&gt;two&lt;/a&gt; &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/wNow.pdf &quot;&gt;surveys&lt;/a&gt; by Andrew McGregor and David Woodruff), but I strongly believe that by now the field is mature enough to be covered in the intro class. 
+
+A good example of a linear sketch is the  &lt;a href=&quot;http://en.wikipedia.org/wiki/Count%E2%80%93min_sketch &quot;&gt;CountMin&lt;/a&gt; data structure. 
+It is a stronger version of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Bloom_filter&quot;&gt;Bloom filter&lt;/a&gt; which is one of the most widely used data structures.
+The basic philosophy here is surprisingly powerful: CountMin allows to maintain an approximate version of the most basic data structure, an array, using space which is independent of the array's size.
+Taking this further, linear sketching is a very powerful tool for designing algorithms for massive data regardless of the computational model. Whether it is streaming, MapReduce or take your pick, linear sketches are often the best solution known and/or proved to be optimal. They can also be implemented using basic linear algebraic primitives (see next bullet).
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Algorithms based on linear algebraic primitives.&lt;/b&gt;
+I think that avoiding combinatorial magic is the key to making algorithms robust to the choice of the computational model and also more parallel (see next bullet).
+Whenever, there is a solution which only uses basic linear algebra, it might be a good idea to prefer it over a combinatorial algorithm even if the latter is a little bit faster and/or easier to implement from scratch.
+Regardless of the computational model one can expect linear algebraic primitives to be already implemented there (e.g. MatLab).
+A good example here is the All-Pairs-Shortest-Paths problem (see Uri Zwick's &lt;a href=&quot; http://www.diku.dk/PATH05/Uri1.pdf&quot;&gt;slides&lt;/a&gt; for details).
+Other examples are PageRank, applications of SVD and linear sketching algorithms described above.
+&lt;/li&gt;
+
+
+&lt;li&gt;&lt;b&gt;Parallel algorithms and data structures.&lt;/b&gt; When faced with multiple algorithmic alternatives it might be a good idea to pick one that is parallelizable.
+E.g. among the Prim's, Kruskal's and Boruvka's algorithm for MST Boruvka's is the winner here because it is the only one that is not sequential. This fact is used in a variety of parallel MST algorithms.
+Linear sketching is again going to be handy here. 
+Algorithms based on sorting and hash tables are good since these primitives are often very efficiently implemented in parallel systems (e.g. Hadoop, DHT).
+
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Data structures and NP-completeness =&amp;gt; Advanced classes.&lt;/b&gt; In order to make some room for the suggestions described above I would suggest to reduce discussion of these topics to the bare minimum that is necessary in order to cover the core algorithmic ideas.
+I believe that each of them by itself deserves to be covered in a separate class. With hundreds of students enrolled these topics start to feel too specialized for an introductory algorithms class.
+NP-completeness can be combined with other topics in computational complexity and automata theory to make it a semester long course.
+Data structures seem to go naturally with advanced algorithms as another course. To spice things up one can even add &lt;a href=&quot;http://www.amazon.com/Purely-Functional-Structures-Chris-Okasaki/dp/0521663504 &quot;&gt;purely functional data structures&lt;/a&gt;. 
+This may sound a little controversial but there seems to be a general tendency towards moving away from data structues among the books and curricula discussed above.
+As for NP-completeness, I think it depends on whether a separate class on the theory of computing is offered which for any good school I really believe should be the case.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/modern-intro-algorithms/&quot;&gt;Modern Algorithms or The Brave New O of the Big N&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on May 09, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Models for Parallel Computation (Hitchhiker's Guide to Massively Parallel Universes)]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/massively-parallel-universes/" />
+  <id>http://localhost:4000/massively-parallel-universes</id>
+  <published>2015-05-03T00:00:00+03:00</published>
+  <updated>2015-05-03T00:00:00+03:00</updated>
+  <author>
+    <name>Sergei Vassilvitskii</name>
+    <uri>http://localhost:4000</uri>
+    <email>sergei@cs.stanford.edu</email>
+  </author>
+  <content type="html">&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;MPC&quot; src=&quot;http://localhost:4000/pics/parallel-models.jpg&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;(This blog post is our joint effort with Sergei, all typos and missing Oxford commas are mine). The quest to make massively parallel computation easily accessible to everyone has been a daunting one for many generations of computer scientists and engineers.
+While far from being complete, with cloud computing infrastructure available through &lt;a href=&quot;http://aws.amazon.com/ec2/&quot;&gt;Amazon EC2&lt;/a&gt;, &lt;a href=&quot;https://cloud.google.com/compute/&quot;&gt;Google Compute Engine&lt;/a&gt;, and
+other similar platforms a significant milestone has been reached.
+At the same time the quest to establish rigorous theoretical foundations of massively parallel computing has led to development of multiple theoretical models.
+Despite different modeling assumptions underlying these models, many parallel algorithmic techniques can be used in some or all of them with minor modifications. Moreover, in some restricted scenarios even direct simulations are available. In this post we discuss some of the most popular theoretical models for parallel computing and the relationships between them.&lt;/p&gt;
+
+&lt;h1&gt;MapReduce&lt;/h1&gt;
+
+&lt;p&gt;We will strongly emphasize connections between these different models and the modern MapReduce model for computation in the cloud (MRC) that we described &lt;a href=&quot;http://localhost:4000/mapreduce-model/&quot;&gt;here&lt;/a&gt;.
+As a reminder, the MRC model is specified by the number &lt;b&gt;M&lt;/b&gt; of identical machines each having &lt;b&gt;S&lt;/b&gt; local memory.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;MapReduce Storage&quot; src=&quot;http://localhost:4000/pics/mr-storage.png&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;The goal of the algorithm design is to minimize the number of parallel rounds of computation which we denote as &lt;b&gt;R&lt;/b&gt;.
+In each communication round the number of bits sent and received by each machine is at most &lt;b&gt;S&lt;/b&gt; (in fact, in most cases only the bound on the incoming communication matters).&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt; &lt;img alt=&quot;MapReduce Computation Diagram&quot; src=&quot;http://localhost:4000/pics/mr-computation-diagram.png&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;We will use the Minimum Spanning Tree (MST) problem as a benchmark for comparison between the models.
+In MRC the MST problem can be solved in constant number of rounds for sufficiently dense graphs.
+As shown through a filtering technique by Lattanzi et al. &lt;a href=&quot;http://theory.stanford.edu/~sergei/papers/spaa11-matchings.pdf &quot;&gt;here&lt;/a&gt;
+for graphs with &lt;script type=&quot;math/tex&quot;&gt;|E| = n^{1 + c}&lt;/script&gt; edges &lt;script type=&quot;math/tex&quot;&gt;\lceil c/\epsilon\rceil&lt;/script&gt; rounds suffice assuming &lt;script type=&quot;math/tex&quot;&gt;M = O(n^{1+\epsilon})&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;S = O(n^{c-\epsilon})&lt;/script&gt; so that the total space is &lt;script type=&quot;math/tex&quot;&gt;M * S = O(|E|)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Bulk Synchronous Parallelism&lt;/h1&gt;
+&lt;p&gt;The Bulk Synchronous Parallel model (BSP) was introduced by Leslie Valiant in 1990 in his seminal article “&lt;a href=&quot;http://web.mit.edu/6.976/www/handout/valiant2.pdf &quot;&gt;A Bridging Model for Parallel Computation&lt;/a&gt;”.
+While this model has been subsequently &lt;a href=&quot;http://people.seas.harvard.edu/~valiant/bridging-2010.pdf&quot;&gt;refined to capture multicore computing&lt;/a&gt; in 2008, here we focus on the original BSP model.
+BSP and MRC are very closely related. The key idea behind BSP is breaking computation into synchronized supersteps and it later formed the basis in MRC.&lt;/p&gt;
+
+&lt;p&gt;BSP computation assumes a set &lt;b&gt;p&lt;/b&gt; of processors, each with local memory. Moreover, the computation proceeds in a series of global synchronized supersteps. There are three parameters that are combined to give the cost of a BSP computation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The number of processors, &lt;b&gt;p&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;The number of timesteps needed to synchronize, &lt;b&gt;l&lt;/b&gt; (communication latency).&lt;/li&gt; 
+&lt;li&gt;The number of timesteps needed to send one word of memory to a different machine, &lt;b&gt;g&lt;/b&gt; (communication gap).&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;p&gt;Some of the descriptions of the models also include the speed of each processor (instructions/sec), &lt;b&gt;s&lt;/b&gt;.
+But we can easily factor that out when working with homogeneous machines.&lt;/p&gt;
+
+&lt;p&gt;The cost of a superstep where each processor does at most &lt;b&gt;x&lt;/b&gt; operations and sends/receives at most &lt;b&gt;h&lt;/b&gt; words is then: &lt;b&gt;l&lt;/b&gt; + &lt;b&gt;x&lt;/b&gt; + &lt;b&gt;g&lt;/b&gt; * &lt;b&gt;h&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;The total work is &lt;b&gt;p&lt;/b&gt; times the cost of the superstep, and the efficiency is the ratio of the best sequential algorithm to the total work (over all supersteps). Note that since latency and gap may depend on the number of processors, the total cost is superlinear in the number of processors.&lt;/p&gt;
+
+&lt;p&gt;One of the goals of BSP was to give the analytically best algorithm for different settings of the parameters. This would allow one to decide what is the fastest or most work efficient algorithm for a particular setting.  It is not surprising then that some of the early work focused on how to minimize values of &lt;b&gt;g&lt;/b&gt;, &lt;b&gt;l&lt;/b&gt; in various network topologies (torus, hypercube, butterfly, etc.). Additional work also measured these across different networks realized in practice.&lt;/p&gt;
+
+&lt;p&gt;One way to generalize the BSP model is to model the fact that communication costs are not linear (sending 1Mb between machines is much cheaper than sending 1,000,000 distinct one byte messages.) We can model this by letting &lt;b&gt;G&lt;/b&gt;() be a function of the number of words sent. In traditional BSP then, &lt;script type=&quot;math/tex&quot;&gt;G(h)  = g * h&lt;/script&gt;.
+In the MRC model of computation, &lt;script type=&quot;math/tex&quot;&gt;G(h)&lt;/script&gt; is discretized – with &lt;script type=&quot;math/tex&quot;&gt;G(h) = \lceil h / S\rceil * K&lt;/script&gt; for some large constant &lt;b&gt;K&lt;/b&gt; that dwarfs all computation costs. Such choice of a cost function implies that in order to best use communication the computation should be broken into rounds with at most &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; bits sent between the rounds.
+In MRC &lt;b&gt;l&lt;/b&gt; is taken to be O(1) as synchronization can proceed at any time.&lt;/p&gt;
+
+&lt;p&gt;Due to a large number of parameters the algorithmic results in the BSP model tend to be bulky to state.
+We refer the reader to &lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.42.3708&amp;amp;rep=rep1&amp;amp;type=pdf&quot;&gt;this paper&lt;/a&gt; by Adler et al. for the details of the MST algorithm in the BSP.
+To the best of our knowledge there aren’t many algorithmic results in the BSP model. This might be partially due to its invention having been ahead of its time and partially due to a large number of parameters which makes it not very friendly for algorithm design.
+One of the key contributions of the MRC model is reduction in the number of parameters making algorithmic results cleaner and easier to state and compare.&lt;/p&gt;
+
+&lt;h1&gt;Parallel Random Access Machines&lt;/h1&gt;
+&lt;p&gt;The model is characterized by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; The number of processors, &lt;b&gt;p&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt; The size of the shared memory, &lt;b&gt;m&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt; The size of local memory available to each processor, &lt;b&gt;l&lt;/b&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Furthermore, read/write access to the shared memory might be implemented differently:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ER/CR&lt;/b&gt;: Exclusive Read/Concurrent Read allow to perform read access to each shared memory cell either to only one processor (ER) or to any number of  processors (CR) during each superstep. &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;EW/CW&lt;/b&gt;: Exclusive Write/Concurrent Write allow to perform write access to each shared memory cell either to only one processor (EW) or to any number of processors (CW). In case if multiple write operations occur to a shared memory cell under CW there exist multiple policies for resolving which value is going to be written (priority-based, random, arbitrary, etc.). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Among four possible combinations of read/write access rules only three are typically considered: EREW, CREW, and CRCW (requires a specification of the conflict resolution policy). Since we only discuss PRAMs very briefly here, we refer the reader to &lt;a href=&quot;https://www.cs.cmu.edu/~guyb/papers/BM04.pdf&quot;&gt;this paper&lt;/a&gt; by Guy Blelloch and Bruce Maggs and &lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15499-s09/www/ &quot;&gt;this class&lt;/a&gt; at CMU for a comprehensive introduction to PRAMs.&lt;/p&gt;
+
+&lt;p&gt;A restricted class of EREW PRAM algorithms can be simulated in MRC with only a constant overhead in the number of rounds.
+The basic idea is the following.
+Assuming that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;m&lt;/b&gt; + &lt;b&gt;p&lt;/b&gt; * &lt;b&gt;l&lt;/b&gt; &amp;lt; &lt;b&gt;M&lt;/b&gt; * &lt;b&gt;S&lt;/b&gt; (the total memory used by PRAM algorithm is less than the total memory available to MRC)&lt;/li&gt; 
+&lt;li&gt;&lt;b&gt;l&lt;/b&gt; &amp;lt; &lt;b&gt;S&lt;/b&gt; (local memory in PRAM is less than in MRC, which is reasonable given that typically &lt;b&gt;p&lt;/b&gt; is much bigger than &lt;b&gt;M&lt;/b&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;one can simulate EREW access to all the &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; shared memory cells in &lt;script type=&quot;math/tex&quot;&gt;O(1)&lt;/script&gt; rounds while using &lt;script type=&quot;math/tex&quot;&gt;p * l&lt;/script&gt;  memory to perform the local computations. 
+This is done by assigning &lt;script type=&quot;math/tex&quot;&gt;(p * l) / S&lt;/script&gt; machines to simulate &lt;script type=&quot;math/tex&quot;&gt;S/l&lt;/script&gt; PRAM processors each and &lt;script type=&quot;math/tex&quot;&gt;m/S&lt;/script&gt; machines to simulate the shared memory cells. Since the read/write requests are exclusive they can be directly communicated between the simulated processors and the simulated memory cells. Note that simulating concurrent reads might overload the machines simulating the memory if much more than &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; requests are simultaneously submitted. 
+See Theorem 7.1 &lt;a href=&quot;http://www.eecs.harvard.edu/~michaelm/E210/modelmapreduce.pdf&quot;&gt;here&lt;/a&gt; for the details (modulo the ER vs. CR issue discussed above).
+Also note that while the number of rounds is preserved well this simulation might lead to time-inefficient algorithms since multiple PRAM processors might be simulated sequentially on a single MRC machine.&lt;/p&gt;
+
+&lt;h1&gt;Models with Restricted Communication&lt;/h1&gt;
+&lt;p&gt;In models with restricted communication the input graph corresponds to a communication network between &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; machines.
+Initially each machine has the list of its neighbors as the input.
+Moreover, the communication is restricted in one of the two ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Messages can only be sent over an underlying network between the machines, i.e. in every round each machine can only talk to its neighbors.
+In this case for graph problems which depend on the entire input the diameter of the network &lt;b&gt;D&lt;/b&gt; often gives a lower bound on the number of rounds since messages must be propagated through the network.
+&lt;/li&gt;
+&lt;li&gt;Messages are restricted in size. When discussing size-restricted messages below we will always assume that the bound on the message size is &lt;b&gt;W&lt;/b&gt; = O(log n) where n is the input size.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The three models discussed below (LOCAL, CONGEST and CONGESTED CLIQUE) correspond to the three possible combinations of these two restrictions.
+In all these models the computational power of the machines is either unbounded or limited to polynomial time computation on their input.
+We discuss these models only briefly here since they are more applicable to settings such as sensor networks rather than massively parallel computing. A good introduction into algorithmic techniques is given in &lt;a href=&quot;http://people.csail.mit.edu/ghaffari/DGA14/&quot;&gt;this class&lt;/a&gt; at MIT.&lt;/p&gt;
+
+&lt;h2&gt;LOCAL&lt;/h2&gt;
+&lt;p&gt;The most basic of the restricted communication models is LOCAL.
+In this model the communication is restricted to the underlying network while message size is unbounded.
+This allows to solve any problem trivially in &lt;b&gt;D&lt;/b&gt; rounds. Lower bounds in this model show that &lt;script type=&quot;math/tex&quot;&gt;\Omega(D)&lt;/script&gt; rounds are necessary for computing a Minimum Spanning Tree and 2-coloring even for instances as simple as an even cycle.&lt;/p&gt;
+&lt;h2&gt;CONGEST&lt;/h2&gt;
+&lt;p&gt;In the CONGEST model restrictions are imposed both on the communication network and the message size (&lt;b&gt;W&lt;/b&gt;=O(log n)).
+Two flavors of these models exist: one that allows to send arbitrary messages and one that only allows each machine to broadcast the same message to its neighbors. Below we discuss the first of these two versions which has been studied more extensively. 
+In this model the number of rounds necessary and sufficient for computing a Minimum Spanning Tree is &lt;script type=&quot;math/tex&quot;&gt;\tilde O(D + \sqrt{n})&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2&gt;CONGESTED CLIQUE&lt;/h2&gt;
+&lt;p&gt;Finally in the CONGESTED CLIQUE model we only have the message size restriction (&lt;b&gt;W&lt;/b&gt;=O(log n)).
+In this model a Minimum Spanning Tree can be computed deterministically in &lt;script type=&quot;math/tex&quot;&gt;O(\log \log n)&lt;/script&gt; rounds (Lotker, Patt-Shamir, Pavlov, Peleg ‘05).
+A &lt;a href=&quot;http://arxiv.org/pdf/1412.2333v1.pdf&quot;&gt;recent preprint&lt;/a&gt; shows an &lt;script type=&quot;math/tex&quot;&gt;O(\log \log \log n)&lt;/script&gt;-round randomized algorithm.
+This model is the closest of the three to the MRC model because there is no restriction on the communication topology.
+In some restricted scenarios there exist simulations of algorithms for CONGESTED CLIQUE in the MRC model, see &lt;a href=&quot;http://arxiv.org/pdf/1405.4356.pdf &quot;&gt;here&lt;/a&gt;.
+However, in general the CONGESTED CLIQUE model is incomparable to MRC since both the outgoing and incoming communication for each machine are allowed to be linear in the input size while for MRC both are strictly sublinear.
+In particular, sparse graph connectivity can be solved in CONGESTED CLIQUE in one round by sending all edges to a single machine.&lt;/p&gt;
+
+&lt;h1&gt;The &amp;ldquo;Big Data&amp;rdquo; Model&lt;/h1&gt;
+&lt;p&gt;The “Big Data” model introduced in &lt;a href=&quot;http://arxiv.org/pdf/1311.6209&quot;&gt;this paper&lt;/a&gt; is a generalization of the CONGESTED CLIQUE model. Instead of having the number of machines being the same as the number of vertices in the graph, the number of machines is treated as a parameter &lt;script type=&quot;math/tex&quot;&gt;k \le n&lt;/script&gt;.
+The input graph is vertex partitioned between these &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; machines. In one round any pair of machines is allowed to communicate using messages of size &lt;b&gt;W&lt;/b&gt;=O(log n).
+Close relationship to the CONGESTED CLIQUE model allows to reuse existing algorithmic techniques.
+Near-optimal results for many fundamental problems in the “big data” model are given &lt;a href=&quot;http://www.researchgate.net/profile/Hartmut_Klauck/publication/258849574_The_Distributed_Complexity_of_Large-scale_Graph_Processing/links/541a5a450cf203f155ae22e7.pdf&quot;&gt;here&lt;/a&gt;.
+In particular for computing a Minimum Spanning Tree  &lt;script type=&quot;math/tex&quot;&gt;\tilde O(n/k)&lt;/script&gt; rounds are necessary and sufficient.&lt;/p&gt;
+
+&lt;p&gt;Among all models with restricted communication the “big data” model is the one most similar to MRC.
+However, a hard bound on communication leads to very strong lower bounds in this model such as the &lt;script type=&quot;math/tex&quot;&gt;\tilde \Omega(n/k)&lt;/script&gt; lower bound for MST discussed above.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/massively-parallel-universes/&quot;&gt;Models for Parallel Computation (Hitchhiker's Guide to Massively Parallel Universes)&lt;/a&gt; was originally published by Sergei Vassilvitskii at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on May 03, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[MapReduce and RDBMS: Practice and Theory]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/rdbms-mapreduce/" />
+  <id>http://localhost:4000/rdbms-mapreduce</id>
+  <published>2015-04-02T00:00:00+03:00</published>
+  <updated>2015-04-02T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Mapreduce and RDBMS&quot; src=&quot;http://localhost:4000/pics/mapreduce-rdbms.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;Congratulations to Michael Stonebraker on winning the ACM Turing Award last week! 
+Michael is recognized for his fundamental contributions to the concepts and practices underlying modern database systems. It is somewhat unfortunate though that the RDBMS community and the MapReduce crowd ended up being split apart after the 2010 CACM articles &lt;a href=&quot;http://cacm.acm.org/magazines/2010/1/55744-mapreduce-a-flexible-data-processing-tool/fulltext&quot;&gt;MapReduce: A Flexible Data Processing Tool&lt;/a&gt; (by Jeffrey Dean and Sanjay Ghemawat) and &lt;a href=&quot;http://cacm.acm.org/magazines/2010/1/55743-mapreduce-and-parallel-dbmss-friends-or-foes/fulltext&quot;&gt;MapReduce and Parallel DBMSs: Friends or Foes&lt;/a&gt; (by Michael Stonebraker et al.).&lt;/p&gt;
+
+&lt;p&gt;Stonebraker’s criticism of MapReduce/Hadoop started back in 2008 with a post &lt;a href=&quot;http://homes.cs.washington.edu/~billhowe/mapreduce_a_major_step_backwards.html&quot;&gt;MapReduce: A major step backwards&lt;/a&gt;. It has only changed slightly over the last 7 years (see e.g. &lt;a href=&quot;http://cacm.acm.org/blogs/blog-cacm/177467-hadoop-at-a-crossroads/fulltext&quot;&gt;this&lt;/a&gt;). 
+A good example is &lt;a href=&quot;https://www.youtube.com/watch?v=OYGJe1z97VI&quot;&gt;Michael’s talk&lt;/a&gt; at XLDB12 which I found fun and educational.
+Moreover, I tend to agree with most of waht Michael says except when it comes to Hadoop (e.g. “Hadoop is right at the top of the Gartner group hype cycle”, M.S. 2012) because over the 7 years of his criticism Hadoop has become the most successful open source platform for general purpose massively parallel computing.
+It probably won’t be surprising to see Dean and Ghemawat winning the Turing Award in the future for making massively parallel computing commonplace.&lt;/p&gt;
+
+&lt;p&gt;I believe that both in theory and in &lt;a href=&quot;http://data-informed.com/hadoop-vs-data-warehouse-comparing-apples-oranges/&quot;&gt;practice&lt;/a&gt; MapReduce and RDBMSs are apples and oranges in the big data universe. Both are crunching hundreds of petabytes of data these days. However, in my experience some people still think that there is a way to directly compare the two and determine a single winner. I heard about Stonebraker’s criticism of Hadoop so many times and in places so diverse (e.g. from one of my running club buddies on the Penn track as well as during my visit to Princeton in a conversation with one of the professors I highly respect) that I decided to write a blog post about it. I will try to “bite the bull by the horns” (expression courtesy of Ken Clarkson) and summarize the advantages of each paradigm from my experience both in practice and in theory.&lt;/p&gt;
+
+&lt;h1&gt;Advantages of MapReduce&lt;/h1&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;MapReduce = Magic Hammer&quot; src=&quot;http://localhost:4000/pics/mapreduce-hammer.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;MapReduce paradigm has emerged as a universal tool for a specific type of parallel computing. 
+I would compare it with a magic hammer that in theory allows you to do almost anything you might want. While a “Swiss army knife” RDBMS solution would certainly be more efficient for specific tasks that it has been designed for the magic hammer of MapReduce works for almost any problem that is possible to parallelize.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;b&gt; Universality.&lt;/b&gt; A big advantage of MapReduce is its universality. In particular, it offers efficient low-level access to the data for a software engineer. This allows to handle completely unstructured messy data. 
+&lt;!--It is a great advantage for algorithm designers that MapReduce doesn't impose any restrictions on the format of the data. 
+It also offers low-level access for the software engineer who can manipulate data entries without any restrictions on the type of queries. --&gt;
+For example, many graph algorithms can be easily implemented in MapReduce, while general purpose databases don't play well with graphs. This is a well-known issue and also the reason why specialized graph databases such as &lt;a href=&quot;http://neo4j.com/&quot;&gt;Neo4j&lt;/a&gt; exist.
+While learning how to use MapReduce takes some time and experience with programming in my experience good software engineers can learn it fairly quickly. This is why for best companies such as Google, Facebook, etc. the learning curve and cost of skillful engineers doesn't seem to be an issue.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Customization.&lt;/b&gt; During the 10 years of its existence the base Hadoop layer has been extended by many different frameworks that can run on top of it. 
+Examples of free such frameworks are &lt;a href=&quot;http://spark.apache.org/&quot;&gt;Spark&lt;/a&gt; (greatly improved raw Hadoop efficiency), &lt;a href=&quot;http://hortonworks.com/hadoop/storm/&quot;&gt;Apache Storm&lt;/a&gt; (streaming support) and others. In particular, most of the Stonebraker's criticism regarding inefficiency of Hadoop is no longer applicable because of these improvements. After the inefficient higher-level Hadoop layers are replaced it is only the HDFS that remains untouched. According to Stonebraker himself: &quot;I don't have any problem with HDFS, it is a parallel file system &amp;lt;...&amp;gt; by all means go ahead and use it&quot;.
+Companies such as Google and Facebook are running their own custom versions of Hadoop/MapReduce and while most of the details are secret we routinely hear in the news about petabytes of user data being crunched daily in such systems. 
+&lt;/li&gt;
+&amp;lt;/li&amp;gt;
+&lt;li&gt; &lt;b&gt; Support of your favorite programming language.&lt;/b&gt; With &lt;a href=&quot;http://hadoop.apache.org/docs/r1.2.1/streaming.html&quot;&gt;Hadoop Streaming&lt;/a&gt; one can use any programming language. &lt;/li&gt;
+&lt;li&gt; &lt;b&gt;Open source.&lt;/b&gt; Apache Hadoop is an easy to learn open source version implementation of the MapReduce framework.&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;h1&gt;Advantages of Parallel RDBMSs&lt;/h1&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;RDBMS = Swiss army knife&quot; src=&quot;http://localhost:4000/pics/rdbms-swiss-knife.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;Database management system technology has been perfected for over more than 40 years becoming a “Swiss army knife”-type solution for big data management.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;b&gt;Efficient processing of typical queries on relational and some other types of data.&lt;/b&gt; For relational data efficiency of parallel RDBMSs is outstanding. I am not aware of successful attempts to beat the performance of RDBMSs on their home turf using general purpose frameworks for massively parallel computing (e.g. by using Hive on Hadoop discussed below). Moreover, specialized database systems exist also for other types of structured data such as graphs (e.g. Neo4j), sparse arrays, etc. Just like with a Swiss Army knife, if a certain application can be directly handled by an RDBMS then it is probably handled pretty well and most common use cases are pretty well covered.
+&lt;/li&gt;
+&lt;li&gt; &lt;b&gt;Simplicity.&lt;/b&gt; While this is clearly subjective and might change over time, currently the learning curve for MapReduce users seems to be much steeper than for those who use an RDBMS.
+Simplicity also means that it costs less to employ data analysts who can work with RDBMSs. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;In Theory&lt;/h1&gt;
+&lt;p&gt;
+As a theorist I am very excited about the fact that the performance of MapReduce-style systems can be systematicaly analyzed using a rigorous theoretical framework. See my earlier &lt;a href=&quot;http://localhost:4000/mapreduce-model/&quot;&gt;blog post&lt;/a&gt; for the details of the formal theoretical model for MapReduce. 
+&lt;/p&gt;
+&lt;p&gt;
+It is very exciting to see MapReduce-style algorithms making it into advanced algorithms classes focused on dealing with big data at many top schools. Some examples that I am aware of are:
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;b&gt;&lt;a href=&quot;http://www.cs.columbia.edu/~coms699812/&quot;&gt;Dealing with Massive Data&lt;/a&gt;&lt;/b&gt;&amp;rdquo; by Sergei Vassilvitskii at Columbia.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;b&gt;&lt;a href=&quot;http://people.seas.harvard.edu/~minilek/cs229r&quot;&gt;Algorithms for Big Data&lt;/a&gt;&lt;/b&gt;&amp;rdquo; by Jelani Nelson at Harvard.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;b&gt;&lt;a href=&quot;http://web.stanford.edu/~ashishg/amdm/ &quot;&gt;Algorithms for Modern Data Models&lt;/a&gt;&lt;/b&gt; &amp;rdquo; by Ashish Goel at Stanford.&lt;/li&gt;
+&lt;li&gt; &amp;ldquo;&lt;b&gt;&lt;a href=&quot;http://www.cs.utah.edu/~jeffp/teaching/cs7960.html&quot;&gt;Models of Computation for Massive Data&lt;/a&gt;&lt;/b&gt;&amp;rdquo; by Jeff Philips at the University of Utah.&lt;/li&gt;
+&lt;/ul&gt;
+There are other examples too. In fact, these days almost every theoretical class about algorithms for big data that I am aware of covers MapReduce algorithms.
+&lt;/p&gt;
+&lt;p&gt;
+Moreover, there are clean hard open problems raised by the MapReduce model which would have strong implications for the rest of theoretical computer science including such fundamental its parts as circuit complexity, communication complexity and approximation algorithms as well as more modern areas such as streaming algorithms. 
+For example, a notorisouly hard question (see details &lt;a href=&quot;http://localhost:4000/mapreduce-model/&quot;&gt;here&lt;/a&gt;) is: &quot;&lt;b&gt;Can sparse undirected graph connectivity be solved in o(log |V|) rounds of MapReduce? Hint: Probably, no.&lt;/b&gt;&quot; Resolution of this kind of open questions will not only surprise the practitioners but  might also win you a best paper award at one of the top theory conferences (and it is most likely going to be not because of MapReduce itself but because of other deep consequences such a result would have). 
+On the other hand, I am unaware of open questions in databases which would have the same level of appeal to the theoretical community.  
+&lt;/p&gt;
+&lt;p&gt;
+A flagship theory conference STOC 2015 together with the 27th ACM Symposium on Parallelism in Algorithms in Architectures (colocated at FCRC 2015) will host a 1-day workshop &quot;&lt;b&gt;Algorithmic Frontiers of Modern Massively Parallel Computation&lt;/b&gt;&quot; focused on theoretical foundations of MapReduce-style systems and directions for future research which I am co-organizing together with Ashish Goel and Sergei Vassilvitskii. I will post the details later so stay tuned if you are interested.
+
+&lt;/p&gt;
+&lt;h1&gt;P.S. Apple-oranges&lt;/h1&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Apple-Orange + Hive&quot; src=&quot;http://localhost:4000/pics/orange-apple-hive.png&quot; /&gt; &lt;/div&gt;
+&lt;p&gt;While there is room for apple-oranges none of these seem to be successful so far. It seems to be common sense that SQL-on-Hadoop just like an apple-on-orange is not a great idea in terms of performance. Limited success in attempts such as Hive on Hadoop seem to prove this so far. Using low-level programming languages such as C++ with RDBMSs is also possible (see e.g. &lt;a href=&quot;http://www.sqlapi.com/&quot;&gt;SQLAPI&lt;/a&gt;). However, described above advantages of RDBMSs most likely vanish if you do so.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/rdbms-mapreduce/&quot;&gt;MapReduce and RDBMS: Practice and Theory&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on April 02, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Sublinear Day at MIT]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/sublinear-day/" />
+  <id>http://localhost:4000/sublinear-day</id>
+  <published>2015-03-10T00:00:00+03:00</published>
+  <updated>2015-03-10T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Sublinear Day: April 10&quot; src=&quot;http://localhost:4000/pics/sublinear-day-2015.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;The second “Sublinear Algorithms and Big Data Day” will take place at MIT on &lt;b&gt;April 10&lt;/b&gt;. 
+The speakers are: &lt;a href=&quot;http://people.csail.mit.edu/costis/ &quot;&gt;Costis Daskalakis&lt;/a&gt;, &lt;a href=&quot;http://www.wisdom.weizmann.ac.il/~robi/ &quot;&gt;Robert Krauthgamer&lt;/a&gt;, &lt;a href=&quot;http://people.seas.harvard.edu/~minilek/ &quot;&gt;Jelani Nelson&lt;/a&gt;, &lt;a href=&quot;http://www.math.rutgers.edu/~ss1984/ &quot;&gt;Shubhangi Saraf&lt;/a&gt; and &lt;a href=&quot;http://cs.brown.edu/~pvaliant/&quot;&gt;Paul Valiant&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the first time we will have a poster sesion. Poster proposal submission deadline is very close: &lt;b&gt;March 20&lt;/b&gt;.
+More information about poster submission, schedule, etc. is available &lt;a href=&quot;http://www.gautamkamath.com/sublinearday/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will really appreciate it if you help us spread the word and hope that the second sublinear day will bring superlinear amounts of research interactions and joy :) Thanks again to &lt;a href=&quot;http://www.gautamkamath.com/&quot;&gt;Gautam “G” Kamath&lt;/a&gt; who is in charge of local arrangements and to &lt;a href=&quot;http://people.csail.mit.edu/costis/ &quot;&gt;Costis Daskalakis&lt;/a&gt; and &lt;a href=&quot;http://people.csail.mit.edu/indyk/&quot;&gt;Piotr Indyk&lt;/a&gt; for helping make this happen!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sublinear-day/&quot;&gt;Sublinear Day at MIT&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on March 10, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Happy Sublinear Year!]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/happy-sublinear-year/" />
+  <id>http://localhost:4000/happy-sublinear-year</id>
+  <published>2015-01-01T00:00:00+03:00</published>
+  <updated>2015-01-01T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;The decision to start a blog three months ago proved to be a lot more rewarding and time-consuming than I expected.
+Looking at the stats I was thrilled to find out that over its short lifespan this blog has reached 1650 cities in 99 countries. 
+This is just a notch over than half of all countries in the world. Among my favorite places reached are &lt;a href=&quot;http://en.wikipedia.org/wiki/Turks_and_Caicos_Islands&quot;&gt;Turks and Caicos Islands&lt;/a&gt; (overall population ~30 thousand people).&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Happy 2015!&quot; src=&quot;http://localhost:4000/pics/2015.png&quot; /&gt; &lt;/div&gt;
+
+&lt;p&gt;Looking forward into 2015 I am happy to announce that there will be at least two reasons to rejoice for those interested in sublinear algorithms for big data:&lt;/p&gt;
+&lt;div&gt;
+&lt;ul class=&quot;fa-ul&quot;&gt;
+&lt;li&gt; &lt;i class=&quot;fa li fa fa-group&quot;&gt; &lt;/i&gt; The second &amp;ldquo;Sublinear Algorithms and Big Data Day&amp;rdquo; will take place at MIT on April 10. Thanks to &lt;a href=&quot;http://www.gautamkamath.com/&quot;&gt;Gautam &quot;G&quot; Kamath&lt;/a&gt; who is in charge of local arrangements and to &lt;a href=&quot;http://people.csail.mit.edu/costis/ &quot;&gt;Costis Daskalakis&lt;/a&gt; and &lt;a href=&quot;http://people.csail.mit.edu/indyk/&quot;&gt;Piotr Indyk&lt;/a&gt; for their support!
+This event follows &lt;a href=&quot;http://grigory.us/big-data-day.html&quot;&gt;the first in this series&lt;/a&gt;, which I organized at Brown in 2014, and we really hope to keep this tradition for many years to come.
+&lt;/li&gt;
+&lt;li&gt; &lt;i class=&quot;fa li fa fa-group&quot;&gt;&lt;/i&gt; On August 27-28 &lt;a href=&quot;http://dimacs.rutgers.edu/&quot;&gt;DIMACS&lt;/a&gt; at Rutgers will host a workshop on massively parallel and sublinear algorithms. 
+
+The organizers, including &lt;a href=&quot;http://www.cs.rutgers.edu/~muthu/ &quot;&gt;Muthu&lt;/a&gt;, &lt;a href=&quot;http://www.mit.edu/~andoni/ &quot;&gt;Alex Andoni&lt;/a&gt; and myself, would like to thank the director of DIMACS &lt;a href=&quot;http://www.cs.rutgers.edu/~rwright1/&quot;&gt;Rebecca Wright&lt;/a&gt; for helping to make this happen.  Note that this event will be immediately after RANDOM/APPROX 2015 at Princeton (August 24-26).   &lt;/li&gt;
+&lt;/ul&gt;
+
+The details about both events + some more to come will appear on this blog later. Stay tuned and Happy 2015! 
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/happy-sublinear-year/&quot;&gt;Happy Sublinear Year!&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on January 01, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Getting a Research Internship]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/research-internship/" />
+  <id>http://localhost:4000/research-internship</id>
+  <published>2014-12-20T00:00:00+03:00</published>
+  <updated>2014-12-20T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;p&gt;For graduate students December is probably the best time to start applying for a summer internship. The process of getting a software engineering internship at places like Google, Facebook, Microsoft, Twitter, Quora, Dropbox, etc. is so much streamlined that there is even a movie about it.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alg=&quot;Internship movie&quot; src=&quot;http://localhost:4000/pics/internship-movie.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Getting an internship in research is a lot more of a unique experience. Graduate students ask me about this a lot and even once invited to give an informal talk on the topic at the Wharton graduate students statistics seminar. Surprisingly, I haven’t seen any guide about research internships available online so I decided to write down things I usually say.&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Disclaimer&lt;/b&gt;: advice below is my personal opinion and is biased towards computer science and the U.S, although sometimes applies more broadly (e.g. to pure math, applied math and statistics).
+My experience is based on internships at AT&amp;amp;T Research (Shannon Laboratory), IBM Research (Almaden) and Microsoft Research (Silicon Valley and Redmond) and might be somewhat specific to these places, only 50% of which still exist. I also visited Yahoo! and Google Research a lot and can say that these places work similarly but with a few important differences described below.
+Last but not least, I tried to do my best to avoid making any comparisons (and especially controversial ones) in terms of quality between different labs and academia. 
+
+&lt;div align=&quot;center&quot;&gt;&lt;img alg=&quot;Research labs&quot; src=&quot;http://localhost:4000/pics/labs.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/div&gt;
+
+&lt;h1&gt;Why Do It?&lt;/h1&gt;
+&lt;p&gt;
+Doing a research internship is a great way to meet your future collaborators and friends. I did it 4 times (the most you can do as an F1 student) and spent 50% of my 3-year PhD in research labs. While this is quite unusual, I should say that I enjoyed the experience tremendously and still work and talk regularly with most of my former mentors (&lt;a href=&quot;http://dimacs.rutgers.edu/~graham/ &quot;&gt;Graham Cormode&lt;/a&gt;, &lt;a href=&quot;http://scholar.google.com/citations?user=i5PazXwAAAAJ&quot;&gt;Howard Karloff&lt;/a&gt;, &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru &quot;&gt;David Woodruff&lt;/a&gt;, &lt;a href=&quot;http://www.mit.edu/~andoni/&quot;&gt;Alex Andoni&lt;/a&gt; and &lt;a href=&quot;http://konstantin.makarychev.net/&quot;&gt;Konstantin Makarychev&lt;/a&gt;), who have also been an invaluable source of advice for me over the years. I met many of my best friends from grad school times in the labs and still visit places where I did an internship whenever I happen to be in the area. 
+&lt;/p&gt;
+
+&lt;h1&gt;Where to Apply?&lt;/h1&gt;
+&lt;p&gt;
+This highly depends on your area of expertise. These days there is no single best place like &lt;a href=&quot;http://en.wikipedia.org/wiki/Bell_Labs &quot;&gt;Bell Labs&lt;/a&gt; in its glory days but there are multiple options to consider. 
+
+&lt;h3&gt;Pure Theory&lt;/h3&gt;
+For pure theoretical computer science I would suggest to start with MSR and IBM. While I am certainly biased and there can't possibly be a ranking of research labs I would say that these are the top places: 
+&lt;ul&gt;
+&lt;li&gt; Microsoft Research. &lt;a href=&quot;http://research.microsoft.com/en-us/jobs/intern/apply.aspx&quot;&gt;Posting&lt;/a&gt;, multiple locations (main offices are in Redmond, Cambridge and NYC). Redmond office is the oldest and covers almost all areas. NYC and Cambridge offices are smaller and somewhat similar, being particularly strong in machine learning, social sciences, algorithmic game theory and computational complexity among other areas.&lt;/li&gt;
+&lt;li&gt; IBM Research. &lt;a href=&quot;http://www.research.ibm.com/careers/internships/index.shtml&quot;&gt;Posting&lt;/a&gt;, multiple locations (main offices are in Yorktown Heights, NY and Bay Area). &lt;a href=&quot;http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=4491&quot;&gt;Posting&lt;/a&gt; from Ken Clarkson about theory positions at IBM Almaden. Almost all major areas are represented in either the Yorktown Heights or the Bay Area location. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;p&gt;
+Another great place is Toyota Technological Institute at Chicago (&lt;a href=&quot;http://www.ttic.edu/intern.php&quot;&gt;posting&lt;/a&gt;). I put it in a slightly different category than the industrial research labs because of its close ties with the University of Chicago and the overall feel of a more academic rather than industrial environment.
+While AT&amp;amp;T and Bell are shadows of their past, they still have some amazing people: 
+&lt;ul&gt;
+&lt;li&gt;AT&amp;amp;T Labs &amp;ndash; Research. &lt;a href=&quot;http://www.research.att.com/internships?fbid=CKoDhzaFztt&quot;&gt;Posting&lt;/a&gt;, multiple locations (main office is in New Jersey).&lt;/li&gt;
+&lt;li&gt;Bell Labs. &lt;a href=&quot;http://www.alcatel-lucent.com/careers/opportunities-students&quot;&gt;Posting&lt;/a&gt;, multiple locations (main office is in New Jersey). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;More Applied&lt;/h3&gt;
+Here is a list of some more applied research places off the top of my head:
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; Google Research. &lt;a href=&quot;https://www.google.com/about/careers/search#t=sq&amp;amp;q=j&amp;amp;li=10&amp;amp;jed=DOCTORATE&amp;amp;jex=PURSUING_DEGREE&amp;amp;je=INTERN&amp;amp;jc=SOFTWARE_ENGINEERING&amp;amp;jc=HARDWARE_ENGINEERING&amp;amp;jc=NETWORK_ENGINEERING&amp;amp;jc=TECHNICAL_INFRASTRUCTURE_ENGINEERING &quot;&gt;Google jobs website&lt;/a&gt;, multiple locations (including NYC and Bay Area). Google usually doesn't make a distinction between research and software engineering positions in their search. Once you pass the standard software engineering screening process, you get into the host matching phase and you can find a mentor interested in research.  &lt;/li&gt;
+&lt;li&gt; Yahoo! Labs. &lt;a href=&quot;http://labs.yahoo.com/careers/?section=internship&quot;&gt;Posting&lt;/a&gt;, multiple locations (including NYC, Bay Area and Barcelona).&lt;/li&gt;
+&lt;li&gt; Facebook Research. &lt;a href=&quot;https://www.facebook.com/careers/department?req=a0IA000000CzCGu&quot;&gt;Posting&lt;/a&gt; from Yann LeCun, multiple locations (including NYC and Bay Area).&lt;/li&gt;
+&lt;li&gt; Ebay Labs. &lt;a href=&quot;https://labs.ebay.com/careers/cesr/&quot;&gt;Posting&lt;/a&gt;, located in Bay Area. &lt;/li&gt;
+&lt;li&gt; Technicolor. &lt;a href=&quot;http://www.technicolor.com/en/innovation/student-day/job-internship-opportunities-ri-labs&quot;&gt;Posting&lt;/a&gt;, located in Bay Area.&lt;/li&gt;
+&lt;li&gt; HP Labs. &lt;a href=&quot;http://www.hpl.hp.com/careers/students-and-interns/&quot;&gt;Posting&lt;/a&gt;, main location in New Jersey.&lt;/li&gt;
+&lt;li&gt; NEC Labs. &lt;a href=&quot;http://www.nec-labs.com/working-at-nec-labs/internship &quot;&gt;Posting&lt;/a&gt;, main location in New Jersey.&lt;/li&gt;
+&lt;li&gt; VMWare. New lab founded by some of the former Microsoft SVC researchers, main location in Bay Area. Added to the list by suggestion from one of the founding members, &lt;a href=&quot;http://udiwieder.wordpress.com/&quot;&gt;Udi Wieder&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;p&gt;
+I am only familiar with the first two, which seem to have a less strong commitment to fundamental research than the labs listed before. However, the total number of job and internship openings in this slightly more applied list is probably almost an order of magnitude larger. 
+&lt;/p&gt;
+
+&lt;h3&gt;National Labs&lt;/h3&gt;
+
+&lt;p&gt;
+There are also many national labs. As a Russian citizen I can't tell you much about experience at these (especially in crypto, where I am sure my list is highly incomplete), but here are some options.
+Somewhat surprisingly, even these places sometimes have opportunities for international students, which may not be well advertised.
+Here are a couple of places to consider:
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;Sandia Labs. &lt;a href=&quot;http://www.sandia.gov/careers/students_postdocs/internships/&quot;&gt;Postings&lt;/a&gt;, main locations include Albuquerque, NM and Livermore, CA&lt;/li&gt;
+&lt;li&gt;Berkeley Lawrence. &lt;a href=&quot;http://education.lbl.gov/Programs/Internships.html&quot;&gt;Postings&lt;/a&gt;, located at Berkeley, CA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Internship Tips&lt;/h1&gt;
+&lt;p&gt;
+&lt;div&gt;
+Internships at research labs and talented interns are both scarce and unique resources so there isn't much data to look at and the decision making process is highly random.
+However, there are a few things you can do to improve your chances.
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;List your top choices and potential mentors&lt;/b&gt;. It helps a lot if you know your future mentors in person. At the very least make sure that you are familiar with their work. A great lab can easily get hundreds of applications. What matters most for the success of your application is whether there is a mentor who will pick you from the pile. Don't hesitate to contact your top choices either directly or through your advisor, but avoid pestering people. Also, mention your potential mentors' names in different parts of your application (forms, research statement, etc.) &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Apply everywhere&lt;/b&gt;. While your chances are significantly reduced when you send a cold application, sometimes there are things you don't know and forces beyond your control. This is especially true for graduate students in their early years.
+Indicating your interest may be important by itself, e.g. I gave my first talk at an industrial lab which couldn't offer me an internship but invited for a short visit. It felt a lot like &lt;a href=&quot;http://en.wikipedia.org/wiki/Peggy_Olson &quot;&gt;Peggy Olson&lt;/a&gt;'s (&lt;a href=&quot;http://en.wikipedia.org/wiki/Mad_Men &quot;&gt;Mad Men&lt;/a&gt;) first business trip to Richmond but better &amp;ndash; thanks to IBM I had no dogs having sex as a view from the hotel room :)
+&lt;/li&gt; 
+&lt;li&gt;&lt;b&gt;Recommendation letters&lt;/b&gt;. Ask your letter writers as soon as possible (ideally at least a month in advance), picking them based on the list of your top choices and other places where you plan to apply. Ask your letter writers for suggestions about places and feedback on your application materials. &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Research statement&lt;/b&gt;. For pure research positions you will need to write a research statement. This is a great opportunity to take time to work on improving your vision. If you are like me then this is a process both difficult and rewarding. Every year when I applied I started by throwing my previous research statement into a trash bin because it looked absolutely terrible. I even remember myself getting very upset once because my vision was such a crap compared to some of the people in the labs where I applied. While your research statement is going to be unlike anyone else's I still recommend looking for inspiration at the research statements of your role models (maybe even potential mentors if they are available). You can ask for feedback on your statement from your advisor, colleagues and friends but I wouldn't expect too much because your statement is truly yours. Make sure you customize some parts of your statement for different places. Finally, for an internship application the research statement often doesn't matter too much, so you don't have to stress too much over it. However, I would still recommend to think of it as a dress rehearsal for your future applications as well as an opportunity to develop your vision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt; FAQ&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;How much does it pay?&lt;/b&gt; Usually about the same or slightly more than a software engineering internship. I would expect $6&amp;ndash;8K/mo (fixed, no negotiation, overtime or bonuses) + standard benefits such as relocation, car rental and housing discounts. So money wise this is certainly better than academia, but can easily be at least two times less than an internship in finance (if you charge overtime, include bonuses, etc.). However, if you are doing what you enjoy most then you might care less about the money.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Can I do an internship during the Fall/Spring semester?&lt;/b&gt; Yes. The main advantage is that researchers at the lab are likely to be more available during these semesters. Another advantage is that if you are doing a summer internship in the same area then you can do two internships back to back and reduce the pain of relocation (I spent six months in Bay Area this way). There are certain disadvantages: less interns and corporate events during the semester, some schools require you to register for credits even if you are away (read as &lt;q&gt;you and/or your advisor will have to pay money and do some paperwork&lt;/q&gt;). &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Can I do an internship after my last year in grad school?&lt;/b&gt; Yes if you graduate after the internship.  However, it also depends on the place &amp;ndash; Google wouldn't allow me to do this but Microsoft Research did.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;What if I am on an F1 visa?&lt;/b&gt; Then you have to jump through more paperwork hoops and in particular get a CPT. You can accumulate at most 12 months of CPT employment without losing your OPT, which limits the number of typical 3-month internships available to you down to 3 or 4.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1&gt;Internship in Labs vs. Academia&lt;/h1&gt;
+&lt;p&gt;
+In theoretical computer science there is not too much difference in the style of research between research labs and academia.
+Also, there have been a lot of discussions online about advantages and disadvantages of each (e.g., &lt;a href=&quot;http://greatresearch.org/2013/08/30/industry-or-academia-a-counterpoint/&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://mybiasedcoin.blogspot.com/2009/09/research-labs-vs-academia.html&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html &quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://thmatters.wordpress.com/2014/10/14/letter-re-closing-of-microsoft-research-silicon-valley/&quot;&gt;here&lt;/a&gt; and following the links from there). However, from the intern's perspective these issues are less relevant, e.g. it is highly unlikely that a lab will be shut down during your internship.
+&lt;p&gt;
+From intern's point of view, I would say that a few obvious differences are:
+&lt;ul&gt;
+&lt;div&gt;
+&lt;li&gt;&lt;b&gt;More face time.&lt;/b&gt; If you enjoy having long brainstorming sessions lasting for several hours every day then an industrial lab might be an ideal place for you. In academia you are unlikely to see your advisor more than twice a week for a couple of hours. This means that at an industrial lab you can make a lot of progress on one project in a very short period of time. In my experience, industrial researchers tend to have personalities suitable for thinking long hours on a deep problem together with an environment that lets them do this. In academia professors' busy schedules seem to interfere with research a lot and graduate students often work a lot either by themselves or with other students. Coming from team programming competitions background I really enjoyed these long brainstorming sessions in the labs.&lt;/li&gt; 
+&lt;li&gt;&lt;b&gt;Patents.&lt;/b&gt; There are &lt;a href=&quot;http://www.thisamericanlife.org/radio-archives/episode/441/when-patents-attack&quot;&gt;many&lt;/a&gt; &lt;a href=&quot;http://www.thisamericanlife.org/radio-archives/episode/496/when-patents-attack-part-two&quot;&gt;controversies&lt;/a&gt; around patents, but ultimately they play a very important role at research labs (e.g. &lt;a href=&quot;http://en.wikipedia.org/wiki/Nathan_Myhrvold &quot;&gt;Nathan Myhrvold&lt;/a&gt;, the founder of the controversial &lt;a href=&quot;http://en.wikipedia.org/wiki/Intellectual_Ventures&quot;&gt;Intellectual Ventures&lt;/a&gt;, was also the founder of Microsoft Research). While doing an internship, keep in mind that some parts of your research may later be filed as a patent. Depending on the company, you might get some money for this. Also, it is an interesting experience to see a paper converted into a patent by lawyers.  
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Social aspects.&lt;/b&gt; Researchers at labs work and interact with each other a lot more than professors do. This also includes going for lunch as a group and means that you can have lunch with some of the biggest stars in your field every day! You can do lots of other things together too, such as running, cycling, ping pong, etc. I got into triathlons during the group rides at IBM Almaden. 
+&lt;/li&gt; 
+&lt;/div&gt;
+&lt;/ul&gt;
+
+
+
+&lt;h1&gt;Alternatives&lt;/h1&gt;
+If you can't get an internship at your dream lab you still have multiple options. While I haven't tried them, many of my friends did.  
+&lt;p&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Unpaid Internship.&lt;/b&gt; Unfortunately, not all great labs are well-funded. If you can't find a paid position but the lab is interested in working with you sometimes your advisor can pay you from their grant.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Visiting a Lab. &lt;/b&gt; Sometimes you can get paid for a short or long visit (usually works only for well-funded labs). &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Consulting.&lt;/b&gt; This is a slightly unusual option for a graduate student, but some of my friends did this. 
+It probably works best if there is a lab next to the place where you live and does involve some paperwork.
+
+Getting hired as a consultant is also sometimes a way to keep your access to the company's data after an internship if, say, you are still doing experiments for a paper you started while being at the lab.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Fellowship.&lt;/b&gt; Many fellowships come together with internship opportunities. These are even better because you are not tied to a specific location/mentor. A &lt;a href=&quot;http://www.cs.cmu.edu/~gradfellowships/&quot;&gt;great list of fellowships&lt;/a&gt; is maintained by CMU.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Visiting Another University.&lt;/b&gt; Summer might be a good time to visit another university because professors are not teaching, although they might be traveling. Visiting during the Fall/Spring semester might be also good but for exactly the opposite reasons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/research-internship/&quot;&gt;Getting a Research Internship&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on December 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Massively Parallel Clustering: Overview]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/mapreduce-clustering/" />
+  <id>http://localhost:4000/mapreduce-clustering</id>
+  <published>2014-11-02T00:00:00+03:00</published>
+  <updated>2014-11-02T00:00:00+03:00</updated>
+  <author>
+    <name>Grigory Yaroslavtsev</name>
+    <uri>http://localhost:4000</uri>
+    <email>grigory@grigory.us</email>
+  </author>
+  <content type="html">&lt;div&gt;
+&lt;p&gt;
+Clustering is one of the main vechicles of machine learning and data analysis.
+In this post I will describe how to make three very popular sequential clustering algorithms (&lt;a href=&quot;http://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;k-means&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Single-linkage_clustering &quot;&gt;single-linkage clustering&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Correlation_clustering &quot;&gt;correlation clustering&lt;/a&gt;) work for big data. The first two algorithms can be used for clustering a collection of feature vectors in \(d\)-dimensional Euclidean space (like the two-dimensional set of points on the picture below, while they also work for high-dimensional data). The last one can be used for arbitrary objects as long as for any pair of them one can define some measure of similarity.
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Massively Parallel Clustering&quot; src=&quot;http://localhost:4000/pics/mapreduce-clustering.png&quot; /&gt;&lt;/div&gt;
+
+&lt;br /&gt;
+&lt;p&gt;
+Besides optimizing different objective functions these algorithms also give qualitatively different types of clusterings.
+K-means produces a set of exactly k clusters. Single-linkage clustering gives a hierarchical partitioning of the data, which one can zoom into at different levels and get any desired number of clusters.
+Finally, in correlation clustering the number of clusters is not known in advance and is chosen by the algorithm itself in order to optimize a certain objective function.
+&lt;/p&gt;
+&lt;p&gt;
+All algorithms described in this post use the &lt;a href=&quot;http://localhost:4000/mapreduce-model/&quot;&gt;model for massively parallel computation&lt;/a&gt; that I described before.
+&lt;/p&gt;
+
+&lt;h1&gt; K-Means&lt;/h1&gt;
+&lt;br /&gt;
+&lt;p&gt;
+First algorithm is a parallel version of an approximation algorithm for &lt;a href=&quot;http://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;K-Means&lt;/a&gt;, one of the most widely used clustering methods.
+Given a set of vectors \(v_1, \dots, v_n \in \mathbb R^d\) the goal of k-means is to partition them into \(k\) clusters \(S_1, \dots, S_k\) such that the following objective is minimized:
+$$\sum_{i = 1}^k \sum_{j \in S_i} ||v_j - \mu_i||^2,$$ where \(\mu_i = \frac{1}{|S_i|}\sum_{j \in S_i} v_j\) is the center (or mean) of the \(i\)-th cluster and \(||\cdot||\) is the Euclidean distance.
+Intuitively, the goal is to pick a partitioning that minimizes the total variance.
+K-means works great for partitioning into compact groups like those on the picure below.
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;K-Means&quot; src=&quot;http://localhost:4000/pics/kmeans.png&quot; /&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;K-means++ and K-means||&lt;/h3&gt;
+&lt;p&gt;
+An algorithm for k-means, which gives a clustering of cost within a multiplicative factor \(O(\log k)\) of the optimum was given by &lt;a href=&quot;http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf&quot;&gt;Arthur and Vassilvitskii&lt;/a&gt;. Here is their algorithm called K-means++:
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt; Let \(\mathcal C = \{v_i\}\) for a random vector \(v_i\).&lt;/li&gt;
+&lt;li&gt; Repeat \(k - 1\) times: let \(\mathcal C = \mathcal C \cup \{u\}\), where \(u\) is  a random vector from the probability distribution assigning to each \(v_i\)probability density $$p_i(\mathcal C) = \frac{d(v_i, \mathcal C)^2}{\sum_{i} d(v_i, \mathcal C)^2},$$ where \(d(u,\mathcal C) =\min_{x \in \mathcal C}{||u - x||}.\)&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+However, K-means++ is sequential and takes at least \(k\) rounds. 
+A parallel version of it called K-means|| is due to &lt;a href=&quot;http://arxiv.org/pdf/1203.6402.pdf &quot;&gt;Bahmani, Moseley, Vattani, Kumar and Vassilvitskii&lt;/a&gt;:
+
+&lt;ul&gt;
+&lt;li&gt;Let \(\mathcal C = \{v_i\}\) for a random vector \(v_i\) &lt;/li&gt;
+&lt;li&gt;Let \(\psi = \sum_{i} d(v_i, \mathcal C)\) be the initial cost of the clustering.&lt;/li&gt;
+&lt;li&gt;Repeat \(O(\log \psi)\) times:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Let \(\mathcal C'\) be a set of \(O(k)\) points each sampled independently from the distribution assigning to \(v_i\) probability \(p_i(\mathcal C)\) defined above. &lt;/li&gt; 
+&lt;!--assigning to \(v_i\) probability $$p_i = \frac{d(v_i, \mathcal C)^2}{\sum_i d(v_i, \mathcal C)^2}$$&lt;/li&gt;
+--&gt;
+&lt;li&gt; \(\mathcal C = \mathcal C \cup \mathcal C'\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;For each \(x \in \mathcal C\), let \(w_x\) be the number of points belonging to this center&lt;/li&gt;
+&lt;li&gt;Recluster the weighted points in \(\mathcal C\) into \(k\) clusters using K-means++&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;
+The potential \(\psi\) can be shown to be at most \(poly(n)\) by discretizing the space by a grid with step size \(1/poly(n)\), and moving each point to the closest grid point, which only perturbs the cost of the solution by a negligible factor.
+Thus we have \(\log \psi = O(\log n)\).
+The final reclustering can be performed in one round, assuming that \(O(k \log n)\) weighted centers fit on a single machine.
+Thus, the total number of rounds in the algorithm above is \(O(\log n)\).
+It can be shown that the solution produced by this algorithm has cost within \(O(\log k)\) of the optimum.
+For more details I would recommend to see either the original paper or these &lt;a href=&quot;http://grigory.us/files/km++.pdf&quot;&gt;slides&lt;/a&gt; from our reading group by &lt;a href=&quot;http://www.cis.upenn.edu/~wuzhiwei/ &quot;&gt;Steven Wu&lt;/a&gt;.
+&lt;/p&gt;
+
+
+&lt;h1&gt;Single-Linkage Clustering&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Single-linkage_clustering&quot;&gt;Single-linkage clustering&lt;/a&gt; is another standard technique in data analysis and information retrieval. It can be used to produce a &lt;a href=&quot;http://en.wikipedia.org/wiki/Hierarchical_clustering &quot;&gt;hierarhical clustering&lt;/a&gt; of the data (see also &lt;a href=&quot;http://nlp.stanford.edu/IR-book/pdf/17hier.pdf&quot;&gt;Chapter 17&lt;/a&gt; in the &lt;a href=&quot;http://nlp.stanford.edu/IR-book/ &quot;&gt;Information Retrieval&lt;/a&gt; book by Manning, Raghavan and Schutze and &lt;a href=&quot;http://infolab.stanford.edu/~ullman/mmds/ch7a.pdf &quot;&gt;Chapter 7.2&lt;/a&gt; in the &lt;a href=&quot;http://www.mmds.org/&quot;&gt;Mining of Massive Datasets&lt;/a&gt; book by Leskovec, Rajaraman and Ullman).
+&lt;/p&gt;
+&lt;p&gt;
+For two clusters \(S_i\) and \(S_j\) the single linkage distance is defined as:
+$$D(S_i, S_j) = \min_{v \in S_i, u \in S_j} d(v,u),$$
+In general, \(d(\cdot, \cdot)\) can be an arbitrary distance function, but for points in Euclidean space it is most natural to use \(d(v,u) = ||v - u||\).
+The goal of single linkage clustering in Euclidean space is to partition the set of vectors \(v_1, \dots, v_n \in \mathbb R^d\) into clusters \(S_1, \dots, S_k\) such that the following objective is maximized:
+$$\min_{i &amp;lt; j} D(S_i, S_j) = \min_{i &amp;lt; j} \min_{v \in S_i, u \in S_j} ||v - u||.$$
+&lt;/p&gt;
+&lt;p&gt;
+In fact, it is easy to see that the set of clusters \(S_1, \dots S_k\), which maximizes the objective above can be obtained by constructing a Euclidean Minimum Spanning Tree and picking \(S_i\)'s as connected components of this tree obtained after removing \(k - 1\) of its longest edges.  
+Thus, single-linkage clustering works best for finding clusters defined by the connectivity structure. In particular, it can be used to solve the following example which is hard for K-means because points in the cluster are far from their average. This example is typically given as a motivation for using spectral clustering, which I don't discuss in this post, but it can be also addressed using single-linkage:
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Single Linkage&quot; src=&quot;http://localhost:4000/pics/singlelinkage.jpg&quot; /&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+As expalined above, Euclidean Minimum Spanning Tree can be used to produce hierarchical Single-Linkage Clustering for any number of clusters.
+However, it is not known how to efficiently compute an exact such tree in small number of rounds of MapReduce.
+For any constant dimension \(d\) Euclidean Minimum Spanning Tree of cost within \((1 + \epsilon)\)-factor of optimum can be computed in constant number of rounds of MapReduce. This is a result from our joint paper with &lt;a href=&quot;http://www.mit.edu/~andoni/ &quot;&gt;Alexandr Andoni&lt;/a&gt;, &lt;a href=&quot;http://onak.pl &quot;&gt;Krzysztof Onak&lt;/a&gt; and &lt;a href=&quot;http://paul.rutgers.edu/~anikolov/&quot;&gt;Aleksandar Nikolov&lt;/a&gt;, which appeared in STOC 2014. 
+I will cover this algorithm in one of the future posts, but for now you can use the &lt;a href=&quot;http://grigory.us/files/talks/upenn14.pptx&quot;&gt;slides&lt;/a&gt; of my talk about it.
+&lt;/p&gt;
+
+&lt;h1&gt;Correlation Clustering&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Correlation_clustering&quot;&gt;Correlation clustering&lt;/a&gt;
+can be used to cluster an arbitrary collection of \(n\) objects, so for this type of clustering it is not necessary that they can be represented by vectors in Euclidean space.
+The only requirement is that for every pair of objects \(i\) and \(j\) it should be possible to compare them directly 
+and obtain a measure of dissimilarity \(w(i,j) \in [0,1]\). Here \(w(i,j) = 0\) means that the objects are exactly the same, while
+\(w(i,j) = 1\) means that they are completely different and the values in between correspond to different degrees of dissimilarity.
+&lt;/p&gt;
+&lt;p&gt;
+The objective of correlation clustering is to minimize the total cost of mistakes incurred by the clustering.
+For a set of clusters \(\mathcal C = \mathcal C_1, \dots, \mathcal C_k\) let the indicator function \(x(i,j)\) be defined as \(x(i,j) = 0\) if \(i\) and \(j\) are in the same cluster and \(x(i,j) = 1\) otherwise. 
+The total cost of the clustering is expressed as a function of w's and x's as follows:
+$$\sum_{i &amp;lt; j \colon x(i,j) = 0} w(i,j)  +  \sum_{i &amp;lt; j \colon x(i,j) = 1} 1 - w(i,j).$$
+Note that the number of clusters is not fixed and the algorithm has to choose it in order to optimize the objective function above.
+The picture below (courtesy &lt;a href=&quot;http://www.cs.yale.edu/homes/el327/ &quot;&gt;Edo Liberty&lt;/a&gt;) uses edges to represent similar pairs (\(w(i,j) = 0\)) and non-edges for dissimilar pairs (\(w(i,j) = 1\)). On the right pairs misclassifed by the clustering are shown in red, so the overall cost of such clustering is equal to 4.
+&lt;div align=&quot;center&quot;&gt;&lt;img alt=&quot;Correlation Clustering&quot; src=&quot;http://localhost:4000/pics/cc.png&quot; /&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+There exist many approximation algorithms for correlation clustering. In particular, using linear programming one can obtain a clustering of total cost within a multiplicative factor 2.5 of the optimum. This is a result of &lt;a href=&quot;http://dimacs.rutgers.edu/~alantha/papers2/acn05conf.pdf&quot;&gt;Ailon, Charikar and Newman&lt;/a&gt;.
+Moreover, if the weight function \(w\) satisfies triangle inequalities then the approximation of their algorithm becomes 2.
+The linear programming relaxation for this problem is naturally formulated using triangle inequalities:
+$$\text{Minimize: }\sum_{i&amp;lt;j} w(i,j)\cdot (1 - x(i,j)) + (1 - w(i,j)) \cdot x(i,j)$$
+$$x(i,j) \le x(i,k) + x(k,j), \text{   } \forall i, j, k$$
+$$0 \le x(i,j) \le 1$$
+Note that for \(x(i,j) \in \{0,1\}\) this program exactly captures the correlation clustering problem.
+Recently in joint work with &lt;a href=&quot;http://pages.cs.wisc.edu/~shuchi/ &quot;&gt;Shuchi Chawla&lt;/a&gt;, &lt;a href=&quot;http://konstantin.makarychev.net/ &quot;&gt;Konstantin Makarychev&lt;/a&gt; and &lt;a href=&quot;http://www.cs.berkeley.edu/~tschramm/ &quot;&gt;Tselil Schramm&lt;/a&gt; we have shown that there is a rounding scheme that achieves approximations 2.06 and 1.5 for these two cases, which is very close to the &lt;a href=&quot;http://en.wikipedia.org/wiki/Linear_programming_relaxation#Approximation_and_integrality_gap &quot;&gt;integrality gaps&lt;/a&gt; of this linear progarmming relaxation (2 and 1.2 for the general and triangle inequality cases respectively).
+&lt;/p&gt;
+&lt;p&gt;
+While the linear programming approach is hard to implement in MapReduce there is a very simple combinatorial algorithm due to Ailon, Charikar and Newman, which achieves a 3-approximation in general and a 2-approximation if the weights satisfy triangle inequalities.
+First, define two sets of edges \(E^+ = \{(i,j) | w(i,j) &amp;lt; 1/2\}\) and \(E^- = \{(i,j) | w(i,j) \ge 1/2\}\). This means that we will treat pairs with dissimilarity below \(1/2\) as similar and those with dissimilarity at least \(1/2\) as dissimilar.
+Now a set of clusters, which achieves the approximations stated above can be constructed using the following algorithm:
+&lt;ul&gt;
+&lt;li&gt;Pick a random object \(i\)&lt;/li&gt;
+&lt;li&gt;Set \(\mathcal C = \{i\}\), \(V' = \emptyset\)&lt;/li&gt;
+&lt;li&gt;For all \(j \neq i\):&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;If \((i,j) \in E^+\) then add \(j\) to \(\mathcal C\)&lt;/li&gt;
+&lt;li&gt;Else if \((i,j) \in E^-\) then add \(j\) to \(V'\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Let \(G'\) be the subgraph induce by \(V'\)&lt;/li&gt;
+&lt;li&gt;Return clustering consisting of \(\mathcal C\) together with the set of clusters produced by this algorithm applied recursively to \(V'\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+
+&lt;p&gt;
+The analysis of approximation achieved by this algorithm cleverly uses linear programming duality. However, this approach is very sequential in nature and might take \(O(n)\) rounds of MapReduce if implemented as is.
+Recently there has been a paper in KDD 2014 by &lt;a href=&quot;http://bit.ly/1zqPNzX&quot;&gt;Chierichetti, Dalvi and Kumar&lt;/a&gt; who show that a substantially modified version of the pivoting algorithm above achieves a \((3 + \epsilon)\)-approximation in \(O\left(\frac{\log n \log \Delta^+}{\epsilon}\right)\) rounds, where \(\Delta^+\) is the maximum degree in the graph induced by \(E^+\).
+&lt;/p&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/mapreduce-clustering/&quot;&gt;Massively Parallel Clustering: Overview&lt;/a&gt; was originally published by Grigory Yaroslavtsev at &lt;a href=&quot;http://localhost:4000&quot;&gt;The Big Data Theory&lt;/a&gt; on November 02, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>

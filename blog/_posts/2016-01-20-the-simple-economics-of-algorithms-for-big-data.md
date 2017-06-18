@@ -1,0 +1,50 @@
+---
+layout: post
+comments: true
+title: "The Simple Economics of Algorithms for Big Data"
+author: grigory 
+date: 2016-01-20
+excerpt: "In this blog post I want to suggest a simple reason why you should study your algorithms really well if you want to design algorithms that deal with big data.
+" 
+markdown: kramdown
+image: /pics/logo.jpg	
+tags: [algorithms, theory, big-data]
+---
+
+<p>
+In this blog post I want to suggest a simple reason why you should study your algorithms <b>really</b> well if you want to design algorithms that deal with big data.
+This reason comes from <b>the way billings offered by cloud services work</b>.
+</p>
+<p>
+Maybe you remember yourself taking that algorithms class and thinking: &ldquo;Who really cares if that algorithm uses a bit more time? Can't we just wait a little longer?&rdquo;.
+Or &ldquo;Ok, we can save some space here, but if it all fits into my RAM anyway then why bother?&rdquo;.
+These are both great reasons not to care too much about efficiency of your algorithms if your data is small, fits into RAM and the running times aren't significant enough to matter anyway.
+So you would go on to program your favorite video game and not care about that professor talking about all that big-Oh nonsense.
+And in the short run you would be right. While you are developing a prototype of your favorite video game you shouldn't care.
+When I was working at a startup I remember myself learning the hard way that <a href="http://c2.com/cgi/wiki?PrematureOptimization ">premature optimization is the root of all evil</a>.
+
+</p>
+<div align="center"><img alt="abstruse-goose-video-games" src="{{site.url}}/pics/abstruse-goose-video-games.png"> </div>
+
+<br>
+<p>
+However, once your video game becomes successful and you get to deal with big data that has to be stored and processed in the cloud this reasoning starts to fall short.
+Let's say you developed <a href="https://en.wikipedia.org/wiki/Candy_Crush_Saga">Candy Crush Saga</a> (<a href="http://www.standard.co.uk/business/business-news/candy-crush-saga-owner-king-digital-entertainment-valued-at-7bn-9216058.html">valued at $7bn in 2014</a>) and now you are interested in doing some data analytics about your &gt;10 million active users.
+You are now considering outsourcing your data storage and computation to the cloud.
+Here is where you might want to learn why the design of space and time-efficient algorithms matters for the bottom line of your future business. 
+
+<h1>100x more efficient algorithms = 100x less money in billings</h1>
+
+So that time and space your professor was talking about &ndash; what does it have to do with your spending on the cloud services?
+The answer is surprisingly simple &ndash; <b>if you need 100x more time and space then your billing increases 100 times</b>.
+Below I used the pricing calculator that comes with Google Compute Engine to see how the cost scales if I want to use 100/1000/10000 identical machines for a year.
+<div align="center"><img alt="abstruse-goose-video-games" src="{{site.url}}/pics/cloud-pricings.png"> </div>
+<br>
+<p>
+I was myself surprised to find this out since I expected some economy of scale to kick in. In fact, sometimes it does but usually is quite negligible. Say, you can get an X% discount but that doesn't help much against linear scaling.
+</p>
+
+
+
+
+

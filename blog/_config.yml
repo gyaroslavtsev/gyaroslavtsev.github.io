@@ -1,0 +1,55 @@
+# Site wide configuration
+
+title:            The Big Data Theory 
+locale:           en_US
+url:              http://grigory.us/blog #  http://localhost:4000 # 
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: none 
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Site owner
+owner:
+  name: Grigory Yaroslavtsev 
+  avatar: http://grigory.us/blog/favicon.png
+  bio: This blog will cover theoretical aspects of algorithm design for large data processing. You can subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+  email: grigory@grigory.us 
+  disqus-shortname: yaroslavtsev 
+  twitter: gyaroslavtsev
+  facebook: yaroslavtsev
+  quora: Grigory-Yaroslavtsev
+  google:
+    plus: GrigoryYaroslavtsev
+    analytics: UA-55201373-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: grigory
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: gyaroslavtsev
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

@@ -1,0 +1,331 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>algorithms for Big Data &#8211; The Big Data Theory</title>
+<meta name="description" content="This is announcement of an upcoming class at Penn which I am going to teach in Fall'15.">
+<meta name="keywords" content="algorithms, teaching, theory, academia">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="algorithms for Big Data">
+<meta name="twitter:description" content="This is announcement of an upcoming class at Penn which I am going to teach in Fall'15.">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/class-poster-small.png">
+<meta property="og:title" content="algorithms for Big Data">
+<meta property="og:description" content="This is announcement of an upcoming class at Penn which I am going to teach in Fall'15.">
+<meta property="og:url" content="http://localhost:4000/big-data-class/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/big-data-class/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/big-data-class/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/big-data-class/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/big-data-class/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/big-data-class/" rel="bookmark" title="algorithms for Big Data">algorithms for Big Data</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>Next week I am launching at Penn a new graduate class called “algorithms for Big Data”.
+Really excited to be teaching my first full class which was in the works for a while. Last semester I co-taught “<a href="http://www.cis.upenn.edu/~mkearns/teaching/COLT/">Computational Learning Theory</a>”
+with <a href="http://www.cis.upenn.edu/~mkearns/ ">Michael Kearns</a> which was a great experience but developing a new class on my own was even more entertaining.
+The homepage is <a href="http://grigory.us/big-data-class.html">here</a>.</p>
+
+<div align="center"><img alt="" width="50%" style="border:3px solid black" src="http://localhost:4000/pics/class-poster.png" /> </div>
+<p><br />
+Tentative list of topics is <a href="http://grigory.us/big-data-class.html#plan">available</a> and I will appreciate any comments/suggestions.
+Among other related “big data theory” classes listed <a href="http://grigory.us/big-data-class.html#sketch">here</a> my class will be one of the most 
+focused on distributed algorithms for clusters and Hadoop/Mapreduce. E.g., most of the streaming and dimensionality reduction techniques introduced in the first parts of the class serve primarily as an introduction into linear sketching which works in the distributed context as well.</p>
+
+<p>On a related note, multiple shout-outs to Google who makes its <a href="https://cloud.google.com/compute/">Compute Engine</a> available for 2 months of free trial with a $200 credit.
+The demos in my class will be run on this platform which I think is the friendliest among the competitors.</p>
+
+<p>I was also really excited to find out that this year Google has launched the first large online distributed algorithm competition that I am aware of – <a href="https://code.google.com/codejam/distributed_index.html">Distributed Code Jam</a>.
+I’ve been expecting this for a while and now you can finally get your hands on a nice set of algorithmic problems in distributed computing.
+The solutions are executed on 100 machines in parallel which allows to process inputs of 10<sup>9</sup> records easily.
+<a href="https://code.google.com/codejam/contest/4264486/dashboard">Practice Round problems</a> include some classic theoretical problems such as distributed majority computation and finding a path on a cycle.</p>
+
+<!--<h1>Title</h1>-->
+
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>algorithms for Big Data</strong> was published on <time datetime="2015-08-16T00:00:00+03:00">August 16, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>

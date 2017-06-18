@@ -1,0 +1,399 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>What's New in the Big Data Theory 2016 &#8211; The Big Data Theory</title>
+<meta name="description" content="Collection of interesting papers on algorithms for big data from 2016.">
+<meta name="keywords" content="algorithms, theory, academia, big data, research">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="What's New in the Big Data Theory 2016">
+<meta name="twitter:description" content="Collection of interesting papers on algorithms for big data from 2016.">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/o2016.png">
+<meta property="og:title" content="What's New in the Big Data Theory 2016">
+<meta property="og:description" content="Collection of interesting papers on algorithms for big data from 2016.">
+<meta property="og:url" content="http://localhost:4000/whats-new-in-big-data-theory-2016/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/whats-new-in-big-data-theory-2016/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/whats-new-in-big-data-theory-2016/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/whats-new-in-big-data-theory-2016/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/whats-new-in-big-data-theory-2016/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" rel="bookmark" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <div align="center"><img alt="Happy 2017!" src="http://localhost:4000/pics/o2016.png" /> </div>
+
+<p><br /></p>
+
+<p>This post will give an overview of papers on theory of algorithms for big data that caught my attention in 2016.
+The basic rule that I used when making the list was whether I can see these results being included into some of the advanced graduate classes on algorithms in the future.
+Also, while I obviously can’t include my own results here, among my own 2016 papers my two personal favorites are <a href="http://grigory.us/files/soda16.pdf">tight bounds on space complexity of computing approximate matchings in dynamic streams</a> (with S. Assadi, S. Khanna and Y. Li) and the <a href="http://eccc.hpi-web.de/report/2016/174/"><script type="math/tex">\mathbb F_2</script>-sketching paper</a> (with S. Kannan and E. Mossel and some special credit to Swagato Sanyal who subsequently improved the dependence on error in one of our main theorems).</p>
+
+<p>It’s been a great year with several open problems resolved, old algorithms improved and new lines of research started.
+All papers discussed below are presented in no particular order and their selection is clearly somewhat biased towards my own research interests.</p>
+
+<h2>Maximum Weighted Matching in Semi-Streaming</h2>
+<p>Sweeping both the best paper and the best student paper awards at the upcoming 28th ACM Symposium on Discrete Algorithms is a paper on semi-streaming algorithms for maximum weighted matching by graduate students Ami Paz and Gregory Schwartzman.
+In semi-streaming we are given one pass over edges of an <script type="math/tex">n</script>-vertex and only <script type="math/tex">\tilde O(n)</script> bits of space.
+It is easy to get a 2-approximation to the maximum matching by just maintaining the maxim<strong>al</strong> matching of the graph.
+However, for weighted graphs maximal matching no longer guarantees a 2-approximation.</p>
+
+<p>A long line of work has previously given constant factor approximations for this problem and finally we have a <script type="math/tex">2+\epsilon</script>-approixmation. 
+It is achieved via a careful implementation of the primal-dual algorithm for matchings in the semi-streaming setting.
+It may seem somewhat surprising that primal-dual hasn’t been applied to this problem before since in the area of approximation algorithms it is a pretty standard way of reducing weighted problems to their unweighted versions, but the exact details of how to implement primal-dual in the streaming setting are quite delicate. I couldn’t find a version of this paper online so the best bet might be to wait for the SODA proceedings.</p>
+
+<p>Now the big open question is whether one can beat the 2-approximation which is open even in the unweighted case.</p>
+
+<h2>Shuffles and Circuits</h2>
+<p>Best paper award at the 28th ACM Symposium on Parallelism in Algorithms and Architectures went to ‘‘<a href="http://theory.stanford.edu/~sergei/papers/spaa16-mrshuffle.pdf">Shuffles and Circuits</a>’’, a paper by Roughgarden, Vassilvitskii and Wang.
+This paper emphasizes the difference between rounds of MapReduce and depth of a circuit.
+Because some of the machines can choose to stay silent between the rounds a round of MapReduce can be more complex than a layer of a circuit as the machines sending input to the next round might depend on the original input data. 
+The paper shows that nevertheless the standard circuit complexity ‘‘degree bound’’ can be applied to MapReduce computation.
+I.e. any Boolean function whose polynomial representation has degree <script type="math/tex">d</script> requires <script type="math/tex">\Omega(\log_s d)</script> rounds of MapReduce using machines with space <script type="math/tex">s</script>.
+This implies an <script type="math/tex">\Omega(\log_s n)</script> lower bound on the number of rounds for computing connectivity of a graph.
+The authors also make explicit a connection between the MapReduce model and <script type="math/tex">NC^1</script> (see definition <a href="https://en.wikipedia.org/wiki/NC_(complexity) ">here</a>) which implies that improving lower bounds beyond <script type="math/tex">\log_s n</script>  for polynomially many machines would imply separating <script type="math/tex">P</script> from <script type="math/tex">NC^1</script>.</p>
+
+<h2>Beating Counting Sketches for Insertion-Only Streams</h2>
+<p>Both <a href="http://www.cs.princeton.edu/courses/archive/spring04/cos598B/bib/CharikarCF.pdf ">CountSketch</a> and <a href="https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch">Count-Min Sketch</a>, which are textbook approximate data structures for storing very large dynamically changing numerical tables in small space, have been improved this year under the assumption that data in the table is only incremented.
+These improvements are for the most common application of such sketches to ``heavy hitters’’– the task of recovering largest entries from the table approximately. 
+For CountSketch see <a href="http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/bciw16.pdf">the paper</a> by Braverman, Chestnut, Ivkin, Woodruff from STOC’16 and for CountMin Sketch <a href="https://arxiv.org/abs/1603.00213">the paper</a> by Bhattacharyya, Dey and Woodruff from PODS’16.</p>
+
+<h2>Optimality of the Johnson-Lindenstrauss Transform</h2>
+<p>Two papers by <a href="https://arxiv.org/pdf/1609.02094v1.pdf ">Green Larsen and Nelson</a> and by <a href="http://www.cs.tau.ac.il/~nogaa/PDFS/compression3.pdf">Alon and Klartag</a> have resolved the question of proving optimality of the Johnson-Lindenstrauss transform.
+Based on doing a projection on random low-dimensional subspace JL-transform is the main theoretical tool for dimensionality reduction of high-dimensional vectors.
+As these papers show no low-dimensional embedding and furthermore no data structure can achieve better bit complexity than <script type="math/tex">\Theta(n \log n/\epsilon^2)</script> for <script type="math/tex">(1 \pm \epsilon)</script>-approximating all pairwise distances between <script type="math/tex">n</script> vectors in Euclidean space (for a certain regime of parameters).
+This matches the Johnson and Lindenstrauss upper bound and improves an old lower bound of <script type="math/tex">\Omega\left(\frac{n \log n}{  \epsilon^2 \log 1/\epsilon}\right)</script> due to Alon.
+Even though Alon’s argument is significantly simpler getting an optimal lower bound is a very nice achievement.</p>
+
+<h2>Fast Algorithm for Edit Distance if It's Small</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Edit_distance ">Edit distance</a> is one of the cornerstone metrics of text similairity in computer science. It can be computed in quadratic time using standard dynamic programming which is optimal assuming SETH due to the <a href="https://arxiv.org/abs/1412.0348 ">result of Backurs and Indyk</a>.
+Edit distance also has a number of applications including comparing DNAs in computational biology.
+In these applications it is usually reasonable to assume that edit distance is only interesting if it is not too large.
+Unfortunately, this doesn’t help speed up the standard dynamic program.
+A series of papers, including two papers from this year by <a href="http://iuuk.mff.cuni.cz/~koucky/papers/editDistance.pdf ">Chakraborty, Goldenberg and Koucky</a> (STOC’16) and 
+<a href="http://homes.soic.indiana.edu/qzhangcs/papers/focs16-ED.pdf ">Belazzogui and Zhang</a> lead to the following result: sketches of size <script type="math/tex">poly(K \log n)</script> bits suffice for computing edit distance <script type="math/tex">\le K</script>. Such sketches can be applied not just in centralized but also in distributed and streaming settings making it possible to compress input strings down to size that (up to logarithmic factors) only depends on <script type="math/tex">K</script>.</p>
+
+<h2>Tight Bounds for Set Cover in Streaming</h2>
+<p>Set Cover is a surprisingly powerful abstraction for a lot of applications that involve providing coverage for some set of terminals. 
+Given a collection of sets <script type="math/tex">S_1, \dots, S_m \subseteq [n]</script> the goal is to find the smallest cardinality subcollection of these sets such that their union is <script type="math/tex">[n]</script>, i.e. all of the underlying elements are covered.
+In approximation algorithms a celebrated greedy algorithm gives an <script type="math/tex">O(\log n)</script>-approximation for this problem. 
+In streaming there has been a lot of interest lately in approximating classic combinatorial optimization problems in small space with Set Cover being one of the main examples.
+For an overview from last year check Piotr Indyk’s <a href="https://www.youtube.com/embed/_4mM1UGI9Dg?list=PLqxsGMRlY6u659-OgCvs3xTLYZztJpEcW ">talk</a> from the <a href="http://grigory.us/mpc-workshop-dimacs.html ">DIMACS Workshop on Big Data and Sublinear Algorithms</a>.</p>
+
+<p>As <a href="http://www.seas.upenn.edu/~sassadi/stuff/papers/tbfsscotscp-conf.pdf ">this STOC’16 paper</a> by Assadi, Khanna and Li shows savings in space for streaming Set Cover can only be proportional to the loss in approximation.  In particular, if we are interested in computing Set Cover which is within a multiplicative factor <script type="math/tex">\alpha</script> of the optimum then:
+1) for computing the cover itself space <script type="math/tex">\tilde \Theta(mn/\alpha)</script> is necessary and sufficient,
+2) for just esimating the size space <script type="math/tex">\tilde \Theta(mn/\alpha^2)</script> is necessary and sufficient.</p>
+
+<h2>Polynomial Lower Bound for Monotonicity Testing</h2>
+<p>Finally a polynomial lower bound has been shown for adaptive algorithms for testing monotonicity of Boolean functions <script type="math/tex">f \colon \{0,1\}^n \rightarrow \{0,1\}</script>.
+The lower bound implies that any algorithm that can tell whether <script type="math/tex">f</script> is monotone or differs from monotone on a constant fraction of inputs has to query at least <script type="math/tex">\tilde \Omega(n^{1/4})</script> values of <script type="math/tex">f</script>. 
+This result is due to <a href="https://arxiv.org/abs/1511.05053 ">Belovs and Blais</a> (STOC’16) and is in contrast with the upper bound of <script type="math/tex">\tilde O(\sqrt{n})</script> by Khot, Minzer and Safra from last year’s FOCS.
+Probably the biggest result in property testing this year.</p>
+
+<h2>Linear Hashing is Awesome</h2>
+<p>While ‘‘<a href="http://ieee-focs.org/FOCS-2016-Papers/3933a345.pdf ">Linear Hashing is Awesome</a>’’ by Mathias Bæk Tejs Knudsen doesn’t fall into the traditional ‘‘sublinear algorithms for big data’’ category this paper still has some sublinear flavor because of its focus on very fast query times.
+Linear hashing is a classic hashing scheme 
+<script type="math/tex">h(x) = ((ax + b) \mod p) \mod m</script> 
+where <script type="math/tex">a,b</script> are random. It is very often used in practice and discussed extensively in CLRS.
+This paper proves that linear hashing <strike>is awesome</strike> results in expected length of the longest chain of only <script type="math/tex">O(n^{1/3})</script> compared to the previous simple bound of <script type="math/tex">O(\sqrt{n})</script>.</p>
+
+<p>Finally, this paper also decisively wins my ‘‘Best Paper Title 2016’’ award.</p>
+
+<h2>Looking forward to more cool results in 2017!</h2>
+<p>There has been a lot of great results in 2016 and it’s hard to mention all of them in one post and I certainly might have missed some exciting papers. Here is a quick shout out to some other papers that were close to making the above list:</p>
+<ul>
+<li><a href="https://arxiv.org/abs/1507.04299 ">Tight Bounds for Data-Dependent LSH</a> by Andoni and Razenshteyn from SoCG'16.</li>
+<li><a href="http://arxiv.org/abs/1603.05346 ">Optimal Quantile Estimation in Streams</a> by Karnin, Lang and Liberty from FOCS'16.
+</li>
+</ul>
+
+<p>Happy 2017!</p>
+
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>What's New in the Big Data Theory 2016</strong> was published on <time datetime="2016-12-30T00:00:00+03:00">December 30, 2016</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/the-binary-sketchman/" title="The Binary Sketchman">The Binary Sketchman</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>

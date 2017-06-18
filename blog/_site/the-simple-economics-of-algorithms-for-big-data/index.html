@@ -1,0 +1,348 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>The Simple Economics of Algorithms for Big Data &#8211; The Big Data Theory</title>
+<meta name="description" content="In this blog post I want to suggest a simple reason why you should study your algorithms really well if you want to design algorithms that deal with big data. ">
+<meta name="keywords" content="algorithms, theory, big-data">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="The Simple Economics of Algorithms for Big Data">
+<meta name="twitter:description" content="In this blog post I want to suggest a simple reason why you should study your algorithms really well if you want to design algorithms that deal with big data. ">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/logo.jpg">
+<meta property="og:title" content="The Simple Economics of Algorithms for Big Data">
+<meta property="og:description" content="In this blog post I want to suggest a simple reason why you should study your algorithms really well if you want to design algorithms that deal with big data. ">
+<meta property="og:url" content="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/the-simple-economics-of-algorithms-for-big-data/" rel="bookmark" title="The Simple Economics of Algorithms for Big Data">The Simple Economics of Algorithms for Big Data</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>
+In this blog post I want to suggest a simple reason why you should study your algorithms <b>really</b> well if you want to design algorithms that deal with big data.
+This reason comes from <b>the way billings offered by cloud services work</b>.
+</p>
+<p>
+Maybe you remember yourself taking that algorithms class and thinking: &ldquo;Who really cares if that algorithm uses a bit more time? Can't we just wait a little longer?&rdquo;.
+Or &ldquo;Ok, we can save some space here, but if it all fits into my RAM anyway then why bother?&rdquo;.
+These are both great reasons not to care too much about efficiency of your algorithms if your data is small, fits into RAM and the running times aren't significant enough to matter anyway.
+So you would go on to program your favorite video game and not care about that professor talking about all that big-Oh nonsense.
+And in the short run you would be right. While you are developing a prototype of your favorite video game you shouldn't care.
+When I was working at a startup I remember myself learning the hard way that <a href="http://c2.com/cgi/wiki?PrematureOptimization ">premature optimization is the root of all evil</a>.
+
+</p>
+<div align="center"><img alt="abstruse-goose-video-games" src="http://localhost:4000/pics/abstruse-goose-video-games.png" /> </div>
+
+<p><br /></p>
+<p>
+However, once your video game becomes successful and you get to deal with big data that has to be stored and processed in the cloud this reasoning starts to fall short.
+Let's say you developed <a href="https://en.wikipedia.org/wiki/Candy_Crush_Saga">Candy Crush Saga</a> (<a href="http://www.standard.co.uk/business/business-news/candy-crush-saga-owner-king-digital-entertainment-valued-at-7bn-9216058.html">valued at $7bn in 2014</a>) and now you are interested in doing some data analytics about your &gt;10 million active users.
+You are now considering outsourcing your data storage and computation to the cloud.
+Here is where you might want to learn why the design of space and time-efficient algorithms matters for the bottom line of your future business. 
+
+<h1>100x more efficient algorithms = 100x less money in billings</h1>
+
+So that time and space your professor was talking about &ndash; what does it have to do with your spending on the cloud services?
+The answer is surprisingly simple &ndash; <b>if you need 100x more time and space then your billing increases 100 times</b>.
+Below I used the pricing calculator that comes with Google Compute Engine to see how the cost scales if I want to use 100/1000/10000 identical machines for a year.
+<div align="center"><img alt="abstruse-goose-video-games" src="http://localhost:4000/pics/cloud-pricings.png" /> </div>
+<br />
+<p>
+I was myself surprised to find this out since I expected some economy of scale to kick in. In fact, sometimes it does but usually is quite negligible. Say, you can get an X% discount but that doesn't help much against linear scaling.
+</p>
+
+
+
+
+
+</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>The Simple Economics of Algorithms for Big Data</strong> was published on <time datetime="2016-01-20T00:00:00+03:00">January 20, 2016</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>

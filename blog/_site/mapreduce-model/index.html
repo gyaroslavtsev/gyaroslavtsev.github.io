@@ -1,0 +1,432 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Model for Massively Parallel Computation &#8211; The Big Data Theory</title>
+<meta name="description" content="In this post I will introduce a theoretical model for computation in centralized distributed massively parallel computational systems (or in short clusters like those used by Google many other companies). ">
+<meta name="keywords" content="big-data, algorithms, sublinear, mapreduce">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Model for Massively Parallel Computation">
+<meta name="twitter:description" content="In this post I will introduce a theoretical model for computation in centralized distributed massively parallel computational systems (or in short clusters like those used by Google many other companies). ">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/mapreduce-model-logo-new.png">
+<meta property="og:title" content="Model for Massively Parallel Computation">
+<meta property="og:description" content="In this post I will introduce a theoretical model for computation in centralized distributed massively parallel computational systems (or in short clusters like those used by Google many other companies). ">
+<meta property="og:url" content="http://localhost:4000/mapreduce-model/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/mapreduce-model/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/mapreduce-model/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/mapreduce-model/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/mapreduce-model/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/mapreduce-model/" rel="bookmark" title="Model for Massively Parallel Computation">Model for Massively Parallel Computation</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>In this post I will introduce a theoretical model for computation in centralized distributed massively parallel computational systems (or in short clusters like those used by Google many other companies). Over the last decades the supercomputer architecture has moved towards such designs and there seem to be no signs of this trend slowing (see Wikipedia <a href="http://en.wikipedia.org/wiki/Supercomputer_architecture">article</a> for more information).</p>
+
+<div align="center"><img alt="MapReduce cluster" src="http://localhost:4000/pics/cluster.png" /></div>
+
+<h1 id="mapreduce-style-computation">MapReduce-style Computation</h1>
+
+<p><a href="http://en.wikipedia.org/wiki/MapReduce ">MapReduce</a> is a programming model for cluster computing introduced by <a href="http://en.wikipedia.org/wiki/Jeff_Dean_(computer_scientist)">Jeff Dean</a> and <a href="http://research.google.com/pubs/SanjayGhemawat.html ">Sanjay Ghemawat</a> in their <a href="https://www.usenix.org/legacy/publications/library/proceedings/osdi04/tech/full_papers/dean/dean_html/">seminal paper</a>.
+There exist <a href="http://en.wikipedia.org/wiki/MapReduce#Implementations_of_MapReduce ">multiple different implementations</a> of MapReduce, <a href="http://hadoop.apache.org/ ">Apache Hadoop</a> being one of the most popular among them.</p>
+
+<div align="center"><img alt="MapReduce Hadoop" src="http://localhost:4000/pics/hadoop-mapreduce.jpg" /></div>
+
+<p>Below I will describe a theoretical version of the model for MapReduce-style computation. 
+This model is easy to understand, avoiding low-level technical details involved in the implementation of the MapReduce model.
+For those familiar with the standard MapReduce implementations, which use key-value pairs and Map/Shuffle/Reduce phases,
+let me just say that these two are interchangeable abstractions of the same thing.</p>
+
+<p>This model has emerged in a sequence of papers:</p>
+
+<ul>
+  <li>Jon Feldman, S. Muthukrishnan, Anastasios Sidiropoulos, Clifford Stein, Zoya Svitkina: <a href="http://webdocs.cs.ualberta.ca/~svitkina/pub/mr-talg.pdf">On distributing symmetric streaming computations</a>. SODA 2008.</li>
+  <li>Howard J. Karloff, Siddharth Suri, Sergei Vassilvitskii: <a href="http://theory.stanford.edu/~sergei/papers/soda10-mrc.pdf ">A Model of Computation for MapReduce</a>. SODA 2010.</li>
+  <li>Michael T. Goodrich, Nodari Sitchinava, Qin Zhang:<a href="http://arxiv.org/pdf/1101.1902.pdf"> Sorting, Searching, and Simulation in the MapReduce Framework</a>. ISAAC 2011</li>
+  <li>Paul Beame, Paraschos Koutris, Dan Suciu: <a href="http://arxiv.org/pdf/1306.5972.pdf"> Communication steps for parallel query processing</a>. PODS 2013</li>
+</ul>
+
+<h2 id="storage-model">Storage Model</h2>
+<p>First, let’s discuss the data storage.
+Data of size <script type="math/tex">N</script> is partitioned between <script type="math/tex">M</script> identical machines.
+Each machine is the standard RAM machine with <script type="math/tex">S</script> bits of RAM.
+The data fits into the overall memory with possibly some extra memory left for the algorithm to use so that <script type="math/tex">M \times S = C \times N</script>, where <script type="math/tex">C</script> is an overhead replication factor. Unless otherwise specified, replication will be constant, i.e. <script type="math/tex">C = O(1)</script> so I will ignore it.</p>
+
+<p>Without loss of generality I will assume that <script type="math/tex">M = O(N^\alpha)</script> and <script type="math/tex">S = O(N^{1 - \alpha})</script>. Here <script type="math/tex">\alpha</script> is a constant, which is typically significantly greater than zero, but less than <script type="math/tex">1/2</script> (think of a cluster with thousands of machines, each having gigabytes of RAM).</p>
+
+<div align="center"><img alt="MapReduce Storage" src="http://localhost:4000/pics/mr-storage.png" /></div>
+
+<h2 id="computational-steps">Computational Steps</h2>
+<p>The key parameter in the study of massively parallel algorithms is the number of supersteps (or rounds) of computation.
+The entire computation is divided into such rounds, each consisting of two phases:</p>
+
+<ul>
+  <li>
+    <p><b>Local computation phase</b>.
+In this phase each machine performs a local computation based on its data.
+This computation should be as efficient as possible (ideally linear or close to linear time, sometimes allowing polynomial time for particularly hard problems). Typically local running times for all machines will be identical at a given round so let’s denote them as <script type="math/tex">T_i(S)</script> at round <script type="math/tex">i</script>.</p>
+  </li>
+  <li>
+    <p><b>Communication phase</b>.
+In the communication phase each machine can send and receive at most <script type="math/tex">S</script> bits of information.
+The limitation on received data comes from the memory bound of every machine.
+Note that this doesn’t allow, say,  streaming computations to be performed on the fly on the incoming data. The limitation on sent data comes from the technical details of the MapReduce framework. For those familiar with the low-level details I will just say that the key-value pairs have to be stored locally before they get redistributed between machines.</p>
+  </li>
+</ul>
+
+<div align="center"> <img alt="MapReduce Computation Diagram" src="http://localhost:4000/pics/mr-computation-diagram.png" /></div>
+
+<h2 id="number-of-rounds">Number of Rounds</h2>
+<p>Overall, if the number of rounds is <script type="math/tex">R</script> then the total local computational time is <script type="math/tex">\sum_{i = 1}^R T_i(S)</script>. The total communication time is <script type="math/tex">R \times CC(N)</script>, where <script type="math/tex">CC(N)</script> is the time it takes to redistribute the data between machines in each round.
+This parameter is dependent on the under the hood implementation of the system so I will assume it as given.</p>
+
+<p>For example, if local running times are linear then we get total running time of <script type="math/tex">R \times (O(S)+ CC(N))</script>. This emphasizes the number of rounds <script type="math/tex">R</script> as the key parameter for understanding the complexity of algorithms in MapReduce-like systems. 
+Other considertaions, such as fault-tolerance, also suggest that ideally we would like to have just a few rounds. So having <script type="math/tex">O(1)</script> rounds is great, while <script type="math/tex">O(\log N)</script> rounds might be also ok for some problems.</p>
+
+<div align="center"><img src="http://localhost:4000/pics/rounds.png" /></div>
+
+<h2 id="examples">Examples</h2>
+<p>Let’s look at some examples of how many rounds it takes to solve some basic problems:</p>
+
+<ul>
+  <li><b>Sorting.</b> <script type="math/tex">O(\log_S N) = O(1)</script> rounds suffice to sort <script type="math/tex">N</script> numbers. 
+This is a result from: Michael T. Goodrich, Nodari Sitchinava, Qin Zhang:<a href="http://arxiv.org/pdf/1101.1902.pdf"> Sorting, Searching, and Simulation in the MapReduce Framework</a>. ISAAC 2011.</li>
+  <li><b>Connectivity.</b> <script type="math/tex">O(\log N)</script> rounds suffice to check whether a graph with <script type="math/tex">N</script> edges is connected or not. 
+This is a result from: Howard J. Karloff, Siddharth Suri, Sergei Vassilvitskii: <a href="http://theory.stanford.edu/~sergei/papers/soda10-mrc.pdf ">A Model of Computation for MapReduce</a>. SODA 2010.</li>
+</ul>
+
+<p>In practice it takes two rounds for a terabyte dataset using <a href="http://sortbenchmark.org/YahooHadoop.pdf">TeraSort</a>, which uses essentially the same algorithm as the theoretical <script type="math/tex">O(\log_S N)</script>-round algorithm mentioned above.
+Here is a simplified version:</p>
+
+<ul>
+  <li>Take a random sample of size <script type="math/tex">M - 1</script>.</li>
+  <li>Assuming that <script type="math/tex">M \le  S</script> in the first round we can sort this sample locally on one of the machines, obtaining a sequence <script type="math/tex">a_1 \le a_2 \le \dots \le a_{M-1}</script>.</li>
+  <li>In the second round send all keys in the range <script type="math/tex">[a_{i - 1}, a_i)</script> to the <script type="math/tex">i</script>-th machine and sort them locally on that machine.</li>
+</ul>
+
+<p>The connectivity algorithm is more complex so I will describe it in more detail below.</p>
+
+<h2 id="connectivity-in-olog-n-rounds">Connectivity in <script type="math/tex">O(\log N)</script> rounds</h2>
+
+<p>The data consists of <script type="math/tex">N</script> edges of an undirected graph on the vertex set <script type="math/tex">V</script>.
+The goal is to compute the connected components of this graph.
+For every vertex <script type="math/tex">v \in V</script> let <script type="math/tex">\pi(v)</script> be its unique integer id (a number between <script type="math/tex">1</script> and <script type="math/tex">|V|</script>).
+During the algorithm we will also maintain a label <script type="math/tex">\ell(v)</script> for each vertex <script type="math/tex">v</script>.
+Let <script type="math/tex">L_v \subseteq V</script> be the set of vertices with the label <script type="math/tex">\ell(v)</script>.
+During the execution of the algorithm this set will be a subset of the connected component containing <script type="math/tex">v</script>.
+We will use <script type="math/tex">\Gamma(v)</script> and <script type="math/tex">\Gamma(S)</script> to denote the set of neighbors of a vertex <script type="math/tex">v</script> and a subset of vertices <script type="math/tex">S \subseteq V</script> respectively.</p>
+
+<p>Here is a high-level description of the algorithm. I will call some of the vertices active. The idea is that every set <script type="math/tex">L_v</script> of vertices with the same label according to <script type="math/tex">\ell</script> will have exactly one active vertex during the execution of the algorithm.</p>
+
+<ul>
+  <li>Mark every vertex <script type="math/tex">v \in V</script> as <b>active</b> and label <script type="math/tex">\ell(v) = v</script>.</li>
+  <li>For phases <script type="math/tex">i = 1, 2, \dots, O(\log N)</script> do:
+    <ul>
+      <li>Call each <b>active</b> vertex a <b>leader</b> with probability <script type="math/tex">1/2</script>. If <script type="math/tex">v</script> is a <b>leader</b>, mark all vertices in <script type="math/tex">L_v</script> as <b>leaders</b>.</li>
+      <li>For every <b>active non-leader</b> vertex <script type="math/tex">w</script>, find the smallest <b>leader</b> (with respect to <script type="math/tex">\pi</script>) vertex <script type="math/tex">w^{\star} \in \Gamma(L_w)</script>.</li>
+      <li>If <script type="math/tex">w^{\star}</script> is not empty, mark <script type="math/tex">w</script> <b>passive</b> and relabel each vertex with label <script type="math/tex">w</script> by <script type="math/tex">w^{\star}</script>.</li>
+    </ul>
+  </li>
+  <li>Output the set of connected components, where vertices having the same label according to <script type="math/tex">\ell</script> are in the same component.</li>
+</ul>
+
+<p>It is easy to see if for two vertices <script type="math/tex">u</script> and <script type="math/tex">v</script> it holds that <script type="math/tex">\ell(u) = \ell(v)</script> then <script type="math/tex">u</script> and <script type="math/tex">v</script> are in the same connected component. It remains to show that every connected component will have a unique label with high probability after <script type="math/tex">O(\log N)</script> phases. We will show that for every connected component in the graph the number of active vertices in this component reduces by a constant factor in every phase.
+Indeed, half of the active vertices in every component is declared as non-leaders.
+Fix an active non-leader vertex <script type="math/tex">v</script>. If there are at least two different labels in the connected component containing <script type="math/tex">v</script> then there exists an edge <script type="math/tex">(v', u')</script> such that <script type="math/tex">\ell(u) = \ell(u')</script> and <script type="math/tex">\ell(u) \neq \ell(v)</script>.
+The vertex <script type="math/tex">u'</script> is marked as a leader with probability <script type="math/tex">1/2</script> so in expectation half of the active non-leader vertices will change their label in every phase. Overall, we expect <script type="math/tex">1/4</script> of labels to disappear. By a <a href="http://en.wikipedia.org/wiki/Chernoff_bound">Chernoff bound</a> after <script type="math/tex">O(\log N)</script> phases the number of active labels in every connected component will drop to one with high probability.</p>
+
+<p>Finally, I will leave it as an excercise to check that each phase of the algorithm above can be implemented in constant number of rounds. Indeed, it is not hard to see that selection of leaders, computation of <script type="math/tex">w^{\star}</script> (the smallest label in <script type="math/tex">\Gamma(L_w)</script> for active non-leader nodes <script type="math/tex">w</script>) and relabeling can all be done in constant number of rounds.</p>
+
+<h2 id="open-problem">Open Problem</h2>
+
+<p>Is it possible to solve connectivity in constant number of rounds? This is a big open problem in the area and the consensus seems to be that this is not possible. In fact, it is open even whether one can distinguish a cycle on <script type="math/tex">N</script> vertices from two cycles on <script type="math/tex">N/2</script> vertices each in constant number of rounds.</p>
+
+<div align="center"><img alt="Connectivity" src="http://localhost:4000/pics/connectivity.png" /></div>
+
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>Model for Massively Parallel Computation</strong> was published on <time datetime="2014-10-12T00:00:00+04:00">October 12, 2014</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>

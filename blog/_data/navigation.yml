@@ -1,0 +1,14 @@
+# Site navigation links
+
+- title: <i class="fa li fa fa-info-circle"></i> About
+  url: /about-post/
+
+- title: <i class="fa li fa fa-files-o"></i> Posts
+  url: /posts/
+
+- title: <i class="fa li fa fa-rss-square"></i> Rss
+  url: /feed.xml
+
+- title: <i class="fa li fa fa-user"></i> Author
+  url: http://grigory.us
+

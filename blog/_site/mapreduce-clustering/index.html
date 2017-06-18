@@ -1,0 +1,450 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Massively Parallel Clustering: Overview &#8211; The Big Data Theory</title>
+<meta name="description" content="Clustering is one of the main vechicles of machine learning and data analysis. In this post I will introduce three algorithms for clustering massive data.">
+<meta name="keywords" content="big-data, algorithms, sublinear, mapreduce, clustering">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Massively Parallel Clustering: Overview">
+<meta name="twitter:description" content="Clustering is one of the main vechicles of machine learning and data analysis. In this post I will introduce three algorithms for clustering massive data.">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/mapreduce-clustering-logo.png">
+<meta property="og:title" content="Massively Parallel Clustering: Overview">
+<meta property="og:description" content="Clustering is one of the main vechicles of machine learning and data analysis. In this post I will introduce three algorithms for clustering massive data.">
+<meta property="og:url" content="http://localhost:4000/mapreduce-clustering/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/mapreduce-clustering/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/mapreduce-clustering/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/mapreduce-clustering/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/mapreduce-clustering/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/mapreduce-clustering/" rel="bookmark" title="Massively Parallel Clustering: Overview">Massively Parallel Clustering: Overview</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <div>
+<p>
+Clustering is one of the main vechicles of machine learning and data analysis.
+In this post I will describe how to make three very popular sequential clustering algorithms (<a href="http://en.wikipedia.org/wiki/K-means_clustering">k-means</a>, <a href="http://en.wikipedia.org/wiki/Single-linkage_clustering ">single-linkage clustering</a> and <a href="http://en.wikipedia.org/wiki/Correlation_clustering ">correlation clustering</a>) work for big data. The first two algorithms can be used for clustering a collection of feature vectors in \(d\)-dimensional Euclidean space (like the two-dimensional set of points on the picture below, while they also work for high-dimensional data). The last one can be used for arbitrary objects as long as for any pair of them one can define some measure of similarity.
+</p>
+<div align="center"><img alt="Massively Parallel Clustering" src="http://localhost:4000/pics/mapreduce-clustering.png" /></div>
+
+<br />
+<p>
+Besides optimizing different objective functions these algorithms also give qualitatively different types of clusterings.
+K-means produces a set of exactly k clusters. Single-linkage clustering gives a hierarchical partitioning of the data, which one can zoom into at different levels and get any desired number of clusters.
+Finally, in correlation clustering the number of clusters is not known in advance and is chosen by the algorithm itself in order to optimize a certain objective function.
+</p>
+<p>
+All algorithms described in this post use the <a href="http://localhost:4000/mapreduce-model/">model for massively parallel computation</a> that I described before.
+</p>
+
+<h1> K-Means</h1>
+<br />
+<p>
+First algorithm is a parallel version of an approximation algorithm for <a href="http://en.wikipedia.org/wiki/K-means_clustering">K-Means</a>, one of the most widely used clustering methods.
+Given a set of vectors \(v_1, \dots, v_n \in \mathbb R^d\) the goal of k-means is to partition them into \(k\) clusters \(S_1, \dots, S_k\) such that the following objective is minimized:
+$$\sum_{i = 1}^k \sum_{j \in S_i} ||v_j - \mu_i||^2,$$ where \(\mu_i = \frac{1}{|S_i|}\sum_{j \in S_i} v_j\) is the center (or mean) of the \(i\)-th cluster and \(||\cdot||\) is the Euclidean distance.
+Intuitively, the goal is to pick a partitioning that minimizes the total variance.
+K-means works great for partitioning into compact groups like those on the picure below.
+<div align="center"><img alt="K-Means" src="http://localhost:4000/pics/kmeans.png" /></div>
+</p>
+
+<h3>K-means++ and K-means||</h3>
+<p>
+An algorithm for k-means, which gives a clustering of cost within a multiplicative factor \(O(\log k)\) of the optimum was given by <a href="http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf">Arthur and Vassilvitskii</a>. Here is their algorithm called K-means++:
+<div>
+<ul>
+<li> Let \(\mathcal C = \{v_i\}\) for a random vector \(v_i\).</li>
+<li> Repeat \(k - 1\) times: let \(\mathcal C = \mathcal C \cup \{u\}\), where \(u\) is  a random vector from the probability distribution assigning to each \(v_i\)probability density $$p_i(\mathcal C) = \frac{d(v_i, \mathcal C)^2}{\sum_{i} d(v_i, \mathcal C)^2},$$ where \(d(u,\mathcal C) =\min_{x \in \mathcal C}{||u - x||}.\)</li> 
+</ul>
+</div>
+</p>
+<p>
+However, K-means++ is sequential and takes at least \(k\) rounds. 
+A parallel version of it called K-means|| is due to <a href="http://arxiv.org/pdf/1203.6402.pdf ">Bahmani, Moseley, Vattani, Kumar and Vassilvitskii</a>:
+
+<ul>
+<li>Let \(\mathcal C = \{v_i\}\) for a random vector \(v_i\) </li>
+<li>Let \(\psi = \sum_{i} d(v_i, \mathcal C)\) be the initial cost of the clustering.</li>
+<li>Repeat \(O(\log \psi)\) times:</li>
+<ul>
+<li>Let \(\mathcal C'\) be a set of \(O(k)\) points each sampled independently from the distribution assigning to \(v_i\) probability \(p_i(\mathcal C)\) defined above. </li> 
+<!--assigning to \(v_i\) probability $$p_i = \frac{d(v_i, \mathcal C)^2}{\sum_i d(v_i, \mathcal C)^2}$$</li>
+-->
+<li> \(\mathcal C = \mathcal C \cup \mathcal C'\) </li>
+</ul>
+<li>For each \(x \in \mathcal C\), let \(w_x\) be the number of points belonging to this center</li>
+<li>Recluster the weighted points in \(\mathcal C\) into \(k\) clusters using K-means++</li>
+</ul>
+</p>
+<br />
+<p>
+The potential \(\psi\) can be shown to be at most \(poly(n)\) by discretizing the space by a grid with step size \(1/poly(n)\), and moving each point to the closest grid point, which only perturbs the cost of the solution by a negligible factor.
+Thus we have \(\log \psi = O(\log n)\).
+The final reclustering can be performed in one round, assuming that \(O(k \log n)\) weighted centers fit on a single machine.
+Thus, the total number of rounds in the algorithm above is \(O(\log n)\).
+It can be shown that the solution produced by this algorithm has cost within \(O(\log k)\) of the optimum.
+For more details I would recommend to see either the original paper or these <a href="http://grigory.us/files/km++.pdf">slides</a> from our reading group by <a href="http://www.cis.upenn.edu/~wuzhiwei/ ">Steven Wu</a>.
+</p>
+
+
+<h1>Single-Linkage Clustering</h1>
+<p>
+<a href="http://en.wikipedia.org/wiki/Single-linkage_clustering">Single-linkage clustering</a> is another standard technique in data analysis and information retrieval. It can be used to produce a <a href="http://en.wikipedia.org/wiki/Hierarchical_clustering ">hierarhical clustering</a> of the data (see also <a href="http://nlp.stanford.edu/IR-book/pdf/17hier.pdf">Chapter 17</a> in the <a href="http://nlp.stanford.edu/IR-book/ ">Information Retrieval</a> book by Manning, Raghavan and Schutze and <a href="http://infolab.stanford.edu/~ullman/mmds/ch7a.pdf ">Chapter 7.2</a> in the <a href="http://www.mmds.org/">Mining of Massive Datasets</a> book by Leskovec, Rajaraman and Ullman).
+</p>
+<p>
+For two clusters \(S_i\) and \(S_j\) the single linkage distance is defined as:
+$$D(S_i, S_j) = \min_{v \in S_i, u \in S_j} d(v,u),$$
+In general, \(d(\cdot, \cdot)\) can be an arbitrary distance function, but for points in Euclidean space it is most natural to use \(d(v,u) = ||v - u||\).
+The goal of single linkage clustering in Euclidean space is to partition the set of vectors \(v_1, \dots, v_n \in \mathbb R^d\) into clusters \(S_1, \dots, S_k\) such that the following objective is maximized:
+$$\min_{i &lt; j} D(S_i, S_j) = \min_{i &lt; j} \min_{v \in S_i, u \in S_j} ||v - u||.$$
+</p>
+<p>
+In fact, it is easy to see that the set of clusters \(S_1, \dots S_k\), which maximizes the objective above can be obtained by constructing a Euclidean Minimum Spanning Tree and picking \(S_i\)'s as connected components of this tree obtained after removing \(k - 1\) of its longest edges.  
+Thus, single-linkage clustering works best for finding clusters defined by the connectivity structure. In particular, it can be used to solve the following example which is hard for K-means because points in the cluster are far from their average. This example is typically given as a motivation for using spectral clustering, which I don't discuss in this post, but it can be also addressed using single-linkage:
+<div align="center"><img alt="Single Linkage" src="http://localhost:4000/pics/singlelinkage.jpg" /></div>
+</p>
+<p>
+As expalined above, Euclidean Minimum Spanning Tree can be used to produce hierarchical Single-Linkage Clustering for any number of clusters.
+However, it is not known how to efficiently compute an exact such tree in small number of rounds of MapReduce.
+For any constant dimension \(d\) Euclidean Minimum Spanning Tree of cost within \((1 + \epsilon)\)-factor of optimum can be computed in constant number of rounds of MapReduce. This is a result from our joint paper with <a href="http://www.mit.edu/~andoni/ ">Alexandr Andoni</a>, <a href="http://onak.pl ">Krzysztof Onak</a> and <a href="http://paul.rutgers.edu/~anikolov/">Aleksandar Nikolov</a>, which appeared in STOC 2014. 
+I will cover this algorithm in one of the future posts, but for now you can use the <a href="http://grigory.us/files/talks/upenn14.pptx">slides</a> of my talk about it.
+</p>
+
+<h1>Correlation Clustering</h1>
+<p>
+<a href="http://en.wikipedia.org/wiki/Correlation_clustering">Correlation clustering</a>
+can be used to cluster an arbitrary collection of \(n\) objects, so for this type of clustering it is not necessary that they can be represented by vectors in Euclidean space.
+The only requirement is that for every pair of objects \(i\) and \(j\) it should be possible to compare them directly 
+and obtain a measure of dissimilarity \(w(i,j) \in [0,1]\). Here \(w(i,j) = 0\) means that the objects are exactly the same, while
+\(w(i,j) = 1\) means that they are completely different and the values in between correspond to different degrees of dissimilarity.
+</p>
+<p>
+The objective of correlation clustering is to minimize the total cost of mistakes incurred by the clustering.
+For a set of clusters \(\mathcal C = \mathcal C_1, \dots, \mathcal C_k\) let the indicator function \(x(i,j)\) be defined as \(x(i,j) = 0\) if \(i\) and \(j\) are in the same cluster and \(x(i,j) = 1\) otherwise. 
+The total cost of the clustering is expressed as a function of w's and x's as follows:
+$$\sum_{i &lt; j \colon x(i,j) = 0} w(i,j)  +  \sum_{i &lt; j \colon x(i,j) = 1} 1 - w(i,j).$$
+Note that the number of clusters is not fixed and the algorithm has to choose it in order to optimize the objective function above.
+The picture below (courtesy <a href="http://www.cs.yale.edu/homes/el327/ ">Edo Liberty</a>) uses edges to represent similar pairs (\(w(i,j) = 0\)) and non-edges for dissimilar pairs (\(w(i,j) = 1\)). On the right pairs misclassifed by the clustering are shown in red, so the overall cost of such clustering is equal to 4.
+<div align="center"><img alt="Correlation Clustering" src="http://localhost:4000/pics/cc.png" /></div>
+</p>
+<p>
+There exist many approximation algorithms for correlation clustering. In particular, using linear programming one can obtain a clustering of total cost within a multiplicative factor 2.5 of the optimum. This is a result of <a href="http://dimacs.rutgers.edu/~alantha/papers2/acn05conf.pdf">Ailon, Charikar and Newman</a>.
+Moreover, if the weight function \(w\) satisfies triangle inequalities then the approximation of their algorithm becomes 2.
+The linear programming relaxation for this problem is naturally formulated using triangle inequalities:
+$$\text{Minimize: }\sum_{i&lt;j} w(i,j)\cdot (1 - x(i,j)) + (1 - w(i,j)) \cdot x(i,j)$$
+$$x(i,j) \le x(i,k) + x(k,j), \text{   } \forall i, j, k$$
+$$0 \le x(i,j) \le 1$$
+Note that for \(x(i,j) \in \{0,1\}\) this program exactly captures the correlation clustering problem.
+Recently in joint work with <a href="http://pages.cs.wisc.edu/~shuchi/ ">Shuchi Chawla</a>, <a href="http://konstantin.makarychev.net/ ">Konstantin Makarychev</a> and <a href="http://www.cs.berkeley.edu/~tschramm/ ">Tselil Schramm</a> we have shown that there is a rounding scheme that achieves approximations 2.06 and 1.5 for these two cases, which is very close to the <a href="http://en.wikipedia.org/wiki/Linear_programming_relaxation#Approximation_and_integrality_gap ">integrality gaps</a> of this linear progarmming relaxation (2 and 1.2 for the general and triangle inequality cases respectively).
+</p>
+<p>
+While the linear programming approach is hard to implement in MapReduce there is a very simple combinatorial algorithm due to Ailon, Charikar and Newman, which achieves a 3-approximation in general and a 2-approximation if the weights satisfy triangle inequalities.
+First, define two sets of edges \(E^+ = \{(i,j) | w(i,j) &lt; 1/2\}\) and \(E^- = \{(i,j) | w(i,j) \ge 1/2\}\). This means that we will treat pairs with dissimilarity below \(1/2\) as similar and those with dissimilarity at least \(1/2\) as dissimilar.
+Now a set of clusters, which achieves the approximations stated above can be constructed using the following algorithm:
+<ul>
+<li>Pick a random object \(i\)</li>
+<li>Set \(\mathcal C = \{i\}\), \(V' = \emptyset\)</li>
+<li>For all \(j \neq i\):</li>
+<ul>
+<li>If \((i,j) \in E^+\) then add \(j\) to \(\mathcal C\)</li>
+<li>Else if \((i,j) \in E^-\) then add \(j\) to \(V'\) </li>
+</ul>
+<li>Let \(G'\) be the subgraph induce by \(V'\)</li>
+<li>Return clustering consisting of \(\mathcal C\) together with the set of clusters produced by this algorithm applied recursively to \(V'\)</li>
+</ul>
+</p>
+<br />
+
+<p>
+The analysis of approximation achieved by this algorithm cleverly uses linear programming duality. However, this approach is very sequential in nature and might take \(O(n)\) rounds of MapReduce if implemented as is.
+Recently there has been a paper in KDD 2014 by <a href="http://bit.ly/1zqPNzX">Chierichetti, Dalvi and Kumar</a> who show that a substantially modified version of the pivoting algorithm above achieves a \((3 + \epsilon)\)-approximation in \(O\left(\frac{\log n \log \Delta^+}{\epsilon}\right)\) rounds, where \(\Delta^+\) is the maximum degree in the graph induced by \(E^+\).
+</p>
+</div>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>Massively Parallel Clustering: Overview</strong> was published on <time datetime="2014-11-02T00:00:00+03:00">November 02, 2014</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>

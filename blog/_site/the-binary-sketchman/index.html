@@ -1,0 +1,378 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>The Binary Sketchman &#8211; The Big Data Theory</title>
+<meta name="description" content="This post discusses some of my recent work on linear compression for binary data.">
+<meta name="keywords" content="algorithms, theory, academia, big data, compression, linear sketching">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="The Binary Sketchman">
+<meta name="twitter:description" content="This post discusses some of my recent work on linear compression for binary data.">
+<meta name="twitter:site" content="@gyaroslavtsev">
+<meta name="twitter:creator" content="@gyaroslavtsev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://localhost:4000/pics/binary-sketchman-final.png">
+<meta property="og:title" content="The Binary Sketchman">
+<meta property="og:description" content="This post discusses some of my recent work on linear compression for binary data.">
+<meta property="og:url" content="http://localhost:4000/the-binary-sketchman/">
+<meta property="og:site_name" content="The Big Data Theory">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/the-binary-sketchman/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="The Big Data Theory Feed">
+<link rel="author" href="http://plus.google.com/+GrigoryYaroslavtsev?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+</head>
+
+<body class="post">
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://localhost:4000">The Big Data Theory</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					    <li><a href="http://localhost:4000/about-post/" ><i class="fa li fa fa-info-circle"></i> About</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa li fa fa-files-o"></i> Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/feed.xml" ><i class="fa li fa fa-rss-square"></i> Rss</a></li>
+					  
+					    
+					    <li><a href="http://grigory.us" target="_blank"><i class="fa li fa fa-user"></i> Author</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div align="center">
+
+	<table width="20%">
+		<tr>
+			<td>
+			<div class="fb-like" data-href="http://localhost:4000/the-binary-sketchman/" align="top" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			</td>
+			<td>
+	<a href="https://twitter.com/share" class="twitter-share-button" align="bottom" data-url="http://localhost:4000/the-binary-sketchman/" data-via="gyaroslavtsev">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</td>
+			<td>
+	<!-- Place this tag where you want the +1 button to render. -->
+	<div class="g-plusone" data-annotation="inline" data-width="100" data-href="http://localhost:4000/the-binary-sketchman/" data-count="true"></div>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+
+
+	</div>
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+  </div>
+ 
+
+
+
+
+
+
+  <article>
+    <div class="headline-wrap">
+      
+        <h1><a href="http://localhost:4000/the-binary-sketchman/" rel="bookmark" title="The Binary Sketchman">The Binary Sketchman</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>In this post I will talk about some of my recent work with <a href="http://www.cis.upenn.edu/~kannan/">Sampath Kannan</a> and <a href="https://stat.mit.edu/people/elchanan-mossel/">Elchanan Mossel</a> on linear methods for binary data compression. The paper is <a href="http://eccc.hpi-web.de/report/2016/174/">available here</a>, slides from my talk at Penn are <a href="http://grigory.us/files/talks/penn16.pdf">here</a> and another talk at Columbia is <a href="http://www.cs.columbia.edu/theory/f16-theoryread.html#Grigory">coming up on Nov 21</a>.</p>
+
+<p>Given very large data represented in binary format as a string of length <script type="math/tex">n</script>, i.e. <script type="math/tex">x \in \{0,1\}^n</script> 
+we are interested in a compression algorithm that can transform <script type="math/tex">x</script> into a much shorter binary string <script type="math/tex">y \in \{0,1\}^k</script>.
+Here <script type="math/tex">k \ll n</script> so that we can achieve some non-trivial savings in space.
+Moreover, if <script type="math/tex">x</script> changes in the future we would like to be able to update our compressed version of it (without having to store the original <script type="math/tex">x</script>).</p>
+
+<p>Clearly compression introduces some loss making it impossible to recover certain properties of the original data from the compressed string.
+However, if we know in advance which property of <script type="math/tex">x</script> we are interested in then efficient compression often becomes possible.
+We will model the property of interest as a binary function <script type="math/tex">f:\{0,1\}^n \rightarrow \{-1,1\}</script> which labels all possible <script type="math/tex">x</script>’s with two labels.
+So our goal will be to be able to: 1) perform this binary classification, i.e. compute <script type="math/tex">f(x)</script> using compressed data <script type="math/tex">y</script> only, 2) do this even if <script type="math/tex">x</script> changes over time – updates for us will be bit flips in the coordinates of <script type="math/tex">x</script> specified by the index of the bit that is getting flipped.</p>
+
+<p>Finally, if <script type="math/tex">x</script> is so big that it can’t be stored locally and has to be divided into chunks stored across multiple machines then we will be able to compress the chunks locally and then combine them on a central server into a compressed version of the entire data – one simple round of MapReduce or whatever your favorite distributed framework is.</p>
+
+<p>To make the above discussion less abstract let’s consider a machine learning application – evaluating a linear classifier over binary data.
+Let’s say we have trained a linear classifier of the form <script type="math/tex">sign(\sum_{i = 1}^n w_i x_i - \theta)</script> where sign is the sign function. 
+Is it possible to compress <script type="math/tex">x</script> in such a way that we can still evaluate our classifier in the scenarios described above?
+Turns out we can compress the input down to <script type="math/tex">O(\theta/m \log (\theta/m))</script> bits where <script type="math/tex">m</script> is a parameter of the linear classifier known as its margin. Moreover, no compression scheme can do better.</p>
+
+<h1 id="introducing-the-binary-sketchman">Introducing the Binary Sketchman</h1>
+
+<div align="center"><img alt="The Binary Sketchman" src="http://localhost:4000/pics/binary-sketchman-final.png" /> </div>
+
+<p><br /></p>
+
+<p>While the setting described above may seem quite challenging it can be handled through a framework of linear sketching.
+In the binary case the interpretation of linear sketching is particularly simple as our binary sketchman is just going to compute <script type="math/tex">k</script> parities of the bits of <script type="math/tex">x</script>, say for <script type="math/tex">k=3</script>:</p>
+
+<script type="math/tex; mode=display">x_4 \oplus x_2, \quad x_{42}, \quad x_{566} \oplus x_{610} \oplus x_{239} \oplus x_{57}.</script>
+
+<p>In a matrix form this corresponds to computing <script type="math/tex">Mx</script> where <script type="math/tex">M</script> is a <script type="math/tex">k \times n</script> binary matrix and the operations are performed over <script type="math/tex">\mathbb F_2</script>.
+Note that now our sketch easily satisfies all the requirement above since as <script type="math/tex">x</script> changes we can just update the corresponding parities. In the distributed case we can compute them locally and then add up on a central server.</p>
+
+<p>Unfortunately the power of a deterministic sketchman who just uses a fixed set of parities is quite limited and no such sketchman can compress even a simple linear classifier down to less than <script type="math/tex">n</script> bits.
+In fact, even for the OR function <script type="math/tex">f = x_1 \vee x_2 \vee \dots \vee x_n</script> no deterministic sketch can have less than <script type="math/tex">n</script> bits.
+So our binary sketchman will “<a href="http://www.cs.cmu.edu/~haeupler/15859F14/">unleash the power of randomization</a>” in his quest for a perfect sketch.
+According to <a href="http://www.cs.cmu.edu/~haeupler/">Bernhard Haeupler</a> this can be quite dramatic and looks kind of like this:</p>
+<div align="center"><img width="300px" alt="The power of randomness unleashed" src="http://www.cs.cmu.edu/~haeupler/15859F14/images/posternoinf.jpg" /> </div>
+
+<p><br />
+So our sketchman will instead pick the matrix <script type="math/tex">M</script> randomly while the rest is the same as before.
+Now the OR function is easy to handle: pick a parity over a random subset of <script type="math/tex">\{1, \dots, n\}</script> where each coordinate is included with probability <script type="math/tex">1/2</script>.
+If <script type="math/tex">OR(x) = 1</script> then this parity catches a non-zero coordinate of <script type="math/tex">x</script> with probability <script type="math/tex">1/2</script> and thus evaluates to <script type="math/tex">1</script> with probability at least <script type="math/tex">1/4</script>.
+If <script type="math/tex">OR(x) = 0</script> then the parity never evaluates to <script type="math/tex">1</script> so we can distinguish the two cases with probability <script type="math/tex">1 - \delta</script> using <script type="math/tex">O(\log 1/\delta)</script> such parities.
+This illustrates a more general idea – if <script type="math/tex">f</script> is a constant function on all but <script type="math/tex">m</script> different inputs then a sketch of size <script type="math/tex">O(\log m + \log 1/\delta)</script> suffices.</p>
+
+<p>Now for linear thresholds the high-level ideas behind this sketching process are as follows:
+1) observe that any linear threshold function takes the same value on all but <script type="math/tex">n^{O(\theta/m)}</script> inputs,
+2) apply the same argument as above to obtain a sketch of size <script type="math/tex">O(\theta/m \log n + \log 1/\delta)</script>.
+The only thing missing in the above argument is that we still have dependence on <script type="math/tex">n</script>.
+This can be avoided if we first hash the domain reducing its size down to <script type="math/tex">n' = poly(\theta/m)</script> which replaces <script type="math/tex">n</script> in the above calculations giving us <script type="math/tex">O(\theta/m \log \theta/m + \log 1/\delta)</script>.
+While this compression method is quite simple the remarkable fact is that it can’t be improved.
+Even for the simplest threshold function that corresponds to a threshold for the Hamming weight of <script type="math/tex">x</script>, i.e. <script type="math/tex">sign(\sum_{i = 1}^n x_i - k)</script>, any compression mechanism would require <script type="math/tex">\Omega(k \log k)</script> bits as follows from <a href="http://link.springer.com/chapter/10.1007/978-3-642-32512-0_44">this work</a> by Dasgupta, Kumar and Sivakumar.
+Note that it isn’t assumed that the protocol is based on linear sketching – it can be an arbitrary scheme.</p>
+
+<h1 id="the-power-of-randomized-binary-sketchman">The Power of Randomized Binary Sketchman</h1>
+
+<p>Linear sketching by itself is not a new idea and has been studied extensively in the last two decades.
+See surveys by <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-dpwoodru">Woodruff</a> and <a href="http://people.cs.umass.edu/~mcgregor/">McGregor</a> on how it can be applied to problems in <a href="http://researcher.ibm.com/files/us-dpwoodru/wNow3.pdf ">numerical linear algebra</a> and <a href="http://link.springer.com/referenceworkentry/10.1007/978-3-642-27848-8_796-1">graph compression</a>.
+However, this work focuses on linear sketching over large finite fields (used to represent real values with bounded precision).
+Nevertheless some striking results are known about linear sketching that are applicable in our context as well.
+In particular, if <script type="math/tex">x</script> is updated through a very long (triply exponential in <script type="math/tex">n</script>) stream of adversarial updates then linear sketches over finite fields are optimal for any function <script type="math/tex">f</script> as shown by Li, Nguyen and Woodruff <a href="https://pdfs.semanticscholar.org/bf89/98d76741f3ee7b4ba1f82524353e7083c3b5.pdf ">here</a> in STOC’14.</p>
+
+<p>As our paper shows the same result holds for much shorter random streams of length <script type="math/tex">\tilde O(n)</script> in a simple model where each update flips uniformly at random chosen coordinate of <script type="math/tex">x</script>.
+In other words binary sketching is optimal if in the end of the stream the input <script type="math/tex">x</script> is uniformly distributed.
+The proof of this fact is quite technical and relies on a notion of <i>approximate Fourier dimension</i> for Boolean functions that we use to characterize binary sketching under the uniform distribution – check the paper for details if you are interested.
+Whether the same result holds for short (length <script type="math/tex">\tilde O(n)</script>, say) adversarial streams is the main open question left open.</p>
+
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+	<img src="http://grigory.us/pics/logo.jpg" class="bio-photo" alt="Grigory Yaroslavtsev bio photo">
+
+<h3>Grigory Yaroslavtsev</h3>
+<p>Assistant Professor of Computer Science, Indiana University.</p>
+<a href="mailto:grigory@grigory.us" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+<a href="http://facebook.com/yaroslavtsev" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+GrigoryYaroslavtsev" class="author-social" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+<a href="http://linkedin.com/in/gyaroslavtsev" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/grigory" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>The Binary Sketchman</strong> was published on <time datetime="2016-10-07T00:00:00+03:00">October 07, 2016</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://localhost:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://localhost:4000/theory-jobs-2017/" title="Theory Jobs 2017">Theory Jobs 2017</a></li>
+    
+      <li><a href="http://localhost:4000/mtd/" title="67th Midwest Theory Day">67th Midwest Theory Day</a></li>
+    
+      <li><a href="http://localhost:4000/whats-new-in-big-data-theory-2016/" title="What's New in the Big Data Theory 2016">What's New in the Big Data Theory 2016</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2017 Grigory Yaroslavtsev.
+Subscribe via <i class="fa li fa fa-rss-square"></i> <a href="http://grigory.us/blog/feed.xml ">RSS</a>.
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55201373-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yaroslavtsev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+
+
+
+
+</body>
+</html>
